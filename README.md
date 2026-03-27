@@ -1,1 +1,3 @@
-The LVLM-generated image-captions along with our hallucination-labelled annotations is released as the Labelled Illusion Dataset (LID).
+The images of AeroCaps dataset can be found [here!](https://drive.google.com/drive/folders/1j7vDx2D33qE_RB-MsDds3g4yN5ZdHekK?usp=sharing).
+
+The LVLM-generated image-captions along with our hallucination-labelled annotations for the train and test set will be released soon as the Labelled Illusion Dataset (LID). For LID, we use images from both AeroCaps and VisDrone. The AeroCaps images are already available at the link above. The remaining images that were used from the VisDrone val set can be found in this [link](https://drive.google.com/file/d/1bxK5zgLn0_L8x276eKkuYA_FzwCIjb59/view?usp=sharing).
