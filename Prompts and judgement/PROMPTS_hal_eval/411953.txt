@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A man with a guitar in front of a microphone.', 'a guy plays guitar on the stage center', 'a man is playing a guitar on a stage ', 'Man wearing a white shirt and black tie playing a guitar. ', 'A young man singing and playing the guitar.']
+
+Bounding boxes (bbox): [{'tie': [182.87, 166.71, 55.61, 173.6]}, {'person': [73.14, 53.69, 287.53, 321.31]}, {'person': [313.51, 288.37, 69.33, 86.63]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a man standing on a stage, holding a guitar and singing into a microphone. He appears to be the main focus of the scene, with his guitar positioned close to his body. \n\nIn addition to the main singer, there are two other people in the scene, one located on the right side of the stage and the other on the left side. The stage itself has a red light illuminating the area, creating a dramatic atmosphere for the performance.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

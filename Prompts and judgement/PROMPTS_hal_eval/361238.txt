@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A woman sitting in front of a giant pizza.', 'The girl with glasses is eating a slice of pizza.', 'a very large pizza that is on some kind of pizza pan', 'a woman in a black jacket and a pizza ', 'A pizza with a slice missing is sitting on a pizza stand.']
+
+Bounding boxes (bbox): [{'person': [96.0, 2.16, 264.27, 253.48]}, {'person': [581.16, 20.29, 58.84, 111.03]}, {'cup': [0.0, 327.62, 24.7, 121.34]}, {'pizza': [39.91, 319.28, 460.58, 147.78]}, {'pizza': [306.34, 230.83, 291.23, 206.02]}, {'pizza': [42.07, 241.62, 269.66, 104.63]}, {'backpack': [3.24, 230.5, 105.7, 75.51]}, {'cup': [3.02, 299.04, 72.91, 93.45]}, {'potted plant': [412.47, 64.63, 57.2, 71.82]}, {'dining table': [0.0, 238.8, 640.0, 241.2]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a woman sitting at a dining table with a large pizza in front of her. She is smiling and appears to be enjoying her meal. The pizza is placed on a metal tray, and it is covered in various toppings, including pepperoni and cheese.\n\nThe dining area has a few chairs surrounding the table, and there are two potted plants in the background, one on the left side and the other on the right side of the room. Additionally, there are two bottles placed on the table, one near the left edge and the other near the right edge.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

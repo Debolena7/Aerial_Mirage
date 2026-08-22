@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['obama delivers a speech photoshopped with the ussr flag', 'The president making a speech with a communist/american flag combo behind him.', 'the person addressing on a microphone and a flag behind ', 'A president standing at the microphone by a big flag.', 'United States President Barack Obama gives a speech in front of American and Russian flags.']
+
+Bounding boxes (bbox): [{'tie': [289.83, 255.61, 23.06, 78.08]}, {'person': [112.76, 58.76, 329.06, 441.81]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a man standing in front of a microphone, giving a speech. He is wearing a suit and tie, and his hands are outstretched as he speaks. Behind him, there is a large red and white flag, which adds a sense of importance to the scene. The man appears to be the main focus of the image, and his presence and posture convey a sense of authority and leadership.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

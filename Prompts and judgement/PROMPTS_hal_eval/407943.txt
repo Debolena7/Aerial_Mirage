@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A man walking in front of an open umbrella.', 'A head in silhouette in front of a large umbrella.', 'a shadow of a man on an umbrella ', "The shadow of a man's head is seen cast on an airbag.", 'a mans shadow in front of lighting equipment']
+
+Bounding boxes (bbox): [{'umbrella': [68.93, 0.0, 514.13, 425.28]}, {'person': [334.88, 220.7, 165.05, 199.58]}, {'person': [44.71, 230.93, 27.35, 27.35]}, {'person': [44.65, 214.27, 51.75, 93.68]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a person standing under a large, shiny umbrella. The umbrella is open, providing shelter from the elements, and the person is standing in the center of it. The umbrella appears to be made of a metallic material, giving it a reflective and shiny appearance. The person is standing in front of a white sheet, which adds to the overall composition of the scene.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

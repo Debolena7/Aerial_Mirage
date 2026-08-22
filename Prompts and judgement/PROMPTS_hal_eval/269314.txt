@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A cat sitting on top of a banana tree.', 'a cat is way up in a tree', 'A small cat sitting in the top of a banana tree.', 'A cat sitting in a tree, staring at the camera.', 'A cat resting in the top of a palm tree on a clear day.']
+
+Bounding boxes (bbox): [{'cat': [285.79, 173.85, 95.63, 93.23]}, {'banana': [91.69, 264.34, 188.76, 168.27]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ["The image features a small cat sitting on a banana tree, surrounded by numerous green bananas. The cat appears to be perched on a branch, enjoying its time in the tree. The bananas are scattered around the tree, with some hanging close to the cat and others further away. The scene captures the cat's curiosity and playfulness as it explores the tree."]
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

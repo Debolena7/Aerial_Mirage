@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A silver pan topped with pepperoni pizza on a table.', 'Pizzas are sitting on trays on a table.', 'Several square pizzas are sitting on round plates. ', 'Four metal plates each holding a pizza on a table.', 'Four pans of pizza set on a long table.']
+
+Bounding boxes (bbox): [{'chair': [442.42, 3.33, 138.52, 165.36]}, {'chair': [558.61, 0.31, 81.39, 178.06]}, {'pizza': [68.89, 208.94, 373.84, 250.73]}, {'pizza': [154.98, 25.83, 236.77, 157.13]}, {'pizza': [1.08, 48.21, 108.94, 79.82]}, {'dining table': [0.0, 0.0, 638.56, 478.92]}, {'knife': [104.73, 127.17, 107.22, 33.66]}, {'knife': [206.42, 412.35, 63.42, 67.65]}, {'pizza': [533.61, 175.79, 106.39, 258.08]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a dining table with three pans filled with square pizzas. The pizzas are placed on top of the pans, and they appear to be covered in sauce and cheese. The table is set with a fork and a knife, ready for someone to enjoy the delicious pizzas.\n\nThere are also two chairs visible in the scene, one on the left side and the other on the right side of the table. The arrangement of the tableware and the pizzas creates an inviting atmosphere for a meal.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

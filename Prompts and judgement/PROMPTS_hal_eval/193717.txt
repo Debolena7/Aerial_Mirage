@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['a fire hyrdant sitting on the sidewalk next to the road ', 'a hydrant  well tired up placed at the middle of the town', 'there is a red fire hydrant with a chain that is attached to it', 'A fire hydrant is standing on a sidewalk with a person walking by.', 'A fire hydrant with several outlets on it by a street side.']
+
+Bounding boxes (bbox): [{'car': [291.1, 202.22, 63.19, 23.82]}, {'car': [354.02, 199.98, 48.68, 29.0]}, {'traffic light': [130.43, 78.47, 17.68, 25.08]}, {'traffic light': [314.72, 27.09, 14.38, 36.21]}, {'fire hydrant': [38.83, 31.4, 362.43, 579.6]}, {'person': [400.17, 118.66, 102.03, 186.4]}, {'handbag': [446.05, 195.57, 19.5, 23.34]}, {'car': [0.0, 173.74, 40.95, 48.23]}, {'traffic light': [328.8, 130.68, 8.18, 25.34]}, {'car': [476.53, 215.94, 44.47, 18.94]}, {'car': [82.65, 197.43, 43.77, 18.07]}, {'traffic light': [340.05, 138.15, 8.64, 20.02]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a red fire hydrant located on a sidewalk near a street. The fire hydrant is prominently positioned in the foreground, with a man walking by on the street in the background. There are several cars parked or driving along the street, with one car closer to the left side of the image and another car further back on the right side.\n\nIn addition to the cars, there are two traffic lights visible in the scene, one near the top left corner and another near the top right corner. The presence of these traffic lights indicates that the street is likely a busy urban area.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

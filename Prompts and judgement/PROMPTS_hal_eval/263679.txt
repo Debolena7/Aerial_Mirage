@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A man standing on top of a sandy beach near a colorful kite.', 'Two people on a beach flying  akite', 'two people standing on the sand of a beach in front of a large colorful kite', 'Two people on the sand of a beach area with a man holding the strings to a large parachute that is partially on the sand.', 'A man holds strings connected to a large parachute or kite on the beach.']
+
+Bounding boxes (bbox): [{'person': [124.56, 222.48, 61.53, 111.98]}, {'person': [465.51, 171.2, 57.71, 144.27]}, {'kite': [106.86, 62.49, 212.66, 266.27]}, {'kite': [109.92, 245.67, 9.82, 9.92]}, {'kite': [105.06, 233.7, 8.53, 8.75]}, {'person': [347.88, 261.22, 8.49, 12.71]}, {'person': [308.38, 254.55, 45.79, 20.41]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a sandy beach with several people enjoying their time. A man and a woman are standing on the beach, with the woman holding a colorful kite. The man is flying the kite, while the woman watches and possibly assists him. \n\nThere are other people scattered around the beach, some closer to the water and others further away. A few of them are sitting on the sand, while others are standing or walking. The beach scene is lively and full of activity, with people engaging in various beach-related activities.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['Cat sitting on a desk with a computer behind him.', 'A young cat stands on a computer desk.', 'A cat sitting on a desk in front of a computer.', 'A black and orange cat sitting on a wooden counter top.', 'Cat staring into the camera in the day time.']
+
+Bounding boxes (bbox): [{'dog': [112.48, 49.13, 365.9, 497.78]}, {'tv': [61.84, 1.8, 418.16, 260.31]}, {'keyboard': [389.23, 430.47, 90.73, 136.47]}, {'book': [0.0, 286.3, 140.94, 201.35]}, {'book': [1.14, 116.15, 92.44, 155.13]}, {'cat': [117.23, 42.37, 362.77, 550.68]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a cat sitting on a desk in front of a computer monitor. The cat is wearing a purple collar and appears to be staring at the camera. The desk is cluttered with various items, including a keyboard, a mouse, and a cell phone. There are also several books scattered around the desk, adding to the cluttered appearance. The cat seems to be the main focus of the scene, as it sits comfortably amidst the disarray.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

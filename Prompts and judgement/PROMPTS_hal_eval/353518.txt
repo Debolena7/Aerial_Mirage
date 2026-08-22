@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A fleet of ships docked on a sandy beach.', 'Several wooden boats docked on the ocean beach.', 'Boats are lined up on the sea shore.', 'A harbor with boats washed up in the low tide', 'Five boats sitting on the beach by the ocean.']
+
+Bounding boxes (bbox): [{'boat': [495.26, 132.82, 91.38, 69.73]}, {'boat': [419.75, 132.86, 83.73, 55.82]}, {'boat': [297.08, 135.45, 114.61, 55.88]}, {'boat': [135.8, 128.87, 174.32, 50.94]}, {'boat': [62.69, 130.98, 129.91, 42.62]}, {'boat': [554.09, 130.89, 58.02, 24.19]}, {'boat': [200.3, 138.99, 100.9, 20.87]}, {'person': [289.71, 159.66, 12.49, 10.59]}, {'person': [593.5, 142.85, 5.14, 4.22]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ["The image features a beach with a row of small boats, including canoes and motorboats, parked on the sandy shore. The boats are lined up in a neat row, with some of them closer to the water's edge and others further back on the beach. The scene gives a sense of a popular spot for boating activities or a place where people can rent boats for recreational purposes."]
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

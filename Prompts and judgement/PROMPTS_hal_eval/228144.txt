@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A chair sitting in the middle of the room, in a black and white photo.', 'A room with chairs and a large mirror.', 'No one is in the room but there are chairs.', 'The bedroom is clean and ready for the guests to use.', 'Three chairs sitting in a room near a mirror.']
+
+Bounding boxes (bbox): [{'chair': [1.99, 74.98, 213.55, 335.78]}, {'chair': [191.56, 2.08, 372.63, 423.92]}, {'chair': [545.66, 112.8, 93.82, 225.93]}, {'dining table': [0.0, 293.04, 58.1, 132.96]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a room with a mirror on the wall, reflecting the interior of the room. In the reflection, there is a couch and a chair placed in the room. The couch is positioned towards the right side of the room, while the chair is located on the left side. The arrangement of the furniture creates a cozy and inviting atmosphere in the room.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

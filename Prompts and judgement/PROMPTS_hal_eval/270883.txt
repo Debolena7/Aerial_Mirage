@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A woman in lingerie is laying on a soft bed.', 'A woman in lingerie laying on a bed.', 'A woman in lingerie is bound to a bed.', 'Young woman erotically bound on top of bed.', 'A woman lays on a bed in her underwear.']
+
+Bounding boxes (bbox): [{'bed': [5.31, 2.66, 634.69, 390.34]}, {'person': [65.35, 96.26, 481.32, 219.02]}, {'clock': [248.01, 71.25, 14.24, 14.24]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a woman lying on a bed, wearing a blue dress and lace underwear. She is resting on her stomach, with her hands placed on her head. The bed is covered with white sheets, and there is a pillow nearby. \n\nIn the room, there is a cat sitting on a surface close to the bed, adding a cozy and relaxed atmosphere to the scene.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

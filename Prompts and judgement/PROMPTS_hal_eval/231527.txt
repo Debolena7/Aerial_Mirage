@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['The oranges are picked to make fresh jams.', 'A table topped with a couple glasses of OJ and orange slices.', 'Oranges and two jars of an orange substance on a wooden table.', 'There are some oranges next to some jars', 'some cut up oranges and jars and a wooden knife']
+
+Bounding boxes (bbox): [{'cup': [161.44, 290.45, 122.52, 171.53]}, {'cup': [69.99, 158.56, 136.33, 179.88]}, {'orange': [327.53, 145.69, 98.55, 126.15]}, {'orange': [256.25, 116.72, 111.0, 113.78]}, {'orange': [301.18, 466.82, 125.82, 165.65]}, {'orange': [1.51, 359.91, 155.1, 161.13]}, {'orange': [0.0, 102.11, 427.0, 526.38]}, {'knife': [71.72, 460.55, 263.92, 179.45]}, {'dining table': [5.0, 8.33, 421.67, 620.0]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a wooden table with a towel, on which two jars filled with a yellow substance, possibly marmalade or jam, are placed. The jars are accompanied by a spoon and a wooden spoon resting on the table. \n\nIn addition to the jars, there are several oranges scattered around the table. Some oranges are placed near the jars, while others are located further away. The combination of the jars, spoon, and oranges creates a visually appealing and inviting scene.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A row of cows standing behind a metal fence.', 'Several cows that are lined up next to one another.', 'a person standing next to cows behind containers', 'Cows stand in line at a far as people look at them.', 'A woman in a straw hat takes photos of brown cows inside a barn.']
+
+Bounding boxes (bbox): [{'cow': [3.68, 208.63, 372.64, 210.7]}, {'cow': [0.96, 191.41, 415.45, 206.29]}, {'cow': [355.16, 190.5, 128.28, 115.84]}, {'cow': [10.95, 152.72, 421.88, 84.91]}, {'cow': [111.88, 142.54, 340.98, 61.2]}, {'person': [545.1, 102.67, 92.53, 316.98]}, {'person': [543.75, 199.36, 96.25, 224.96]}, {'person': [316.41, 88.01, 38.65, 85.56]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image depicts a herd of cows standing in a barn, lined up and waiting for feeding time. There are at least 12 cows in the scene, with some of them wearing tags. The cows are positioned in various orientations, with some facing the camera and others looking away.\n\nA person can be seen in the background, possibly attending to the cows or preparing to feed them. The barn appears to be a well-organized space for the cows, providing them with a comfortable environment to rest and be fed.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

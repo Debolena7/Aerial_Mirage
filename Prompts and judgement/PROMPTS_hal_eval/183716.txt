@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['Two little girls are dressed in uniform preparing for the day', 'two children wearing sweaters shirts and ties ', 'Two young girls in uniforms sitting closely together.', 'Two small girls wearing blue jackets pose for a photo.', 'A couple of little girls sitting next to each other.']
+
+Bounding boxes (bbox): [{'tie': [86.22, 259.71, 32.3, 41.0]}, {'tie': [220.22, 229.03, 51.69, 248.31]}, {'person': [2.24, 47.09, 219.24, 447.43]}, {'chair': [8.99, 74.16, 340.45, 156.18]}, {'person': [148.31, 14.61, 203.38, 468.54]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features two young girls wearing blue jackets and ties, posing together for a picture. They are both smiling and appear to be enjoying themselves. The girls are standing close to each other, with one girl on the left side and the other on the right side of the image. The ties are clearly visible, adding a formal touch to their outfits.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

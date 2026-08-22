@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A very tall clock tower sitting next to a tall glass building.', 'A historical clock tower next to a modern glass window skyscraper. ', 'A building with a clock that is in front of a building.', 'A clock tower stands in front of a large mirrored sky scraper. ', 'A tall tower with a clock stands in front of a skyscraper.']
+
+Bounding boxes (bbox): [{'clock': [61.68, 305.22, 51.26, 49.9]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a tall clock tower standing next to a large glass building. The clock tower is located on the left side of the scene, while the glass building is on the right. The clock tower is a prominent architectural element, and its presence contrasts with the modern, sleek design of the glass building. The scene captures the blend of old and new architectural styles in the cityscape.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

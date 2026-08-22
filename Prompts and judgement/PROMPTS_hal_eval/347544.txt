@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['There is an old multi colored volvo parked next to a motel', 'A Volvo bus parked on a road near a hotel.', 'The back of a Volvo bus approaching a hotel', 'An orange, blue, and yellow bus on the driveway in front of a hotel.', 'The back of a bus with a hotel in the background.']
+
+Bounding boxes (bbox): [{'bus': [244.85, 70.11, 312.81, 334.38]}, {'truck': [149.14, 232.93, 34.12, 28.29]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a bus parked on a street, with a hotel building visible in the background. The bus is positioned in front of the hotel, occupying a significant portion of the scene. The bus appears to be a tour bus, as it is parked in front of the hotel, possibly waiting for passengers or taking a break. The street itself seems to be relatively empty, with no other vehicles or people visible in the image.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

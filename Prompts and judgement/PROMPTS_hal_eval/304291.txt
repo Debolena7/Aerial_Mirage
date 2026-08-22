@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['The brown horse is walking on the dirt in the fence. ', 'A horse that is walking down a trail by itself. ', 'a horse walks along a dirt path alone ', 'A horse walking in a field with trees in the background.', 'a horse that is walking around a field']
+
+Bounding boxes (bbox): [{'horse': [272.15, 101.33, 146.55, 274.22]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ["The image features a brown horse walking through a fenced-in area, likely a corral or a pen. The horse appears to be walking towards the camera, capturing the viewer's attention. The fenced-in area is filled with a variety of objects, including a pile of tarp, a blue tarp, and a pile of hay. The horse is the main focus of the scene, standing out against the backdrop of the fenced-in area and its contents."]
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

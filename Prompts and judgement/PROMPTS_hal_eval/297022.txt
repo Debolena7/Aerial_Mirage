@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['a man and his friends are standing outside next to a truck', 'A black and white photo shows men in a field with a truck.', 'Three men rest against their truck for a break from work.', 'An older flat bed truck with equipment in it parked in a farm field with three men.', 'An old truck in the field with three men']
+
+Bounding boxes (bbox): [{'truck': [81.56, 125.06, 500.6, 225.54]}, {'person': [259.72, 140.44, 56.64, 194.77]}, {'person': [124.65, 207.88, 65.02, 122.39]}, {'person': [191.83, 221.75, 53.59, 99.89]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a group of men standing around an old-fashioned truck, which appears to be a fire truck. The truck is parked on a grassy field, and the men are posing for a picture. There are four men in total, with one standing closer to the left side of the truck, another in the middle, and two more on the right side.\n\nThe truck is equipped with a hose, which is likely used for firefighting purposes. The men seem to be enjoying their time together, possibly reminiscing about the past or sharing stories related to the fire truck and their experiences.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

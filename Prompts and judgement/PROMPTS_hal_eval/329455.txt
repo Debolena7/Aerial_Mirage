@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A very large pizza on a wooden table .', 'A giant pizza sitting on top of a large cutting board.', 'a cutting board covered with a big pepperoni pizza ', 'A square-shaped pizza on a wooden board near white plates.', 'Some people sitting at a table with a large oval shaped pizza.']
+
+Bounding boxes (bbox): [{'dining table': [0.0, 55.28, 632.83, 422.96]}, {'dining table': [375.37, 1.08, 264.27, 121.89]}, {'person': [1.08, 3.65, 150.61, 276.3]}, {'cup': [412.35, 69.9, 41.73, 66.45]}, {'cup': [55.47, 378.71, 111.21, 101.29]}, {'pizza': [119.73, 133.75, 426.07, 238.38]}, {'chair': [564.41, 96.53, 75.59, 79.52]}, {'cup': [160.46, 393.66, 110.08, 86.34]}, {'cup': [0.0, 287.41, 23.43, 131.7]}, {'chair': [284.77, 0.0, 230.05, 136.29]}, {'dining table': [6.82, 0.16, 72.75, 59.14]}, {'person': [67.32, 2.49, 308.51, 215.28]}, {'person': [573.85, 285.06, 66.15, 90.07]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a large pepperoni pizza sitting on a wooden cutting board, placed on a dining table. The pizza is cut into slices and ready to be served. There are several cups and a knife on the table, indicating that the pizza is being enjoyed by people.\n\nIn the scene, there are two people present. One person is standing near the left side of the table, while the other person is positioned closer to the right side. A chair is also visible in the background, suggesting that more people might join the meal.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

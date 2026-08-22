@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A group of people are taking surfing lessons.', 'A group of men, women and children walking toward the water with surfboards.', 'A mixed age group is going toward the ocean with surfboards.', 'A group of surfers are carrying their surf boards into the ocean.', 'Several people are getting ready to enter the water for surfing.']
+
+Bounding boxes (bbox): [{'surfboard': [198.92, 340.0, 144.86, 69.19]}, {'surfboard': [93.37, 230.2, 178.72, 91.5]}, {'surfboard': [81.67, 262.83, 129.36, 66.35]}, {'surfboard': [508.57, 283.28, 105.58, 50.23]}, {'person': [372.08, 224.17, 63.74, 181.24]}, {'person': [510.17, 232.39, 88.91, 174.16]}, {'person': [131.6, 221.12, 94.92, 186.61]}, {'person': [281.79, 222.81, 33.67, 132.15]}, {'person': [286.33, 260.48, 55.52, 88.93]}, {'surfboard': [290.07, 393.39, 71.16, 8.61]}, {'person': [90.55, 213.16, 52.77, 190.77]}, {'person': [207.19, 282.78, 33.39, 116.88]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ["The image depicts a group of people, including both adults and children, walking along a beach while carrying surfboards. They are likely preparing to go surfing or have just finished a surfing session. There are at least five people visible in the scene, with some of them walking closer to the water's edge, while others are further back on the beach.\n\nThere are a total of four surfboards in the scene, with some of them being carried by the people and others placed on the sand. The surfboards vary in size and design, indicating that they may belong to different individuals within the group. The overall atmosphere of the scene is one of enjoyment and leisure, as the group spends time together on the beach."]
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

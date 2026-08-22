@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A cooler attached to a sled near some skiers ', 'Two men with backpacks on, one of which is fastening skis to a sled.', 'A MAN IS PACKING UP SKIES ON THE SNOW LAND', 'Two people in the snow with skis and a cooler.', 'Two men packing up ski equipment after a day of skiing.']
+
+Bounding boxes (bbox): [{'car': [0.0, 99.48, 108.92, 147.89]}, {'car': [180.08, 103.09, 121.52, 98.63]}, {'person': [94.05, 24.86, 122.17, 341.63]}, {'person': [260.34, 130.75, 174.34, 172.12]}, {'skis': [265.36, 259.79, 252.72, 155.36]}, {'backpack': [297.77, 84.26, 145.38, 85.15]}, {'backpack': [113.51, 18.7, 87.28, 109.7]}, {'skis': [259.32, 259.32, 220.68, 195.74]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features two men standing in the snow, preparing for a skiing adventure. They are both wearing backpacks, with one of them also wearing a hat. The men are surrounded by various skiing equipment, including a pair of skis and a snowboard. \n\nIn the background, there are two cars parked, one on the left side and another on the right side of the scene. The presence of the cars suggests that the men may have driven to this location to enjoy their skiing activity.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

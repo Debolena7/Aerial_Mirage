@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['Man sitting on park bench waving and wearing water protective clothing. ', 'a person sitting on a bench wearing some boots and yellow jacket', 'A man in a rain coat and rain boots sitting on a bench with his right hand up.', 'A man sitting on a bench wearing a yellow jacket.', 'A person in rubber boots and a rain coat seated on a bench.']
+
+Bounding boxes (bbox): [{'bench': [42.88, 166.74, 527.11, 202.87]}, {'person': [238.09, 45.69, 156.87, 336.19]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a man sitting on a wooden bench in a park. He is wearing a yellow jacket and has his hands up, possibly waving. The man is also wearing a hat and boots, which suggests that the weather might be cold. \n\nThere are two other people in the scene, one standing near the bench and the other further away. A can of soda is placed on the ground next to the bench, and a backpack is located nearby. The park setting is further enhanced by the presence of a potted plant in the background.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

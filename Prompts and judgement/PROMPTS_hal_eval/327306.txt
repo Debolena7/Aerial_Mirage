@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['Skateboarder and his shadow, performing the same trick', 'A guy on a skate board does tricks on it ', 'A skateboarder performing a trick on a ledge.', 'A young man skateboarding casts a shadow on the concrete.', 'The boy is riding his skateboard outside alone.']
+
+Bounding boxes (bbox): [{'person': [36.53, 0.89, 149.66, 161.25]}, {'skateboard': [37.1, 111.83, 117.74, 74.19]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ["The image is a black and white photo of a person riding a skateboard on a cement surface. The skateboarder is positioned on a ledge, possibly performing a trick or maneuver. The person's shadow is visible on the ground, adding depth and contrast to the scene. The skateboard is clearly visible, and the skateboarder appears to be focused and in control of their movements."]
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

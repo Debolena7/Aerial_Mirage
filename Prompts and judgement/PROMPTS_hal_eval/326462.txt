@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['Pink donut with white sprinkles on the top of it. ', 'a person holds a doughnut with sprinkles on it ', 'A red icing doughnut with sprinkles on top.', 'A person holding a donut with a napkin.', 'A person is holding a doughnut with sprinkles.']
+
+Bounding boxes (bbox): [{'person': [22.47, 398.55, 377.62, 190.13]}, {'donut': [96.63, 126.53, 331.08, 317.61]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ["The image features a person holding a pink frosted doughnut with white sprinkles on it. The doughnut is placed on a napkin, and the person is holding it up to show it off. The doughnut is the main focus of the image, with the person's hand and the napkin providing context for the presentation."]
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

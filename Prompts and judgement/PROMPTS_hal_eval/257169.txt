@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A bathroom that has a persons hand holding an object.', 'A person is holding up a hair dryer in the bathroom. ', 'a woman holds a dryer in a bathroom ', 'someone steaming the wrinkles out of a garment ', 'this is a blow dryer in a bathroom']
+
+Bounding boxes (bbox): [{'toilet': [267.51, 450.16, 212.49, 181.21]}, {'hair drier': [148.13, 264.39, 330.79, 224.36]}, {'person': [258.3, 307.09, 220.98, 130.58]}, {'handbag': [282.36, 474.92, 70.99, 76.41]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ["The image features a person holding a hair dryer in a bathroom. The hair dryer is being used to dry the person's hair, and it is positioned close to the person's head. The bathroom has a sink and a towel rack, with a towel hanging on it.\n\nThere are several bottles in the bathroom, with one placed near the sink, another on the counter, and a third one further away. Additionally, there are two pairs of scissors in the scene, one located near the sink and the other one closer to the person holding the hair dryer."]
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

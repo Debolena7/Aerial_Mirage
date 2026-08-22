@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A den with a couch, table, book shelf and a television.', 'A glass table that is next to a window.', 'A basic living with a TV, couch, and rack, ', 'some windows a fireplace books tables and a couch', 'A view of a living room with large windows.']
+
+Bounding boxes (bbox): [{'tv': [497.94, 148.47, 142.06, 174.24]}, {'couch': [7.06, 351.36, 207.14, 128.64]}, {'book': [429.47, 254.53, 3.69, 24.8]}, {'book': [467.85, 256.88, 2.18, 26.95]}, {'vase': [232.49, 291.37, 23.22, 37.55]}, {'vase': [457.83, 221.88, 23.78, 29.26]}, {'dining table': [165.74, 311.01, 155.87, 123.48]}, {'remote': [291.38, 439.14, 39.8, 10.21]}, {'book': [421.13, 379.47, 4.38, 25.67]}, {'book': [464.21, 257.67, 3.32, 26.56]}, {'book': [419.77, 281.36, 34.0, 32.88]}, {'book': [433.61, 350.82, 4.8, 29.8]}, {'book': [439.49, 386.81, 11.16, 30.68]}, {'book': [445.2, 253.36, 4.91, 28.18]}, {'book': [438.58, 318.44, 2.79, 24.47]}, {'book': [416.04, 345.15, 35.06, 41.9]}, {'book': [431.92, 384.28, 8.66, 27.28]}, {'book': [479.72, 301.15, 2.04, 20.15]}, {'book': [479.6, 257.69, 4.39, 30.68]}, {'book': [408, 249, 99, 186]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image depicts a cozy living room with a fireplace and a large window. The room is furnished with a couch, a chair, and a coffee table. A television is placed on the right side of the room, and a bookshelf filled with books is located nearby. \n\nIn the center of the room, there is a glass coffee table with a remote control resting on it. A vase with flowers is placed on the table, adding a touch of elegance to the space. The room also features a dining table, which is situated close to the couch.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A man walking up the beach after finishing parasailing.', 'A person with a dog in the water.', 'A man and his dog are coming out of the water', 'a man that is in some water with a kite', 'A windsurfer and a dog walk along an ocean beach.']
+
+Bounding boxes (bbox): [{'dog': [359.98, 278.54, 102.71, 84.56]}, {'person': [178.04, 174.69, 142.62, 204.84]}, {'person': [435.98, 224.78, 4.29, 5.7]}, {'kite': [393.24, 35.19, 30.97, 33.47]}, {'surfboard': [23.61, 230.85, 11.85, 3.68]}, {'person': [19.84, 224.5, 8.94, 9.5]}, {'kite': [547.45, 209.62, 2.95, 3.66]}, {'kite': [528.53, 172.88, 10.87, 17.18]}, {'kite': [460.55, 197.06, 5.32, 7.44]}, {'surfboard': [259.23, 68.29, 129.01, 154.34]}, {'kite': [39.84, 41.49, 34.85, 22.58]}, {'kite': [522.76, 210.28, 4.26, 6.63]}, {'kite': [630.78, 209.9, 2.24, 3.32]}, {'kite': [123.44, 199.69, 4.55, 4.73]}, {'kite': [116.64, 218.6, 4.32, 4.92]}, {'kite': [103.48, 215.42, 2.48, 2.84]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a man walking out of the ocean, carrying a surfboard under his arm. He is accompanied by a dog, which is walking beside him, seemingly enjoying the beach atmosphere. The man appears to be a surfer, and the dog seems to be his companion.\n\nIn the background, there are several other people and surfboards, indicating that this is a popular spot for surfing and beach activities. The scene captures a lively and active beach environment.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

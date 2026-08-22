@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A rowboat with paddles and no passengers is on the beach.', 'a white red and gray boat some people a bird and some water', 'A small white boat floating on the shore of a lake.', 'A boat is on the beach while two men dig in the sand in the distance.', "Row boat at the beach's edge ready to go."]
+
+Bounding boxes (bbox): [{'bird': [227.39, 26.54, 14.15, 17.9]}, {'boat': [167.42, 212.78, 318.34, 114.63]}, {'person': [118.55, 127.85, 14.92, 20.14]}, {'person': [284.62, 107.74, 8.33, 17.74]}, {'person': [96.09, 126.13, 22.13, 26.48]}, {'person': [33.51, 118.18, 3.49, 7.57]}, {'person': [21.9, 115.77, 3.63, 7.26]}, {'bird': [4.5, 121.92, 10.28, 8.99]}, {'bird': [184.28, 142.44, 7.22, 5.62]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a small boat sitting on a beach near the water. The boat is positioned close to the shoreline, and it appears to be a lifeguard boat. A few people can be seen in the background, enjoying their time near the water. One person is standing closer to the boat, while the others are scattered around the beach area. \n\nAdditionally, there is a bird flying in the sky, adding to the lively atmosphere of the scene.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

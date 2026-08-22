@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A person sitting down with a tennis racket.', 'a tennis player drying off his face with a towel ', 'A man that is sitting on a bench near a racquet.', 'A man sitting on top of a green bench with a tennis racquet.', 'A male tennis player sitting and wiping his head with a towel.']
+
+Bounding boxes (bbox): [{'bottle': [407.93, 413.11, 33.55, 108.74]}, {'bottle': [362.43, 442.05, 23.45, 78.77]}, {'person': [43.52, 31.43, 157.17, 145.08]}, {'person': [225.38, 22.78, 273.85, 501.65]}, {'person': [522.25, 2.42, 116.32, 521.04]}, {'tennis racket': [171.45, 298.01, 99.37, 221.07]}, {'person': [0.0, 117.14, 39.78, 55.76]}, {'bench': [0.0, 323.96, 409.53, 191.77]}, {'chair': [24.13, 119.22, 445.11, 215.92]}, {'chair': [479.4, 0.0, 59.2, 53.47]}, {'person': [311.37, 0.0, 125.34, 131.63]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a tennis player sitting on a bench, holding a towel and a tennis racket. The player appears to be taking a break or resting after a match. There are several other people in the scene, some standing and others sitting, possibly watching the tennis match or waiting for their turn to play.\n\nA few bottles can be seen scattered around the area, possibly containing water or sports drinks for the players. A chair is also present in the scene, located near the bench where the tennis player is sitting.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

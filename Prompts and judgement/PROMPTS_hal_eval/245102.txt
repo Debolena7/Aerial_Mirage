@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A bright red light that is on the side of a snow covered street.', 'A snow covered ramp in a parking garage', 'A light shines over a canopy on a snow covered sidewalk.', 'The entrance and exit to a snowy parking garage.', 'it is snowing near a staircase and some walls with a light']
+
+Bounding boxes (bbox): [{'traffic light': [404.26, 143.67, 24.94, 30.24]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image depicts a snow-covered train station with a red traffic light. The traffic light is situated near the center of the scene, and the snow has accumulated on the ground, covering the area. The train station appears to be empty, with no people visible in the image. The scene captures the wintery atmosphere of the train station, with the red light contrasting against the white snow.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

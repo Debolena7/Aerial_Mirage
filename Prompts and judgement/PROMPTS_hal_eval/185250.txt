@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A woman standing next to a  brown and white dog.', 'a man watches as a dig looks at a toy in the air ', 'A man standing in a grass field with a dog in front of him and frisbee type toys thrown in the air.', 'A man watches as a dog prepares to jump for a frisbee.', 'Frisbee in the air, a dog squatting looking up at it, and a man standing behind the dog watching it, on the grass with a tree.']
+
+Bounding boxes (bbox): [{'dog': [167.33, 387.02, 108.94, 180.96]}, {'person': [114.71, 195.48, 103.26, 291.41]}, {'frisbee': [125.21, 60.8, 40.87, 42.16]}, {'person': [0.0, 354.24, 10.87, 69.46]}, {'frisbee': [122.26, 364.9, 10.2, 36.02]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a man standing in a grassy field with a dog. The man is holding a frisbee, and it appears that he is playing with the dog, possibly teaching it to fetch. The dog is attentively looking up at the man, waiting for the frisbee to be thrown.\n\nThere are a few other people in the background, but they are not the main focus of the scene. The field is surrounded by a fence, providing a safe and contained space for the man and his dog to play.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

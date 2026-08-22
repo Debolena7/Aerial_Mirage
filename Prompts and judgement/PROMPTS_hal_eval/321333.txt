@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['a couple of young kids are sitting together', 'A vintage closeup shows a chair with a toddler with a big smile and a big toy bear seated right  next to a second toddler with a semi-smile, holding what appears to be a coin purse.', 'A picture of two young kids posing or a picture.', 'A couple of children sitting in front of a blanket.', 'two children one holding a bear and one holding a cell phone']
+
+Bounding boxes (bbox): [{'teddy bear': [138.88, 197.34, 229.72, 194.78]}, {'person': [336.33, 55.31, 295.3, 337.23]}, {'person': [57.75, 16.5, 295.94, 372.25]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image is a black and white photograph of two young children, a boy and a girl, sitting together on a bed. The boy is holding a teddy bear, and both children are smiling and enjoying their time together. The scene captures a moment of happiness and companionship between the two siblings.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

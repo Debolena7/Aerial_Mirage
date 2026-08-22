@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A woman holding a young child in her arms.', 'A woman holds a baby on her arm and both are looking forward at an enclosed area with two giraffes in it. ', 'A woman holding a little child as they look at giraffes.', 'A woman holding a young child looking at some giraffes', 'a woman and a baby look at giraffes at the zoo']
+
+Bounding boxes (bbox): [{'person': [188.4, 174.02, 237.6, 457.35]}, {'giraffe': [26.12, 139.54, 273.59, 258.64]}, {'giraffe': [356.4, 102.46, 69.27, 108.17]}, {'person': [178.41, 186.42, 120.7, 338.69]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a woman and a young child standing next to a fence, observing two giraffes in a zoo enclosure. The woman is holding the child, ensuring their safety and providing a close-up view of the giraffes. The giraffes are positioned on opposite sides of the fence, with one closer to the left side and the other near the right side of the enclosure. The woman and child are both focused on the giraffes, enjoying their time at the zoo.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

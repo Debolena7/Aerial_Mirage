@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A couple stands next to a wedding cake.\n', 'A bride and groom near their wedding cake.', 'A couple that is posing for a picture.', 'A man and a woman take a picture with their wedding cake', 'A married couple is in front of a wedding cake getting ready to cut it.']
+
+Bounding boxes (bbox): [{'person': [178.3, 93.66, 136.91, 354.22]}, {'chair': [68.83, 179.31, 81.74, 67.58]}, {'tie': [269.57, 185.25, 26.42, 80.95]}, {'cake': [21.46, 262.29, 144.12, 159.74]}, {'wine glass': [103.77, 221.48, 11.56, 39.34]}, {'chair': [0.0, 179.07, 42.76, 63.07]}, {'person': [244.94, 113.78, 142.22, 496.2]}, {'person': [155.33, 134.09, 61.91, 81.85]}, {'knife': [191.92, 258.99, 56.06, 20.88]}, {'person': [143.41, 142.95, 42.46, 66.39]}, {'dining table': [2.4, 367.72, 273.08, 241.28]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a newly married couple standing in front of a beautifully decorated wedding cake. The bride and groom are holding a knife together, preparing to cut the cake as part of their wedding celebration. \n\nThe cake is placed on a dining table, surrounded by several chairs. There are also a few potted plants in the scene, adding a touch of greenery to the setting. In the background, there are other people present, likely guests attending the wedding reception.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

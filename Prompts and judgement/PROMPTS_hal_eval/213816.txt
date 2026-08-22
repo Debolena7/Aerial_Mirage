@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['a close up of a public transit train with its doors open', 'A subway car with an open door parked next to a platform', 'An open door of a blue passenger rail line', "A passenger train's door is open at the station platform.", 'A photo of the open door of a train.']
+
+Bounding boxes (bbox): [{'train': [0.0, 3.78, 640.0, 431.36]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image shows the interior of a train with its doors open, revealing a pink and white color scheme. The train appears to be empty, with no passengers visible inside. The doors are open, inviting passengers to board or disembark. The train is parked at a station, likely waiting for its next journey.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

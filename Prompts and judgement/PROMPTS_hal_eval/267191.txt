@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['Two people are riding elephants beside some trees.', 'A man in helmet riding an elephant next to trees.', 'A man that is on the back of a elephant.', "A man rides on top of an elephant's back.", 'people riding on the backs of some elephants ']
+
+Bounding boxes (bbox): [{'person': [25.12, 232.32, 113.78, 122.48]}, {'person': [524.91, 55.11, 114.77, 191.11]}, {'elephant': [15.1, 45.3, 624.9, 426.07]}, {'elephant': [0.0, 265.95, 235.91, 214.05]}, {'elephant': [227.84, 337.75, 128.95, 142.07]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a man riding on the back of a large elephant, with another elephant standing nearby. The man appears to be enjoying the experience, as he is smiling while riding the elephant. The elephant is positioned in the center of the scene, and the man is seated on its back.\n\nThere are a few other people in the scene, with one person standing close to the elephant and two others further away. Additionally, there is a chair located near the edge of the image. The scene seems to be taking place in a natural environment, possibly in a wildlife reserve or a safari park.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

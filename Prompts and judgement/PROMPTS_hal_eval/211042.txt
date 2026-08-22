@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['there is a cat that is drinking out of the toilet', 'A cat is propped up on the toilet seat.', 'a cat is standing up to a white toilet', 'A cat pears into the bowl of a toilet.', 'A cat has its front paws on a toilet seat.']
+
+Bounding boxes (bbox): [{'cat': [160.88, 185.82, 125.86, 356.62]}, {'toilet': [165.39, 212.95, 207.1, 128.0]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a brown and white cat standing on a bathroom floor, curiously looking into the toilet bowl. The cat appears to be investigating the water in the toilet, possibly intrigued by its reflection or the sound of the water. \n\nIn the bathroom, there is a sink located to the left of the cat, and a cup can be seen placed on the countertop. Additionally, there are two bottles, one near the sink and another further away, possibly containing toiletries or cleaning supplies.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

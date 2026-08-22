@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A young woman using a laptop computer while sitting on a bunk bed.', 'A person that is sitting in a bed facing out.', 'A young girl sits in the bottom bunk of her bunkbed.', 'A bedroom with bunk beds and the bathroom next door.', 'Three people live in one room who share a bathroom.']
+
+Bounding boxes (bbox): [{'bed': [375.14, 380.0, 204.32, 73.51]}, {'bed': [452.97, 169.19, 139.46, 153.51]}, {'person': [375.37, 121.56, 196.32, 220.04]}, {'toilet': [64.28, 226.69, 102.84, 223.34]}, {'backpack': [374.59, 314.78, 127.1, 96.42]}, {'bottle': [111.04, 174.53, 22.06, 56.73]}, {'bottle': [82.06, 185.34, 26.62, 49.76]}, {'sink': [40.27, 297.14, 62.77, 84.79]}, {'bed': [366.55, 16.0, 238.13, 66.08]}, {'laptop': [443.97, 205.18, 78.31, 82.41]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image shows a person sitting on a bed in a small room, working on a laptop. The bed is positioned close to a toilet, which is located on the left side of the room. The person appears to be focused on their work, possibly in a dorm room or a compact living space.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A wooden table with a vase of flowers and a television.', 'A television in a living room with magazines on the coffee table.', 'A vase with flowers sitting on a table near a television.', 'A TV sitting in a living room on a hard wood floor.', 'A small vase of flowers sit on a wooden table near magazines.']
+
+Bounding boxes (bbox): [{'tv': [167.7, 96.07, 88.48, 64.89]}, {'chair': [15.32, 121.77, 134.68, 123.39]}, {'book': [352.34, 250.95, 147.66, 91.27]}, {'vase': [295.58, 172.69, 51.02, 119.19]}, {'chair': [359.59, 101.11, 38.4, 81.0]}, {'dining table': [396.45, 118.88, 35.04, 82.57]}, {'remote': [169.32, 233.11, 31.8, 13.88]}, {'book': [355.81, 286.97, 35.94, 34.55]}, {'chair': [401.35, 103.31, 45.68, 77.44]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a cozy living room with a wooden coffee table in the center. On the table, there is a vase filled with flowers, adding a touch of freshness to the room. A television is placed on the left side of the room, and a remote control can be seen nearby.\n\nIn addition to the television, there are several books scattered around the room, indicating a reading area or a collection. A chair is positioned close to the table, and a dining table can be seen in the background. A potted plant is also present in the room, further enhancing the warm and inviting atmosphere.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

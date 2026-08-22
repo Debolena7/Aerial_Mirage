@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['Family and friends are together at the beach.', 'some people at a beach water and a colored umbrella', 'The crowd is sitting under the umbrella at the beach.', 'People lay on blankets and sit in chairs on the beach under an umbrella. ', 'People sitting at the beach watching the waves roll in. ']
+
+Bounding boxes (bbox): [{'umbrella': [33.58, 102.38, 288.83, 99.79]}, {'chair': [428.92, 315.69, 126.66, 105.55]}, {'person': [205.34, 289.78, 85.4, 115.15]}, {'person': [409.73, 267.71, 124.74, 109.39]}, {'person': [346.03, 213.74, 78.08, 186.03]}, {'person': [407.52, 241.72, 45.44, 109.74]}, {'person': [378.44, 282.38, 98.04, 135.33]}, {'person': [312.94, 336.57, 23.88, 25.6]}, {'handbag': [165.83, 371.78, 54.51, 37.22]}, {'backpack': [587.66, 335.86, 52.34, 40.29]}, {'backpack': [576.34, 369.42, 63.66, 50.89]}, {'backpack': [537.64, 364.48, 42.48, 54.07]}, {'backpack': [271.17, 360.09, 77.4, 54.14]}, {'handbag': [273.43, 361.59, 75.35, 53.43]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ["The image depicts a lively beach scene with a group of people enjoying their time near the ocean. There is a large umbrella providing shade for some of the beachgoers, while others are scattered around the area. A few people are standing, while others are sitting or lying down on the sand.\n\nIn the background, the ocean waves can be seen, creating a serene atmosphere. A couple of beach chairs are also visible, offering additional seating options for the visitors. A handbag is placed on the sand, likely belonging to one of the beachgoers. Overall, it's a pleasant and relaxing beach scene with people of all ages enjoying their time together."]
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

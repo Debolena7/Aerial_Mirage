@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A man standing on top of an orange boat on a river.', 'a very large orange boat floating in a lake', 'A man is standing on the edge of a orange boat', 'a boat with some people on it drive through a water way ', 'A big wide boat with some wires above it.']
+
+Bounding boxes (bbox): [{'boat': [108.43, 97.87, 256.2, 303.22]}, {'person': [218.67, 271.6, 20.24, 45.84]}, {'person': [175.55, 259.38, 51.91, 62.82]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a large orange boat floating on a body of water, possibly the ocean. There are several people on the boat, with one person standing near the front and another person standing near the back. The boat appears to be a rescue boat, possibly a lifeboat, as it is equipped with a ladder.\n\nIn addition to the people, there are two dogs on the boat, one near the front and the other closer to the middle. The presence of the dogs suggests that they might be assisting in the rescue operation or simply accompanying the people on the boat.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

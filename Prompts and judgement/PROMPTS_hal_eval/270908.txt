@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A man laying on top of a tennis court while holding a tennis racquet.', 'This is an image of a man laying down with a tennis racket.', 'The player lies extended on a tennis court.', 'There is a tennis player laying down on the court', 'A male tennis player lays on the ground']
+
+Bounding boxes (bbox): [{'person': [31.58, 30.03, 335.28, 176.71]}, {'tennis racket': [338.64, 151.18, 147.15, 121.62]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a man lying on his back on a tennis court, holding a tennis racket in his hand. He appears to be taking a break or possibly resting after playing a game of tennis. The tennis racket is positioned close to his body, and he is spread out across the court, covering a significant portion of the area.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

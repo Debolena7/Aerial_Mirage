@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['a stove with a tea kettle and cooking pot on top', 'A white stove top oven with two tea pots on top of it.', 'an oven with a pot and kettle on top ', 'An oven with a stove top, a teapot and another pot sitting on top.', 'White stove with pot and kettle on top and the light on in the oven.']
+
+Bounding boxes (bbox): [{'oven': [32.58, 94.38, 288.77, 382.02]}, {'clock': [110.22, 274.94, 26.57, 27.06]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a white oven with two pots on top of it. The pots are placed on the stove, likely being used for cooking. The oven is located in a kitchen setting, with a tile backsplash visible behind it. The oven itself is open, revealing the empty interior, and the pots are placed on the stovetop, ready for use.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

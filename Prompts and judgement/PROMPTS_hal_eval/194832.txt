@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A television screen is displayed in an empty bus.', 'A vacant bus has seats facing in multiple directions.', 'The inside of a commuter city bus with palide seats', 'An empty bus with brown cloth covered seats.', 'An empty bus has tartan seats, and a wooden floor.']
+
+Bounding boxes (bbox): [{'tv': [280.16, 91.43, 62.89, 43.84]}, {'couch': [2.74, 203.82, 215.7, 215.7]}, {'couch': [428.64, 206.67, 211.14, 213.87]}, {'bus': [1.91, 1.16, 638.09, 417.35]}, {'chair': [0.0, 204.16, 218.23, 220.84]}, {'chair': [341.68, 185.35, 158.08, 79.76]}, {'chair': [333.99, 169.23, 121.09, 65.3]}, {'chair': [199.76, 159.05, 83.34, 7.67]}, {'chair': [172.02, 164.55, 123.0, 68.66]}, {'chair': [125.19, 185.41, 165.44, 85.03]}, {'chair': [425.67, 205.38, 213.9, 219.62]}, {'chair': [348.83, 218.76, 232.92, 109.28]}, {'chair': [56.24, 221.76, 230.67, 126.99]}, {'couch': [54.27, 222.2, 234.81, 129.14]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image depicts the interior of a bus, showing the rows of seats and the aisle in between. There are several benches lined up along the aisle, with some of them being empty. The bus is equipped with a television mounted on the wall, providing entertainment for the passengers.\n\nIn addition to the seating arrangement, there are two people visible in the scene. One person is located near the left side of the bus, while the other person is situated closer to the center. The overall atmosphere of the bus appears to be calm and quiet, with no passengers occupying the seats at the moment.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

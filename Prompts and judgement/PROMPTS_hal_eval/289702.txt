@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['Large black dog sitting in front of a big mirror. ', 'A dog is sitting down in front of a mirror ', 'A dog sits on the floor in front of a mirror.', 'A neglected black and white Pitbull Terrier puppy in a filthy environment with garbage is reflected in an old mirror.', 'A black dog sitting next to a mirror and pail.  ']
+
+Bounding boxes (bbox): [{'dog': [330.16, 198.97, 276.68, 223.19]}, {'dog': [137.53, 43.25, 154.16, 206.3]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a black dog standing in front of a mirror, looking at its reflection. The dog is positioned to the left of the mirror, and it appears to be curious about its own image. \n\nIn the background, there are two buckets, one located on the left side of the mirror and the other on the right side. The scene seems to be taking place in a room with a variety of objects, including a bottle placed near the center of the image and a toy located on the left side.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

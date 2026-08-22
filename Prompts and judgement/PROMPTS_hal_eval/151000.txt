@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A woman taking pictures on a busy street.', 'A woman taking a picture on a sunny day. ', 'A male and a female holding up their cellphones', 'A woman taking a picture up at the sky with her phone.', 'A woman holding a camera is taking a picture.']
+
+Bounding boxes (bbox): [{'cell phone': [246.12, 47.14, 51.28, 28.45]}, {'person': [175.75, 35.45, 214.91, 381.11]}, {'person': [566.87, 320.21, 41.12, 105.79]}, {'person': [136.48, 139.88, 115.57, 284.64]}, {'handbag': [224.8, 170.3, 76.88, 231.33]}, {'handbag': [556.91, 367.3, 26.45, 44.99]}, {'handbag': [488.3, 382.81, 27.79, 42.31]}, {'person': [453.14, 224.03, 65.13, 200.25]}, {'person': [492.38, 265.58, 55.76, 160.42]}, {'person': [362.88, 175.81, 59.9, 204.18]}, {'person': [600.12, 379.28, 39.88, 46.72]}, {'tie': [207.08, 228.92, 18.27, 22.99]}, {'cell phone': [165.61, 281.01, 34.17, 20.8]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image depicts a group of people standing outside a building, with some of them looking at their cell phones. A woman is prominently holding up her cell phone, possibly taking a picture or using an app. Another person nearby is also holding a cell phone, while a third individual is looking at their phone as well.\n\nThere are a few handbags visible in the scene, with one near the center of the image, another towards the right side, and the third one on the far right. A potted plant can be seen in the background, adding a touch of greenery to the urban setting.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ["An older woman riding a train while sitting under it's window.", 'A woman with an umbrella on a commuter train takes a snooze', 'There is a woman sitting alone on a train next to a bag', 'A man sitting on a bench with a shopping bag next to him on a train.', 'A woman with a cane and shopping bag sitting']
+
+Bounding boxes (bbox): [{'person': [75.36, 164.97, 146.85, 256.03]}, {'umbrella': [88.89, 235.83, 68.54, 192.17]}, {'bench': [183.7, 258.72, 321.24, 162.55]}, {'handbag': [122.76, 307.55, 70.97, 45.49]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ["The image features a woman sitting on a red bench inside a train. She is holding a hot dog in her hand, enjoying her snack during the journey. The train has large windows, allowing the woman to view the scenery outside as she travels. The bench is positioned next to a door, providing easy access to the train's interior."]
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

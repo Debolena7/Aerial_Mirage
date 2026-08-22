@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A man who is looking at a baseball bat.', 'A man standing with a baseball bat in a room.', 'A man is holding a baseball bat next to a Military dressed man. ', 'a guy showing another guy a base ball bat', 'A man looking down at a baseball bat that he is holding in his hands ']
+
+Bounding boxes (bbox): [{'tie': [212.19, 174.68, 34.25, 160.39]}, {'person': [75.01, 77.9, 254.86, 344.29]}, {'person': [412.61, 112.27, 166.96, 309.93]}, {'baseball bat': [125.7, 265.8, 202.47, 85.4]}, {'book': [11.1, 213.41, 46.91, 14.55]}, {'person': [578.45, 288.32, 61.55, 138.68]}, {'book': [126.19, 2.51, 10.4, 69.06]}, {'book': [156.51, 1.57, 31.05, 71.93]}, {'chair': [627.46, 219.86, 12.54, 67.59]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features two men standing in a room, engaged in a conversation. One of the men is a soldier, wearing a military uniform, while the other man is a businessman, dressed in a suit and tie. The soldier is holding a baseball bat, which appears to be the focus of their discussion.\n\nThe room has a few items in it, including a TV mounted on the wall and a couple of books placed nearby. There are also two bottles in the room, one located near the center and the other closer to the right side.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A white plate topped with orange peel slices.', 'Several orange wedges sit on a white plate.', 'Cut up orange peels on the white plate. ', 'Seven pieces of orange peel on a white plate.', 'Slices of orange peels on a white plate.']
+
+Bounding boxes (bbox): [{'orange': [246.18, 266.55, 173.07, 170.57]}, {'orange': [110.68, 68.89, 399.81, 297.04]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a white plate filled with numerous orange slices. The slices are cut into thin strips, creating a visually appealing and appetizing presentation. The arrangement of the orange slices covers most of the plate, with some slices placed closer to the edges and others more towards the center. The overall scene showcases a delicious and healthy snack option.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A jet liner flying above in the clear blue sky.', 'An airliner as seen from the ground, through some power lines.', 'A passenger jet is flying through a blue sky.', 'A flying airplane being viewed through power lines.', 'A plane that is flying in the sky above wires.']
+
+Bounding boxes (bbox): [{'airplane': [270.25, 138.51, 102.84, 116.62]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ["The image features a large airplane flying high in the sky, with its wings spread wide. The airplane appears to be ascending into the air, possibly taking off from a nearby runway. The sky is clear and blue, providing a beautiful backdrop for the airplane's flight."]
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

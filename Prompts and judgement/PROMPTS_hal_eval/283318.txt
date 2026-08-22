@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A fire hydrant and some cars on the side of the street.', 'An open book store on a street corner.', 'There is a sign showing a street running one direction', 'There is a street sign on the corner by a building. ', "A store on the corner with an American flag flying from it's side."]
+
+Bounding boxes (bbox): [{'car': [479.79, 276.33, 100.56, 75.32]}, {'car': [467.34, 273.71, 49.94, 57.14]}, {'car': [455.29, 269.69, 23.16, 20.41]}, {'car': [422.51, 268.1, 10.99, 14.14]}, {'fire hydrant': [508.31, 335.58, 26.4, 64.28]}, {'person': [601.6, 265.02, 6.84, 19.31]}, {'person': [594.56, 266.55, 5.32, 19.36]}, {'car': [470.24, 269.66, 13.84, 5.09]}, {'person': [368.57, 263.58, 10.33, 23.63]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image depicts a city street with a row of parked cars on the side. A fire hydrant is visible on the sidewalk near the end of the street. The street is lined with multiple buildings, including a bookstore with an American flag hanging from its awning. The bookstore also features a rainbow flag, adding a touch of color to the scene.\n\nThere are several people walking along the sidewalk, with one person closer to the left side of the image and two others near the middle. The overall atmosphere of the scene is that of a bustling urban environment.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

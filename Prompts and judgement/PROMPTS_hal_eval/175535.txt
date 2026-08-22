@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['a white plate with some food and two trays of sauce', 'A couple of sandwich slices with lettuce sitting next to condiments.', 'a white plate with a sandwich cut in half with ketchup and mustard', 'A meal is on a plate on a dining table.', 'A white plate topped with two pieces of food next to white dishes.']
+
+Bounding boxes (bbox): [{'sandwich': [0.0, 188.4, 224.36, 202.79]}, {'sandwich': [241.62, 215.73, 198.47, 163.96]}, {'knife': [255.35, 0.45, 75.49, 35.72]}, {'dining table': [1.44, 3.24, 476.04, 628.49]}, {'fork': [454.72, 453.03, 23.28, 46.3]}, {'bowl': [167.9, 443.84, 227.74, 186.19]}, {'bowl': [0.0, 517.9, 166.8, 122.1]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a dining table with a white plate holding a sandwich cut in half. The sandwich appears to be a grilled cheese sandwich, and it is accompanied by a side of sauce in a bowl. The plate is placed on the table, and a fork can be seen nearby, ready for use. The overall setting suggests a casual meal or snack.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

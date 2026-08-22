@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A bench sitting on the beach near the ocean.', 'An empty beach with a blue bench on it.', 'A bench in the sand facing an empty beach.', 'A bench that is on the beach by the water.', 'A photo of a bench in the middle of the beach.']
+
+Bounding boxes (bbox): [{'bench': [76.01, 166.12, 111.67, 78.7]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a sandy beach with a blue bench situated near the water. The bench is positioned on the left side of the scene, facing the ocean. The beach is vast and empty, with no people or other objects visible in the area. The tranquil setting and the presence of the bench create a peaceful atmosphere for relaxation and enjoyment of the natural surroundings.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

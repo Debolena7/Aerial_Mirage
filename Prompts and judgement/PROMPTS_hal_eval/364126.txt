@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A man in shorts surfing in the ocean', 'A man is riding a surfboard on a wave.', 'The man is riding the surfboard on the water. ', 'A person on a surfboard in the water.', 'A surfer is in the middle of an ocean wave.']
+
+Bounding boxes (bbox): [{'person': [210.53, 130.92, 130.4, 197.9]}, {'surfboard': [152.47, 290.52, 185.32, 64.52]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a man skillfully riding a wave on a surfboard in the ocean. He is wearing a white shirt and blue shorts, and he appears to be enjoying the thrill of surfing. The surfer is positioned in the middle of the wave, showcasing his balance and control over the surfboard. The scene captures the excitement and challenge of surfing, with the man fully immersed in the action.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

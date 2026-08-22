@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A man in dinosaur covered clown suit talking on a phone on a trolley', 'A Man dressed like clown getting off bus.', 'A clown dressed in a suit bedecked with dinosaurs steps off a cable car.', 'A man in a clown suit is stepping off a trolley.', 'A clown like individual walking off a tram.']
+
+Bounding boxes (bbox): [{'person': [258.34, 110.77, 169.66, 339.9]}, {'person': [126.56, 61.4, 148.14, 520.63]}, {'person': [345.23, 2.32, 82.77, 302.98]}, {'person': [240.18, 44.34, 67.6, 103.56]}, {'cell phone': [191.91, 119.37, 16.48, 6.82]}, {'person': [36.54, 131.19, 49.93, 18.01]}, {'bus': [0.0, 0.0, 427.22, 638.34]}, {'person': [351.75, 164.04, 35.7, 108.15]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a man dressed in a unique and colorful outfit, standing on a trolley car. He is wearing a suit with a tie and a hat, and his outfit is adorned with various pictures. The man appears to be talking on a cell phone while standing on the trolley car.\n\nThere are several other people in the scene, some of whom are also standing on the trolley car. One person is standing near the front of the trolley car, while others are scattered throughout the scene. The trolley car itself occupies a significant portion of the image, extending from the left side to the right side of the frame.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

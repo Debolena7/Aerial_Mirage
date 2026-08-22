@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A group of people standing next to a double decker bus.', 'People stand near the curb behind a lime green double-decked bus.', 'this is people standing in the sidewalk near a bus', 'a double decked bus sits parked next to a side walk ', 'A group of people standing outside of a double decker bus.']
+
+Bounding boxes (bbox): [{'car': [396.9, 268.57, 36.41, 21.07]}, {'car': [374.98, 268.61, 27.5, 18.28]}, {'car': [354.83, 267.88, 21.72, 17.1]}, {'car': [333.62, 263.53, 22.32, 19.53]}, {'car': [313.89, 268.42, 40.14, 26.34]}, {'car': [300.72, 264.88, 21.3, 26.2]}, {'bus': [426.8, 143.53, 213.2, 199.62]}, {'person': [456.14, 251.71, 29.62, 93.88]}, {'person': [533.81, 251.2, 40.98, 116.91]}, {'person': [318.71, 258.2, 21.56, 64.15]}, {'person': [580.79, 252.56, 44.68, 130.23]}, {'person': [279.84, 264.81, 9.57, 23.71]}, {'person': [510.95, 250.75, 14.75, 15.1]}, {'backpack': [323.26, 269.25, 15.08, 19.05]}, {'handbag': [570.93, 270.35, 17.46, 60.43]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image depicts a street scene with a green double-decker bus parked on the side of the road. A man is standing near the bus, possibly waiting to board or disembark. There are several other people in the scene, some of them walking or standing on the sidewalk.\n\nIn addition to the bus, there are multiple cars parked or driving along the street, as well as a truck. A few bicycles can also be seen in the area, with one near the center of the scene and another closer to the right side.\n\nA bench is situated on the sidewalk, providing a place for pedestrians to sit and rest. The overall atmosphere of the scene is busy and bustling, with people going about their daily activities.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

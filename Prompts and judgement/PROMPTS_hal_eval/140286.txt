@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A white horse drawn carriage in front of a yellow building.', 'A very pretty horse pulling a fancy carriage.', 'A white horse pulling a white carriage.on the street', 'A white horse pulling a wagon while stopped on the side of the road. ', 'A horse and carriage parked beside a building.']
+
+Bounding boxes (bbox): [{'horse': [96.54, 249.08, 172.61, 196.56]}, {'person': [417.67, 226.35, 99.9, 101.72]}, {'person': [254.83, 265.36, 28.1, 72.59]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a white horse pulling a carriage down a street. The horse is positioned on the left side of the scene, and the carriage is situated in the middle of the street. There are two people in the carriage, one on the left side and the other on the right side.\n\nIn addition to the horse and carriage, there are several other people in the scene. One person is standing near the left side of the horse, while two others are located closer to the right side of the carriage. Another person is standing further back on the right side of the street. A handbag can be seen in the scene, placed on the ground near the right side of the carriage.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

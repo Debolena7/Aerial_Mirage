@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['Group of white horses walking next to a river.', 'a painting of a row of white horses walking in a line along a stream.', 'many horses walking on a path near a river', 'Horses travel along in a line along a river. ', 'A line of horses are walking around a river.']
+
+Bounding boxes (bbox): [{'horse': [418.32, 90.72, 43.06, 28.28]}, {'horse': [357.2, 88.33, 19.93, 28.39]}, {'horse': [313.25, 90.7, 44.25, 28.08]}, {'horse': [265.22, 89.07, 42.21, 24.8]}, {'horse': [212.54, 88.93, 45.5, 26.07]}, {'horse': [248.03, 89.96, 29.93, 24.19]}, {'horse': [153.7, 88.94, 47.84, 26.0]}, {'horse': [92.84, 89.83, 46.51, 26.2]}, {'horse': [292.6, 87.33, 33.26, 27.59]}, {'horse': [134.41, 89.62, 33.17, 22.4]}, {'horse': [58.75, 91.48, 36.05, 25.31]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a herd of white horses walking across a bridge over a river. There are at least 11 horses visible in the scene, with some of them closer to the front and others further back. The horses are moving in a line, creating a sense of unity as they cross the bridge together. The serene setting and the presence of the river make for a picturesque scene.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

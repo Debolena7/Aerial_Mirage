@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A person walking by stop sign at street intersection.', 'a woman walking by a stop sign while holding a bag ', 'The Pleasant Lane street corner and a woman carrying bags', 'The woman who has bought her groceries is crossing the street.', 'A person walking near a stop sign in a residential neighborhood.']
+
+Bounding boxes (bbox): [{'stop sign': [164.26, 80.09, 39.97, 41.74]}, {'car': [255.64, 197.72, 52.76, 28.26]}, {'fire hydrant': [369.28, 229.57, 18.27, 40.43]}, {'person': [55.64, 203.86, 55.64, 120.11]}, {'handbag': [55.61, 219.4, 36.88, 67.11]}, {'car': [619.31, 212.81, 10.55, 4.77]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image depicts a residential street with a red stop sign prominently placed on the corner. The stop sign is located near a grassy area, and there is a fire hydrant situated close to the stop sign. \n\nThe street is lined with several houses, and a car is parked on the side of the road. There are also two trucks visible in the scene, one parked further down the street and another closer to the stop sign. The overall atmosphere of the image is calm and peaceful, with the stop sign and fire hydrant serving as essential safety features for the neighborhood.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

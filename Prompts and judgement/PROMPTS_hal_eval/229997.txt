@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A bear sitting in the grass surrounded by five vultures.', 'Black bear outside with large birds and fallen trees.', 'A bear in the grass surrounded by vultures. ', "A grass area with fallen tree logs and a black bear sitting down in the middle of the grass and wild turkey's around it.", 'A black bear is surrounded by black birds on grass.']
+
+Bounding boxes (bbox): [{'bird': [133.43, 61.32, 61.43, 103.72]}, {'bird': [220.17, 40.48, 97.53, 89.94]}, {'bird': [273.2, 291.43, 109.72, 113.53]}, {'bird': [416.0, 309.35, 142.95, 80.63]}, {'bird': [0.0, 260.1, 96.42, 93.67]}, {'bear': [196.34, 115.99, 234.3, 190.49]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a large black bear sitting on the grass, surrounded by several black birds. The bear is positioned towards the left side of the scene, while the birds are scattered around the bear, with some close to it and others further away. The birds appear to be perched on the grass or in the air, creating a peaceful scene with the bear and the birds coexisting in the same environment.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.
