@@ -11,7 +11,7 @@ import pandas as pd
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
 
-genai.configure(api_key="API KEY")
+genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
 
 safety_settings={
