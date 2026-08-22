@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A view of a street with some trees around it.', 'These are two currently unused city parking meters.', 'Two old street parking meters surrounded by weeds.', 'The parking meter stands unused next to the street.', 'A parking meter near the side of the road.']
+
+Bounding boxes (bbox): [{'parking meter': [109.3, 153.45, 46.03, 140.94]}, {'car': [3.61, 447.49, 149.4, 51.05]}, {'parking meter': [175.63, 153.09, 59.22, 138.19]}, {'car': [0.0, 446.07, 116.21, 54.28]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a parking lot with two parking meters positioned next to each other. One of the parking meters is located closer to the foreground, while the other is slightly further back. The parking meters are situated in front of a tree, which adds a touch of nature to the scene.\n\nIn the background, there are several cars parked in the lot, with one car on the left side, another in the middle, and a third car on the right side. Additionally, there is a person standing near the center of the parking lot, possibly attending to their vehicle or observing the surroundings.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

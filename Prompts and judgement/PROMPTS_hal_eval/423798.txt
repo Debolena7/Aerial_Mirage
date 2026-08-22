@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A street at night is lit up by streetlights.', 'A motion blur street scene with the car lights streaking.', 'An empty street at night with bright lights shining from the light poles, and one very bight light reflecting off the pavement.', 'Beams of light coming off of different objects on a city street. ', "The head beams from the vehicle can be seen clearly as the vehicle makes it's way up the street under the street lights."]
+
+Bounding boxes (bbox): [{'traffic light': [56.81, 148.85, 21.57, 28.05]}, {'traffic light': [115.36, 191.33, 14.83, 20.12]}, {'traffic light': [284.66, 181.03, 5.37, 15.93]}, {'traffic light': [48.79, 150.84, 15.37, 40.54]}, {'traffic light': [343.78, 230.87, 7.69, 9.5]}, {'traffic light': [455.73, 228.33, 8.12, 11.14]}, {'traffic light': [356.59, 231.26, 6.68, 8.54]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image captures a city street at night, with a bright light illuminating the scene. The street is filled with traffic, including several cars and a truck, all moving in the same direction. The vehicles are scattered along the street, with some closer to the foreground and others further away.\n\nIn addition to the traffic, there are multiple traffic lights along the street, ensuring the safe flow of vehicles. The traffic lights are positioned at various points along the road, with some closer to the viewer and others further away. The overall atmosphere of the image is that of a bustling urban environment at night.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

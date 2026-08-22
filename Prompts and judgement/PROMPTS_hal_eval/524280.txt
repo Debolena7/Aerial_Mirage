@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A cat outside looking straight ahead with a tree behind it.', "A very close shot of a cat's face in front of the camera. ", 'A brown cat stares at something in the field', 'A tawny cat stares wide-eyed into the distance.', 'A orange cat with green eyes and long whiskers.']
+
+Bounding boxes (bbox): [{'cat': [73.1, 12.41, 566.9, 619.31]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ["The image features a close-up of an orange tabby cat with green eyes, looking directly at the camera. The cat appears to be staring intently, possibly posing for a picture. The cat is surrounded by a lush green environment, with a tree visible in the background. The cat's fur is fluffy, and its eyes are wide open, giving it a curious and attentive appearance."]
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

@@ -1,0 +1,23 @@
+Instruction:
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information.
+
+Reference captions: {"A vase of red flowers sits on a bathroom countertop. ",
+"Red flowers sitting in a vase with a red wall behind them. ",
+"The vanity is decorated with a red flower arrangement and glass candles and perfume bottles. ",
+"A vase full of red flowers sits in a room with red walls and red decorations.",
+"A vase full of flowers on a bathroom sink counter. "}
+
+Bounding boxes (bbox): {
+bottle: [422.08,542.88,103.48,97.12],
+bottle: [537.64,590.28,59.73,48.6],
+toothbrush: [472.47,236.86,86.83,93.37],
+cup: [317.58,499.42,111.13,140.58],
+cup: [376.26,293.26,74.03,97.95],
+vase: [175.46,454.47,120.81,174.02]}
+
+The "bbox" represents the bounding box pixel coordinates in the image."bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed.
+
+Candidate description: {The image features a vase filled with a beautiful bouquet of red flowers, including roses, sitting on a table. The vase is placed next to a mirror, which reflects the vase and flowers, creating an elegant and visually appealing scene. 
+In addition to the vase and flowers, there are a few other items on the table. A bottle can be seen on the right side of the vase, while a cup is located towards the left side. A toothbrush is also present, positioned towards the right side of the table.}
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

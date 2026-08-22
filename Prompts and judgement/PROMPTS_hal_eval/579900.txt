@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A small loaded pizza on a yellow plate', 'A pizza topped with an assortment of vegetables on a wooden table.', 'A delicious looking pizza with a variety of vegetable toppings stands out on a yellow plate.', 'a fresh pizza with basil, mozzarella cheese and tomatoes.', 'an image of a small pizza on a plate']
+
+Bounding boxes (bbox): [{'broccoli': [212.26, 143.28, 48.35, 68.39]}, {'broccoli': [145.74, 265.4, 42.35, 40.58]}, {'pizza': [1.12, 35.96, 373.88, 412.35]}, {'broccoli': [336.95, 176.92, 30.02, 40.31]}, {'broccoli': [271.1, 213.65, 43.44, 32.79]}, {'broccoli': [274.84, 296.98, 39.76, 37.27]}, {'broccoli': [118.92, 96.54, 47.21, 40.17]}, {'broccoli': [122.71, 167.91, 35.06, 35.44]}, {'broccoli': [195.51, 355.99, 53.93, 53.94]}, {'broccoli': [221.29, 62.45, 50.66, 47.76]}, {'broccoli': [39.01, 163.5, 34.27, 38.36]}, {'broccoli': [289.01, 244.46, 29.86, 27.45]}, {'broccoli': [183.11, 281.26, 30.5, 35.16]}, {'broccoli': [47, 148, 244, 250]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a close-up view of a delicious pizza with various toppings, including broccoli, red peppers, and cheese. The pizza is placed on a yellow plate, which is sitting on a dining table. The pizza is cut into slices, making it easy to enjoy. The combination of toppings creates a colorful and appetizing presentation.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

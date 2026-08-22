@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['Several people playing tennis in a school gymnasium.', 'Men and women playing tennis vehemently on tennis court', 'A group of people on a court playing tennis.', 'A tennis plare takes a swing very close to the net.', 'The man is intently involved in the badminton match.']
+
+Bounding boxes (bbox): [{'tennis racket': [22.88, 182.12, 119.98, 115.77]}, {'person': [106.97, 143.26, 315.16, 281.74]}, {'person': [199.46, 157.45, 57.96, 217.98]}, {'person': [56.23, 196.69, 63.18, 120.97]}, {'person': [14.46, 234.76, 26.03, 58.1]}, {'person': [452.95, 190.62, 78.45, 174.67]}, {'person': [536.52, 228.54, 26.14, 73.84]}, {'person': [575.7, 233.19, 24.14, 70.16]}, {'person': [408.32, 234.89, 18.29, 45.73]}, {'person': [420.01, 240.95, 24.3, 46.64]}, {'person': [399.25, 267.6, 32.68, 53.11]}, {'person': [141.23, 231.84, 12.79, 37.0]}, {'tennis racket': [475.5, 258.48, 19.45, 40.37]}, {'tennis racket': [197.79, 179.04, 25.94, 52.7]}, {'person': [504.78, 231.84, 23.77, 70.28]}, {'person': [611.81, 240.31, 20.18, 67.1]}, {'person': [0, 222, 618, 101]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image depicts a group of people playing a game of tennis on a court. There are several individuals actively engaged in the game, with one man in the center of the court holding a tennis racket, ready to hit the sports ball that is in the air. Other players are scattered around the court, some closer to the net and others further away.\n\nIn addition to the players, there are a few chairs placed around the court, likely for spectators or resting players. The scene captures the excitement and energy of a tennis match, with everyone focused on the game.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

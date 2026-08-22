@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['Two giraffes during day in field of grasses.', 'Two giraffes standing one behind the other among brush. ', 'A couple giraffes staring in the same direction', 'Two giraffes standing in high grass near each other.', 'A couple of giraffes looking at the camera with alert looks.']
+
+Bounding boxes (bbox): [{'giraffe': [520.83, 187.33, 87.38, 227.6]}, {'giraffe': [62.37, 103.7, 188.07, 247.56]}, {'giraffe': [1.11, 296.13, 23.29, 36.6]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features two giraffes standing in a field of tall, dry grass. One giraffe is positioned towards the left side of the field, while the other is on the right side. They appear to be walking through the grassy area, possibly exploring their surroundings or searching for food. The scene captures the natural habitat of these majestic animals.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

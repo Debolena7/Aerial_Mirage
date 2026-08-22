@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['a man that is skiing down a snowy slope', 'A person on skis with one standing vertically', 'A man who is skiing performs a trick. ', 'The person was standing on the snow skiing course in his skis.', 'A person skiing down a  mountain kicking his leg up.']
+
+Bounding boxes (bbox): [{'person': [238.74, 419.1, 106.43, 153.3]}, {'person': [346.88, 150.45, 25.61, 72.22]}, {'person': [156.2, 184.21, 26.06, 60.49]}, {'person': [120.97, 181.28, 22.43, 72.59]}, {'person': [98.72, 186.11, 24.36, 68.97]}, {'person': [63.49, 189.41, 20.14, 47.98]}, {'person': [51.88, 165.18, 20.98, 28.67]}, {'person': [212.53, 148.52, 23.07, 21.2]}, {'person': [24.71, 183.87, 28.62, 55.37]}, {'skis': [219.79, 450.58, 40.1, 118.39]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image captures a thrilling moment during a skiing competition, with a skier in the foreground holding their ski poles in the air. The skier appears to be celebrating or expressing excitement as they ski down the slope.\n\nThere are several other people in the scene, likely spectators or fellow competitors, scattered around the area. Some of them are standing closer to the skier, while others are further away, watching the action unfold. The scene conveys the excitement and energy of a skiing event.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

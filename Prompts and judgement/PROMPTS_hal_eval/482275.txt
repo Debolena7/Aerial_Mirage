@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A man and woman cutting a slice of cake by trees.', 'A couple of people standing cutting a cake.', 'The dork with the earring stands next to the Asian beauty who is way out of his league.', 'A newly married couple cutting a cake in a park.', 'A bride and groom are cutting a cake as they smile.']
+
+Bounding boxes (bbox): [{'tie': [202.54, 159.98, 36.62, 99.54]}, {'person': [92.56, 24.88, 298.11, 447.71]}, {'person': [241.62, 45.3, 223.28, 422.83]}, {'cup': [223.86, 446.47, 30.91, 33.38]}, {'cake': [384.0, 247.01, 148.85, 62.56]}, {'cake': [480.02, 443.26, 28.19, 22.99]}, {'cake': [423.91, 442.07, 26.97, 28.04]}, {'vase': [546.88, 408.48, 58.24, 64.72]}, {'cake': [503.64, 438.13, 22.06, 26.47]}, {'cake': [454.96, 433.45, 25.95, 33.27]}, {'person': [406.05, 312.51, 97.46, 123.18]}, {'knife': [373.4, 221.83, 50.85, 35.98]}, {'cake': [371.45, 430.27, 28.58, 39.41]}, {'cake': [472.49, 354.37, 26.45, 32.37]}, {'cake': [496.8, 351.26, 24.56, 34.02]}, {'cake': [445.82, 355.6, 27.77, 30.82]}, {'cake': [419.77, 356.05, 24.33, 31.89]}, {'cake': [393.02, 355.13, 29.37, 34.97]}, {'cake': [513.97, 351.86, 13.09, 32.42]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image captures a beautiful moment of a newly married couple, a man and a woman, cutting their wedding cake together. They are standing close to each other, both holding a knife to cut the cake. The cake is placed on a dining table in the background, surrounded by several cupcakes.\n\nThere are other people in the scene, with one person standing to the right of the couple and another person on the left side. A wine glass is also visible on the table, adding to the celebratory atmosphere.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

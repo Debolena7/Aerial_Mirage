@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['Two young men standing around a table in front of a chalk board.', 'Two guys in an office walking towards the chalk board.', '2 young men in a room with a blackboard', 'Two guys in a large room with a blackboard.', 'Two men are in a building with brick walls.']
+
+Bounding boxes (bbox): [{'tv': [468.96, 93.75, 30.48, 89.73]}, {'bottle': [398.11, 211.68, 14.48, 55.96]}, {'bottle': [416.96, 201.25, 11.24, 28.62]}, {'bottle': [435.1, 211.03, 14.65, 55.82]}, {'person': [239.86, 34.21, 150.34, 336.14]}, {'person': [224.16, 96.77, 64.04, 152.53]}, {'remote': [246.36, 296.65, 14.11, 21.17]}, {'dining table': [179.99, 223.53, 320.01, 126.8]}, {'cup': [452.89, 248.97, 14.44, 15.43]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features two men standing in a room, playing a video game on a Nintendo Wii console. They are both holding Wii remotes, with one remote in the left hand of the man on the left and the other remote in the right hand of the man on the right. \n\nThe room has a TV on the left side, which is likely displaying the game they are playing. There is a dining table in the background, with a bottle placed on it. A chair can also be seen in the room, positioned near the dining table.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

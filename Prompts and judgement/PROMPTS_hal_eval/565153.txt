@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['a road sign showing to stop on the road near a forest', 'A joke stop sign saying go placed before the real stop sign. ', 'A rural road with three octagonal signs, two are stop signs and one has the word "Go" painted on it.', 'a sidewalk with grass and signs next to it', 'There is a stop sign and someone has vandalized the one beside it.']
+
+Bounding boxes (bbox): [{'stop sign': [109.95, 164.17, 57.22, 56.24]}, {'parking meter': [163.49, 304.56, 37.0, 66.51]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a stop sign with graffiti on it, placed on a street corner. The stop sign is positioned next to a pole, and there are two other stop signs in the scene, one located further down the road and another one closer to the foreground. \n\nIn addition to the stop signs, there are two fire hydrants in the scene, one near the middle of the image and the other closer to the right side. The area appears to be a mix of a road and a grassy area, with a fence visible in the background.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

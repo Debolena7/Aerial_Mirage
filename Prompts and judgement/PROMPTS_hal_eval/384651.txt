@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A bedroom with a bed next to a  night stand with a lamp.', 'A table lamp is on revealing part of a bed and an upside down glass.', 'A bedstand with an ice bucket, upside down glass, lamp, and phone sits next to a bed with pillows and sheets', 'The nightstand of a hotel room holds an unused class and an ice bucket. ', 'A darkly lit hotel bedroom that has a lamp, a little table, and a bed.']
+
+Bounding boxes (bbox): [{'bed': [0.0, 140.11, 320.39, 208.69]}, {'cup': [253.76, 280.05, 68.59, 106.8]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image is a black and white photograph of a hotel room at night. The room features a bed with a lamp on the nightstand, providing a warm and cozy atmosphere. The bed is covered with a white comforter, and a clock is visible on the wall. \n\nIn addition to the bed, there is a chair in the room, and a bottle can be seen placed on a surface. The overall scene captures the essence of a comfortable and inviting hotel room.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

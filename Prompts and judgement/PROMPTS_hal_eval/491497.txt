@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A fluffy white chair that faces away fro a television.', 'A pillow covered reading chair in the corner of the living room', 'The living room is empty with the television on. ', 'White ornate seat in nicely decorated room with television.', 'A white chair, books and shelves and a tv on in this room.']
+
+Bounding boxes (bbox): [{'tv': [1.03, 180.41, 91.75, 186.6]}, {'chair': [167.38, 293.56, 186.7, 198.5]}, {'book': [296.35, 217.67, 78.65, 50.01]}, {'book': [343.38, 150.84, 10.1, 45.34]}, {'book': [337.41, 276.9, 7.76, 55.81]}, {'book': [338.07, 155.97, 6.91, 39.86]}, {'book': [324.18, 276.62, 9.07, 54.35]}, {'book': [349.19, 283.61, 6.13, 49.93]}, {'book': [299.13, 147.37, 14.84, 49.04]}, {'book': [319.85, 280.5, 7.38, 48.36]}, {'book': [310.89, 146.49, 33.15, 51.08]}, {'couch': [165.77, 284.66, 190.26, 215.34]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a cozy living room with a television placed on a stand in the corner. The TV is turned on, displaying a football game. A comfortable chair is positioned in front of the television, providing a perfect spot for watching the game. \n\nIn addition to the television and chair, the room is filled with numerous books scattered throughout the space. Some books are placed on the floor, while others are stacked on various surfaces. The room also has a window with curtains, which adds to the overall ambiance of the living room.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

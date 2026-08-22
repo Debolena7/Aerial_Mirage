@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A couple of men standing next to each other.', 'A baseball player grabbing a bat, in a game.', 'a boy reaching for a baseball bat in a dugout.', 'Baseball players taking baseball bats from a wall.', 'A boy with catchers gear on looking at some baseball bats.']
+
+Bounding boxes (bbox): [{'person': [94.71, 34.76, 135.17, 294.46]}, {'person': [1.13, 2.83, 133.59, 169.81]}, {'baseball bat': [441.17, 147.78, 86.29, 292.31]}, {'backpack': [231.49, 243.33, 132.68, 229.2]}, {'baseball bat': [372.25, 16.36, 71.71, 338.8]}, {'baseball bat': [386.26, 167.15, 103.9, 306.07]}, {'baseball bat': [440.47, 186.35, 94.48, 282.64]}, {'baseball bat': [428.05, 101.65, 73.41, 236.04]}, {'person': [161.19, 92.44, 320.0, 381.63]}, {'bench': [1.17, 13.55, 46.54, 80.34]}, {'baseball bat': [443.49, 96.19, 27.39, 155.23]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image shows two young boys wearing baseball uniforms, standing next to a fence. One of the boys is holding a baseball bat, while the other is wearing a backpack. They appear to be preparing for a baseball game or practice.\n\nThere are several baseball bats visible in the scene, with one placed near the boys and others scattered around the area. A baseball glove can also be seen, indicating that they are well-equipped for the game. The boys seem to be focused on their game or practice, ready to engage in the sport.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

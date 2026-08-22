@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A bus on the street next to the lamp post.  ', 'A city bus stopped at stop waiting for passengers.', 'A city bus 18 parked in a red zone.', 'A bike on lamppost next to a red and white bus.', 'A bus parked on the side of the road next to a bike.']
+
+Bounding boxes (bbox): [{'bicycle': [497.9, 280.53, 54.38, 105.78]}, {'car': [575.25, 233.09, 56.92, 44.03]}, {'car': [530.0, 224.95, 13.53, 15.17]}, {'bus': [107.96, 81.45, 414.51, 268.95]}, {'truck': [13.21, 146.19, 106.05, 134.2]}, {'bench': [590.67, 263.31, 28.13, 44.01]}, {'car': [543.54, 225.0, 42.18, 13.99]}, {'car': [632.45, 235.1, 7.55, 24.3]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a white bus with green and red accents parked at a bus stop. The bus is stopped at the curb, and its doors are open, waiting for passengers to board. There are several people in the vicinity of the bus, some standing close to the bus stop and others further away.\n\nIn addition to the bus, there are two bicycles in the scene. One bicycle is parked near the right side of the image, while the other is located on the far right side. A car can also be seen in the background, parked further away from the bus stop.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

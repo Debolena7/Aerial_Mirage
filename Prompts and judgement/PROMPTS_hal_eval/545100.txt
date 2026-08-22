@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A man is taking a photo of a city with his phone.', 'A man taking a picture of the city with his cellphone.', 'The man in the business suit takes a video of city buildings.', 'A man in suit taking a photograph with a cellphone.', 'A business man photographs a city with his cell phone.']
+
+Bounding boxes (bbox): [{'cell phone': [431.18, 134.75, 22.06, 36.2]}, {'car': [564.78, 248.34, 50.83, 20.91]}, {'car': [168.79, 231.19, 37.97, 16.77]}, {'car': [272.1, 235.94, 38.84, 14.32]}, {'person': [388.92, 121.18, 177.53, 304.82]}, {'person': [142.73, 331.71, 27.88, 59.99]}, {'person': [101.79, 328.12, 16.86, 58.96]}, {'car': [42.53, 230.48, 12.37, 17.59]}, {'traffic light': [44.97, 207.44, 7.88, 16.26]}, {'traffic light': [38.21, 209.28, 8.32, 20.04]}, {'traffic light': [350.89, 257.9, 6.69, 14.02]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a man standing on a bridge, looking at his cell phone. He is wearing a suit and tie, and appears to be focused on his phone screen. The bridge is located near a busy city street, with several cars and a truck visible in the background. \n\nThere are also a few other people in the scene, with one person standing close to the man on the bridge and another person further away. Additionally, there is a handbag placed on the ground near the man, possibly belonging to him or someone else in the area.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

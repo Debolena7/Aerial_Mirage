@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A motorcycle of some sort parked somewhere during the day.', 'A black motorcycle on street in front of a grey sports car.', 'A motorcycle and a vintage Mustang car parked at a curb.', 'A motorcycle sitting in front of a classic Ford Mustang Car.', 'a black motorcycle parked on the road in front of a car']
+
+Bounding boxes (bbox): [{'car': [60.27, 81.36, 243.23, 162.51]}, {'car': [232.16, 111.4, 28.5, 10.42]}, {'person': [46.83, 119.22, 9.56, 23.91]}, {'traffic light': [290.52, 92.39, 8.43, 13.16]}, {'traffic light': [259.26, 84.1, 3.68, 5.51]}, {'traffic light': [242.73, 84.96, 4.97, 8.81]}, {'motorcycle': [195.56, 2.37, 444.44, 471.7]}, {'truck': [48.85, 81.42, 98.03, 67.64]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a black motorcycle parked next to a blue classic car on the side of a road. The motorcycle is positioned closer to the front of the scene, while the car is situated behind it. \n\nThere are a few other cars in the background, with one on the left side of the scene and another on the right side. Additionally, there are two people in the image, one standing near the motorcycle and the other closer to the blue car.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

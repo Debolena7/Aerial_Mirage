@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A wooden table topped with carrot cake donuts.', 'The carrot cakes look like doughnut on display.', 'There are donuts arranged on a silver plate ', 'A carrot cake doughnut displayed on a counter. ', 'Four donuts topped with icing displayed on metal trays.']
+
+Bounding boxes (bbox): [{'person': [143.5, 4.47, 126.28, 129.15]}, {'donut': [41.71, 156.76, 140.94, 104.99]}, {'donut': [86.74, 323.07, 116.16, 98.1]}, {'donut': [179.13, 116.69, 142.38, 90.61]}, {'donut': [19.52, 122.51, 118.23, 79.95]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a wooden dining table with a display of various donuts. There are a total of seven donuts on the table, with some placed on a tray and others on a plate. The donuts are arranged in a way that makes them easily accessible and visually appealing.\n\nIn addition to the donuts, there is a sign on the table, possibly providing information about the donuts or their flavors. The overall scene suggests a cozy and inviting atmosphere, perfect for enjoying a delicious treat.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

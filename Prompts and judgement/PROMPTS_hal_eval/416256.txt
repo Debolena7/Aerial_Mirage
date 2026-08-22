@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A cat laying on the floor next to a keyboard.', 'an orange and white cat is laying next to a keyboard and some wires', 'A cat is laying next to a computer keyboard.', 'a cat laying on a floor next to a keyboard', 'A CAT LAYING ON THE FLOOR AMIDST A COMPUTER,SPEAKERS,CORDS']
+
+Bounding boxes (bbox): [{'cat': [117.74, 86.29, 250.81, 153.23]}, {'keyboard': [121.64, 210.81, 193.65, 102.52]}, {'keyboard': [28.95, 123.57, 109.36, 104.3]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ["The image features a cat lying on the floor next to a computer keyboard. The cat is positioned in the center of the scene, with its body stretched out and relaxed. The keyboard is placed on the floor, with the cat's head resting on it. \n\nIn the background, there is a TV mounted on the wall, and a laptop is situated on the left side of the room. A book can also be seen placed on the floor, close to the cat and the keyboard."]
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

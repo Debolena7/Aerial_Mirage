@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['the driver of a double decked bus standing outside', 'A double decker bus next to a normal sized bus. ', 'A double decker bus is stopped with a man in a vest looking in.', 'there is a double decker bus that is next to a small bus', 'A double-decker bus is stopped along a curb.']
+
+Bounding boxes (bbox): [{'person': [381.58, 281.03, 73.63, 184.08]}, {'bus': [151.27, 54.86, 325.82, 392.31]}, {'bus': [0.0, 220.24, 157.28, 186.51]}, {'book': [387.22, 348.46, 24.45, 11.66]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a busy street with two red double-decker buses parked next to each other. One of the buses is a double-decker tour bus, and the other appears to be a regular city bus. There are several people in the scene, with one person standing close to the tour bus, another person standing near the regular bus, and a few more people scattered around the area.\n\nA traffic light is visible in the background, indicating that the street is likely a busy urban area. The presence of the double-decker buses and the people suggests that this could be a popular tourist destination or a bustling city street.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

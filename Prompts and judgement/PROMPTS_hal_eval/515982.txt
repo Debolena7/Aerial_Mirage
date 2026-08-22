@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A man sliding into a base next to another baseball player.', 'A baseball player sliding into home plate, in a game.', 'a  runner sliding into base as the ball gets close', 'a man is sliding up to a base at a baseball game', 'A man sliding into home plate as another catches a baseball.']
+
+Bounding boxes (bbox): [{'person': [159.63, 271.9, 254.83, 122.13]}, {'person': [341.18, 2.0, 250.65, 413.61]}, {'person': [612.17, 0.34, 27.83, 94.28]}, {'baseball glove': [340.67, 20.49, 66.32, 49.26]}, {'sports ball': [27.35, 41.25, 24.53, 24.11]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image captures a baseball game in progress, with a player sliding into a base while another player tries to catch the ball. The player sliding is wearing a red shirt and is in the process of reaching the base. The player attempting to catch the ball is wearing a baseball glove and is positioned nearby.\n\nThere are several other people in the scene, likely teammates and opponents, scattered around the field. Some of them are closer to the action, while others are further away, possibly waiting for their turn to play or observing the ongoing play.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

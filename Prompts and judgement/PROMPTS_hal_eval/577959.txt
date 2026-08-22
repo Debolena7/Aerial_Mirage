@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['An old man is flying his kite in the middle of no where.', 'an image of a man walking on the sand', 'A person flying a kite in sandy, watery area.', 'A person flying a kite on wet sand.', 'A man flying a kite at the beach near the ocean']
+
+Bounding boxes (bbox): [{'person': [205.99, 276.62, 10.86, 34.61]}, {'kite': [378.91, 65.45, 97.28, 119.86]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a person standing on a beach, flying a kite high in the sky. The kite is soaring above the person, creating a sense of freedom and enjoyment. The beach is vast and empty, with no other people visible in the scene. The person appears to be the main focus of the image, as they skillfully control the kite in the open space.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

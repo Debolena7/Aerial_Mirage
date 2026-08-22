@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['Cars, truck and carriages are traveling on the road', 'A horse drawn carriage among several other motor vehicles on a road.', 'A horse and cart are stopped on a busy street.', 'Several vehicles and a horse drawn cart pull up outside of a building.', 'a few cars that are parked out on a road']
+
+Bounding boxes (bbox): [{'horse': [140.57, 148.8, 33.54, 60.12]}, {'car': [286.51, 167.18, 103.1, 73.42]}, {'bus': [43.95, 125.81, 153.94, 66.93]}, {'person': [248.93, 151.87, 23.6, 45.68]}, {'person': [168.77, 158.54, 11.55, 18.59]}, {'person': [43.17, 140.72, 8.69, 21.93]}, {'person': [37.89, 140.34, 7.48, 22.01]}, {'person': [334.69, 175.78, 28.43, 16.2]}, {'truck': [323.57, 150.26, 123.81, 60.01]}, {'person': [236.2, 150.47, 13.85, 46.62]}, {'person': [387.73, 139.7, 9.5, 10.35]}, {'person': [395.36, 140.12, 5.93, 9.88]}, {'truck': [0.0, 142.71, 46.74, 55.08]}, {'person': [194.44, 155.33, 20.65, 28.81]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image depicts a busy city street with a variety of vehicles and people. A horse-drawn carriage is driving down the street, capturing attention as it moves among other vehicles. There are several cars and a bus on the road, with one car positioned behind the horse-drawn carriage and another car driving in the opposite direction. \n\nThere are numerous people on the street, some walking and others standing, contributing to the bustling atmosphere. A man is riding the horse-drawn carriage, while others are scattered throughout the scene, engaging in various activities. The street is lined with trees, adding a touch of greenery to the urban environment.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['Colorful lights reflect off the items inside this bathroom stall', 'A toilet in a tiled stall with rainbow streaks around the room.', 'A white toilet covered in rays of rainbow.', 'White toilet in a small tiled room rainbows on toilet', 'A white toilet in a small tile walled bathroom']
+
+Bounding boxes (bbox): [{'toilet': [181.54, 149.68, 253.05, 455.21]}, {'bottle': [325.18, 48.55, 44.98, 123.21]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a white toilet in a bathroom, with a rainbow light shining on it. The toilet is situated next to a trash can, and there are several bottles scattered around the bathroom. The scene gives off a unique and colorful atmosphere, as the rainbow light creates a visually appealing effect on the toilet.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

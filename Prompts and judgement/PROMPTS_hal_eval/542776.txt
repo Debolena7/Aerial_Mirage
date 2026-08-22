@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A small bird sitting on top of an open book.', 'A person holding a book with a bird sitting on the book.', 'A tiny bird is perched on the top of this book.', 'A little finch that landed on the edge of a book. ', 'a small bird sits on top of a book page ']
+
+Bounding boxes (bbox): [{'bird': [227.46, 150.58, 164.4, 120.88]}, {'bed': [392.57, 3.44, 247.39, 235.92]}, {'person': [246.03, 197.2, 393.97, 224.01]}, {'book': [34.77, 200.87, 605.23, 225.13]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ["The image features a small bird perched on top of an open book, capturing the attention of the person holding the book. The bird is sitting on the book's pages, possibly looking for food or simply enjoying the company of the person. The person is holding the book, possibly trying to read or admire the bird's presence."]
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

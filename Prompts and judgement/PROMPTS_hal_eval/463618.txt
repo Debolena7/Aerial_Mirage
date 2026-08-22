@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A woman holding a baby next to a bird cage.', 'A woman sits by a bird cage holding a baby', 'A woman holds a baby while sitting next to a cage with a bird in it. ', 'Woman holding child who is looking at white bird in cage.', 'A woman holding a baby next to a caged bird.']
+
+Bounding boxes (bbox): [{'tv': [63.85, 2.28, 277.69, 119.59]}, {'bird': [105.49, 185.43, 88.07, 86.14]}, {'couch': [471.32, 0.58, 168.68, 302.93]}, {'person': [236.07, 9.4, 286.57, 435.73]}, {'person': [234.88, 142.6, 174.5, 245.77]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a woman sitting on the floor, holding a baby in her arms. The woman is wearing a green shirt, and the baby is wearing a diaper. They are in a cozy living room setting, with a couch in the background and a TV mounted on the wall. \n\nThere is a bird cage in the room, and a bird can be seen inside it. The woman appears to be looking at the bird, possibly captivated by its presence. A remote control is also visible on the floor near the woman and the baby.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['Herd of zebra grazing on dried grasses in open field.', 'Group of zebras walking through tall grass together. ', 'A small herd of zebras walking past the camera man. ', 'A group of zebras that are in a field.', 'There is no image here to provide a caption for.']
+
+Bounding boxes (bbox): [{'zebra': [20.72, 138.19, 174.6, 116.61]}, {'zebra': [301.17, 173.41, 127.25, 69.03]}, {'zebra': [316.42, 151.11, 35.63, 41.2]}, {'zebra': [349.2, 157.73, 41.24, 34.63]}, {'zebra': [429.57, 161.8, 70.39, 83.32]}, {'zebra': [506.9, 158.51, 119.16, 89.57]}, {'zebra': [422.73, 163.34, 17.21, 24.39]}, {'zebra': [0.01, 157.82, 39.14, 14.64]}, {'zebra': [597.14, 191.67, 35.38, 36.22]}, {'zebra': [625.14, 166.22, 14.86, 30.88]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a herd of zebras standing in a grassy field. There are at least 12 zebras visible in the scene, with some of them standing close together, while others are more spread out. The zebras are facing various directions, possibly keeping an eye out for potential threats or simply enjoying their surroundings. The field appears to be a mix of grass and bushes, providing a natural habitat for the zebras.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

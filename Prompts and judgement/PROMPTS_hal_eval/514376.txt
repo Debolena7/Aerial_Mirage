@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A trolley is going down the street while a car passes it.', 'An electric trolley bus on the street in Seattle', 'a bus drives through a city street with a building in the background', 'A city bus driving down a street next to a hotel.', 'A electric trolly bus driving in the middle of a street with a building behind it.']
+
+Bounding boxes (bbox): [{'car': [575.09, 267.2, 33.66, 23.16]}, {'car': [599.36, 256.75, 14.3, 10.37]}, {'bus': [288.43, 182.96, 215.25, 156.05]}, {'car': [573.77, 260.97, 19.64, 14.47]}, {'traffic light': [474.78, 150.69, 12.07, 26.31]}, {'traffic light': [207.15, 140.12, 38.01, 13.89]}, {'traffic light': [187.08, 142.07, 12.05, 31.88]}, {'bench': [21.76, 288.61, 60.67, 14.01]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a white and blue city bus driving down a street, passing by a tall building. The bus is positioned in the middle of the scene, with its length extending from the left to the right side of the image. \n\nThere are several traffic lights along the street, with one on the left side of the bus, another on the right side, and two more further down the road. Additionally, there are two cars visible in the scene, one behind the bus on the left side and another further ahead on the right side.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

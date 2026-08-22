@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['some frosted cakes with little decorations on top in a display case for sale', 'A display window full of lots of cakes.', 'Rows of cylindrical cakes for sale in a bakery, seen behind glass.', 'A dining table with cakes and a tv monitor', 'Several desserts sitting behind a glass window with display cards in front of them.']
+
+Bounding boxes (bbox): [{'tv': [210.49, 0.1, 225.53, 141.33]}, {'cake': [281.81, 255.84, 176.01, 167.35]}, {'cake': [102.91, 226.98, 158.7, 151.97]}, {'cake': [410.6, 226.45, 156.38, 162.08]}, {'cake': [465.51, 161.58, 101.95, 40.4]}, {'cake': [264.13, 146.52, 89.64, 36.63]}, {'cake': [0.96, 301.04, 102.91, 122.15]}, {'cake': [256.8, 212.56, 155.81, 130.8]}, {'cake': [344.32, 175.05, 123.11, 61.55]}, {'cake': [176.65, 137.07, 88.6, 45.78]}, {'cake': [131.77, 196.21, 120.22, 47.12]}, {'cake': [0.0, 222.18, 109.64, 86.56]}, {'cake': [7.53, 181.7, 119.82, 71.14]}, {'cake': [234.77, 184.29, 111.11, 104.34]}, {'cake': [472.09, 205.29, 129.78, 36.42]}, {'cake': [85, 129, 554, 298]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image showcases a delightful display of various cakes arranged in a glass case. There are at least 13 different cakes, each with unique designs and flavors. The cakes are arranged in a visually appealing manner, with some cakes placed closer to the front and others further back in the display case.\n\nIn the background, a television is mounted on the wall, providing entertainment for those who visit the cake shop. The combination of the cakes and the television creates an inviting atmosphere for customers to enjoy the sweet treats and watch their favorite shows.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

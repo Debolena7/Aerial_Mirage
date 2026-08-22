@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['some guy that is skiing down a hill in some snow', 'A man skis in a very snowy looking mountain. ', 'A skier descends a mountain slope while snow falls.', 'The skier is coming down the slope on a very snowy day.', 'A skier slaloms down a snowy hill in low visibility']
+
+Bounding boxes (bbox): [{'person': [303.02, 95.1, 49.44, 80.17]}, {'person': [0.67, 71.11, 21.54, 41.48]}, {'skis': [303.56, 160.36, 21.91, 20.68]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ["The image features a person skiing down a snow-covered slope, with the skier being the only visible person in the scene. The skier is wearing a yellow jacket, which stands out against the white snow. The skier appears to be moving quickly down the slope, creating a sense of motion in the image. The snowy landscape and the skier's presence create a winter sports atmosphere."]
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

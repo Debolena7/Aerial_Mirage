@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A family of giraffes by a few zebras and a gazelle.', 'A group of giraffes drink water in the wilderness.', 'Giraffe and zebra grazing in a field next to plants.', 'Several giraffes and zebras walking in a dirt field.', 'A group of zebras and giraffes by a water hole.']
+
+Bounding boxes (bbox): [{'zebra': [170.42, 236.77, 161.45, 99.19]}, {'zebra': [4.06, 232.31, 181.99, 101.91]}, {'zebra': [103.39, 191.55, 54.15, 41.1]}, {'giraffe': [261.02, 5.71, 350.27, 369.46]}, {'giraffe': [338.15, 139.91, 96.61, 231.81]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ["The image features a group of zebras and a giraffe gathered around a watering hole. The zebras are spread out in the scene, with some standing closer to the water and others further away. The giraffe is standing next to the zebras, drinking water from the pond. The animals appear to be enjoying the water and each other's company."]
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

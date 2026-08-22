@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['Two glass bowls of oranges add up to more than enough.', 'Two clear glass bowls full of oranges on a bar.', 'A couple of glass bowls or oranges sitting on a metal counter.', 'Two bowls of lemons setting on a shelf.', 'Two bowls of oranges are sitting on a metal surface.']
+
+Bounding boxes (bbox): [{'bowl': [32.71, 129.35, 268.45, 231.49]}, {'orange': [142.86, 162.79, 79.47, 87.98]}, {'orange': [220.94, 184.71, 65.04, 52.84]}, {'orange': [40.68, 127.78, 81.36, 74.74]}, {'orange': [102.68, 105.47, 72.0, 68.95]}, {'orange': [174.55, 125.56, 71.24, 70.01]}, {'orange': [116.37, 160.83, 58.65, 82.31]}, {'orange': [205.57, 209.03, 75.45, 75.06]}, {'orange': [50.14, 193.0, 84.2, 92.71]}, {'orange': [364.78, 47.52, 230.47, 155.74]}, {'orange': [119.72, 240.06, 82.36, 82.77]}, {'bowl': [0.0, 289.65, 28.37, 106.27]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features two glass bowls filled with oranges, placed on a table. The oranges are arranged in an appealing manner, with some oranges overlapping each other. The bowls are positioned next to each other, creating a visually pleasing display. The oranges are of various sizes and are distributed evenly throughout the bowls, showcasing their freshness and vibrant color.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

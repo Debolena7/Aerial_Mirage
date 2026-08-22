@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A bridge spanning the width of a river.', 'A picture of a bridge with an amusement park in the background.', 'White clock tower next to a river by a bridge.', 'BEAUTIFUL SCENE OF THE WATER, THE BRIDGE, AND A TALL CLOCK TOWER', 'A bridge with a clock tower at one side and a ferris wheel at the other side.']
+
+Bounding boxes (bbox): [{'bird': [172.35, 254.7, 26.98, 12.39]}, {'bird': [489.95, 217.4, 29.33, 16.65]}, {'bird': [353.82, 228.53, 22.3, 13.27]}, {'bird': [520.88, 182.8, 19.66, 19.66]}, {'bird': [578.01, 210.74, 20.15, 3.55]}, {'bird': [602.13, 219.61, 23.91, 19.13]}, {'boat': [548.49, 321.73, 19.54, 15.47]}, {'boat': [605.42, 325.06, 9.5, 12.57]}, {'boat': [374.6, 316.8, 16.22, 3.98]}, {'bird': [86.88, 268.64, 22.12, 22.12]}, {'bird': [434.18, 277.95, 32.04, 21.94]}, {'bird': [582.13, 204.43, 11.53, 6.48]}, {'clock': [66.31, 104.95, 25.0, 23.72]}, {'boat': [535.36, 328.21, 11.94, 7.96]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a bridge spanning over a river, with several birds flying around it. There are at least nine birds visible in the scene, with some flying closer to the bridge and others further away. In addition to the birds, there are two boats on the water, one near the left side of the image and the other towards the right side. The overall scene creates a sense of movement and activity around the bridge and river.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A laptop computer sitting on top of a lego desk.', 'A group of lego figures standing on a and near a laptop.', 'A laptop sitting on plastic blocks with some toy people.', 'Leggo people positioned near and on a keyboard.', 'a number of lego toys near a laptop']
+
+Bounding boxes (bbox): [{'keyboard': [101.12, 88.48, 353.94, 208.99]}, {'laptop': [80.84, 0.97, 378.9, 297.08]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a keyboard with a few action figures placed on top of it. The action figures are positioned in various ways, with some standing and others sitting on the keys. The scene appears to be a playful arrangement of toys and the keyboard, creating a fun and creative display.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

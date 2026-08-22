@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A parking meter sitting next to a tall tree.', 'A dual parking meter near the grassy area of a residential area.', 'Two parking meters on roadside and a road sign', 'A black and white photo of two meters on a curb.', 'A street scene with a parking meter on the side.']
+
+Bounding boxes (bbox): [{'traffic light': [98.11, 63.13, 7.84, 14.11]}, {'parking meter': [442.35, 110.06, 114.19, 243.72]}, {'parking meter': [417.36, 110.61, 44.34, 213.01]}, {'car': [128.23, 129.28, 9.17, 7.57]}, {'car': [143.87, 128.68, 13.44, 11.68]}, {'traffic light': [58.27, 62.62, 6.5, 14.26]}, {'traffic light': [59.12, 77.1, 6.2, 11.06]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a parking meter located on the side of a street, near the curb. The parking meter is positioned close to a tree, providing shade and a pleasant atmosphere. There are two parking meters in the scene, one closer to the foreground and the other further back.\n\nIn the background, there are several cars parked along the street, with one car on the left side and two cars on the right side of the scene. Additionally, there are two people visible in the image, one standing near the center and the other closer to the right side of the scene.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.
