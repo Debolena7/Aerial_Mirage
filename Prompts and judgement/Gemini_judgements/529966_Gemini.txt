@@ -1,0 +1,18 @@
+Gemini pro Response:
+Score: 2
+
+Mistakes in the candidate description:
+
+1. The candidate description mentions "a table" in the image, which is not present in the reference captions. The reference captions describe the surface as a "bar", "metal counter" or "metal surface", not a table. This is a hallucination.
+
+2. The candidate suggests that "the oranges are arranged in an appealing manner, with some oranges overlapping each other". While it is true that some oranges overlap, the reference captions do not provide any information about the arrangement of oranges or their appeal. It is not possible to determine from the provided information if the oranges are indeed arranged in an appealing manner, so this is a hallucination.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The candidate description hallucinates the following:
+1. The table is not present in the image.
+2. The oranges are not arranged in an appealing manner.
+3. The oranges are not evenly distributed throughout the bowls.

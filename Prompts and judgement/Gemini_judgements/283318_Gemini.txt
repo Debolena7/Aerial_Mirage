@@ -1,0 +1,19 @@
+Gemini pro Response:
+Score: 10
+
+The candidate description hallucinates several details that are not present in the image. These include:
+
+* A rainbow flag hanging from the awning of the bookstore, 
+* multiple people walking along the sidewalk, 
+* and the statement that the overall atmosphere of the scene is that of a bustling urban environment.
+
+The image does show a fire hydrant, a row of parked cars, a bookstore with an American flag, and a few people, but the additional details provided in the candidate description are not supported by the visual evidence.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+There are several hallucinations in the "Candidate description". 
+1. It mentions a rainbow flag, but there is no rainbow flag in the image. 
+2. It mentions a person on the left side of the image, but there is no person on the left side of the image. 
+3. It mentions two people near the middle, but there are three people near the middle.

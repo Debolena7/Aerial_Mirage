@@ -1,0 +1,16 @@
+Gemini pro Response:
+Score: 5
+
+Hallucination Mistakes:
+1. The candidate description mentions that "The image captures a city street at night, with a bright light illuminating the scene." but the image does not contain a bright light.
+2. The candidate description mentions that "The street is filled with traffic, including several cars and a truck, all moving in the same direction." but the image does not contain a truck. 
+3. The candidate description mentions that "The vehicles are scattered along the street, with some closer to the foreground and others further away." but the image shows that all vehicles are closer to the foreground.
+4. The candidate description mentions that "There are multiple traffic lights along the street, ensuring the safe flow of vehicles." but the image only shows 7 traffic lights.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The image is a long shot of a city street at night. There are no cars or trucks visible in the image. There are 7 traffic lights visible in the image. The traffic lights are all on the same side of the street. There are no trees visible in the image. The street is not very wide. There is a bright light in the middle of the image. There are no people visible in the image. The image is not very clear.
+
+The candidate description is mostly accurate. However, there are a few mistakes. The description says that there are several cars and a truck in the image, but there are none. The description also says that there are trees in the image, but there are none. The description also says that the street is not very wide, but it is actually quite wide.

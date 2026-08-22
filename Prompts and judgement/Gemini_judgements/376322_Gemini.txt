@@ -1,0 +1,14 @@
+Gemini pro Response:
+8.
+
+The description is mostly accurate and mentions the main objects and their relationships in the scene, such as people, a dining table, and various table settings. However, it also includes a few hallucinations:
+
+1. "There are at least 12 people in the scene": The image shows 10 people.
+2. "The table is also adorned with a few bottles, likely containing beverages for the guests": There are no bottles in the image.
+3. "There are several bowls placed on the table, possibly containing food or condiments": There are no bowls in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The description is mostly accurate, but there are a few hallucinations. It mentions that there are at least 12 people in the scene, but there are only 11 people. It also mentions that there are several bowls placed on the table, possibly containing food or condiments, but there are no bowls on the table. Finally, it mentions that there is a cell phone on the table, but there is no cell phone on the table.

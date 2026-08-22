@@ -1,0 +1,20 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate but contains some minor hallucinations.
+
+1. The description mentions "a metal tray" but there is no tray in the image.
+
+2. The description mentions "two bottles placed on the table" but there is only one bottle in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+
+The "Candidate description" hallucinates the following:
+1. The woman is sitting at a dining table.
+2. There are two potted plants in the background.
+3. There are two bottles placed on the table.
+4. The pizza is covered in various toppings, including pepperoni and cheese.
+5. The woman is smiling and appears to be enjoying her meal.

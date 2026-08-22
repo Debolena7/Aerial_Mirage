@@ -1,0 +1,15 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is slightly hallucinated. Overall, the description is accurate and consistent with the image content, but it slightly exaggerates the number of orange slices and their arrangement.
+
+Mistakes:
+
+1. **Numerous orange slices**: The candidate description mentions "numerous orange slices," while the image only shows two orange slices.
+2. **Thin strips**: The candidate description states that the orange slices are cut into "thin strips," which is not visible in the image. The orange slices appear to be cut into wedges or segments.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 8
+The candidate description is mostly accurate, but there are a few hallucinations. First, the description states that the orange slices are cut into thin strips. However, the image shows that the orange slices are actually quite thick. Second, the description states that the orange slices are placed closer to the edges and others more towards the center. However, the image shows that all of the orange slices are placed towards the center.

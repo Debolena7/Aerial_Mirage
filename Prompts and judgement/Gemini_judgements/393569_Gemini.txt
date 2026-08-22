@@ -1,0 +1,25 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate, but it contains a few minor errors. Here are the mistakes:
+
+- The description mentions that the person is sitting on a bed in a small room, but the image shows a bunk bed, and the person is sitting on the bottom bunk.
+
+
+- The description mentions that the bed is positioned close to a toilet, but the toilet is actually located on the opposite side of the room.
+
+
+- The description mentions that the person appears to be focused on their work, but the person is actually looking towards the camera.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The hallucination is minor. The "Candidate description" hallucinates the following:
+1. The person is sitting on a bed.
+2. The person is working on a laptop.
+3. The bed is positioned close to a toilet.
+4. The person appears to be focused on their work.
+5. The room is small.
+6. The room is possibly a dorm room or a compact living space.
+In the image, we can see that the person is not sitting on a bed, but standing between two beds. The person is not working on a laptop, but using a laptop. The bed is not positioned close to a toilet. The person does not appear to be focused on their work, but looking at something or someone outside the room through the window. The room is not small. The room is not possibly a dorm room or a compact living space, but a hotel room or an apartment.

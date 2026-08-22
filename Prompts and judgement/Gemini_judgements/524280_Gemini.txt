@@ -1,0 +1,13 @@
+Gemini pro Response:
+6
+
+The candidate description hallucinates the following:
+- The cat is posing for a picture.
+- The cat's eyes are wide open.
+- The cat is surrounded by a lush green environment.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The hallucination is minor. The hallucination is that the cat is looking directly at the camera. The cat is not looking at the camera but slightly to the left.

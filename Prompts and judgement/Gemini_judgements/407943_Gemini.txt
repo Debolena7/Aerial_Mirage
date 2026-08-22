@@ -1,0 +1,14 @@
+Gemini pro Response:
+9
+
+The candidate description is highly hallucinatory. It mentions a "shiny umbrella" and a "white sheet" which are not present in the image. The umbrella is not open and the person is not standing in the center of it. The umbrella appears to be made of a fabric material, not a metallic material. The person is not standing in front of a white sheet.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 8
+The description is mostly accurate, but there are a few hallucinations. 
+1. The umbrella is not open.
+2. The person is not standing in the center of the umbrella.
+3. The umbrella is not made of a metallic material.
+4. There is no white sheet in the background.

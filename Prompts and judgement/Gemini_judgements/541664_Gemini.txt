@@ -1,0 +1,20 @@
+Gemini pro Response:
+Score: 6
+
+The candidate description hallucinates the following aspects: 
+<li>"action figures": no action figures appear in the image, there are only lego figures.
+<li>"various ways":  the lego figures are positioned only along the keyboard's top border. 
+<li>"standing": all lego figures are sitting and none is standing. 
+<li>"keys": no lego figures are sitting on the keys.
+<li>"playful arrangement": the lego figures appear randomly placed on the keyboard not in a playful manner. 
+<li>"creative display": the lego figures are not arranged to create any display.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The candidate description hallucinates the following:
+1. The number of objects: There are 5 Lego figures in the image, but the description states that there are "a few".
+2. The relative positions of the objects: The description states that some of the figures are "standing and others sitting on the keys", but in the image, all of the figures are standing on the keyboard.
+3. The actions of the objects: The description states that the figures are "placed on top of" the keyboard, but in the image, some of the figures are standing on the keyboard and some are near the keyboard.
+4. The appearance of the objects: The description states that the figures are "action figures", but in the image, they are Lego figures.

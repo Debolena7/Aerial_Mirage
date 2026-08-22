@@ -1,0 +1,14 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate and captures the main elements of the image. However, it mentions a "chef standing in a kitchen" which is not present in the image, resulting in a minor hallucination.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 5
+The image does not show a chef.
+The image does not show a buffet.
+The image does not show a spoon resting on a bowl.
+The image does not show multiple cups scattered throughout the kitchen.
+The image does not show a potted plant in the background.

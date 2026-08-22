@@ -1,0 +1,12 @@
+Gemini pro Response:
+Score: 8
+
+The candidate description is mostly accurate, but it hallucinated some details:
+- The airplane is not taking off from a nearby runway, it is flying in the sky.
+- The wings of the airplane are not spread wide, they are in a normal position.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 6
+The hallucination is mainly about the position of the airplane. In the reference captions, the airplane is above the wires. However, in the candidate description, the airplane is flying high in the sky. Besides, the airplane is not taking off from a nearby runway.

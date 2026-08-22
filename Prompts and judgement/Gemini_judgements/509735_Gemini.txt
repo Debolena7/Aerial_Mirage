@@ -1,0 +1,17 @@
+Gemini pro Response:
+Score: 4
+
+The candidate description contains some hallucination. 
+
+1. It mentions that the animals are gathered around a watering hole, but there is no ground truth bounding box for a water hole; 
+2. It describes that the animals appear to be enjoying the water and each other's company, but such kind of interaction is not indicated in the ground truth.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+There are several factual mistakes in the "Candidate description". 
+1. The candidate description hallucinates the presence of a "watering hole". 
+2. It hallucinates that the "giraffe is drinking water from the pond".
+3. It hallucinates the presence of an "impala".
+4. It hallucinates that "the animals appear to be enjoying the water and each other's company".

@@ -1,0 +1,15 @@
+Gemini pro Response:
+Score: 3/10
+
+The hallucination is mild. The candidate description provides a generally accurate depiction of the scene, but there are some mistakes. 
+1. The description mentions that there are at least 14 people in the scene, but there are actually 12.
+2. The description states that one of the skateboards is placed on the ground, but there is only one visible skateboard and it is being ridden by the skateboarder.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The candidate description hallucinates the following:
+- 'In addition to the skateboarder, there are two skateboards visible in the scene, one being ridden by the skateboarder and another one placed on the ground.'
+- 'The skate park appears to be a lively place where people gather to enjoy and participate in skateboarding activities.'

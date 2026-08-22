@@ -1,0 +1,10 @@
+Gemini pro Response:
+4
+
+The candidate description falsely mentions several bottles scattered around the bathroom and a trash can. These objects are not present in the image or mentioned in the reference captions or bounding boxes.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The "Candidate description" is mostly accurate, but there are a few minor mistakes. First, the description mentions that there are "several bottles scattered around the bathroom", but there is only one bottle visible in the image. Second, the description mentions that there is a "trash can" next to the toilet, but the object is a wastebasket.

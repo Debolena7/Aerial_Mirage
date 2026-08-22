@@ -1,0 +1,10 @@
+Gemini pro Response:
+Score: 0
+
+The "Candidate description" does not contain any hallucination. The description accurately describes the content of the image, including the presence of two giraffes in a field of tall grass. It does not mention any additional objects or actions that are not present in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 8
+The candidate description is mostly accurate, but there are some minor hallucinations. First, the description mentions that the giraffes are "walking through the grassy area", but in the image they are standing still. Second, the description mentions that the giraffes are "possibly exploring their surroundings or searching for food", but it is not possible to tell what the giraffes are doing from the image. Finally, the description mentions that the scene captures the "natural habitat of these majestic animals", but the image could have been taken in a zoo or other enclosure.

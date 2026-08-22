@@ -1,0 +1,22 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate and aligns well with the reference captions and the information provided by the bounding boxes. However, there are a few minor inaccuracies:
+
+1. The candidate description mentions "cups" on the table, but there are no cups visible in the image or mentioned in the reference captions or bounding boxes.
+2. The candidate description mentions "beverages" for the guests, but there is no specific mention of beverages in the reference captions or bounding boxes.
+3. The candidate description mentions "a knife can also be seen on the table," but it is not clear from the image or the bounding boxes which object is the knife as the bounding box for the knife is not visible in the image.
+
+These inaccuracies are relatively minor and do not significantly impact the overall accuracy of the candidate description, thus a score of 2 is appropriate.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+There are a few mistakes in the "Candidate description". 
+1. The image features a group of people gathered around a dining table, enjoying a celebration. -> The image features a group of people gathered around a table, enjoying a celebration.
+2. There are two cakes on the table, one larger and placed towards the center, and another smaller one towards the right side. -> There are three cakes on the table, one larger and placed towards the center, and two smaller ones towards the right side.
+3. The people are standing around the table, with some of them holding plates, ready to serve themselves. -> The people are standing and sitting around the table, with some of them holding plates, ready to serve themselves.
+4. In addition to the cakes, there are a few cups placed on the table, likely containing beverages for the guests. -> In addition to the cakes, there are a few cups and a pitcher placed on the table, likely containing beverages for the guests.
+5. A knife can also be seen on the table, possibly used for cutting the cakes. -> A knife and a fork can also be seen on the table, possibly used for cutting and eating the cakes.
+6. The atmosphere appears to be lively and festive, with everyone engaged in the celebration. -> The atmosphere appears to be lively and festive, with everyone engaged in the celebration.

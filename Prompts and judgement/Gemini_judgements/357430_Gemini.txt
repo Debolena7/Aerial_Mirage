@@ -1,0 +1,19 @@
+Gemini pro Response:
+Score: 3
+
+The candidate description generally describes the image content well, but there are some minor inaccuracies.
+
+1. The description mentions "sausage" as a topping, but there is no sausage visible in the image.
+2. It says the pizza is "on a table", but the bounding box doesn't indicate any table or surface.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The "Candidate description" hallucinates the following:
+1. The pizza is on a metal pan.
+2. The pizza is on a table.
+3. The pizza has mushrooms, sausage, and cheese toppings.
+4. The pizza is cut into slices.
+5. One slice is missing.
+6. Someone has already started enjoying the meal.

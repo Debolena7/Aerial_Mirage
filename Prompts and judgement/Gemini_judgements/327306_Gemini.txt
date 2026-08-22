@@ -1,0 +1,10 @@
+Gemini pro Response:
+Score: 1
+
+The candidate description is accurate and consistent with the reference captions and bounding boxes. There are no hallucinations present.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The skateboarder is not positioned on a ledge, possibly performing a trick or maneuver. The skateboarder is actually grinding on a ledge.

@@ -1,0 +1,14 @@
+Gemini pro Response:
+The candidate description has a score of **3**. There are some mistakes:
+* The reference captions do not mention that the woman is looking at the table with interest or that she is engaged in a conversation.
+* The candidate description mentions that the scene suggests a gathering or event, while the reference captions only mention that the two people are standing in front of a table.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The candidate description hallucinates the following:
+1. There is a woman in the image.
+2. People are sitting on chairs in the background.
+3. People are standing in the background.
+4. There is a gathering or event where people are interacting and exploring the items on display.

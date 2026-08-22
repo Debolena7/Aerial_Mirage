@@ -1,0 +1,23 @@
+Gemini pro Response:
+Score: 7
+
+Mistakes:
+
+1. The candidate describes "ornate clock". However, the reference captions and the bounding box do not mention anything about the ornaments.
+
+2. The candidate says "possibly inside a train station". However, the reference captions and the bounding box do not mention a train station. 
+
+3. The candidate mentions "several windows in the scene". However, the reference caption only mentions "a building with a lot of windows". The number of windows is not specified.
+
+4. The candidate says "the combination of the clock and windows creates a visually appealing and functional environment". However, this is an opinion and not a description of what is depicted in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 10
+There are several hallucinations in the candidate description. 
+1. "mounted on a wall, possibly inside a train station" -> The clock is not mounted on a wall, it is sitting on a surface. It is not inside a train station, it is in a museum.
+2. "ornate" -> The clock is not ornate.
+3. "The clock is prominently displayed, taking up a significant portion of the wall space" -> The clock is not prominently displayed, it is actually quite small compared to the size of the windows behind it.
+4. "The clock's design is intricate and detailed" -> The clock's design is not intricate or detailed.
+5. "The combination of the clock and windows creates a visually appealing and functional environment" -> The clock and windows do not create a visually appealing or functional environment, they are actually quite jarring and unappealing.

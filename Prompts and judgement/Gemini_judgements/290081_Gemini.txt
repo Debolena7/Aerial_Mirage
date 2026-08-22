@@ -1,0 +1,20 @@
+Gemini pro Response:
+Score: 2
+
+Mistakes:
+
+1. The candidate description mentions the bowl is filled with a variety of oranges, some of which are placed on top of each other. However, the ground truth annotations do not indicate the stacking of oranges within the bowl. The reference captions only mention a bunch of oranges sitting in the bowl.
+
+2. The candidate description mentions the oranges are arranged in a visually appealing manner, creating a vibrant and colorful display. While this may be true, it is not explicitly mentioned in the ground truth annotations.
+
+Overall, the candidate description is fairly accurate but contains some minor hallucinations.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The image contains 4 oranges in a glass bowl on a wooden table. The candidate description hallucinates the following:
+1. The number of oranges.
+2. The variety of oranges.
+3. The arrangement of oranges.
+4. The position of the bowl.

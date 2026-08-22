@@ -1,0 +1,15 @@
+Gemini pro Response:
+**Score:** 6
+
+**Mistakes:**
+
+* The candidate description mentions a "pink frosted doughnut", but the reference captions do not specify the frosting color.
+* The candidate description mentions "white sprinkles", but the reference captions do not specify the color of the sprinkles.
+* The candidate description mentions "a napkin", but the reference captions do not specify that the doughnut is on a napkin.
+* The candidate description mentions that "the person is holding it up to show it off", but the reference captions do not provide any information about the person's intention.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The image does not show a person holding the donut. Only a hand holding the donut is visible. Also, the donut is not placed on a napkin, rather it is held by a napkin from the bottom.

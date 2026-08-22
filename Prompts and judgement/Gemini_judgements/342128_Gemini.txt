@@ -1,0 +1,21 @@
+Gemini pro Response:
+**Score:** 3
+
+**Hallucination:** 
+
+- No hallucination in object types.
+- No hallucination in object actions.
+- No hallucination in objects' counts.
+- No hallucination in objects' positions in the image.
+- Minor hallucination in relative positions with other objects. The reference captions do not mention the appearance of the man is unique and stylish, and do not mention the possible photographing context, nor any social gathering or celebration. The candidate description adds these details about the man's appearance and the context, which are not supported by the given annotations.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The description hallucinates the following:
+1. The man is holding a pipe in his mouth.
+2. The man is wearing a tie.
+3. There are several dining tables in the background.
+4. Some people are standing near the chairs and tables.
+5. Others are further away from the main subject.

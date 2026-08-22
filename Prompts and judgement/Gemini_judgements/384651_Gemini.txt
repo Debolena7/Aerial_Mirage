@@ -1,0 +1,18 @@
+Gemini pro Response:
+Score: 2
+
+Mistakes:
+1. "The image is a black and white photograph": The image is not in black and white.
+2. "A clock is visible on the wall": there is no clock in the image.
+3. "there is a chair in the room": there is no chair in the image.
+4. "a bottle can be seen placed on a surface": there is no bottle in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 5
+The image is a black and white photograph of a hotel room at night. -> The image is not black and white.
+The room features a bed with a lamp on the nightstand, providing a warm and cozy atmosphere. -> The nightstand is not next to the bed.
+The bed is covered with a white comforter, and a clock is visible on the wall. -> The comforter is not white. There is no clock on the wall.
+In addition to the bed, there is a chair in the room, and a bottle can be seen placed on a surface. -> There is no chair in the room. The bottle is not placed on a surface.
+The overall scene captures the essence of a comfortable and inviting hotel room. -> The overall scene is dark and not very inviting.

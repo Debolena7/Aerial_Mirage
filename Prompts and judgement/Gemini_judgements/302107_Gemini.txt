@@ -1,0 +1,14 @@
+Gemini pro Response:
+**Hallucination score:** 1
+
+**Mistakes:**
+
+* The candidate description mentions "a player standing behind the batter", but there is no such person in the image.
+* The candidate description mentions "a few more players scattered around the field", but there are no other players visible in the image.
+* The candidate description mentions "A baseball glove can be seen on the ground", but the baseball glove is actually in the batter's hand.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The description is mostly accurate, but there are a few mistakes. The batter is not wearing a black shirt and white pants, he is wearing a black and yellow shirt and white pants. There is only one other player visible in the image, not several. The baseball glove is not on the ground, it is in the hand of the catcher.

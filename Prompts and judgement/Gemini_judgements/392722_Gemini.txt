@@ -1,0 +1,19 @@
+Gemini pro Response:
+Score: 1
+
+The candidate description is mostly accurate and consistent with the reference captions and bounding boxes. However, there are a few minor mistakes:
+
+- The description mentions that there is a man standing near the bus, but there is no person bbox near the bus.
+- The description mentions that there are several other people in the scene, but the candidate only annotates 6 people. 
+- The description mentions that there are several cars parked or driving along the street, but the candidate only annotates 5 cars. 
+- The description mentions that there are a few bicycles can also be seen in the area, but the candidate doesn't annotate any bicycles.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ The score is 1. 
+
+There are some minor hallucinations in the "Candidate description". 
+- The description hallucinates the color of the bus. The bus is green in the image, but the description hallucinates it as "red". 
+- The description hallucinates the number of people. There are only 5 people in the image, but the description hallucinates that there are "several other people". 
+- The description hallucinates the existence of a truck. There is no truck in the image, but the description hallucinates that there is "a truck".

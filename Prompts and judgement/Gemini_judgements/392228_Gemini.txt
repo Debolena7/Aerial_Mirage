@@ -1,0 +1,12 @@
+Gemini pro Response:
+Score: 9
+
+The candidate description hallucinates the following:
+- A weather vane on top of the tower.
+- A cloudy sky in the background.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 8
+The clock tower is not very pointy. There is no sky in the image. The clock is not positioned towards the center of the tower. The weather vane is not pointing towards the right side of the tower.

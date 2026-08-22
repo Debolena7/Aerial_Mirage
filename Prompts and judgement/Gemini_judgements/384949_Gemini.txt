@@ -1,0 +1,11 @@
+Gemini pro Response:
+8
+The description mentions "at least nine birds visible in the scene," while there are six birds in the reference captions. The description also mentions "two boats on the water," while there is only one boat in the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The hallucination is minor. The candidate description hallucinates the following:
+- There are at least nine birds visible in the scene. (There are only 8 birds.)
+- one boat near the left side of the image and the other towards the right side. (There are two boats on the right side of the image.)

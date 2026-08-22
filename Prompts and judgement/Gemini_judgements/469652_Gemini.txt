@@ -1,0 +1,18 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate, but it contains minor hallucinations.
+
+1. It correctly mentions that the giraffe is standing in a fenced-in area and has its head close to the camera.
+2. However, it incorrectly states that the giraffe is looking down and appears to be eating something off the ground. In the image, the giraffe's head is facing the camera, and its mouth is closed.
+3. It also correctly mentions the giraffe's long neck, but it incorrectly states that the fence is made of wood. In the image, the fence is made of bamboo.
+4. Finally, it correctly captures the giraffe's unique features, such as its spotted pattern and long neck.
+
+Overall, the candidate description is mostly accurate, but it contains some minor hallucinations regarding the giraffe's posture, the fence, and its actions. These hallucinations are not significant and do not detract from the overall accuracy of the description.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 9
+
+The candidate description is mostly accurate, but there are a few hallucinations. First, the description says that the giraffe is standing in a fenced-in area, but the image shows that the giraffe is standing in front of a wooden wall. Second, the description says that the giraffe is looking down and appears to be eating something off the ground, but the image shows that the giraffe is looking to the side. Third, the description says that the giraffe's long neck is prominently visible as it reaches down to the ground, but the image shows that the giraffe's neck is not visible.

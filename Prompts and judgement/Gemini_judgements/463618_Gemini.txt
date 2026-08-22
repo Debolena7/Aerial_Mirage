@@ -1,0 +1,14 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate, but there are a few minor hallucinations:
+
+1. The candidate description mentions that the woman is sitting on the floor, but in the image, she is sitting on a couch.
+2. The candidate description mentions that there is a remote control on the floor near the woman and the baby, but there is no remote control in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+
+The hallucination is minor. The woman is not sitting on the floor, the baby is not wearing a diaper, and there is no remote control on the floor.

@@ -1,0 +1,17 @@
+Gemini pro Response:
+Score: 9
+
+- The candidate description mentions a "handbag placed on the ground near the man", but there is no handbag object in the image.
+- The candidate description says that the man is "standing on a bridge", but the image only shows a small portion of a bridge, and the man is actually standing on a sidewalk.
+- The candidate description mentions a "truck" in the background, but there is no truck visible in the image.
+- The candidate description says that there is "another person further away" from the man, but there is only one other person visible in the image, and they are standing close to the man.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+
+The candidate description hallucinates the following:
+- There are several cars and a truck visible in the background.
+- There are also a few other people in the scene.
+- There is a handbag placed on the ground near the man.

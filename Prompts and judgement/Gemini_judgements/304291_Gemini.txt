@@ -1,0 +1,19 @@
+Gemini pro Response:
+Score: 6
+
+The candidate description presents some hallucinations:
+- "The image features a brown horse walking through a fenced-in area, likely a corral or a pen"
+ - The reference captions do not mention a fence. Thus, the hallucination score is increased by 2.
+- "The fenced-in area is filled with a variety of objects, including a pile of tarp, a blue tarp, and a pile of hay"
+ - The reference captions do not mention tarp or hay. Thus, the hallucination score is increased by 3.
+- "The horse is the main focus of the scene, standing out against the backdrop of the fenced-in area and its contents"
+ - The reference captions do not emphasize the horse as the main focus. Thus, the hallucination score is increased by 1.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The hallucination is mild. The candidate description hallucinates the following:
+1. tarp and hay in the fenced-in area
+2. the horse is walking toward the camera
+3. the horse is the main focus of the scene

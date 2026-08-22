@@ -1,0 +1,18 @@
+Gemini pro Response:
+Score: 4
+
+The candidate description hallucinates the following details that are not present in the image:
+
+1. It mentions "several houses" along the street, but there is only one house visible in the image.
+2. It states that there are "two trucks" in the scene, but there is only one truck visible, and it is not close to the stop sign.
+3. It describes the atmosphere of the image as "calm and peaceful," while the presence of the stop sign and fire hydrant suggests that it is a busy intersection.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+There are several hallucinations in the "Candidate description". 
+1. It mentions "a grassy area" near the stop sign, but there is no grassy area near the stop sign in the image. 
+2. It mentions "several houses" along the street, but there are only three houses shown in the image. 
+3. It mentions "two trucks visible in the scene", but there is only one truck shown in the image. 
+4. It mentions "another truck parked closer to the stop sign", but there is no truck parked closer to the stop sign in the image.

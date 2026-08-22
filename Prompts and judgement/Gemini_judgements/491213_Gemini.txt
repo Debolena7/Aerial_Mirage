@@ -1,0 +1,16 @@
+Gemini pro Response:
+Score: 2/10
+
+The candidate description is mostly accurate, but it contains a few factual errors and hallucinated details:
+
+1. The candidate description mentions that the motorcycle is parked next to a blue classic car. However, the ground truth bounding boxes and reference captions indicate that the car is grey, not blue.
+2. The candidate description mentions there are two people in the image, one standing near the motorcycle and the other closer to the blue car. However, there is only one person visible in the image, which is near the motorcycle.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The candidate description hallucinates the following:
+- There are two people in the image.
+- One person is standing near the motorcycle and the other closer to the blue car.
+- There are a few other cars in the background, with one on the left side of the scene and another on the right side.

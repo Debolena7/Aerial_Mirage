@@ -1,0 +1,10 @@
+Gemini pro Response:
+Score: 1
+
+Mistake: The description does not mention the relative positions or exact positions of the objects. The street sign is not specifically located above the traffic light, but rather to its left. This information can be extracted from the reference captions and should be included to provide a more accurate description.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+There are no major hallucinations in the "Candidate description". However, it is worth noting that the street sign is not positioned above the traffic light, but rather to its right.

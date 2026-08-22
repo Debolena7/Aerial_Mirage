@@ -1,0 +1,13 @@
+Gemini pro Response:
+Score: 2
+
+The description has no hallucinations. It accurately describes the people and objects in the image, and their actions and relationships.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The candidate description hallucinates the following:
+1. There are several other people in the scene, some of whom are also standing on the trolley car.
+2. One person is standing near the front of the trolley car, while others are scattered throughout the scene.
+3. The trolley car itself occupies a significant portion of the image, extending from the left side to the right side of the frame.

@@ -1,0 +1,16 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate but contains a few minor inaccuracies.
+
+1. The description mentions that there are at least 12 zebras visible in the scene. However, there are only 10 zebras visible in the image.
+2. The description mentions that the zebras are standing in a grassy field. However, the ground is not visible beneath the zebras, so it is hard to determine what type of terrain they are standing on.
+3. The description mentions that the zebras are facing various directions. However, all of the zebras are facing the same direction, which is towards the right of the image.
+
+These inaccuracies are minor and do not significantly alter the overall meaning of the description. However, they do indicate that the description is not entirely accurate.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+There are no hallucinations in the "Candidate description". However, the description is a bit too generic and does not capture the full details of the image. For example, the description does not mention the presence of other animals in the image, such as the wildebeests. Additionally, the description does not mention the direction in which the zebras are facing.

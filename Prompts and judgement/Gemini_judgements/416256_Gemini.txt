@@ -1,0 +1,20 @@
+Gemini pro Response:
+Score: 7
+
+The candidate description hallucinated the following aspects: 
+
+1. **Objects**: The candidate description mentioned a TV and a laptop, but there is no TV or laptop in the image. 
+2. **Relations**: The candidate description stated that the cat's head is resting on the keyboard, but in the image, the cat's head is not touching the keyboard.
+3. **Positions**: The candidate description said the laptop is situated on the left side of the room, but in the image, there is no laptop.
+4. **Counts**: The candidate description mentioned there is a book placed on the floor, but there is no book in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 4
+There are several hallucinations in the "Candidate description". 
+1. The keyboard is not placed on the floor, but on a table or other elevated surface.
+2. The cat's head is not resting on the keyboard.
+3. There is no TV mounted on the wall in the background.
+4. There is no laptop on the left side of the room.
+5. There is no book on the floor close to the cat and the keyboard.

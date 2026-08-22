@@ -1,0 +1,24 @@
+Gemini pro Response:
+Score: 9
+
+Mistakes:
+- There is only one person riding a bike and it's a woman, not a man and a woman.
+- The woman is not sitting on the back of the bike, she is sitting on the front.
+- There is no mention of the umbrella in the image in the candidate description.
+- The candidate description mentions that there are several handbags visible in the scene, but there are only two handbags in the image.
+- The candidate description mentions that there are a couple of traffic lights in the background, but there is only one traffic light in the image.
+- The candidate description mentions that the scene is bustling and lively, but the image shows a relatively calm and quiet street.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+
+The image captures a busy city street with a man and a woman riding a bicycle together. (Correct)
+The woman is sitting on the back of the bike, and they are both wearing suits. (Correct)
+They are surrounded by various people walking and standing on the sidewalk, as well as a few cars parked or driving along the street. (Correct)
+There are several handbags visible in the scene, with one near the center of the image and another closer to the right side. (Correct)
+A couple of traffic lights can be seen in the background, indicating a controlled intersection. (Correct)
+The overall atmosphere of the scene is bustling and lively, with people going about their daily activities. (Correct)
+
+No hallucination.

@@ -1,0 +1,21 @@
+Gemini pro Response:
+3/10
+
+The hallucination degree is moderate. 
+
+The hallucination is that the candidate description includes: 
+
+- "there are two other people in the scene" 
+- "The stage itself has a red light illuminating the area" 
+
+The ground truth does not include any information about the number of people in the scene or the color of stage lights.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The candidate description hallucinates the following:
+1. There are three people in the image.
+2. The stage has a red light illuminating the area.
+3. The man is singing into a microphone.
+4. There are spotlights on the stage.

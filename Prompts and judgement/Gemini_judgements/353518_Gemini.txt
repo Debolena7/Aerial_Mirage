@@ -1,0 +1,16 @@
+Gemini pro Response:
+**Score**: 2
+
+The candidate description is mostly accurate, but it introduces a few minor hallucinations that are not present in the reference captions or the provided bounding boxes:
+
+1. **Motorboats**: The candidate description mentions "motorboats," but none of the reference captions or bounding boxes indicate the presence of motorboats. 
+2. **Rental boats**: The candidate description speculates that the beach is a place where people can rent boats, but this information is not provided in the reference captions or bounding boxes.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The "Candidate description" hallucinates the following:
+1. The boat types: the reference captions do not mention the boat types, but the "Candidate description" hallucinates that there are canoes and motorboats.
+2. The number of people: the reference captions do not mention the number of people, but the "Candidate description" hallucinates that there are two people.
+3. The purpose of the place: the reference captions do not mention the purpose of the place, but the "Candidate description" hallucinates that it is a popular spot for boating activities or a place where people can rent boats for recreational purposes.

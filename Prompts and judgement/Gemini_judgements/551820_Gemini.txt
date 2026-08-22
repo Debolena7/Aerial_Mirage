@@ -1,0 +1,22 @@
+Gemini pro Response:
+Score: 7/10
+
+The "Candidate description" is generally accurate in describing the scene depicted in the image. It correctly identifies that the image shows a group of people playing tennis on a court. However, there are some mistakes in the description that indicate hallucinations:
+
+1. "There are several individuals actively engaged in the game, with one man in the center of the court holding a tennis racket, ready to hit the sports ball that is in the air." The image does not show any sports ball in the air.
+
+
+2. "Other players are scattered around the court, some closer to the net and others further away." The image shows only one person near the net and everyone else is behind the net.
+
+
+3. "In addition to the players, there are a few chairs placed around the court, likely for spectators or resting players." The image does not contain any chairs.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The candidate description hallucinates the following:
+1. The number of people playing tennis. (There are 17 people playing tennis in the image, while the candidate description states that there are several people.)
+2. The location of the tennis court. (The image shows that the tennis court is located in a school gymnasium, while the candidate description states that it is located on a court.)
+3. The gender of the tennis players. (The image shows that there are both men and women playing tennis, while the candidate description states that there are only men playing tennis.)
+4. The presence of chairs around the court. (The image shows that there are no chairs around the court, while the candidate description states that there are a few chairs placed around the court.)

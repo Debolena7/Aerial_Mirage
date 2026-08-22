@@ -1,0 +1,9 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly consistent with the reference captions. It accurately describes the presence of a bus parked on a street, with a hotel building visible in the background. The error is mentioning that the bus is likely a tour bus parked in front of the hotel for passengers or taking a break. There is no evidence in the image or the ground truth to support these claims. Overall, the description is accurate, but the additional details about the bus being a tour bus and the reason for parking are hallucinations.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ The "Candidate description" is mostly accurate, but there are a few minor hallucinations. The bus is not parked on a street, it is parked in a parking lot. There is no other vehicle visible in the image, but the "Candidate description" hallucinates that the bus is parked on a street with no other vehicles visible. The "Candidate description" also hallucinates that the bus is a tour bus. There is nothing in the image to indicate that the bus is a tour bus. There are some minor hallucinations in the "Candidate description", but overall it is mostly accurate. I would give it a score of 2 out of 10.

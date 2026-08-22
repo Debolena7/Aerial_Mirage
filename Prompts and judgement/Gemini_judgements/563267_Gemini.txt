@@ -1,0 +1,21 @@
+Gemini pro Response:
+Score: 9
+
+The candidate description hallucinates the following objects and actions:
+
+- "playing a video game on a Nintendo Wii console" - there is no evidence of a video game console in the image.
+- "They are both holding Wii remotes" - there is only one remote visible in the image.
+- "There is a dining table in the background" - the dining table is in the foreground.
+- "A chair can also be seen in the room, positioned near the dining table" - there is no chair visible in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 4
+The candidate description hallucinates the following:
+1. There is no TV on the left side of the image.
+2. The men are not playing a video game on a Nintendo Wii console.
+3. They are not holding Wii remotes.
+4. There is no dining table in the background.
+5. There is no bottle placed on the table.
+6. There is no chair in the room.

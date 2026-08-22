@@ -1,0 +1,13 @@
+Gemini pro Response:
+0. The description is mostly reasonable with respect to the image content, with no significant hallucinations.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The candidate description hallucinates the following:
+1. The surfer is wearing a white shirt and blue shorts.
+2. The surfer is positioned in the middle of the wave.
+3. The surfer is skillfully riding a wave on a surfboard in the ocean.
+4. The surfer is fully immersed in the action.

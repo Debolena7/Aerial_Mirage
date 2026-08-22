@@ -1,0 +1,18 @@
+Gemini pro Response:
+Score: 7
+
+The candidate description is mostly accurate, but there are some minor hallucinations:
+
+1. The candidate description mentions a "red pillow on top of it", but there is no pillow on top of the bed in the image.
+2. The candidate description mentions a "headboard", but there is no headboard in the image.
+3. The candidate description mentions a "nightstand on the left side of the room", but there is no nightstand in the image.
+4. The candidate description mentions a "clock on the wall above it", but there is no clock on the wall in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+There are a few hallucinations in the "Candidate description". 
+1. The nightstand is on the right side of the bed, not the left side. 
+2. There is no mention of the second red pillow and the telephone on the nightstand. 
+3. The blanket is red, not white.

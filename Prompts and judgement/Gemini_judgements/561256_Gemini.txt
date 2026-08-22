@@ -1,0 +1,20 @@
+Gemini pro Response:
+Score: 1
+
+The candidate description is mostly accurate and consistent with the reference captions and bounding boxes. However, there are some minor additional details mentioned that are not present in the image, such as:
+- "She is wearing glasses" - The woman in the image is not wearing glasses.
+- "The bathroom has a toilet" - A toilet is not visible in the image.
+- "with a bottle placed nearby" - There is no bottle visible in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The candidate description hallucinates the following:
+1. There are two sinks in the bathroom, but the reference captions and bounding boxes only mention one sink.
+2. There is a toilet in the bathroom, but it is not mentioned in the reference captions or bounding boxes.
+3. The woman is wearing a hat, but it is not mentioned in the reference captions or bounding boxes.
+4. The woman is wearing glasses, but it is not mentioned in the reference captions or bounding boxes.
+5. The woman is holding a camera in her hand, but it is not mentioned in the reference captions or bounding boxes.
+6. The woman is taking a selfie, but it is not mentioned in the reference captions or bounding boxes.
+7. The woman is capturing a moment of herself in the bathroom, possibly to share with friends or on social media, but it is not mentioned in the reference captions or bounding boxes.

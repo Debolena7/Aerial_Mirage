@@ -1,0 +1,14 @@
+Gemini pro Response:
+Score: 3
+
+The "Candidate description" contains some hallucinated details:
+
+1. The kite is described as "soaring above the person, creating a sense of freedom and enjoyment". However, the kite is actually shown in the image as being quite low in the sky, close to the person. While the person flying the kite might be enjoying the activity, this is not explicit in the image.
+
+2. The beach is described as "vast and empty, with no other people visible in the scene". However, there is visible water in the background, which indicates that the scene is likely close to the ocean or a lake. This is not mentioned in the "Candidate description".
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The hallucination is minor. The "Candidate description" hallucinates that "The person appears to be the main focus of the image, as they skillfully control the kite in the open space" and "The beach is vast and empty, with no other people visible in the scene". In fact, the person is not the main focus of the image. There are some water puddles on the beach.

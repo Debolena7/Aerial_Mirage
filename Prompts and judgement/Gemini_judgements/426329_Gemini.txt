@@ -1,0 +1,16 @@
+Gemini pro Response:
+**Score:** 6
+
+**Mistakes:**
+
+* The candidate description mentions "at least 13 different cakes", which is incorrect as there are only 12 cakes in the image.
+* The description mentions "background" and "a television mounted on the wall", which is incorrect as there is no background visible in the image, only a glass display case.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+There are several hallucinations in the "Candidate description". 
+1. The "Candidate description" states that "there are at least 13 different cakes". However, there are only 12 cakes visible in the image. 
+2. The "Candidate description" states that "the cakes are arranged in a visually appealing manner, with some cakes placed closer to the front and others further back in the display case". However, all the cakes are arranged in a straight line in the image. 
+3. The "Candidate description" states that "in the background, a television is mounted on the wall". However, there is no television visible in the image.

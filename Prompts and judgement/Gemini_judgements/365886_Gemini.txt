@@ -1,0 +1,18 @@
+Gemini pro Response:
+Score: 2
+
+Mistakes:
+
+1. The candidate description mentions "face paint or makeup job" while there is no clear evidence of it in the provided information.
+2. The candidate description mentions "smiling" while this kind of information is not present in the given information.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The candidate description hallucinates the following:
+1. The woman has a unique appearance, possibly due to a face paint or makeup job.
+2. The woman is smiling.
+3. The woman is showing off her cell phone to the camera.
+4. The woman is the main focus of the scene.
+5. The cell phone is positioned towards the left side of the image.

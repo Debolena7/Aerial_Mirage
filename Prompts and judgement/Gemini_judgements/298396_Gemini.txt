@@ -1,0 +1,15 @@
+Gemini pro Response:
+Score: 4
+
+The candidate description includes several hallucinations:
+
+1. It mentions a yellow table, but the table in the image is brown.
+2. It mentions a spoon, but there is no spoon in the image.
+3. It mentions multiple bowls placed on the countertops, but there are only two bowls in the image.
+4. It mentions a window providing natural light, but there is no window in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The description is mostly accurate, but there are a few mistakes. The table is not yellow, it is brown. There is no cup on the table. There is no spoon in the kitchen. There is no window in the kitchen.

@@ -1,0 +1,21 @@
+Gemini pro Response:
+Score: 7
+
+Mistakes:
+
+1. The candidate description mentions "two other stop signs in the scene", while there are only 2 stop signs in the ground truth.
+2. The candidate description mentions "two fire hydrants in the scene", while there are no fire hydrants in the ground truth.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The candidate description hallucinates the following:
+- "The image features a stop sign with graffiti on it, placed on a street corner." 
+  - There is no graffiti on the stop sign.
+- "The stop sign is positioned next to a pole, and there are two other stop signs in the scene, one located further down the road and another one closer to the foreground."
+  - There is only one stop sign in the scene.
+- "In addition to the stop signs, there are two fire hydrants in the scene, one near the middle of the image and the other closer to the right side."
+  - There are no fire hydrants in the scene.
+- "The area appears to be a mix of a road and a grassy area, with a fence visible in the background."
+  - The area is a forest road.

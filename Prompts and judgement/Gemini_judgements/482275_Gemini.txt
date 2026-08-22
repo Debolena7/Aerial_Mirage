@@ -1,0 +1,20 @@
+Gemini pro Response:
+Hallucination Score: 5
+
+The candidate description hallucinates several details that are not present in the image:
+
+1. "They are standing close to each other" - The man and woman are not standing very close to each other.
+2. "both holding a knife to cut the cake" - Only the man is holding a knife, and it is not apparent if he is cutting the cake.
+3. "The cake is placed on a dining table in the background, surrounded by several cupcakes" - The cake is not on a table and there are no cupcakes visible in the image.
+4. "There are other people in the scene, with one person standing to the right of the couple and another person on the left side" - There is only one other person present in the image, standing to the right of the couple.
+5. "A wine glass is also visible on the table, adding to the celebratory atmosphere" - There is no wine glass on the table.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The image shows a couple cutting a cake outdoors, surrounded by trees. The candidate description hallucinates the following:
+- There are other people in the scene.
+- There is a dining table in the background.
+- There are several cupcakes on the table.
+- There is a wine glass on the table.

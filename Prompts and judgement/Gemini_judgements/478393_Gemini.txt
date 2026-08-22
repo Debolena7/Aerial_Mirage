@@ -1,0 +1,17 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description provides a generally accurate depiction of the image. However, there are a few minor mistakes:
+
+1. The candidate description states that there is a "white teddy bear sitting next to two cats". However, the bounding boxes indicate that the teddy bear is lying down on the bed, not sitting.
+2. The candidate description states that "one of the cats is resting on the left side of the bed, while the other cat is sleeping on the right side". However, the bounding boxes indicate that both cats are lying down on the bed, not resting or sleeping.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The candidate description hallucinates the following:
+- The bed has a white sheet and a pink blanket.
+- One of the cats is resting on the left side of the bed, while the other cat is sleeping on the right side.
+- The teddy bear is positioned in the middle of the bed.

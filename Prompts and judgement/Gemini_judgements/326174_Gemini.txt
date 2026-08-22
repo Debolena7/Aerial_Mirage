@@ -1,0 +1,18 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate but there are a few minor mistakes:
+
+1. The description mentions that there are at least five people visible in the scene, but the ground truth annotations indicate that there are four people.
+2. The description mentions that some of the surfboards are placed on the sand, but the ground truth annotations indicate that all of the surfboards are being carried by the people.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The "Candidate description" hallucinates the following:
+1. There are at least five people visible in the scene. (There are seven people.)
+2. Some of them are walking closer to the water's edge, while others are further back on the beach. (All of them are close to the water's edge.)
+3. There are a total of four surfboards in the scene. (There are five surfboards.)
+4. Some of them are being carried by the people and others placed on the sand. (All of them are being carried by the people.)
+5. The surfboards vary in size and design, indicating that they may belong to different individuals within the group. (They are all the same size and design.)

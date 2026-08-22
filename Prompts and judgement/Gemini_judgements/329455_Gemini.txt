@@ -1,0 +1,22 @@
+Gemini pro Response:
+Score: 4
+
+The "Candidate description" has several hallucinations:
+
+- "The pizza is cut into slices and ready to be served." -> The pizza is not cut into slices.
+- "There are several cups and a knife on the table, indicating that the pizza is being enjoyed by people." -> There is no knife on the table.
+- "One person is standing near the left side of the table" -> There is no person standing near the left side of the table.
+- "While the other person is positioned closer to the right side" -> There is only one person in the image.
+- "A chair is also visible in the background, suggesting that more people might join the meal." -> The chair is not in the background.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The description hallucinates the following:
+1. There are two people in the image.
+2. One person is standing near the left side of the table, while the other person is positioned closer to the right side.
+3. A chair is also visible in the background.
+4. There are several cups and a knife on the table.
+5. The pizza is cut into slices and ready to be served.

@@ -1,0 +1,10 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate, but it includes a few minor hallucinated details. Specifically, it mentions that the person is "holding the book, possibly trying to read or admire the bird's presence." This detail is not supported by the reference captions or the bounding boxes, which only show the person holding the book and do not provide any indication of their intentions.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The hallucination is minor. The "Candidate description" hallucinates that there is a person holding the book. But in the reference captions, there is no mention of a person.

@@ -1,0 +1,14 @@
+Gemini pro Response:
+Score: 5
+
+The candidate description hallucinated the following:
+1. It mentioned that the giraffes are standing in the dirt, while in the image, the ground is grass.
+2. It mentioned that one giraffe is positioned more towards the center of the enclosure, which is not true. Both giraffes are positioned towards the left side of the enclosure.
+3. It mentioned that people are standing at various distances from the giraffes, while in the image, people are standing relatively close to each other.
+4. It mentioned that the people are standing at various distances from the fence, while in the image, they are standing close to the fence.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+There are no hallucinations in the "Candidate description". However, the description lacks details about the background of the image, such as the trees and the palm trees, and the people's clothing.

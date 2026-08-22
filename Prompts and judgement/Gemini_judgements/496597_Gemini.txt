@@ -1,0 +1,20 @@
+Gemini pro Response:
+Score: 3
+
+The following mistakes are present in the "Candidate description":
+
+1. The description mentions the presence of a man and a woman, but the image contains two people of unspecified gender.
+2. The description mentions the presence of a small motorboat, but the image contains a small boat that is not motorized.
+3. The description mentions the presence of clouds, but the sky is clear.
+4. The description mentions the presence of mountains in the background, but they are only partially visible behind the clouds.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 5
+The "Candidate description" hallucinates the following:
+- The boat is a small motorboat.
+- There is a man and a woman in the boat.
+- The couple is enjoying their time together.
+- The sky is filled with clouds.
+- The mountains are in the background.

@@ -1,0 +1,18 @@
+Gemini pro Response:
+Score: 3
+
+The candidate description is mostly accurate, but it includes a few hallucinations:
+
+1. The candidate description mentions that the photo is in black and white, but the image is in color.
+2. The candidate description describes the children as siblings, but there is no information in the reference captions or bounding boxes to support this claim.
+3. The candidate description states that the boy is holding a teddy bear, but the bounding boxes indicate that the boy is holding a person.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The candidate description hallucinates the following:
+1. The image is a black and white photograph.
+2. The boy is holding a teddy bear.
+3. Both children are smiling and enjoying their time together.
+4. The scene captures a moment of happiness and companionship between the two siblings.

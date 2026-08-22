@@ -1,0 +1,17 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate, but it does contain some minor hallucinations.
+
+1. The person in the image is not wearing a red and white flag behind him. 
+2. The person in the image is not wearing a suit and tie.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 5
+The image shows a man giving a speech in front of a red and white flag. The man is wearing a suit and tie, and he is gesturing with his hands as he speaks. There is a microphone in front of him. The flag has a hammer and sickle on it, which indicates that it is the flag of the Soviet Union. The candidate description hallucinated the following:
+1. There is a large red and white flag behind the man.
+2. The flag adds a sense of importance to the scene.
+3. The man appears to be the main focus of the image.
+4. His presence and posture convey a sense of authority and leadership.

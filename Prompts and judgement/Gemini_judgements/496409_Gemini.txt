@@ -1,0 +1,14 @@
+Gemini pro Response:
+Score: 2
+
+The hallucination is minimal, it only provides extra details about the skier's clothing and attributes to the landscape and atmosphere.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The "Candidate description" is mostly accurate, but there are a few minor hallucinations.
+
+1. The "Candidate description" states that the skier is the only visible person in the scene, but there are actually two other skiers visible in the image.
+2. The "Candidate description" states that the skier is wearing a yellow jacket, but the skier is actually wearing a white jacket.

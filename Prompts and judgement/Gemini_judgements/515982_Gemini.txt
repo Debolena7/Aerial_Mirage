@@ -1,0 +1,19 @@
+Gemini pro Response:
+**7/10**
+
+The candidate description is mostly accurate, but it contains a few hallucinations.
+
+1. The candidate description mentions that "a player sliding into a base while another player tries to catch the ball". However, in the image, the player is sliding into home plate, not a base.
+
+2. The candidate description mentions that "the player sliding is wearing a red shirt". However, in the image, the player is wearing a white shirt.
+
+3. The candidate description mentions that "the player attempting to catch the ball is wearing a baseball glove". However, in the image, the player attempting to catch the ball is wearing a catcher's mitt.
+
+4. The candidate description mentions that "there are several other people in the scene". However, in the image, there are only two other people in the scene.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The "Candidate description" is mostly accurate, but there are a few minor mistakes. It mentions that "The player sliding is wearing a red shirt", but the player is actually wearing a maroon shirt. Also, it is not clear whether the player trying to catch the ball is wearing a baseball glove or a catcher's mitt.

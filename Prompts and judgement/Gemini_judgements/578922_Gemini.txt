@@ -1,0 +1,24 @@
+Gemini pro Response:
+Score: 2
+
+The mistakes in the "Candidate description" are:
+1. The candidate description mentions that the vase is sitting on a table, but the reference captions and bounding boxes do not mention a table.
+2. The candidate description mentions that the vase is next to a mirror, but the reference captions and bounding boxes do not mention a mirror.
+3. The candidate description mentions that the toothbrush is positioned towards the right side of the table, but the bounding box shows that it is positioned in the upper-right section.
+
+Overall, the candidate description provides a generally accurate description of the image, but the inclusion of hallucinated elements results in a score of 2 out of 10 for the degree of hallucination.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The image contains a vase of red flowers, a toothbrush, a cup, and a bottle. The vase is sitting on a table. There is a mirror behind the vase. The flowers are roses and gerbera daisies. The table is made of white marble. The walls are painted red. The floor is tiled with white tiles.
+
+The "Candidate description" hallucinates the following:
+
+1. The flowers are sitting on a table.
+2. There is a mirror behind the vase.
+3. The flowers are roses and gerbera daisies.
+4. The table is made of white marble.
+5. The walls are painted red.
+6. The floor is tiled with white tiles.

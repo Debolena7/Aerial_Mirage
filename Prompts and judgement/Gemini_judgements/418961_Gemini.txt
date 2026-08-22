@@ -1,0 +1,15 @@
+Gemini pro Response:
+Score: **2**
+
+The candidate description is mostly accurate, but there are a few minor hallucinations:
+
+- The candidate description mentions "two windows visible, one on the left side and another on the right side of the clock". However, there are no windows visible in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The clock is not placed on a wooden structure.
+There are no windows visible in the background.
+The clock does not have a golden face.
+The clock is not ornate.

@@ -1,0 +1,16 @@
+Gemini pro Response:
+Score: **0**
+
+The candidate description is consistent with the ground truth annotations. There is no hallucination in the candidate description.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+
+The candidate description hallucinates the following:
+- The bus is white with green and red accents. (The bus is actually white and green.)
+- The bus is stopped at a bus stop. (The bus is actually stopped at the side of the road.)
+- There are several people in the vicinity of the bus. (There are actually no people in the image.)
+- There are two bicycles in the scene. (There is actually only one bicycle in the image.)
+- A car can also be seen in the background. (There are actually two cars in the background.)

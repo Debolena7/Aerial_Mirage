@@ -1,0 +1,11 @@
+Gemini pro Response:
+Score: 5
+
+The candidate description provides a hallucinated description of a person standing near the center of the parking lot. This person is not present in the image; therefore, the hallucination score is 5.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 5
+
+The "Candidate description" is mostly accurate, but there are a few mistakes. First, the description mentions that there is a "tree" in the background, but there is actually no tree in the image. Second, the description mentions that there are "several cars parked in the lot", but there are actually only two cars in the image. Third, the description mentions that there is a "person standing near the center of the parking lot", but there is actually no person in the image.

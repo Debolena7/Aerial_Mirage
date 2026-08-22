@@ -1,0 +1,16 @@
+Gemini pro Response:
+The score for the "Candidate description" is 2.
+
+The description captures most of the main objects and their positions correctly. However, there are a few minor mistakes:
+
+- The description mentions a "tall building" in the scene, but there is no building in the image.
+- The description mentions two cars, but there are three cars in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The "Candidate description" hallucinates the following:
+- "There are several traffic lights along the street, with one on the left side of the bus, another on the right side, and two more further down the road."
+- "Additionally, there are two cars visible in the scene, one behind the bus on the left side and another further ahead on the right side."

@@ -1,0 +1,13 @@
+Gemini pro Response:
+Score: 4
+
+The candidate description introduces several objects that are not present in the image, such as a bottle and a toy. Additionally, it incorrectly describes the dog as standing, when in the image it is sitting.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+There are a few mistakes in the "Candidate description". 
+1. The dog is not standing, it is sitting. 
+2. There are not two buckets in the background, there are three. 
+3. There is no bottle or toy in the scene.

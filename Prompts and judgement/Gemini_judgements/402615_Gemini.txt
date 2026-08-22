@@ -1,0 +1,13 @@
+Gemini pro Response:
+Score: 0
+
+The candidate description aligns well with the reference captions and is fully supported by the provided bounding boxes, therefore no hallucinations are present.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The description hallucinates the following:
+1. The number of players.
+2. The positions of the players.
+3. The spectators.

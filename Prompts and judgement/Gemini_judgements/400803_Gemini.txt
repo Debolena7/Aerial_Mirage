@@ -1,0 +1,13 @@
+Gemini pro Response:
+Score: 5
+
+The candidate description hallucinates the following:
+
+1. The presence of two dogs on the boat, which is not mentioned in the reference captions or supported by the provided bounding boxes.
+2. The description includes a detail that the boat might be a lifeboat, which is not explicitly mentioned in the reference captions or supported by the provided bounding boxes.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The image shows a rescue boat on the sea. There are three people on the boat. Two of them are wearing orange life jackets and the third one is wearing a blue life jacket. The boat is being lowered from a larger ship. There are no dogs on the boat.

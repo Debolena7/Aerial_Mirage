@@ -1,0 +1,20 @@
+Gemini pro Response:
+Score: 5
+
+The candidate description hallucinates the following:
+
+- "He is positioned near a microwave, which is located on the left side of the scene." -> There is no microwave in the image.
+- "There are several bowls placed around the kitchen, with one on the countertop to the right of the man, another on the left side, and a third one further back." -> There are only two bowls in the image, and they are both located on the left side of the man.
+- "Additionally, there are two cups in the scene, one near the center and the other on the right side of the kitchen." -> There are no cups in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The candidate description hallucinates the following:
+1. There are 3 bowls mentioned in the candidate description, but there are only 2 bowls in the image.
+2. The candidate description hallucinates that the man is wearing a red shirt, but the man is wearing a purple shirt.
+3. The candidate description hallucinates that there are two cups in the image, but there are no cups in the image.
+4. The candidate description hallucinates that the man is smiling, but the man is not smiling.
+5. The candidate description hallucinates that the man is standing near a microwave, but the man is not standing near a microwave.
+6. The candidate description hallucinates that there are several bowls placed around the kitchen, but there are only two bowls in the image.

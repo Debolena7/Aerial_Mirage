@@ -1,0 +1,13 @@
+Gemini pro Response:
+Score: 2
+
+The "Candidate description" is mostly accurate and consistent with the ground truth annotations. However, it incorrectly mentions that the man is "taking a break or possibly resting after playing a game of tennis." This is not evident from the image or the reference captions, and it is unclear how the annotator inferred this.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The candidate description is mostly accurate, but there are a few minor hallucinations.
+1. The man is not "taking a break or possibly resting after playing a game of tennis". He is lying on his back, but he does not appear to be tired or relaxed. His eyes are open, and he is looking directly at the camera.
+2. The tennis racket is not "positioned close to his body". It is actually quite far away from him, on the other side of the court.
+3. The man is not "spread out across the court, covering a significant portion of the area". He is actually lying in the center of the court, and he is not taking up very much space.

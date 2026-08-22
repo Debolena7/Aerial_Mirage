@@ -1,0 +1,14 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate, but it mentions that there are two smaller buses further down the street, which is not visible in the image. Additionally, it mentions that one man is wearing a suit and tie, which is also not visible in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The "Candidate description" hallucinates the following:
+- There are two smaller buses further down the street.
+- Numerous people can be seen walking along the sidewalk, with one man wearing a suit and tie walking near the right side of the street. Another person is walking closer to the left side of the street, and a few more individuals are scattered throughout the scene.
+- A traffic light is visible on the right side of the street, indicating the flow of traffic in the area.

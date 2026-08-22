@@ -1,0 +1,15 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is slightly inaccurate:
+
+1. The cat is orange, not brown and white.
+2. The cat is not walking across the bed, it is sitting on the bed.
+3. The comforter is not striped, it is plaid.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 4
+
+The hallucination is mainly about the color of the cat, the position of the cat, the direction of the cat's movement, and the cat's action. The cat in the image is orange, but the candidate description hallucinates that the cat is brown and white. The cat in the image is getting off the bed, but the candidate description hallucinates that the cat is walking across the bed. The cat in the image is moving from right to left, but the candidate description hallucinates that the cat is moving from left to right. The cat in the image is getting off the bed, but the candidate description hallucinates that the cat is walking across the bed.

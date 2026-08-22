@@ -1,0 +1,18 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description provides a fairly accurate description of the image, but it makes a few mistakes:
+- It states that there are seven donuts in the image, but there are actually only five donuts.
+- It states that there is a sign on the table, but there is no sign in the image.
+
+Overall, the candidate description is mostly accurate, but it contains a few minor hallucinations.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+There are several hallucinations in the "Candidate description". 
+1. The wooden table is not topped with carrot cake donuts, but rather with a tray and a plate of donuts. 
+2. The donuts are not arranged in a way that makes them easily accessible and visually appealing, but rather they are placed on the tray and plate in a haphazard manner. 
+3. There is no sign on the table, so the claim that there is a sign providing information about the donuts or their flavors is false. 
+4. The overall scene is not cozy and inviting, but rather it is cluttered and unorganized.

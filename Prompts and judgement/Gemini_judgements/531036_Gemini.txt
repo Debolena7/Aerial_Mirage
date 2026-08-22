@@ -1,0 +1,16 @@
+Gemini pro Response:
+Score: 10
+Mistakes:
+- The candidate description mentions that there are two double-decker buses, but the reference captions and the bounding boxes suggest that there is only one double-decker bus.
+- The candidate description incorrectly states that one of the buses is a tour bus and the other is a city bus, but the reference captions and the bounding boxes do not provide information about the type of buses.
+- The candidate description mentions that there are several people in the scene, but the reference captions and the bounding boxes only mention one person.
+- The candidate description mentions that there is a traffic light in the background, but the reference captions and the bounding boxes do not mention this.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+There are a few minor hallucinations in the "Candidate description". 
+1. The candidate description hallucinates that one of the buses is a double-decker tour bus, and the other appears to be a regular city bus. However, both of the buses are the same type.
+2. The candidate description hallucinates that there are several people in the scene, with one person standing close to the tour bus, another person standing near the regular bus, and a few more people scattered around the area. However, there are only two people in the image.
+3. The candidate description hallucinates that there is a traffic light is visible in the background. However, there is no traffic light in the image.

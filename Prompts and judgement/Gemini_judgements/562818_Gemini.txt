@@ -1,0 +1,20 @@
+Gemini pro Response:
+9
+
+Mistakes:
+
+- The candidate description mentions "at least 13 people" in the scene, while the reference caption only mentions a "group of people" without specifying the exact number.
+- The description mentions that the skiers and snowboarders are "enjoying their time on the snow-covered slope," but there is no mention of enjoyment in the reference caption.
+- The description includes information about the "skiers and snowboarders wearing various skiing and snowboarding gear," which is not mentioned in the reference caption.
+- The description provides detailed information about the positions of the skis and snowboards, which is not mentioned in the reference caption.
+- The description includes the phrase "The scene captures the excitement and fun of winter sports on a snowy mountain," which is subjective and not mentioned in the reference caption.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The candidate description hallucinates the following:
+- "with some skiers and snowboarders closer to the center of the scene, while others are scattered around the area." -> there is no snowboarder in the center of the image.
+- "The skis can be seen in different positions, some closer to the people and others further away." -> there is only one pair of skis that is not attached to a person.
+- "The snowboards are also visible, with some attached to the riders and others lying on the snow." -> there is only one snowboard that is not attached to a person.

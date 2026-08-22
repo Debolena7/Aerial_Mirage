@@ -1,0 +1,19 @@
+Gemini pro Response:
+Score: 6
+
+The "Candidate description" hallucinates the following:
+
+- "The pizza is placed on a dining table": There is no dining table in the image.
+- "It appears to be the main focus of the scene": This is subjective and not possible to judge from the image.
+- "The pizza is topped with a generous amount of cheese": This is subjective and not possible to judge from the image.
+- "olives making it a delicious and appetizing meal": This is subjective and not possible to judge from the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The "Candidate description" hallucinates the following:
+1. The pizza is topped with a generous amount of cheese and olives.
+2. The pizza is placed on a dining table.
+3. The pizza appears to be the main focus of the scene.

@@ -1,0 +1,21 @@
+Gemini pro Response:
+Score: 8
+
+The candidate description hallucinates the following:
+
+1. "red peppers" - there are no red peppers in the image.
+2. "cheese" - there is no cheese in the image.
+3. "dining table" - the pizza is not on a dining table, it is on a yellow plate.
+4. "cut into slices" - the pizza is not cut into slices.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The candidate description hallucinates the following:
+1. red peppers
+2. artichoke
+3. spinach
+4. chicken
+5. cheese
+6. pizza is cut into slices

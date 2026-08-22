@@ -1,0 +1,20 @@
+Gemini pro Response:
+Score: 3
+
+The candidate description is mostly accurate, but there are a few minor hallucinations.
+
+1. The candidate description mentions that the truck is a fire truck, but this is not mentioned in the reference captions or visible in the image.
+2. The candidate description mentions that the men are posing for a picture, but this is not mentioned in the reference captions or visible in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+
+The candidate description hallucinates the following:
+1. The truck is a fire truck.
+2. There are four men in the image.
+3. One man is standing on the left side of the truck, one in the middle, and two more on the right side.
+4. The men are posing for a picture.
+5. The men are enjoying their time together.
+6. The men are reminiscing about the past or sharing stories related to the fire truck and their experiences.

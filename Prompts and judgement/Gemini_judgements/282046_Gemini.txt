@@ -1,0 +1,13 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate and consistent with the image content. It correctly identifies the presence of a sandy beach, a blue bench positioned near the water, and an empty beach with no people or other objects. However, there is a slight hallucination in the description:
+
+- The candidate description mentions that the bench is facing the ocean. However, the bench is not facing the ocean in the image; it is facing the beach.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The hallucination is mainly about the scene being peaceful and tranquil, and the presence of a vast and empty beach. In the image, the beach is not vast and empty, and there are some structures on the beach.
