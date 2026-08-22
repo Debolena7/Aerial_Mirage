@@ -36,6 +36,7 @@ Two caption prompts were used for both models:
 
 `test_predict_obj_prompts.py` additionally builds an **object-conditioned prompt** by reading the VisDrone detection annotations, mapping category IDs to class names, and prepending the object list:
 
+Example:
 ```
 The objects present in the image are ['pedestrian', 'car', 'van']. Describe the image briefly.
 ```
@@ -65,7 +66,7 @@ python LLaVA/test_predict.py
 
 Each script writes captions to a `.csv` and a `.json` file, keyed by image name and image ID.
 
-**Before running:** image directories and output paths are hard-coded near the top of each script (they point at the compute cluster used for the experiments). Update `folder_dir`, `csv_file`, and the output JSON path to your own locations. Set `device = "cuda"` if a GPU is available.
+Before running: Update image directories and output paths (`folder_dir`, `csv_file`, and the output JSON path) to your own locations. Set `device = "cuda"` if a GPU is available.
 
 ## Data
 
