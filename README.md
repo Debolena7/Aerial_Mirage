@@ -2,7 +2,7 @@
 
 This repository hosts the two datasets introduced in the paper, along with the caption-generation code and the prompts used for our LLM-as-evaluator study.
 
-### Datasets
+## Datasets
 
 (1) **AeroCaps**: the first **Aer**ial-view Image **Cap**tioning dataset. This contains atleast four captions per image (manually annotated).
 
