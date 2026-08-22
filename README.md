@@ -25,7 +25,7 @@ The LVLM-generated image captions, along with our hallucination-labelled annotat
 ├── LID/ # Labelled Illusion Dataset (train.jsonl, test.jsonl)
 ├── code/ # caption generation with LLaVA-1.5 and InstructBLIP
 ├── prompts_and_judgements/ # LLM-as-evaluator study (prompts + GPT / Gemini outputs)
-└── wacv25-poster.pdf # WACV 2025 poster
+└── wacv25-poster.pdf # paper poster for WACV 2025
 ```
 
 ### [`code/`](code)
