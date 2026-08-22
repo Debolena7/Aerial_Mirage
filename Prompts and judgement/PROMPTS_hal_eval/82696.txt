@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A bird is walking right through a dining room.', 'A bird walking on a tiled floor in a cafeteria', 'a goose walking inside of a cafeteria area', 'a white and black bird is walking by a table and some chairs', 'A bird walking through a cafeteria next to a table. ']
+
+Bounding boxes (bbox): [{'bird': [103.23, 313.81, 137.63, 184.43]}, {'chair': [96.34, 150.11, 170.67, 235.36]}, {'chair': [31.59, 140.91, 93.39, 238.97]}, {'chair': [1.16, 138.69, 59.9, 220.71]}, {'chair': [170.88, 120.69, 88.0, 113.08]}, {'chair': [278.34, 141.27, 148.66, 246.19]}, {'chair': [275.23, 133.36, 95.87, 121.24]}, {'chair': [222.7, 131.97, 91.97, 121.05]}, {'dining table': [93.36, 143.06, 299.68, 45.18]}, {'person': [0.84, 4.61, 111.67, 141.75]}, {'cup': [120.87, 60.52, 19.32, 27.27]}, {'chair': [324.75, 114.93, 62.28, 56.76]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a bird, possibly a cockatoo, walking across a shiny floor in a room with multiple chairs. The bird is positioned in the middle of the scene, surrounded by several chairs of varying sizes. Some chairs are placed close to the bird, while others are located further away. The room appears to be a dining area or a space with multiple seating arrangements.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A girl with blue hair is taking a self portrait. ', 'a girl with her cell phone tie and blue hair', 'a woman with blue hair holding her phone up', 'A woman with blue hair is taking a selfie.', 'A woman who dyed her hair blue wearing all blue. ']
+
+Bounding boxes (bbox): [{'tie': [224.15, 301.14, 121.5, 338.86]}, {'cell phone': [340.75, 150.52, 73.11, 116.88]}, {'person': [8.67, 17.7, 469.33, 608.21]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a woman with purple hair, wearing a gray shirt and tie, taking a selfie with her cell phone. She is holding the phone up to the mirror to capture the picture. The woman is standing in front of a sink, which is visible in the background.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A person on a skateboard rides down a ramp.', 'Black and white photograph of person on a skateboard.', 'Person riding on edge of skateboard about to do a trick', 'A man is standing on a skateboard at a skate park.', 'A black and white photograph of a person wearing DC shoes on a skateboard in the sun. ']
+
+Bounding boxes (bbox): [{'person': [27.33, 0.0, 232.98, 425.71]}, {'person': [369.46, 239.31, 45.77, 81.74]}, {'skateboard': [1.44, 347.61, 194.16, 104.98]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image captures a skateboarder in action, riding a skateboard on a sidewalk. The skateboarder is wearing white shoes and appears to be enjoying the activity. There are two other people in the scene, one standing near the skateboarder and another further back.\n\nIn addition to the skateboarder, there are two skateboards visible in the scene. One is being ridden by the skateboarder, and the other is placed on the ground near the second person. The setting seems to be a casual, outdoor environment where people are engaging in skateboarding activities.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

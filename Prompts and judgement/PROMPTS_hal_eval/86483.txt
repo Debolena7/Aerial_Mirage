@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['There is a sign in front of a brick house.', 'a black white and red sign grass and a building', 'A sign that says "Abbey Road NW8 City of Westminster".', 'A road sign outside of a building in a city.', 'a sign for abbey road in the city of Westminster ']
+
+Bounding boxes (bbox): [{'person': [425.28, 96.48, 11.06, 13.32]}, {'car': [436.13, 103.92, 16.25, 6.37]}, {'car': [478.16, 105.18, 21.84, 8.91]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a street sign on a pole, indicating the name of the street as Abbey Road. The sign is located in front of a building, possibly a brick house. There are two people in the scene, one standing closer to the left side of the image and the other near the right side. Additionally, there are two potted plants, one on the left side and the other on the right side of the image, adding some greenery to the scene.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

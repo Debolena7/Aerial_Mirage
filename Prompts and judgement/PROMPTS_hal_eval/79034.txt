@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A fire hydrant sits in the middle of the park', 'Blue fire hydrant in park near tall tree.', 'A blue fire hydrant sitting in the middle of a park.', 'A blue fire hydrant in a clearing of trees', 'a blue fire hydrant standing close to a tree ']
+
+Bounding boxes (bbox): [{'fire hydrant': [211.16, 103.44, 116.52, 303.2]}, {'car': [202.45, 101.16, 25.49, 12.74]}, {'car': [161.13, 100.44, 27.98, 11.29]}, {'car': [256.37, 101.55, 13.27, 13.78]}, {'car': [151.7, 100.72, 7.35, 10.16]}, {'car': [5.76, 99.55, 18.08, 11.6]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a blue fire hydrant situated in a grassy area, surrounded by a dirt field. The fire hydrant is located near a tree, and there are several cars parked in the background. The cars are scattered around the scene, with some closer to the fire hydrant and others further away. The overall setting appears to be a park or a public space with a mix of natural and man-made elements.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['The stuffed teddy bear is sitting near the wall.', 'an image of a stuffed teddy bear sitting up', 'There is a stuffed bear on a white floor', 'A white fuzzy stuffed animal depicting a polar bear.', 'A stuffed animal in the light sitting on the ground']
+
+Bounding boxes (bbox): [{'teddy bear': [254.28, 15.19, 324.33, 379.98]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a white teddy bear sitting on a white surface, which could be a table or a floor. The teddy bear is positioned in a relaxed manner, with its legs crossed and its arms resting on its lap. The scene is simple and uncluttered, with the teddy bear being the main focus of the image.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

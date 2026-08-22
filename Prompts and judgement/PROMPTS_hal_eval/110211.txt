@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['Zebras and rhinos out in the wild on a sunny day ', 'A herd of zebra walking across a grass covered field.', ' Zebras with feral hogs in a wild habitat.', 'A large open area of land that has several zebra of different sizes and warthogs near them.', 'Zebras share a grassland with wild pigs in Africa.']
+
+Bounding boxes (bbox): [{'zebra': [1.55, 132.1, 175.87, 194.47]}, {'zebra': [160.44, 132.61, 157.1, 134.18]}, {'zebra': [61.39, 149.39, 54.16, 34.41]}, {'zebra': [532.25, 179.66, 51.32, 68.75]}, {'zebra': [543.33, 160.11, 81.1, 93.89]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image depicts a group of zebras and a hippo grazing together in a grassy field. There are three zebras in the scene, with one positioned towards the left side, another in the middle, and the third on the right side. The hippo is located in the middle of the field, closer to the right side. The animals are peacefully coexisting, enjoying the lush green field as they graze.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

@@ -1,0 +1,18 @@
+Instruction:
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information.
+
+Reference captions:{"A bedroom with built in television and open fireplace", "a large bedroom with a fireplace and tv", "A room with a bed, a clock, a lamp, a fireplace and a television.", "A bedroom with  a large bed facing a fireplace that has a television over the top of it, in a shelf space.", "a room with a fire place and television inside of it."}
+
+Bounding boxes (bbox): {
+tv: [523.64,88.31,78.5,88.07],
+chair: [327.88,255.44,104.24,113.2],
+chair: [252.81,252.46,70.58,102.08],
+bed: [0.96,215.23,266.13,142.64],
+clock: [178.32,139.08,46.24,56.35]}.
+
+The "bbox" represents the bounding box pixel coordinates in the image."bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed.
+
+Candidate description: {"The image depicts a cozy bedroom with a large bed situated in the center of the room. The bed is covered with a brown blanket, and there is a clock on the wall above it. The room also features a fireplace, which adds warmth and ambiance to the space.
+In addition to the bed, there are two chairs in the room, one located near the left side of the bed and the other on the right side. A television is mounted on the wall above the right chair, providing entertainment for the occupants. The room is well-lit, with natural light coming in through the windows, creating a comfortable and inviting atmosphere."}
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A picture of some food on a plate', 'An assortment of broccoli and cauliflower is arranged.', 'a mixture of broccoli and cauliflower on a white platter', 'A white dish filled with broccoli and cauliflower.', 'Broccoli and cauliflower florets cut into small pieces and spread around.']
+
+Bounding boxes (bbox): [{'broccoli': [179.86, 151.38, 93.3, 168.62]}, {'broccoli': [265.06, 158.89, 108.03, 122.5]}, {'broccoli': [196.31, 335.6, 127.09, 128.23]}, {'broccoli': [92.61, 393.04, 163.77, 80.18]}, {'broccoli': [3.39, 308.33, 124.23, 154.73]}, {'broccoli': [9.04, 208.94, 121.97, 141.18]}, {'broccoli': [446.2, 11.27, 178.03, 217.46]}, {'broccoli': [97.08, 235.8, 105.17, 150.72]}, {'broccoli': [492.94, 0.0, 115.42, 49.62]}, {'broccoli': [398.02, 3.06, 107.87, 71.19]}, {'broccoli': [240.5, 257.99, 156.28, 183.56]}, {'broccoli': [367.79, 115.95, 114.7, 185.76]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ["The image features a close-up view of a metal tray filled with various pieces of broccoli and cauliflower. The vegetables are cut into small florets, making them easy to eat. The tray is placed on a dining table, and the vegetables are spread out, covering most of the tray's surface. The arrangement of the broccoli and cauliflower creates a visually appealing and healthy display."]
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

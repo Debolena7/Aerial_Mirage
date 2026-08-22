@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A child taking a bite of a pizza slice on a plate.', 'a little kid eating a big slice of pizza at a table ', 'I young boy eating a large piece of pizza.', 'A young boy sinking his teeth into a piece of pizza', 'A little boy sits at a table in a restaurant eating a slice of pizza.']
+
+Bounding boxes (bbox): [{'chair': [48.38, 284.41, 319.31, 99.52]}, {'dining table': [1.51, 322.26, 478.49, 307.93]}, {'person': [64.83, 141.38, 300.69, 321.38]}, {'person': [247.93, 35.32, 177.3, 350.27]}, {'cup': [0.0, 325.05, 50.45, 154.23]}, {'fork': [61.38, 445.07, 179.66, 87.15]}, {'pizza': [162.28, 361.11, 143.17, 136.77]}, {'cup': [410.7, 132.43, 29.88, 43.38]}, {'cup': [449.32, 131.15, 24.07, 40.87]}, {'fork': [29.82, 170.12, 45.59, 5.32]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a young boy sitting at a dining table, enjoying a slice of pizza. He is focused on eating the pizza, which is placed on a plate in front of him. The table is surrounded by chairs, with one on the left side of the boy and another on the right.\n\nThere are several cups and bottles scattered around the table, indicating that the boy might be having a drink along with his meal. The scene appears to be set in a restaurant or a similar dining environment.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['Two men talking to each other on a street corner\n', 'Two people are sitting on chairs talking on at a corner.', 'Two men sitting on the street in front of a building.', 'Street cleaners are taking a rest from work.', 'Two men setting next to each other on the street .']
+
+Bounding boxes (bbox): [{'motorcycle': [141.29, 161.45, 110.76, 149.48]}, {'chair': [322.48, 250.87, 55.11, 93.93]}, {'chair': [412.09, 282.5, 36.82, 58.13]}, {'person': [411.89, 181.48, 67.06, 163.86]}, {'person': [325.94, 203.2, 84.58, 150.59]}, {'bicycle': [308.3, 190.03, 46.12, 67.62]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features two people sitting on a bench on the side of a street. They appear to be taking a break or waiting for something. Behind them, there are two motorcycles parked on the sidewalk, one closer to the bench and the other slightly further away. \n\nIn addition to the people and motorcycles, there are a few other objects in the scene. A handbag is placed on the ground near the bench, and a backpack is located further away from the bench. A chair is also visible in the scene, placed near the bench.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

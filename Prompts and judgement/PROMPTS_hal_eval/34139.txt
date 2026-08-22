@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['Two people posing next to a giant suitcase in front of a building.', 'Suitcase sitting on the ground with stickers from various countries on it.', 'Two people posing next to a giant statue with a suit case.', 'Two people standing next to a life size replica of a suitcase.', 'a huge suitcase with a bunch of stickers on it']
+
+Bounding boxes (bbox): [{'handbag': [435.53, 193.37, 66.87, 40.99]}, {'suitcase': [26.97, 101.39, 400.18, 284.77]}, {'person': [451.32, 98.49, 144.63, 283.02]}, {'person': [449.53, 111.62, 74.94, 269.72]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a large suitcase statue located in a city, with two people standing next to it. The suitcase is covered in various stickers, making it a unique and eye-catching attraction. The people standing next to the suitcase appear to be posing for a picture, possibly enjoying their time in the city and the interesting sight.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A red living room filled with furniture and two windows.', 'A living room painted red with black couches and coffee tables', 'A living room with red walls and dark furniture, with light streaming in two windows.', 'A view of a room that has two windows and a blue couch.', 'A modern living room with very unique furniture.']
+
+Bounding boxes (bbox): [{'potted plant': [17.99, 99.67, 202.34, 191.1]}, {'potted plant': [544.72, 188.61, 56.61, 75.76]}, {'couch': [298.32, 233.58, 341.68, 224.0]}, {'book': [14.11, 314.25, 34.19, 67.58]}, {'book': [0.0, 295.33, 37.39, 93.74]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a cozy living room with a blue couch placed against the wall. The couch is covered with a blue blanket, and there are two pillows on it. The room is decorated with several potted plants, one on the left side of the room, another on the right side, and a third one closer to the center.\n\nIn addition to the plants, there are two vases in the room, one near the left side of the couch and the other on the right side. A chair is also present in the room, positioned near the right side of the couch. The room has a warm and inviting atmosphere, perfect for relaxation and socializing.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

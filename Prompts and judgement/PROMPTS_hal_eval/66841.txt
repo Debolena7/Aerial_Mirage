@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: [' A whimsical artistic toaster has eyes, a mouth, a nose, spoon feet, spoon ears, and a mixing beater tail.', 'A toaster has been decorated with other kitchen items and googly eyes to look like a person. ', 'A toaster with a face on it with spoons.', 'A toaster is decorated with kitchen utensils to have a sad expression. ', 'A toaster surrounded by spoons, some protruding from the inside']
+
+Bounding boxes (bbox): [{'spoon': [114.0, 108.58, 83.52, 107.71]}, {'spoon': [256.49, 161.79, 62.6, 68.96]}, {'spoon': [51.92, 422.86, 46.77, 60.07]}, {'spoon': [9.03, 280.31, 60.74, 60.18]}, {'toaster': [65.17, 107.87, 259.55, 334.83]}, {'bottle': [0.0, 26.61, 93.72, 187.68]}, {'spoon': [224.94, 422.37, 42.96, 56.74]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a toaster with a unique design, resembling a face. It has a pair of eyes, a nose, and a mouth, giving it a quirky appearance. The toaster is placed on a countertop, and there are two spoons attached to it. One spoon is located on the left side, while the other is on the right side of the toaster. The toaster is situated in front of a tile backsplash, adding a touch of creativity to the kitchen setting.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

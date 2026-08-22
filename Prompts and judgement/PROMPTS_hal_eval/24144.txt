@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A pizza sitting on top of a pizza box covered in cheese.', 'A cheese pizza cut into eight pieces in the box. ', 'A cheese pizza from a store in a box. ', 'The pizza looks like it was ordered with extra cheese.', 'A large cheese pizza in a cardboard box.']
+
+Bounding boxes (bbox): [{'pizza': [68.36, 23.62, 493.17, 430.54]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a large, freshly baked pizza with a generous amount of cheese on top. The pizza is placed inside a cardboard box, which is sitting on a table. The cheese is spread evenly across the pizza, covering the entire surface. The pizza appears to be a cheese pizza, with no additional toppings visible. The close-up view of the pizza highlights its delicious and appetizing appearance.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

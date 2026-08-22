@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['Three zebras munching on grass in their natural habitat.', 'A group of zebras graze on grass in a jungle habitat.', 'A group of zebras eating from a pile of hay', 'Zebras standing in open area grazing on hay.', 'Three zebras standing in the wild surrounded by trees.']
+
+Bounding boxes (bbox): [{'zebra': [260.99, 158.88, 141.52, 194.11]}, {'zebra': [366.49, 174.59, 115.67, 142.71]}, {'zebra': [3.24, 151.28, 265.34, 175.82]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a group of three zebras grazing on hay in a zoo enclosure. They are standing close to each other, with one zebra on the left side, another in the center, and the third on the right side of the enclosure. The zebras are surrounded by a lush green environment, with trees and plants in the background. The scene captures the zebras enjoying their meal in a comfortable and natural-looking setting.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

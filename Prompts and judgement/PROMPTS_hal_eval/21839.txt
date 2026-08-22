@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['a person walking across the street with a traffic light above', 'A person that is walking on the street.', 'The pedestrian crosses the lit city street at nightitme.', 'A person crossing a street next to a crosswalk.', 'A person crosses a street under a streetlight at dusk.']
+
+Bounding boxes (bbox): [{'traffic light': [261.17, 203.64, 21.03, 58.89]}, {'person': [211.14, 392.58, 66.5, 185.41]}, {'person': [409.56, 462.09, 25.82, 59.65]}, {'person': [431.61, 457.19, 25.04, 68.67]}, {'person': [168.93, 456.96, 13.83, 48.39]}, {'person': [47.36, 448.98, 13.13, 48.31]}, {'person': [467.3, 471.49, 11.07, 37.84]}, {'handbag': [217.5, 439.59, 28.21, 31.21]}, {'handbag': [448.31, 468.32, 8.77, 29.08]}, {'handbag': [424.6, 471.56, 8.6, 25.0]}, {'handbag': [428.94, 491.87, 9.89, 15.1]}, {'person': [24.82, 453.65, 23.6, 44.48]}, {'person': [59.25, 457.36, 8.77, 25.85]}, {'car': [0.0, 456.46, 32.44, 62.13]}, {'person': [450.73, 472.52, 10.4, 52.6]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image depicts a busy city street at night, with a man standing on the sidewalk near a traffic light. He is holding a baby in his arms, possibly waiting to cross the street. There are several other people walking on the sidewalk, some of them carrying handbags.\n\nIn the background, there are two cars parked or driving on the street, and a fire hydrant can be seen nearby. The scene captures the hustle and bustle of urban life, with people going about their daily activities.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

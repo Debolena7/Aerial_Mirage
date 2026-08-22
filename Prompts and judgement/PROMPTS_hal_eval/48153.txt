@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A foot wearing a pointy pink flat shoe rested upon a bench.', 'A woman showing off her pink pointy-toed heels.', 'A woman wearing blue jeans with a sexy foot in a pink shoe.', 'A photo of a bright pink shoe on a blue and green background.', 'A lady wearing a pink shoe and blue jeans.']
+
+Bounding boxes (bbox): [{'person': [90.17, 75.84, 342.13, 294.1]}, {'bench': [0.0, 2.53, 499.72, 311.8]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ["The image features a person wearing a pair of blue jeans and a pink shoe. The shoe is prominently displayed in the foreground, while the person's leg is visible in the background. The scene appears to be set on a wooden surface, possibly a bench or a wooden floor. The combination of the pink shoe and blue jeans creates a contrasting and eye-catching visual effect."]
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

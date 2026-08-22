@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A dog standing on the back of a brown car.', 'a dog that is sitting on top of a brown car', 'a dog with a bandana on the trunk of a car', 'A dog with a bandana sitting on the trunk of a car.', 'A dog wearing a bandanna and sitting on the trunk of a car.']
+
+Bounding boxes (bbox): [{'dog': [197.97, 117.22, 170.45, 222.07]}, {'potted plant': [58.45, 81.69, 131.53, 125.9]}, {'car': [9.29, 160.0, 466.58, 314.84]}, {'car': [1.29, 150.59, 186.23, 261.24]}, {'car': [594.08, 175.0, 45.2, 128.07]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a brown dog sitting on the back of a car, possibly an Alfa Romeo. The dog is wearing a bandana, adding a touch of style to the scene. The car is parked in a parking lot, surrounded by other vehicles.\n\nThere are two potted plants in the scene, one located near the left edge of the image and the other closer to the center. Additionally, there are two bicycles, one near the left side of the car and the other further to the right. A person can be seen in the background, possibly observing the dog or attending to their own activities.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

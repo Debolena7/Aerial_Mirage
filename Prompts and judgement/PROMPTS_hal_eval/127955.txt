@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['there are two brown bears that are playing together in the water', 'Two bears that are standing in the water.', 'The two brown bears are playing in water.', 'Two large bears fighting or playing in water.', 'The two big bears are fighting in the water with one another.']
+
+Bounding boxes (bbox): [{'bear': [310.01, 31.6, 311.27, 349.71]}, {'bear': [4.78, 96.3, 356.23, 315.17]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features two large brown bears in a body of water, possibly a river or a lake. They are standing close to each other, with one bear appearing to be yawning or growling, while the other bear has its mouth open. The bears seem to be interacting with each other, possibly engaging in a playful or territorial behavior. The water around them is calm, and the bears are the main focus of the scene.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

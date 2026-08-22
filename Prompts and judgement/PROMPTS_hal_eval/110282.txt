@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A metal pole with a traffic light attached, red right arrow illuminated, with green grass, green trees, and white sky in background.', 'A stop sign that is on the side of a pole.', 'A traffic light on a pole with a grassy hill in the background.', 'a stop light that is next to some trees and grass', 'A turn signal with a red arrow illuminated on it.']
+
+Bounding boxes (bbox): [{'traffic light': [422.71, 86.14, 72.49, 146.87]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a traffic light on a pole, with the traffic light showing a red arrow. The traffic light is positioned on a grassy hill, surrounded by a lush green field. The scene appears to be captured during the daytime, with the sky visible in the background.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

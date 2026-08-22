@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A group of people on horses racing together.', 'The horses are racing each other along the beach.', 'Three people race their horses down a beach.', 'A black and white photo of jockeys riding their horses', 'Horses with jockeys racing across the coast of some beach.']
+
+Bounding boxes (bbox): [{'horse': [86.45, 252.27, 152.9, 81.59]}, {'horse': [215.34, 252.58, 56.29, 64.61]}, {'person': [208.86, 230.11, 38.4, 49.48]}, {'person': [167.2, 230.63, 42.53, 59.18]}, {'horse': [238.0, 246.9, 51.91, 67.96]}, {'person': [238.89, 225.29, 19.4, 30.59]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ["The image captures a group of people riding horses on a beach, with the horses galloping through the water. There are five horses in total, each carrying a rider. The riders are spread out along the beach, with some closer to the water's edge and others further back. The scene is dynamic and energetic, as the horses and their riders enjoy the thrill of riding along the shoreline."]
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

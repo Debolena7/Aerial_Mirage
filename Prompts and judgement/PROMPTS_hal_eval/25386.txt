@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A man sitting on a train next to a woman.', 'A man and women eating a plate of food with chop sticks. ', 'two people on a train with trays of food ', 'A man and woman are sitting together while the man eats with chopsticks.', 'The man is using chopsticks to eat his meal.']
+
+Bounding boxes (bbox): [{'person': [163.16, 119.56, 189.89, 348.84]}, {'person': [0.0, 109.7, 296.45, 530.02]}, {'person': [303.67, 101.56, 11.84, 27.84]}, {'chair': [353.0, 259.16, 74.0, 380.84]}, {'chair': [0.59, 164.83, 80.62, 108.81]}, {'chair': [0.0, 520.31, 138.36, 119.69]}, {'sandwich': [294.7, 314.65, 39.61, 42.38]}, {'hot dog': [252.57, 397.96, 39.7, 41.73]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a man and a woman sitting together at a dining table, enjoying a meal. They are eating sushi, which is placed on the table in front of them. The man is using chopsticks to eat the sushi, while the woman is holding a fork.\n\nThe table is set with various items, including a bowl, a cup, and a spoon. There are also two sandwiches on the table, one near the center and the other closer to the woman. The scene appears to be taking place in a restaurant or a similar dining setting.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

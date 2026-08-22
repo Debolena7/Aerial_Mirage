@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['there are many surfers that are in the water', 'Young girl on surfboard riding wave with young boys nearby looking on.', 'The girl is balancing with one leg on the surfboard. ', 'A young girl is surfing and just about to wipe out.', 'Several people are surfing or swimming at the ocean.']
+
+Bounding boxes (bbox): [{'person': [274.43, 78.75, 131.46, 228.37]}, {'person': [310.77, 89.49, 36.38, 29.76]}, {'person': [423.31, 20.95, 71.3, 57.93]}, {'person': [84.39, 49.93, 111.94, 39.26]}, {'surfboard': [275.39, 269.63, 100.75, 77.73]}, {'surfboard': [352.39, 48.99, 184.22, 36.09]}, {'surfboard': [153.28, 69.23, 75.81, 17.27]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a young woman skillfully riding a wave on a blue surfboard in the ocean. She is the main focus of the scene, with her surfboard positioned in the center. There are several other people in the water around her, some of them closer to the shore and others further out.\n\nIn addition to the surfers, there are a couple of surfboards visible in the water, one near the woman and another one slightly further away. The scene captures the excitement and energy of a day at the beach, with people enjoying the ocean and the waves.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

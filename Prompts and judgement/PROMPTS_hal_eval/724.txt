@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ["A stop sign is mounted upside-down on it's post. ", 'A stop sign that is hanging upside down.', 'An upside down stop sign by the road.', 'a stop sign put upside down on a metal pole ', 'A stop sign installed upside down on a street corner']
+
+Bounding boxes (bbox): [{'stop sign': [120.07, 71.83, 134.49, 153.08]}, {'truck': [123.39, 279.44, 21.74, 30.17]}, {'car': [128.26, 267.21, 12.88, 8.15]}, {'stop sign': [202.38, 259.9, 19.01, 26.06]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a red stop sign with the word "SOS" written on it, placed at an intersection. The stop sign is positioned on a pole, and it is surrounded by a few trees and bushes. \n\nIn the background, there are several cars and trucks visible, indicating that the area is a busy street. Some of the vehicles are parked, while others are in motion, creating a lively atmosphere.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

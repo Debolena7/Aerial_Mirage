@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['a man is swinging a baseball bat at a game', 'A baseball player swings the bat while the catcher & umpire look on', 'A batter swings as the catcher and umpire squat down behind him.', 'The batter is going to hit the ball in the baseball game. ', 'A baseball batter is up for a swing over the plate.']
+
+Bounding boxes (bbox): [{'person': [141.74, 51.61, 163.23, 183.27]}, {'person': [447.28, 81.98, 168.99, 148.85]}, {'person': [317.97, 120.01, 139.2, 107.75]}, {'baseball bat': [274.4, 40.94, 71.09, 43.74]}, {'baseball glove': [318.4, 170.73, 26.85, 22.72]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image captures a baseball game in progress, with a baseball player in the middle of swinging a bat. The player is focused on hitting the ball, while the catcher and umpire are closely watching the play. \n\nThere are several other people in the scene, including teammates and possibly coaches. Some of them are standing near the batter, while others are positioned around the field. A baseball glove is visible on the field, likely belonging to one of the players.\n\nIn the background, there are chairs and a bench, which might be used by the players when they are not actively participating in the game.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

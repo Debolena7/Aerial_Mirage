@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A plate of finger foods next to a blue and raspberry topped cake.', 'A nicely set dining table filled with food and a cake topped with berries.', 'a close up of a table with many plates of food', 'A table topped with a cake covered in berries next to a plate of sandwiches.', 'A white cake topped with berries and a plate of fruit and cheeses.']
+
+Bounding boxes (bbox): [{'knife': [214.48, 285.49, 114.18, 116.49]}, {'knife': [403.37, 211.8, 112.03, 71.29]}, {'cake': [16.31, 173.52, 253.32, 192.87]}, {'wine glass': [230.11, 52.53, 61.5, 148.53]}, {'wine glass': [138.65, 27.38, 62.29, 141.66]}, {'wine glass': [46.92, 17.23, 66.91, 143.99]}, {'wine glass': [91.71, 87.84, 65.3, 83.3]}, {'wine glass': [163.37, 68.29, 70.43, 107.87]}, {'wine glass': [113.86, 15.04, 52.78, 77.44]}, {'wine glass': [0.0, 69.86, 50.72, 63.37]}, {'wine glass': [50.96, 60.53, 59.76, 94.08]}, {'wine glass': [237.4, 48.49, 62.6, 130.5]}, {'cup': [3.84, 118.98, 59.49, 95.96]}, {'cup': [490.91, 166.81, 65.56, 66.5]}, {'dining table': [1.92, 33.58, 638.08, 388.62]}, {'knife': [216.19, 310.9, 192.78, 111.46]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a dining table covered with a red tablecloth, set for a delightful dessert party. On the table, there is a white cake with blueberries and raspberries, surrounded by various plates of food and desserts. \n\nIn addition to the cake, there are several wine glasses placed around the table, along with a few cups. A knife is also present on the table, likely for cutting the cake. The table is filled with a variety of food items, including a bowl of fruit, a plate of crackers, and a plate of cheese. The overall scene suggests a festive and enjoyable gathering.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

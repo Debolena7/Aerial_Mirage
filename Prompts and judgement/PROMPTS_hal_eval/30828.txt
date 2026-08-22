@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A person with an orange blanket covering them, sleeping on a wooden park bench.', 'Person sleeping on bench in sleeping bag near parking meters.', 'A person is sleeping on a bench in a sleeping bag.', 'The person is sleeping on a park bench.', 'A person covered with an orange sleeping bag rests his head on a blue back pack as he sleeps on a park bench. ']
+
+Bounding boxes (bbox): [{'parking meter': [225.49, 75.51, 69.09, 84.44]}, {'person': [181.76, 160.61, 394.31, 104.82]}, {'bench': [57.7, 156.76, 542.41, 181.76]}, {'backpack': [82.52, 187.11, 150.65, 50.86]}, {'car': [0.34, 174.84, 20.12, 54.28]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a person lying on a wooden bench in a park, covered with a blanket. The person appears to be sleeping or resting, and their belongings, including a backpack and a handbag, are placed beside them on the bench. \n\nIn the background, there are two parking meters, one on the left side and the other on the right side of the bench. The scene captures a moment of rest and relaxation in a public space.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ["Cat sitting up with a fake tie around it's neck.", 'A cat is wearing a tie and sitting on some clothes.', 'A cat wearing a neck tie sitting on a bed.', 'A cat standing on a bed and wearing a tie.', 'A cat wearing a tie on some cloths.']
+
+Bounding boxes (bbox): [{'cat': [110.25, 17.45, 300.67, 589.89]}, {'tie': [125.99, 185.89, 199.48, 291.15]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ["The image features a gray cat sitting on a bed, wearing a blue tie with a picture of a cat on it. The cat appears to be wearing a collar as well. The cat is positioned in the center of the scene, with its body facing the viewer. The bed takes up the entire background of the image, emphasizing the cat's presence in the scene."]
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

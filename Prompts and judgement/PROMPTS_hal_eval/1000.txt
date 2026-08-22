@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['The people are posing for a group photo.', 'a large family poses for picture on tennis court', 'A group of young children standing next to each other.', 'A group of people that are standing near a tennis net.', 'A group of kids posing for a picture on a tennis court.']
+
+Bounding boxes (bbox): [{'tennis racket': [47.07, 303.19, 47.43, 87.32]}, {'handbag': [20.54, 226.71, 53.29, 121.53]}, {'handbag': [196.91, 224.35, 70.26, 117.55]}, {'person': [115.16, 152.13, 83.23, 228.41]}, {'person': [405.93, 120.42, 37.13, 45.52]}, {'person': [265.33, 95.86, 88.92, 315.88]}, {'person': [209.23, 174.64, 99.63, 249.08]}, {'person': [504.67, 191.95, 135.33, 288.05]}, {'person': [410.2, 208.53, 114.9, 271.47]}, {'person': [380.85, 159.91, 88.44, 319.25]}, {'person': [330.07, 154.25, 83.05, 313.88]}, {'person': [410.75, 107.03, 88.09, 121.16]}, {'person': [183.4, 121.34, 95.77, 272.75]}, {'backpack': [209.49, 163.88, 62.42, 58.04]}, {'backpack': [42.72, 223.89, 55.73, 50.98]}, {'person': [52.14, 185.12, 59.26, 212.53]}, {'person': [349.49, 118.71, 52.64, 41.13]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a group of young people, both boys and girls, standing together on a tennis court. They are posing for a picture, with some of them holding tennis rackets. There are at least six tennis rackets visible in the scene, held by various individuals.\n\nIn addition to the rackets, there are a few backpacks scattered around the court, likely belonging to the players. The group appears to be enjoying their time together, possibly participating in a tennis event or practice session.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

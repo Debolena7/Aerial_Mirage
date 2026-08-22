@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['A small group of sheep standing together next to a building.', 'Group of sheep standing next to a brick building. ', 'sheep standing around next to a brick wall ', 'A herd of sheep standing on top of a green grass covered yard.', 'A group of shaggy haired sheep standing beside a building.']
+
+Bounding boxes (bbox): [{'sheep': [204.92, 158.79, 299.56, 264.41]}, {'sheep': [425.67, 124.49, 155.09, 287.41]}, {'sheep': [548.06, 213.63, 91.94, 207.13]}, {'sheep': [25.77, 125.18, 209.86, 242.99]}, {'sheep': [548.92, 165.1, 91.08, 124.96]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a group of sheep standing together in a grassy field. There are three sheep in the scene, with one sheep located on the left side, another in the middle, and the third sheep on the right side. The sheep appear to be grazing or resting in the grass.\n\nIn the background, there is a building visible, adding to the rural atmosphere of the scene. The sheep are positioned close to each other, creating a sense of unity and camaraderie among the animals.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.

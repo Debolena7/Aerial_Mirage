@@ -1,0 +1,12 @@
+Instruction: 
+Suppose you are a hallucination annotator who judges the degree of hallucination based on object types, their relations, their actions, their counts, their positions in the image and relative positions with other objects, and you have the following image information. 
+
+Reference captions: ['The telephone has a banana where the receiver should be.', 'A banana replacing the phone on an answering machine', 'A phone with a banana where the receiver should be.', 'A telephone has it receiver replaced with a banana.', 'A banana placed on a phone on a table.']
+
+Bounding boxes (bbox): [{'banana': [283.84, 48.74, 163.77, 241.29]}]
+
+The "bbox" represents the bounding box pixel coordinates in the image. "bbox" is given as: [x,y,width,height], bbox coordinates are measured from the top left image corner and are 0-indexed. 
+
+Candidate description: ['The image features a desk with a black telephone sitting on top of it. A banana is placed on the phone, creating an unusual and amusing scene. The desk also has a notebook and a pen, indicating that it is a workspace.']
+
+Please consider the "Reference captions" and the "Bounding boxes (bbox)" as the ground truth annotations. You have to evaluate the "Candidate description". Please provide a score for the "Candidate description" between 0-10, where 0 indicates no hallucination and 10 indicates maximum hallucination. If hallucination is present, point out the mistakes in short.
