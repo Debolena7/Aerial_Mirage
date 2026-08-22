@@ -20,12 +20,13 @@ The LVLM-generated image captions, along with our hallucination-labelled annotat
 ### **[AeroCaps](https://huggingface.co/datasets/NLIP-lab/AeroCaps) and [LID](https://huggingface.co/datasets/NLIP-lab/LID) are also released on HuggingFace!**
 
 ## Repository structure
+```
 ├── AeroCaps.json # AeroCaps reference captions
 ├── LID/ # Labelled Illusion Dataset (train.jsonl, test.jsonl)
 ├── code/ # caption generation with LLaVA-1.5 and InstructBLIP
 ├── prompts_and_judgements/ # LLM-as-evaluator study (prompts + GPT / Gemini outputs)
 └── wacv25-poster.pdf # WACV 2025 poster
-
+```
 
 ### [`code/`](code)
 
