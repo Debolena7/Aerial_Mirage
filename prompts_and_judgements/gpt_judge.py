@@ -47,7 +47,7 @@ def GetMessage_GPT(prompt):
 
 
 for i in range(len(list_ids)):
-    str_text = "PROMPTS_COCO_val/"+str(list_ids[i])+".txt"
+    str_text = "PROMPTS_hal_eval/"+str(list_ids[i])+".txt"
     prompt = ReadFile(str_text)
     #print(prompt)    
     GPT_3_turbo_response, GPT_4_response = GetMessage_GPT(prompt)
