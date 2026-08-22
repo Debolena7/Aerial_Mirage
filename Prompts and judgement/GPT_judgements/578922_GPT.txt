@@ -1,0 +1,24 @@
+GPT-3_Turbo Response:
+Score: 8
+
+Mistakes:
+1. The candidate description mentions a mirror which is not present in the bounding boxes or reference captions.
+2. It includes details about roses, which are not mentioned or visible in the reference captions or bounding boxes.
+3. It mentions a few other items such as a bottle, cup, and toothbrush, which are not present in the provided bounding boxes or reference captions, leading to hallucination.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7
+
+Mistakes: 
+
+1. The hallucination elements here consist of a stated mirror and reflection of the vase and flowers, which is not confirmed in the ground truth reference captions or bounding boxes. 
+
+2. The text also inaccurately describes the types of flowers as roses, which is not specified in the references. 
+
+3. It also mentions that all the items are located on a table, while the references point to a bathroom countertop or a vanity.
+
+4. There's mention of a beautiful bouquet which is an aesthetic judgment not present in the ground truth. 
+
+Overall, the hallucinations are imaginative descriptions of the image not backed by the actual content or its ground truth.

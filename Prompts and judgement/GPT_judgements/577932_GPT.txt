@@ -1,0 +1,18 @@
+GPT-3.5_Turbo Response:
+I would rate the "Candidate description" a 7 in terms of hallucination. 
+
+Mistakes in the Candidate description:
+1. The woman in the candidate description is described as sitting on the back of the bike, which is not accurate as per the bounding boxes.
+2. The mention of both the man and woman wearing suits is a hallucination as there is no indication of this in the image.
+3. The presence of cars parked or driving along the street is a hallucination as there is only one bike present in the image, according to the bounding boxes.
+4. The mention of handbags being visible in the scene is accurate but the description of their positions is slightly off compared to the bounding boxes.
+5. The presence of a couple of traffic lights in the background indicating a controlled intersection is a hallucination as there is only one traffic light in the image.
+
+Overall, the description contains factual inaccuracies and embellishments, contributing to the hallucination score of 7.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+8
+
+The hallucinations in the "Candidate description" include that there isn't any depiction of the woman sitting on the back of the bike, nor are both of them wearing suits. They also did not mention anything about the color of the bike, which is pink. Further, there are no indications of 'cars parked' shown in the bounding boxes, and the description of people standing on the sidewalk is not supported by the bounding box data. Lastly, there is no evidence of 'several handbags': the bounding box data shows only two, with no further spatial context offered (i.e., they don't specify one near the center and one on the right side). The description of a bustling atmosphere is hypothetical and cannot be validated. Thus, the candidate description demonstrates a significant degree of hallucination.

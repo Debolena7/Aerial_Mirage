@@ -1,0 +1,18 @@
+GPT-3.5_Turbo Response:
+Score: 7
+
+Mistakes in candidate description:
+1. The candidate description mentions two smaller buses further down the street, when in fact there are two double-decker buses driving down the road.
+2. There is no mention of the buses being parked or stationary, as implied in the reference captions.
+3. The mention of a traffic light on the right side of the street is inaccurate as there is no traffic light visible in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes:
+- The candidate description mentioned two smaller buses further down the street that were not in the bounding box data or the reference captions.
+- The description includes detailed information about the clothes of a pedestrian (man in a suit and tie), but the bounding box data only confirmed the presence of people, not specific details about their appearance.
+- There is mention of a traffic light in the candidate description, but this is not present in the bounding boxes or the reference captions. Therefore, it is a hallucination.
+- The exact positions of the people are also hallucinated in the description. The data tells us there are people, but does not specify where they are located.

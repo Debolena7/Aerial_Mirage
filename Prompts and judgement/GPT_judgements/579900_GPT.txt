@@ -1,0 +1,13 @@
+GPT-3.5_Turbo Response:
+Score: 8
+
+Mistakes:
+1. The candidate description mentions red peppers, which are not present in the bounding boxes or reference captions.
+2. The candidate description states that the pizza is cut into slices, which is not visible in the image or mentioned in the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 2
+
+The candidate description is mostly accurate, there are several instances of broccoli on the pizza and it is placed on a plate. However, there are two slight inaccuracies leading to minor hallucinations. Firstly, the bounding boxes don't suggest the presence of red peppers on the pizza. Secondly, there's no explicit information in the bounding boxes to confirm that the pizza has been cut into slices.
