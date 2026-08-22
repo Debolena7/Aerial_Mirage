@@ -1,0 +1,13 @@
+Gemini pro Response:
+Score: 1
+
+The candidate description is mostly aligned with the ground truth annotations. However, the part "with one bear appearing to be yawning or growling, while the other bear has its mouth open" is not supported by the ground truth annotations. The ground truth annotations do not specify the bears' facial expressions, so this part of the candidate description can be considered a hallucination.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The candidate description hallucinates the following:
+1. The bears are not playing, but fighting.
+2. The water is not calm.
+3. The bears are not the main focus of the scene, as there are rocks in the background that are equally important to the scene.

@@ -1,0 +1,18 @@
+Gemini pro Response:
+Score: 0
+
+The candidate description is accurate and consistent with the image content. It correctly identifies the presence of a traffic light on a pole with a red arrow illuminated, as well as the green grass, green trees, and white sky in the background. There are no hallucinations present in the description.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 6
+
+The image shows a traffic light on a pole, with the traffic light showing a red arrow. The traffic light is positioned on a grassy hill, surrounded by a lush green field. The scene appears to be captured during the daytime, with the sky visible in the background.
+
+The candidate description hallucinates the following:
+1. There are two traffic lights on the pole.
+2. The traffic light is showing a green arrow.
+3. There is a stop sign on the side of a pole.
+4. There are trees and grass in the background.
+5. The sky is blue.

@@ -1,0 +1,17 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate, but there are a few minor hallucinations.
+
+1. The candidate description mentions that the man is "intently reading a book". However, in the image, the man is not shown to be reading. He is holding the book open with both hands, but his face is not visible.
+2. The candidate description mentions that "the man appears to be in a dimly lit room". However, the image does not provide any information about the lighting conditions in the room.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The candidate description hallucinates the following:
+1. The man is intently reading a book. -> The man is flipping through the book.
+2. He is holding the book open with both hands. -> The man is holding the book with his right hand.
+3. The man appears to be in a dimly lit room. -> The image is not in a dimly lit room, it is well lit.
+4. The cozy atmosphere of the scene. -> The image is not cozy, the man is alone in the room.

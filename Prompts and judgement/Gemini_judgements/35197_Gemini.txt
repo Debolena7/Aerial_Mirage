@@ -1,0 +1,18 @@
+Gemini pro Response:
+Score: 7 out of 10
+
+The candidate description is mostly accurate, but there are a few mistakes.
+
+1. The candidate description mentions that there are two other people in the scene, one standing near the skateboarder and another further back. However, there is only one person visible in the image, besides the skateboarder.
+2. The candidate description mentions that there are two skateboards visible in the scene. However, there is only one skateboard visible in the image.
+3. The candidate description mentions that the setting seems to be a casual, outdoor environment where people are engaging in skateboarding activities. However, the image does not show any other people engaging in skateboarding activities.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+There are a few hallucinations in the "Candidate description". 
+1. It mentions that the skateboarder is wearing white shoes, but the skateboarder is actually wearing black shoes. 
+2. It mentions that there are two other people in the scene, but there is only one other person visible. 
+3. It mentions that there are two skateboards visible in the scene, but there is only one skateboard visible. 
+4. It mentions that the setting seems to be a casual, outdoor environment, but the setting is actually a skate park.

@@ -1,0 +1,14 @@
+Gemini pro Response:
+**Score**: 0
+
+**Feedback**: The candidate description accurately describes the image content without introducing any hallucinations. It correctly identifies the laptop on the robot, the keyboard, mouse, two cell phones, chair, and book. The spatial relationships between these objects are also accurately described.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The "Candidate description" hallucinates the following:
+1. There is no chair near the robot.
+2. There is no book resting on the wooden platform.
+3. There is no mouse near the keyboard.
+4. There is no cell phone in the scene.

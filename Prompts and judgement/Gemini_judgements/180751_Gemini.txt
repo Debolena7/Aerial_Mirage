@@ -1,0 +1,11 @@
+Gemini pro Response:
+<b> Score: 5/10 </b> 
+
+The hallucination is moderate. The description mentioned some objects that are not in the image, such as the sink and a bowl.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The image shows a man pouring wine from a bottle into a glass. There are also other bottles of wine on the counter. The man is wearing a red shirt and there is a wooden table. The "Candidate description" is mostly accurate, but it does mention a few things that are not in the image, such as a sink and a refrigerator. Also, the man is not pouring wine for a customer, he is pouring it for himself.

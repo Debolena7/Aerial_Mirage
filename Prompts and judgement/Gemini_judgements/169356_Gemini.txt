@@ -1,0 +1,19 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is generally aligned with the image and the ground truth annotations, but there are a few points that could be improved to reduce hallucination:
+
+1. The candidate description mentions "two other people in the scene", but there is only one other person present in the image, visible in the background on the right-hand side.
+
+2. The candidate description mentions "two potted plants in the area", but there is only one potted plant visible in the image, located near the fence in the background.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 4
+
+The candidate description hallucinates the following:
+- There are two other people in the scene.
+- There are two potted plants in the area.
+- The skateboarder is jumping over a ramp.
+- The scene takes place in a residential area.

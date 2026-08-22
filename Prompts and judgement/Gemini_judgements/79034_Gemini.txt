@@ -1,0 +1,17 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate, but it contains a few minor errors:
+
+1. The candidate description mentions that the fire hydrant is located near a tree. However, the ground truth annotations do not mention a tree.
+2. The candidate description mentions that there are several cars parked in the background. However, the ground truth annotations only mention one car.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The hallucination is minor. The candidate description hallucinates the following:
+1. the fire hydrant is surrounded by a dirt field.
+2. there are several cars parked in the background.
+3. the cars are scattered around the scene, with some closer to the fire hydrant and others further away.
+4. the overall setting appears to be a park or a public space with a mix of natural and man-made elements.

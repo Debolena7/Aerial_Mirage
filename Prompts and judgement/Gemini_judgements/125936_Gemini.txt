@@ -1,0 +1,20 @@
+Gemini pro Response:
+**Score:** 10
+
+**Mistakes:**
+
+* The hallucinated text claims there are at least five people visible in the scene, but there are only four people visible.
+* It mentions there are oranges displayed prominently on the counter, but there are no oranges visible in the image.
+* It mentions there is a selection of breads and cakes, but there are no breads or cakes visible in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The hallucination is minor.
+The candidate description hallucinates the following:
+1. "There are at least five people visible in the scene". There are only four people visible in the image.
+2. "They are all focused on their tasks, preparing food and tending to customers". One person is not focused on any task.
+3. "The bakery counter is filled with an assortment of food items, including a variety of fruits and pastries". There are no pastries visible in the image.
+4. "Additionally, there are numerous bottles placed around the counter, possibly containing beverages or condiments". There are only a few bottles visible on the counter.
+5. "The overall atmosphere of the bakery is lively and busy, with the staff working diligently to serve their customers and keep the bakery running smoothly". The atmosphere is not lively and busy. The staff is not working diligently.

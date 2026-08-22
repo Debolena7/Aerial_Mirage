@@ -1,0 +1,12 @@
+Gemini pro Response:
+Score: 3
+
+The "Candidate description" score is 3 out of 10 because it introduces two hallucinations: 
+1. "...a wooden spoon resting on the table...". There is no wooden spoon in the image.
+2. "...a towel, on which two jars filled with a yellow substance...".  The reference captions and bounding boxes do not mention a towel, therefore it is hallucinated.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The image contains 2 jars, 1 half-cut orange, and 3 whole oranges. The table is covered with a cloth. There is no towel, spoon, or wooden spoon.

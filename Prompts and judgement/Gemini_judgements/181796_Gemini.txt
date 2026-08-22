@@ -1,0 +1,21 @@
+Gemini pro Response:
+Score: 7
+
+The candidate description is generally accurate in describing the contents and arrangement of objects in the image. However, there are a few hallucinations present:
+
+1. "slice of bread": There is no bread in the image.
+2. "two bowls": There is only one bowl in the image, located at the top left corner.
+3. "a bottle": There is no bottle in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The description hallucinates the following:
+- "a slice of bread"
+- "two bowls"
+- "a bottle"
+- "another plate"
+- "water glass"
+- "napkins"
+- "silverware"

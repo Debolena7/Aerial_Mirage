@@ -1,0 +1,16 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description provides an accurate representation of the image content, aligning with the reference captions. The object types (cat, laptop, chair) and their relations (cat on laptop, laptop on desk, chair nearby) are consistent with the ground truth annotations. The description also mentions the position of the cat in the center of the keyboard and the laptop on a desk, which is supported by the bounding boxes.
+
+However, the candidate description includes a minor hallucination by stating that the scene takes place in a room. This detail is not evident from the provided image or bounding boxes, and it introduces an element that is not part of the observed scene. Hence, a score of 2 is given due to this minor hallucination.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The description hallucinates the following:
+1. The cat is sleeping on the keyboard.
+2. The laptop is placed on a desk.
+3. The scene appears to be in a room.
+4. There is a chair nearby.

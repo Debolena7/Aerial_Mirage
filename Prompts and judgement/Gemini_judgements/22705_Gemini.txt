@@ -1,0 +1,21 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate, but there are a few minor hallucinations.
+
+1. The candidate description mentions that the woman is holding a glass of orange juice, but the bounding boxes and reference captions indicate that she is holding a wine glass.
+2. The candidate description mentions that there is a dining table in the background, but the bounding boxes and reference captions do not mention a dining table.
+3. The candidate description mentions that there is a bottle on the table, but the bounding boxes and reference captions do not mention a bottle on the table.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The candidate description hallucinates the following:
+1. The woman is posing for a picture.
+2. She is dressed up for a special occasion or a social gathering.
+3. There is a dining table in the background.
+4. There is a bowl placed on the dining table.
+5. There is a bottle on the dining table.
+6. The woman is holding a glass of orange juice.

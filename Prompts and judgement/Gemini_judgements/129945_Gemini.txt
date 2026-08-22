@@ -1,0 +1,22 @@
+Gemini pro Response:
+**Score**: 5
+
+**Mistakes**: 
+
+1. "There are several other people in the scene, including teammates and possibly coaches. Some of them are standing near the batter, while others are positioned around the field." - There are actually no other people visible in the image.
+
+
+2. "A baseball glove is visible on the field, likely belonging to one of the players." - The baseball glove is not visible in the image.
+
+
+3. "In the background, there are chairs and a bench, which might be used by the players when they are not actively participating in the game." - No chairs or bench are visible in the background of the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The candidate description is mostly accurate, but there are a few minor hallucinations.
+
+1. The description mentions "several other people in the scene, including teammates and possibly coaches". However, there are no other people visible in the image, except for the batter, catcher, and umpire.
+2. The description also mentions "a baseball glove is visible on the field". However, the glove is not visible in the image.

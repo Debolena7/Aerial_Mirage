@@ -1,0 +1,21 @@
+Gemini pro Response:
+Score: 6
+
+The candidate description has some hallucinated elements:
+
+1. "The image features a person lying on a wooden bench in a park, covered with a blanket."
+- The person is not covered with a blanket, but with an orange sleeping bag.
+
+2. "...their belongings, including a backpack and a handbag, are placed beside them on the bench."
+- There is no handbag in the image.
+
+3. "In the background, there are two parking meters, one on the left side and the other on the right side of the bench."
+- There is only one parking meter in the image, on the left side of the bench.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The hallucination is minor. The candidate description hallucinates the following:
+1. There is a handbag mentioned in the candidate description, but there is no handbag in the image.
+2. The candidate description hallucinates that the person is covered with a blanket. The person is actually covered with a sleeping bag.

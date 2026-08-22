@@ -1,0 +1,12 @@
+Gemini pro Response:
+Hallucination score: 0
+
+The candidate description is good and doesn't contain any hallucinations. It accurately describes the image content, including the man surfing on a surfboard in the ocean, the wave, and the surfer's position in the scene.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The surfer is not wearing black shorts.
+The surfboard is not extending from the left to the right side of the image.
+The surfer is not positioned towards the center of the scene.

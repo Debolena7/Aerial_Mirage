@@ -1,0 +1,19 @@
+Gemini pro Response:
+Score: 5
+
+Explanation: The candidate description generally aligns with the image content, but it does contain some minor inaccuracies and hallucinated elements:
+
+1. **"The image features a large black bear sitting on the grass, surrounded by several black birds."**: This statement is accurate as the image does depict a black bear in the grass encircled by birds.
+
+2. **"The bear is positioned towards the left side of the scene, while the birds are scattered around the bear, with some close to it and others further away."**: This part is mostly correct, but the description implies that the bear is alone on one side of the image, which is not fully accurate as there are trees and other elements in the background.
+
+3. **"The birds appear to be perched on the grass or in the air, creating a peaceful scene with the bear and the birds coexisting in the same environment."**: This statement introduces hallucination as the reference captions do not mention the birds' positions or any peaceful coexistence.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The hallucination is minor. The candidate description hallucinates the following:
+1. There are five birds while there are only four birds.
+2. The birds are black while they are actually dark brown.
+3. The bear is sitting while it is actually standing.

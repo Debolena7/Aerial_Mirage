@@ -1,0 +1,14 @@
+Gemini pro Response:
+Score: **3**
+
+The hallucination is minor. The candidate description correctly describes the white horse pulling a carriage. However, it inaccurately mentions the number of people in the carriage as two, while in reality, there is only one person in the carriage. Additionally, there is no mention of a handbag in the ground truth annotations, which is mentioned in the candidate description.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+
+The candidate description hallucinates the following:
+- There are two people in the carriage.
+- There are several other people in the scene.
+- A handbag can be seen in the scene.

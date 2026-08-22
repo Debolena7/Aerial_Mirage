@@ -1,0 +1,21 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate, but there are a few minor mistakes.
+
+1. The candidate description mentions that the woman is wearing a "black necklace". However, there is no necklace visible in the image.
+2. The candidate description mentions that the woman has a "tattoo on her face". However, there is no tattoo visible in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The candidate description hallucinates the following:
+1. The image is a painting.
+2. The person is wearing a white shirt.
+3. The person has a tattoo on her face.
+4. The person has a nose piercing.
+5. The person has green eyes.
+6. The person has a ponytail.
+7. The person is looking downward.
+8. The person is wearing a necklace.

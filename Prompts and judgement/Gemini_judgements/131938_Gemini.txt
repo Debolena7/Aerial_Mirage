@@ -1,0 +1,13 @@
+Gemini pro Response:
+**Score**: 6/10
+
+**Hallucinations**:
+
+* "The cat appears to be wearing a collar as well." - There is no collar in the image.
+* "The bed takes up the entire background of the image, emphasizing the cat's presence in the scene." - The bed actually covers about 2/3 of the height of the image, leaving a small portion of empty space above the cat.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The candidate description is mostly accurate, but there are a few hallucinations. The cat is not wearing a collar, and the bed does not take up the entire background of the image.

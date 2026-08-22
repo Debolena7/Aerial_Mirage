@@ -1,0 +1,13 @@
+Gemini pro Response:
+Score: 4
+
+The candidate description hallucinates that there is a man walking by on the street in the background. There is no person in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The candidate description hallucinates the following:
+1. There is a man walking by on the street in the background.
+2. There are several cars parked or driving along the street.
+3. There are two traffic lights visible in the scene.

@@ -1,0 +1,10 @@
+Gemini pro Response:
+Score: 6
+
+The candidate description mentions the boy is wearing a black shirt with video game controllers on it, which is not present in the image. The description also mentions the cake is on the ground in front of him, but bbox suggests it is on a wooden deck.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The candidate description is mostly accurate, but there are a few minor hallucinations. The boy is not wearing a black shirt with video game controllers on it, he is wearing a black shirt with a pattern of video game controllers on it. The cake is not red with a spider web design, it is red with a spider man design.

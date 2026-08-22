@@ -1,0 +1,16 @@
+Gemini pro Response:
+Score: 6
+
+Mistakes:
+* The candidate description mentions a "hot dog on a bun", when in reality, the image shows two hot dogs, one of which is not on a bun.
+* The description mentions "sauerkraut and mustard" toppings, which are not present in the image.
+* The description mentions a "cup nearby, possibly containing a beverage", which is not present in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The "Candidate description" hallucinates the following:
+1. There is only one hot dog, while there are two hot dogs in the image.
+2. The hot dog is topped with sauerkraut and mustard, while there is no sauerkraut or mustard in the image.
+3. There is a cup nearby, possibly containing a beverage to accompany the hot dog, while there is no cup in the image.

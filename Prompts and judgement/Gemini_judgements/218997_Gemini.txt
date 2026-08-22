@@ -1,0 +1,17 @@
+Gemini pro Response:
+Score: 3
+
+Mistakes:
+
+1. The candidate description mentions "The field is surrounded by a fence". However, there is no fence in the image.
+2. The candidate description mentions "There are a few chairs placed around the area for people to sit and enjoy the game". However, there are no chairs in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The description hallucinates the following:
+1. There are several other people in the scene, some standing and others sitting, likely watching the boy or waiting for their turn to play.
+2. A baseball bat can be seen lying on the ground nearby.
+3. A sports ball is also present in the scene.
+4. The field is surrounded by a fence, and there are a few chairs placed around the area for people to sit and enjoy the game.

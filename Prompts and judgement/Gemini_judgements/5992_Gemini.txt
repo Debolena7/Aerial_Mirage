@@ -1,0 +1,16 @@
+Gemini pro Response:
+Score: 8
+
+The candidate description hallucinates the following:
+
+1. The number of sheep: The candidate description mentions three sheep, while the ground truth annotations and the image show five sheep.
+2. The location of the sheep: The candidate description states that one sheep is located on the left side, another in the middle, and the third sheep on the right side. However, the image shows that one sheep is located on the left side, two sheep are in the middle, and two sheep are on the right side.
+3. The activity of the sheep: The candidate description mentions that the sheep appear to be grazing or resting in the grass. However, the image does not provide enough detail to determine the activity of the sheep.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+There are 6 sheep in the image, not 3.
+The sheep are not in a grassy field, they are on grass next to a brick building.
+The sheep are not grazing or resting, they are standing.

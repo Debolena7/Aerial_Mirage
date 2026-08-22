@@ -1,0 +1,14 @@
+Gemini pro Response:
+Score: 4
+
+The candidate description is mostly accurate, but there are a few minor hallucinations.
+
+- The candidate description mentions that there are two motorcycles parked on the sidewalk, but there is only one motorcycle visible in the image.
+- The candidate description mentions that there is a handbag placed on the ground near the bench, but there is no handbag visible in the image.
+- The candidate description mentions that there is a chair visible in the scene, placed near the bench, but there are two chairs visible in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 8
+The hallucination is mainly about the objects and their relations. For example, the "Candidate description" hallucinates that "two people are sitting on a bench", "a handbag is placed on the ground near the bench", "a backpack is located further away from the bench", and "a chair is also visible in the scene, placed near the bench". However, the image shows that "two people are sitting on chairs", "there is no handbag on the ground", "there is no backpack", and "there is no chair near the bench".

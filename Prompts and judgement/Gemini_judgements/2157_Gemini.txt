@@ -1,0 +1,24 @@
+Gemini pro Response:
+Score: 4
+
+The candidate description captures the general content and objects in the image well, but it has a few mistakes:
+
+* Hallucination: "The image features a dining table covered with a red tablecloth".
+  * Mistake: The image does not show a red tablecloth. The tablecloth is white.
+
+* Hallucination: "There are a few cups".
+  * Mistake: The image shows only 2 cups.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+There are several hallucinations in the "Candidate description". 
+1. The table is not covered with a red tablecloth.
+2. There are no crackers on the table.
+3. There is no bowl of fruit on the table.
+4. The cake is not surrounded by various plates of food and desserts.
+5. There are no cups on the table.
+6. There is no knife on the table.
+7. The table is not filled with a variety of food items.
+8. The overall scene does not suggest a festive and enjoyable gathering.

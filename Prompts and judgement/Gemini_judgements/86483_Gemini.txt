@@ -1,0 +1,12 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate, but it mentions two potted plants in the image, which are not present. This is a minor hallucination that results in a score of 2.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The "Candidate description" hallucinates the following:
+1. Two people in the scene.
+2. Two potted plants.

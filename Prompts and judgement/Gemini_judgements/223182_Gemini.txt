@@ -1,0 +1,22 @@
+Gemini pro Response:
+Score: 5
+
+The candidate description is generally accurate in describing the content of the image. However, there are a few mistakes and hallucinations:
+
+- The description mentions that the tennis player is holding a towel and a tennis racket. However, the image shows the person holding a bottle and a tennis racket.
+
+- The description mentions that there are several other people in the scene, some standing and others sitting, possibly watching the tennis match or waiting for their turn to play. However, the image only shows one other person who is sitting on a chair.
+
+- The description mentions that a few bottles can be seen scattered around the area, possibly containing water or sports drinks for the players. However, the image shows only two bottles.
+
+- The description mentions that a chair is also present in the scene, located near the bench where the tennis player is sitting. However, the image shows two chairs, one near the bench and one in the background.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The candidate description hallucinates the following:
+1. There are several other people in the scene, some standing and others sitting, possibly watching the tennis match or waiting for their turn to play.
+2. A few bottles can be seen scattered around the area, possibly containing water or sports drinks for the players.
+3. A chair is also present in the scene, located near the bench where the tennis player is sitting.

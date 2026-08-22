@@ -1,0 +1,13 @@
+Gemini pro Response:
+Score: 4
+
+The candidate description is mostly accurate, but there are a few hallucinations.
+
+1. The candidate description states that the plane is "flying high in the sky". However, the image shows the plane flying at a medium altitude.
+2. The candidate description states that the plane's "wings are prominently visible". However, the image shows the plane's wings are not very prominent.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 8
+The hallucination is about the position of the airplane. In the image, the airplane is at the bottom of the image, but in the candidate description, it is stated that the airplane is flying high in the sky.

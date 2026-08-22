@@ -1,0 +1,12 @@
+Gemini pro Response:
+The score for the "Candidate description" is 10. 
+
+The candidate description significantly deviates from the given reference captions and bounding box annotations. The most prominent hallucination is the description of people in the image. The description refers to "two people visible in the scene", but neither the reference captions nor the bounding boxes mention human presence. Furthermore, the description mentions a "television mounted on the wall," which is not present in the reference captions or the bounding boxes and therefore classified as a hallucination. The reference captions mention "a television screen" being "displayed in an empty bus," but it is not specified that it is mounted on the wall. Finally, the description includes a detailed account of the bus's "rows of seats and the aisle in between" and mentions that passengers occupy no seats, which elaborates information beyond the reference captions and should be considered as hallucinations.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The "Candidate description" is mostly accurate, but there are a few hallucinations. 
+1. There are not two people in the image. 
+2. The bus is not empty, there are some people sitting on the seats.

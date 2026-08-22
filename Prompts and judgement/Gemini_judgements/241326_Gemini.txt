@@ -1,0 +1,14 @@
+Gemini pro Response:
+Score: 3
+
+The "Candidate description" is mostly accurate, but it contains a few minor hallucinations:
+
+1. The dog is described as "sitting on the floor next to a couch", but in the image, the dog is actually laying on the floor in front of the couch.
+2. The cat is described as "sitting on top of the couch", but in the image, the cat is actually laying on the top of the couch.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+
+The candidate description is mostly accurate, but there are a few minor hallucinations. First, the candidate description states that the cat is sitting on top of the couch, but in the image, the cat is actually lying on the couch. Second, the candidate description states that the dog is looking at the cat, but in the image, the dog's eyes are closed.

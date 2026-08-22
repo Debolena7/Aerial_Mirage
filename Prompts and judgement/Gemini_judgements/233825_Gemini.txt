@@ -1,0 +1,21 @@
+Gemini pro Response:
+Score: 4 
+
+The candidate description provides a good overall impression of the image, but it contains some inaccurate details:
+
+- It mentions a "chair" in the image, but there is no chair visible in the image.
+- It describes the coffee table as "glass," but the image shows a wooden table.
+- It states that the TV is "on the right side of the room," but the TV is on the left side of the room in the image.
+- It mentions a "dining table" in the image, but there is no dining table visible in the image.
+- It describes the bookshelf as filled with "books," but the image shows only a few books on the shelf.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+There are some hallucinations in the "Candidate description".
+
+1. The fireplace is mentioned in the "Candidate description", but there is no fireplace in the image.
+2. The chair is mentioned in the "Candidate description", but there is no chair in the image.
+3. The coffee table is mentioned twice in the "Candidate description", but there is only one coffee table in the image.
+4. The dining table is mentioned in the "Candidate description", but it is not close to the couch.

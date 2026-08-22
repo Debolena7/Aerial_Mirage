@@ -1,0 +1,20 @@
+Gemini pro Response:
+Score: 1
+
+The candidate description provides a reasonable account of the image content, but it does contain some elements of hallucination.
+
+Firstly, the description states that the man is "skillfully navigating the wave", while the image itself only shows the man standing on the surfboard without any indication of his surfing abilities.
+
+Secondly, the description states that the wave is "quite large", while the image shows a wave that is only moderately sized.
+
+Thirdly, the description states that the surfboard is "positioned in the center of the scene", while the image shows the surfboard positioned slightly to the right of the center.
+
+These slight errors in the description suggest that it is not a perfect representation of the ground truth annotations, and thus it deserves a score of 1 out of 10.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The description is mostly accurate, but there are a few minor hallucinations.
+1. The man is not wearing a wetsuit.
+2. The surfboard is not in the center of the scene.

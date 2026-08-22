@@ -1,0 +1,17 @@
+Gemini pro Response:
+Score: 2
+
+The "Candidate description" is mostly accurate but contains a few minor hallucinations:
+
+- It mentions that the teddy bear is sitting on a "white surface, which could be a table or a floor". This is a hallucination because there is no evidence of the surface in the image.
+
+- It mentions that the teddy bear's "legs are crossed and its arms are resting on its lap". This is a minor hallucination because the teddy bear's legs are not crossed and its arms are not resting on its lap.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The hallucination is minor. The candidate description hallucinates the following:
+1. The teddy bear is sitting on a white surface, which could be a table or a floor.
+2. The teddy bear is positioned in a relaxed manner, with its legs crossed and its arms resting on its lap.
+3. The scene is simple and uncluttered, with the teddy bear being the main focus of the image.

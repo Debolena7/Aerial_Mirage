@@ -1,0 +1,20 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate and provides a detailed account of the image content. However, there are a few minor inaccuracies.
+
+1. The description mentions a sink and a cup on the countertop, but there is no sink or cup visible in the image.
+2. The description mentions two bottles, but there is only one bottle visible in the image.
+
+These inaccuracies do not significantly detract from the overall accuracy of the description, but they do indicate that some hallucination may be present.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+There are several hallucinations in the "Candidate description". 
+1. The cat is not standing on the bathroom floor. It is standing on the toilet seat.
+2. There is no sink to the left of the cat. 
+3. There is no cup on the countertop. 
+4. There are no bottles near the sink or further away.
+5. The shower curtain is not pink with flamingos on it.

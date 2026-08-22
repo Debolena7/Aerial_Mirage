@@ -1,0 +1,16 @@
+Gemini pro Response:
+Score: 1
+
+The candidate description is mostly accurate and aligns well with the given reference captions. It correctly identifies the presence of a man on a surfboard riding a wave in the ocean. However, there is a minor hallucination in the description:
+
+1. The candidate description mentions that the surfer is "showcasing his expertise in surfing" and "wearing a wetsuit." While the image does show a man on a surfboard, there is no visual evidence to support the specific claims about the surfer's expertise or attire.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The candidate description hallucinates the following:
+1. The surfer is wearing a wetsuit.
+2. The surfboard is positioned underneath him.
+3. The scene is set against a backdrop of a beautiful ocean.

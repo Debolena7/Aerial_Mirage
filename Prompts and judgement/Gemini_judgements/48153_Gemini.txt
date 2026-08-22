@@ -1,0 +1,13 @@
+Gemini pro Response:
+**Score:** 3
+
+**Hallucination mistakes:**
+
+- The candidate description mentions a "wooden surface, possibly a bench or a wooden floor". However, the ground truth bounding boxes only indicate the presence of a person and a bench. 
+- The candidate description does not mention the pointy design of the shoe, which is a key feature mentioned in the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 0
+There is no hallucination in the "Candidate description". It accurately describes the content of the image.

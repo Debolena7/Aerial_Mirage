@@ -1,0 +1,12 @@
+Gemini pro Response:
+<b> Score: 2/10 </b>
+
+<b> Mistakes: </b>
+- The candidate description mentions that the giraffe is eating hay, but this is not evident in the image or the reference captions.
+- The candidate description mentions that the scene is set in a zoo or a wildlife sanctuary, but this is not specified in the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+There are two green feeders in the image, but the "Candidate description" hallucinates that there is only one.

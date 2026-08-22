@@ -1,0 +1,24 @@
+Gemini pro Response:
+Score: 5
+
+The hallucination is mild.
+
+The candidate description correctly captures the main action in the image, which is a soccer game with two players chasing after the ball. However, there are some minor mistakes.
+
+1. The candidate description states that there are "several other people in the scene, likely teammates and opponents, scattered around the field." However, there are only two people in the image other than the two girls playing soccer.
+
+2. The candidate description states that "In the background, there are a few cars parked near the field, possibly belonging to the players or spectators." However, there is only one car parked near the field.
+
+3. The candidate description states that "A bench can also be seen in the scene, likely for players to rest or for spectators to sit and watch the game." However, there are no benches in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The candidate description hallucinates the following:
+- lively soccer game
+- several other people in the scene
+- some of them are standing closer to the girls, while others are further away
+- a few cars parked near the field
+- a bench in the scene

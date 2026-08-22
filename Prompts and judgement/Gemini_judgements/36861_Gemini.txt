@@ -1,0 +1,17 @@
+Gemini pro Response:
+Score: 5
+
+The "Candidate description" introduces several hallucinations:
+1. It mentions "two parking meters attached to the same pole", but the image shows only one parking meter.
+2. It mentions "a 10-year sign on the building", but there is no such sign in the image.
+3. It mentions "a fire hydrant located near the parking meters", but there is no fire hydrant in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The "Candidate description" hallucinates the following:
+1. There are two parking meters attached to the same pole.
+2. The parking meters are positioned close to a building.
+3. There is a 10-year sign on the building.
+4. There is a fire hydrant located near the parking meters.

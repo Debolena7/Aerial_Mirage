@@ -1,0 +1,17 @@
+Gemini pro Response:
+The score of the provided caption is 4.
+
+The caption correctly describes the presence of a man and a woman sitting together at a dining table, but it inaccurately mentions that they are eating sushi and using chopsticks and a fork. The image shows them eating a hotdog and sandwich with their bare hands. There is no sushi, bowl, cup, or spoon on the table as mentioned in the caption. The image is not set in a restaurant or dining setting, but rather in a train.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 8
+
+The image shows two people sitting on a train and eating food from trays. The candidate description hallucinates the following:
+- The image features a man and a woman sitting together at a dining table, enjoying a meal.
+- They are eating sushi, which is placed on the table in front of them.
+- The man is using chopsticks to eat the sushi, while the woman is holding a fork.
+- The table is set with various items, including a bowl, a cup, and a spoon.
+- There are also two sandwiches on the table, one near the center and the other closer to the woman.
+- The scene appears to be taking place in a restaurant or a similar dining setting.

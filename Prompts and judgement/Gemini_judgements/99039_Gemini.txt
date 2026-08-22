@@ -1,0 +1,18 @@
+Gemini pro Response:
+Score: 7
+
+The candidate description hallucinates the following:
+- cups
+- carrots
+- restaurant
+- window view
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+There are several hallucinations in the "Candidate description". 
+1. It mentions that there are two cups on the table, but there are none. 
+2. It mentions that there are two carrots on the table, but there are none. 
+3. It mentions that there is a bowl of sauce on the table, but there are two. 
+4. It mentions that there is a knife and a fork on the table, but there are two forks.

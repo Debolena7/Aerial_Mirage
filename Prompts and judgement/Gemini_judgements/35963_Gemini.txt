@@ -1,0 +1,12 @@
+Gemini pro Response:
+Score: 9
+
+The candidate description hallucinates the following:
+* The statue is holding a baby.
+* There is a cross nearby.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The "Candidate description" is mostly accurate, but there are a few hallucinations. First, the statue is not holding a baby, it is holding a cross. Second, the teddy bears are not scattered all over the statue, they are mostly on the cross. Third, there is no grass in the image, it is all dirt.

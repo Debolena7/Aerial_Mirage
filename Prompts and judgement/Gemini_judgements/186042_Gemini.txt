@@ -1,0 +1,17 @@
+Gemini pro Response:
+Score: 7
+
+The candidate description introduces several incorrect elements:
+
+1. The skier is described as "enjoying his time on the snowy path", while the reference captions only mention the person skiing without specifying their mood.
+2. The "snowy path" is not described in the reference captions. The reference captions only mention "a slope."
+3. The description mentions "several trees visible in the background", but there is only one tree visible in the background in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The candidate description hallucinates the following:
+- There are several trees visible in the background, with some closer to the man and others further away.
+- The overall atmosphere of the image is one of adventure and outdoor recreation.

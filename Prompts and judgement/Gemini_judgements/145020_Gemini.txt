@@ -1,0 +1,19 @@
+Gemini pro Response:
+Score: 6
+
+The candidate description hallucinates the following:
+
+1. Mickey Mouse is present in the image, although the reference captions and bounding boxes only mention Donald Duck and other people.
+2. The chair is not mentioned in the reference captions or bounding boxes.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+
+The candidate description hallucinates the following:
+1. There is no Mickey Mouse character in the image, but the candidate description hallucinates that there is a Mickey Mouse character.
+2. The candidate description hallucinates that the Donald Duck character is wearing a red and green vest, but in the image, Donald Duck is wearing a green sweater.
+3. The candidate description hallucinates that there is a chair in the scene, but there is no chair in the image.
+4. The candidate description hallucinates that there are people standing closer to the tree, but in the image, there are no people standing closer to the tree.
+5. The candidate description hallucinates that there are people scattered around the area, but in the image, there are no people scattered around the area.

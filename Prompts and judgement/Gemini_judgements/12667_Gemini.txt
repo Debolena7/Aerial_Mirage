@@ -1,0 +1,12 @@
+Gemini pro Response:
+Score: 0
+
+The candidate description accurately describes the image without introducing any hallucinations. All the objects mentioned, including the desk, telephone, banana, notebook, and pen, are present in the image. The relations between the objects, such as the banana being placed on the phone, are also correctly described. Furthermore, the actions, counts, and positions of the objects are consistent with the information provided in the reference captions and the bounding boxes.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The image contains a banana placed on a telephone. The "Candidate description" hallucinates the following:
+1. There is a notebook and a pen on the desk.
+2. The desk is a workspace.

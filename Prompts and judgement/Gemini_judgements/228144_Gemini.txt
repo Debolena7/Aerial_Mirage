@@ -1,0 +1,14 @@
+Gemini pro Response:
+Score: 8
+
+The "Candidate description" introduces additional entities that are not present in the actual image, which constitutes hallucination. The reference captions and bounding boxes do not mention any couch in the room. Therefore, the description is hallucinating the presence of a "couch". However, the description accurately depicts the mirror, the reflection of the interior, and the arrangement of the chair, which is consistent with the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 8
+The candidate description hallucinates the following:
+1. There is a couch in the room.
+2. The couch is positioned towards the right side of the room.
+3. The chair is located on the left side of the room.
+4. The arrangement of the furniture creates a cozy and inviting atmosphere in the room.

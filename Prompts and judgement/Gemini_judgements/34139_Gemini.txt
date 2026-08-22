@@ -1,0 +1,19 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate, but there are a few minor mistakes:
+- The suitcase is not a statue, it is a real suitcase.
+- The people are not posing for a picture, they are just standing next to the suitcase.
+- The city is not specified in the reference captions, so it is not possible to know where the suitcase is located.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The candidate description hallucinates the following:
+1. There is a city in the background.
+2. The suitcase is a statue.
+3. The suitcase is covered in various stickers.
+4. The people are posing for a picture.
+5. The people are enjoying their time in the city.

@@ -1,0 +1,16 @@
+Gemini pro Response:
+Hallucination score: 5
+
+The candidate description is mostly accurate, but it contains some hallucinated details and errors:
+- It wrongly describes the bird as a cockatoo when it is actually a goose.
+- The description mentions "a shiny floor" which is absent in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The description hallucinates the following:
+1. The bird is possibly a cockatoo.
+2. The floor is shiny.
+3. The room appears to be a dining area or a space with multiple seating arrangements.

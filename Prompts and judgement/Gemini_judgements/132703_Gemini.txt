@@ -1,0 +1,17 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate but contains some minor errors:
+
+1. The candidate description mentions "performing a daring trick," but both reference captions and the bounding boxes indicate the man is riding down a handrail. Trick performance is not evident in the image.
+
+2. The candidate description mentions the man "appears to be in mid-air," but both reference captions and the bounding box indicate his feet are on the skateboard, and he is grinding along the railing.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The skateboarder is not wearing an orange shirt.
+The skateboarder is not in mid-air.
+The skateboarder is not grinding along the railing.
+The skateboarder is not performing a daring trick.

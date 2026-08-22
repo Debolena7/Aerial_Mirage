@@ -1,0 +1,19 @@
+Gemini pro Response:
+Score: 9
+
+The candidate description is mostly accurate, but it contains some hallucinations.
+
+1. The candidate description states that "The man is holding a frisbee". However, this is not true, the man is actually holding a stick. 
+2. The candidate description states that "There are a few other people in the background". However, this is not true, there are no other people in the background. 
+3. The candidate description states that "The field is surrounded by a fence". However, this is not true, the field is not surrounded by a fence.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+
+The candidate description hallucinates the following:
+1. There are a few other people in the background.
+2. The field is surrounded by a fence.
+3. The man is holding a frisbee.
+4. The dog is attentively looking up at the man, waiting for the frisbee to be thrown.

@@ -1,0 +1,17 @@
+Gemini pro Response:
+Score: 2
+
+Mistakes:
+- The candidate description mentions that the bed is covered with a brown blanket, but the image shows it covered with a green blanket.
+- The candidate description mentions that there is a clock on the wall above the bed, but the image shows the clock on the wall to the left of the bed.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+The candidate description is mostly accurate, but there are a few minor hallucinations.
+
+1. The fireplace is not built-in.
+2. There is no lamp on the nightstand.
+3. The television is not mounted above the right chair. It is above the fireplace.
+4. There is no ottoman at the end of the bed.

@@ -1,0 +1,12 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate, but it contains a few minor hallucinations:
+- The person in the image is not holding a baby.
+- There is no fire hydrant in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 8
+The "Candidate description" is mostly accurate, but there are a few mistakes. First, the candidate description hallucinates that there is a man holding a baby. Second, the candidate description hallucinates that there are two cars parked or driving on the street. Third, the candidate description hallucinates that there is a fire hydrant.

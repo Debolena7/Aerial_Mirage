@@ -1,0 +1,20 @@
+Gemini pro Response:
+Score: 2/10
+
+There are some minor mistakes in the candidate description.
+
+- **Mistake 1**: The candidate description mentions "two vases" in the room, but there is only one vase present in the image.
+- **Mistake 2**: The candidate description mentions "a chair" in the room, but there is no chair present in the image.
+
+Other than these mistakes, the candidate description is mostly accurate and provides a good overview of the image content.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+
+The "Candidate description" hallucinates the following:
+- The couch is covered with a blue blanket, and there are two pillows on it.
+- There are two vases in the room, one near the left side of the couch and the other on the right side.
+- A chair is also present in the room, positioned near the right side of the couch.
+- The room has a warm and inviting atmosphere, perfect for relaxation and socializing.

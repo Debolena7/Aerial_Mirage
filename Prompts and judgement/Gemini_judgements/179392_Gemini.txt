@@ -1,0 +1,18 @@
+Gemini pro Response:
+Score: 6
+
+The hallucination is in the following:
+
+1. In the candidate description, it is mentioned that the "cat is wearing a purple collar". However, there is no collar visible in the image.
+2. The candidate description mentions that "The desk is cluttered with various items, including a keyboard, a mouse, and a cell phone". However, there is no mouse or cell phone visible in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The candidate description hallucinates the following:
+- There is no purple collar on the cat.
+- There is no computer monitor behind the cat.
+- There is no mouse on the desk.
+- There is no cell phone on the desk.
+- The cat is not staring at the camera.

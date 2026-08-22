@@ -1,0 +1,13 @@
+Gemini pro Response:
+Score: 2
+
+Mistakes:
+
+1. The candidate description mentions "a sprig of parsley" as a garnish, but there is no parsley visible in the image.
+2. The candidate description states that "A fork is placed on the right side of the plate", but the fork is actually on the left side of the plate.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The candidate description is mostly accurate, but there are a few minor hallucinations. First, the description mentions that the meat is "accompanied by a side of green beans", but in the image, the green beans are not on the side of the meat, they are on the same plate as the meat. Second, the description mentions that the dish is "garnished with a sprig of parsley", but in the image, there is no parsley on the dish.

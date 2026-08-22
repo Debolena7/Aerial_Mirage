@@ -1,0 +1,13 @@
+Gemini pro Response:
+Score: 0
+
+The candidate description accurately describes the image content and is consistent with the reference captions. It correctly identifies the oven, pots, stove, and kitchen setting. The description also mentions the oven being open, which is not explicitly mentioned in the reference captions but can be inferred from the image. No hallucination is present in the candidate description.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+There are some minor hallucinations in the "Candidate description". 
+1. The oven is not open, and there is no visible light inside the oven. 
+2. There is a blue spray bottle on top of the stove, which is not mentioned in the "Candidate description". 
+3. The clock is not mentioned in the "Candidate description".

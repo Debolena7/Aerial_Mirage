@@ -1,0 +1,15 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate, but there are a few minor hallucinations:
+
+- The description mentions "several chairs", but there are only 4 chairs visible in the image.
+- The description mentions "a few potted plants", but there are no potted plants visible in the image.
+- The description mentions "other people present, likely guests attending the wedding reception", but there are no other people visible in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The image description is mostly accurate, but there are a few minor mistakes. There are no potted plants in the image, and there are not several chairs around the cake table. Also, the couple is not holding the knife together.

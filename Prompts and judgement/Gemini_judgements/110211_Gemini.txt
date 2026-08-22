@@ -1,0 +1,17 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is incorrect in the following ways:
+
+- **Hallucinated object:** The candidate description mentions a hippo in the image, but there is no hippo in the image according to the ground truth bounding boxes.
+- **Incorrect object count:** The candidate description states there are three zebras in the image, but there are five zebras according to the ground truth bounding boxes.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+There are several hallucinations in the "Candidate description". 
+1. The number of zebras is incorrect. There are 4 zebras in the image, but the "Candidate description" states that there are 3 zebras. 
+2. The description of the zebras' positions is incorrect. The "Candidate description" states that one zebra is positioned towards the left side, another in the middle, and the third on the right side. However, in the image, there are 2 zebras on the left side, one in the middle, and one on the right side. 
+3. The "Candidate description" mentions a hippo, but there is no hippo in the image. 
+4. The "Candidate description" states that the animals are peacefully coexisting, enjoying the lush green field as they graze. However, in the image, the zebras are not grazing.

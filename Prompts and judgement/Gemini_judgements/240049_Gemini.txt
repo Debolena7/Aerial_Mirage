@@ -1,0 +1,17 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate, but there are a few minor hallucinations.
+
+1. The candidate description mentions that the woman is "ensuring their safety". However, there is no evidence of this in the image.
+2. The candidate description mentions that the giraffes are "positioned on opposite sides of the fence". However, one of the giraffes is actually standing in front of the fence.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The woman is not holding the child, but carrying the child.
+The child is not a young child, but a baby.
+There is no fence between the woman and the giraffes.
+The giraffes are not on opposite sides of the fence.
+The woman and child are not standing, but leaning on the fence.

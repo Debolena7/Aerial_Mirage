@@ -1,0 +1,16 @@
+Gemini pro Response:
+Score: 3
+
+The candidate description is mostly correct but contains minor hallucinations:
+
+1. The candidate description mentions a grassy field, but this information is not present in the reference captions or the bounding boxes.
+2. The candidate description mentions the mother cow is positioned on the left side of the image, while the baby cow is on the right side. However, the bounding boxes show that the mother cow is on the right side of the image, and the baby cow is on the left side.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The description hallucinates the following:
+1. The mother cow is positioned on the left side of the image, while the baby cow is on the right side.
+2. The field is filled with grass, providing a natural environment for the cows to graze and bond.

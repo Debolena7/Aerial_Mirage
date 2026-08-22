@@ -1,0 +1,14 @@
+Gemini pro Response:
+Score: 7
+
+The candidate description is mostly accurate, but there are a few mistakes:
+
+- The hair color is incorrectly described as purple, while the ground truth is blue.
+- The shirt color is described as gray, while the ground truth is blue.
+- The candidate description mentions that the woman is taking a selfie with a mirror, but there is no mirror visible in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The image shows a woman with blue hair, wearing a blue shirt and tie, taking a selfie with her cell phone. The woman is standing in front of a mirror, which is visible in the background. The sink is not visible. The woman is holding the phone up to the mirror to capture the picture. The woman is not wearing a gray shirt.

@@ -1,0 +1,23 @@
+Gemini pro Response:
+Score: 4
+
+The hallucination level is low because:
+
+1. The candidate description is consistent with the bounding boxes. It correctly identifies objects such as a boat, people, and birds.
+2. The spatial relationships between objects are mostly accurate. The boat is described as being close to the shoreline and the people are described as being scattered around the beach area.
+3. The actions of the objects are plausible. The people are described as enjoying their time near the water and the boat is described as being a lifeguard boat.
+4. The counts of objects are  accurate. The candidate description mentions a small boat, a few people, and a bird, which is consistent with the ground truth.
+
+However, there are some minor inconsistencies with the ground truth annotations:
+
+1. The reference captions do not mention a lifeguard boat specifically.
+2. The candidate description states that the boat is sitting on the beach, while the ground truth captions indicate that it is floating on the water.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The hallucination is minor.
+1. The candidate description hallucinates that the boat is a lifeguard boat.
+2. The candidate description hallucinates that one person is standing closer to the boat.
+3. The candidate description hallucinates that the others are scattered around the beach area.

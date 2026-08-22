@@ -1,0 +1,17 @@
+Gemini pro Response:
+Score: 2
+
+**Mistakes:**
+
+* The candidate description incorrectly mentions that there are two bottles placed on the sink's edge, while the image only shows one bottle in the top right corner.
+* The candidate description mentions that the spoon is positioned towards the right side of the sink, but it is actually located towards the center-left of the sink.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 4
+
+The "Candidate description" is mostly accurate, but there are some minor hallucinations. 
+1. It mentions that "The cups are scattered around the sink, with some closer to the faucet and others near the edge of the sink", but in the image, there is only one cup near the faucet, and the rest are near the edge of the sink. 
+2. It also mentions that "The bowl is located near the center of the sink", but in the image, the bowl is actually located towards the left side of the sink. 
+3. It mentions that "There are two bottles placed on the sink's edge, one on the left and the other on the right", but in the image, there are actually three bottles, two on the left and one on the right.

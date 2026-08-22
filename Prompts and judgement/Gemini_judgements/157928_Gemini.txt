@@ -1,0 +1,16 @@
+Gemini pro Response:
+The score for the "Candidate description" is 3/10. 
+
+The candidate description is mostly accurate, but it contains a few factual errors and some hallucinations:
+
+1. The candidate description mentions that there is a snowboard in the image, but there is no snowboard in the image. This is a hallucination.
+2. The candidate description says that there are two cars parked in the background, but there is only one car parked in the background. This is a hallucination.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+There are a few hallucinations in the "Candidate description". 
+1. It mentions that there is a snowboard in the image, but there is none. 
+2. It mentions that one of the men is wearing a hat, but he is not. 
+3. It mentions that there are two cars parked in the background, but there is only one.

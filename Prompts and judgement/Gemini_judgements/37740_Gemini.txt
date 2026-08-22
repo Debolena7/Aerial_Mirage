@@ -1,0 +1,14 @@
+Gemini pro Response:
+The hallucination score is 0.
+
+The candidate description is complete and accurate. It mentions the presence of a desk, chair, laptop computer, keyboard, mouse, television, potted plant, and couch, which are all visible in the image. It also correctly describes the positions of these objects in the room and the overall organization and functionality of the workspace. There are no hallucinated objects or actions in the description.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+There are several hallucinations in the "Candidate description". 
+1. The "Candidate description" hallucinates that there is a television in the room, but there is no television in the image. 
+2. The "Candidate description" hallucinates that there is a mouse on the desk, but there is no mouse in the image. 
+3. The "Candidate description" hallucinates that there is a potted plant near the desk, but the potted plant is actually on the floor. 
+4. The "Candidate description" hallucinates that there is a couch in the background, but the couch is actually in the foreground.

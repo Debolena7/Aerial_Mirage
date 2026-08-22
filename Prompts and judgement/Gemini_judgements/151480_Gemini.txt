@@ -1,0 +1,15 @@
+Gemini pro Response:
+Score: 3
+
+Mistakes:
+- The image doesn't include any chairs.
+- The description suggests there are spectators or team staff in the background, but there aren't any visible in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The description is mostly accurate, but there are a few minor hallucinations. 
+- It mentions that there are several people in the background, possibly spectators or team staff. But there are no people in the background. 
+- It mentions that there are a few chairs scattered around the field, likely for the players to rest or for the audience to sit and watch the game. But there are no chairs on the field.

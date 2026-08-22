@@ -1,0 +1,13 @@
+Gemini pro Response:
+Score: 10
+
+This is a highly hallucinatory description. The candidate description includes objects and activities that are not present in the image. For example, it mentions "a few backpacks scattered around the court," but there are only two backpacks in the image. It also mentions "boys and girls" and "six tennis rackets," but only one racket is visible. Additionally, the description includes a sentence that mentions "a tennis event or practice session," but it is not possible to determine this information from the image alone.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The candidate description hallucinates the following:
+1. It hallucinates that there are at least six tennis rackets visible in the scene, held by various individuals.
+2. It hallucinates that there are a few backpacks scattered around the court.
+3. It hallucinates that the group appears to be enjoying their time together, possibly participating in a tennis event or practice session.

@@ -1,0 +1,12 @@
+Gemini pro Response:
+Score: 2
+
+The hallucination is minimal and includes the following mistake:
+
+- The candidate description mentions a "unique design" and "quirky appearance" of the toaster, which is not evident in the reference captions or the bounding boxes.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 4
+The toaster does not have a pair of eyes, a nose, and a mouth. It has two spoons attached to it, but they are not on the left and right sides. There is no tile backsplash in the image.

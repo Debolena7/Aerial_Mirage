@@ -1,0 +1,14 @@
+Gemini pro Response:
+Score: 0
+
+The "Candidate description" is almost completely accurate compared to the reference descriptions. It correctly mentions the dog sitting on the car, the bandana around its neck, and the car being parked in a parking lot. It also accurately identifies the presence of a potted plant and a person in the background. The only minor discrepancy is the mention of two bicycles in the scene, while the reference annotations and bounding boxes do not indicate any bicycles in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+
+The candidate description hallucinates the following:
+1. There are two potted plants in the scene.
+2. There are two bicycles in the scene.
+3. A person can be seen in the background.

@@ -1,0 +1,14 @@
+Gemini pro Response:
+Score: 0
+No hallucination is present in the "Candidate description".
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The candidate description hallucinates the following:
+1. The sandwich is cut in half.
+2. The sandwich is a grilled cheese sandwich.
+3. There is a side of sauce in a bowl.
+4. The plate is placed on the table.
+5. There is a fork nearby, ready for use.

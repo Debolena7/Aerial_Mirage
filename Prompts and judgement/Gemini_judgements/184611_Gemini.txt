@@ -1,0 +1,14 @@
+Gemini pro Response:
+0.
+
+No hallucination is present in the candidate description. It accurately describes the content of the image, including the man riding a bike with a cart, the luggage being transported, the other people in the scene, and the street setting.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The description hallucinates the following:
+- There is no cart attached to the bike.
+- The man is not carrying luggage.
+- There are no backpacks or suitcases on the cart.
+- The man is not the main focus of the image.

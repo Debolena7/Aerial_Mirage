@@ -1,0 +1,20 @@
+Gemini pro Response:
+Score: 10
+
+The candidate description contains several hallucinations.
+
+1. The candidate description mentions that the pizza is placed inside a cardboard box, which is sitting on a table. However, the ground truth bounding boxes do not contain any table object.
+
+2. The candidate description mentions that the cheese is spread evenly across the pizza, covering the entire surface. However, the ground truth bounding box only contains a pizza object, and it is not possible to determine from the ground truth whether the cheese is spread evenly across the pizza or not.
+
+3. The candidate description mentions that the pizza appears to be a cheese pizza, with no additional toppings visible. However, the ground truth does not provide any information about the toppings on the pizza.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+There are some hallucinations in the "Candidate description". 
+1. The pizza is not sitting on a table.
+2. The pizza is not cut into 8 slices.
+3. There are some toppings visible on the pizza.
+4. The pizza is not a close-up view.

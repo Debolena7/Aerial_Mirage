@@ -1,0 +1,18 @@
+Gemini pro Response:
+**Score**: 7
+
+**Mistakes**:
+- The candidate description mentions "riding a horse", which is not present in the reference captions.
+- The candidate description mentions "the horse's head and neck visible in the foreground", which is not present in the reference captions.
+- The candidate description mentions "a black and white photo", which is not present in the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 5
+
+The candidate description hallucinates the following:
+- There are two horses.
+- The man is standing on top of two horses.
+- The horses are running.
+- The man is holding the reins.

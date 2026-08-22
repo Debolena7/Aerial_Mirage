@@ -1,0 +1,14 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate. It correctly identifies the people, cell phones, and handbags in the image. However, it mistakenly mentions a potted plant in the background, which is not present in the image. This is a minor hallucination, so a score of 2 is appropriate.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The candidate description hallucinates the following:
+1. A group of people standing outside a building -> There are only 5 people in the image and it's not clear if there's a building in the background.
+2. A woman is prominently holding up her cell phone, possibly taking a picture or using an app -> The woman is holding her phone but it's not clear if she's taking a picture or using an app.
+3. Another person nearby is also holding a cell phone -> There are two other people holding cell phones, but they're not necessarily nearby.
+4. A potted plant can be seen in the background, adding a touch of greenery to the urban setting -> There's no potted plant in the image.

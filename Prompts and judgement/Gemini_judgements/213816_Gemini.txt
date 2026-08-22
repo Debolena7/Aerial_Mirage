@@ -1,0 +1,14 @@
+Gemini pro Response:
+**Score:** 3
+
+**Hallucination:**
+
+The candidate description incorrectly states that "no passengers [are] visible inside." There is one person visible inside the train: a person wearing a black coat standing near the open doors.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+The candidate description is mostly accurate, but it hallucinates the following:
+- The train is not empty, there is a reflection of a person on the door.
+- The train is not parked at a station, it is in a depot.

@@ -1,0 +1,13 @@
+Gemini pro Response:
+Score: 5
+
+The candidate description is hallucinatory because it mentions three airplanes, but there are only two airplanes in the image, as mentioned in the reference captions and shown in the bounding boxes. The rest of the description is accurate.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 8
+The "Candidate description" hallucinates the following:
+1. The number of airplanes.
+2. The relative positions of the airplanes.
+3. The weather condition.

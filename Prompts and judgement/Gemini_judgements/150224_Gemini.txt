@@ -1,0 +1,16 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate and aligns with the provided bounding boxes and reference captions. However, there are a few minor mistakes:
+
+1. The description mentions "A few people are standing, while others are sitting or lying down on the sand." However, there are no people lying down on the sand in the image.
+2. The description mentions "A couple of beach chairs are also visible, offering additional seating options for the visitors." However, there is only one beach chair visible in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The hallucination is minor. 
+1. The reference captions do not mention anything about the ocean waves, but the candidate description mentions it.
+2. The reference captions do not mention anything about the beach chairs, but the candidate description mentions it.
+3. The reference captions do not mention anything about the handbag, but the candidate description mentions it.

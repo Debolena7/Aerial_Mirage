@@ -1,0 +1,20 @@
+Gemini pro Response:
+7
+
+The candidate description introduces extra information that is not present in the image and is not consistent with the ground truth annotations.
+
+* **Hallucination:**
+   * "The stop sign has the word "SOS" written on it" -> This information is not present in the image.
+   * "The stop sign is positioned on a pole" -> The stop sign is not visibly positioned on a pole in the image.
+   * "There are several cars and trucks visible, indicating that the area is a busy street" -> While there are vehicles visible in the image, the number of vehicles is not accurately represented. The image does not provide enough context to indicate whether the area is a busy street or not.
+   * "Some of the vehicles are parked, while others are in motion, creating a lively atmosphere" -> The image does not provide enough detail to determine whether the vehicles are parked or in motion. The candidate description introduces an unnecessary level of detail that is not supported by the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 6
+
+The "Candidate description" hallucinates the following:
+- The stop sign has "SOS" written on it.
+- There are several cars and trucks visible, indicating that the area is a busy street.
+- Some of the vehicles are parked, while others are in motion, creating a lively atmosphere.

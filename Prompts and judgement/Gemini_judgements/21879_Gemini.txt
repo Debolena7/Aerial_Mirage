@@ -1,0 +1,20 @@
+Gemini pro Response:
+Score: 3
+
+The candidate description provides a generally accurate description of the image, but there are a few minor inaccuracies that suggest some degree of hallucination.
+
+1. The candidate description mentions that the woman is "skillfully riding a wave," but the image does not show her actually riding a wave. She is simply standing on her surfboard in the water.
+2. The candidate description mentions that there are "several other people in the water around her," but the image only shows three other people in the water, and they are all quite far away from her.
+3. The candidate description mentions that there are "a couple of surfboards visible in the water," but the image only shows one surfboard in the water, in addition to the one the woman is riding.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The candidate description hallucinates the following:
+1. The image features a young woman skillfully riding a wave on a blue surfboard in the ocean. She is the main focus of the scene, with her surfboard positioned in the center.
+There are several other people in the water around her, some of them closer to the shore and others further out.
+In addition to the surfers, there are a couple of surfboards visible in the water, one near the woman and another one slightly further away. The scene captures the excitement and energy of a day at the beach, with people enjoying the ocean and the waves.
+
+There are 5 people in the image. The woman is not the main focus of the scene. There are 3 surfboards in the image.

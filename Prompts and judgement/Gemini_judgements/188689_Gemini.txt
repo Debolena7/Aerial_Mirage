@@ -1,0 +1,16 @@
+Gemini pro Response:
+Score: 7
+
+The candidate description has hallucinated the following:
+
+1. The boat is partially submerged in the sand. (This is not true, the boat is resting on the sand.)
+2. There are two people visible in the background. (This is not true, there are no people in the image.)
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+There are a few mistakes in the "Candidate description". 
+1. The description mentions "a small boat", but the boat in the image is relatively large. 
+2. The description mentions "two people visible", but there are no people visible in the image. 
+3. The description mentions "the bow partially submerged in the sand", but the bow is not submerged in the sand.

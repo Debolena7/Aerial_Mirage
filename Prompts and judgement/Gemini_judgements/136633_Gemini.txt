@@ -1,0 +1,16 @@
+Gemini pro Response:
+**Score**: 2
+
+**Mistakes**: The candidate description is mostly accurate, but it mentions the following hallucinated elements:
+- "The market is lined with various vegetables, including carrots, which are prominently displayed in several locations."
+- "There are also other items such as broccoli and oranges available for purchase."
+
+These elements are not visible in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The candidate description hallucinates the following:
+1. The candidate description hallucinates that there are carrots, broccoli, and oranges in the market.
+2. The candidate description hallucinates that some people are carrying handbags.

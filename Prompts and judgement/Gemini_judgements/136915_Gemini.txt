@@ -1,0 +1,19 @@
+Gemini pro Response:
+Score: 3
+
+The candidate description is mostly accurate, but there are a few minor mistakes:
+
+- The soldier is not wearing a military uniform.
+- There is only one bottle in the room, not two.
+- The books are not placed near the TV.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+There are a few hallucinations in the "Candidate description". 
+1. It mentions that there are two men engaged in a conversation. But there are actually three men in the image. 
+2. It mentions that one of the men is a businessman dressed in a suit and tie. But the man is not wearing a tie. 
+3. It mentions that the soldier is holding a baseball bat. But the baseball bat is actually being held by the man in the suit. 
+4. It mentions that there are two books placed nearby the TV. But there are actually three books. 
+5. It mentions that there are two bottles in the room. But there is only one bottle visible.

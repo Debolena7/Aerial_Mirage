@@ -1,0 +1,20 @@
+Gemini pro Response:
+Score: 2
+
+The "Candidate description" is mostly accurate and consistent with the image content. However, there are a few minor mistakes that indicate some hallucination:
+
+1. The candidate description mentions "There are several cups and bottles scattered around the table," however, there is only one cup visible on the table in the image.
+2. The candidate description also mentions "the boy might be having a drink along with his meal," However, there is no evidence of any drink in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The "Candidate description" is mostly accurate, but there are a few minor hallucinations.
+
+1. The "Candidate description" mentions that "The table is surrounded by chairs, with one on the left side of the boy and another on the right". However, there is only one chair on the left side of the boy in the image.
+2. The "Candidate description" mentions that "There are several cups and bottles scattered around the table". However, there are only two cups and no bottles on the table in the image.
+3. The "Candidate description" mentions that "The scene appears to be set in a restaurant or a similar dining environment". However, it is not clear from the image whether the scene is set in a restaurant or a similar dining environment.
+
+Overall, the "Candidate description" is mostly accurate, but there are a few minor hallucinations.

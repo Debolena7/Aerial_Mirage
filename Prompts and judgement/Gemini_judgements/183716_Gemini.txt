@@ -1,0 +1,20 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate but contains a minor hallucination:
+
+- Hallucination: The candidate description mentions two girls "posing together for a picture", but there is no evidence of a camera or any indication that they are posing for a picture in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The candidate description hallucinates the following:
+1. The girls are wearing jackets.
+2. The girls are smiling.
+3. The girls are posing for a picture.
+4. The girls are standing close to each other.
+5. One girl is on the left side and the other is on the right side of the image.
+6. The ties are clearly visible.
+7. The ties add a formal touch to their outfits.

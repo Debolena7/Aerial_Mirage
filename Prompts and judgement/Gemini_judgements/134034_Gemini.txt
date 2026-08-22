@@ -1,0 +1,14 @@
+Gemini pro Response:
+Score: 4
+
+Mistakes:
+
+1. The candidate description mentions a "fenced-in area", while the reference captions only mention a "fence".
+2. The candidate description mentions "trees and a house" in the background, but the reference captions do not mention any background objects.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 1
+
+The hallucination is mainly about the background. The reference captions do not mention anything about the background, but the candidate description hallucinates that there are trees and a house in the background. Also, the candidate description hallucinates that the horses are grazing on grass, but in the image, it is not clear whether they are eating grass or not.

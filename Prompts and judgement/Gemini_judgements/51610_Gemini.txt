@@ -1,0 +1,14 @@
+Gemini pro Response:
+Score: 7
+
+The candidate description hallucinates the following:
+- The child's age- it describes the child as "young" whereas the reference captions do not mention the age.
+- The child's gender- it describes the child as a "girl" whereas the reference captions do not mention the gender.
+- The child's activities- it describes the child as "attentively watching" and "possibly enjoying a video or playing a game" whereas the reference captions only mention that the child is "watching" the laptop.
+- The laptop's placement- it describes the laptop as being "placed on the bed" whereas the reference captions do not mention the laptop's placement.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The hallucination is minor. The child is not sitting in front of the laptop but rather to the side.

@@ -1,0 +1,17 @@
+Gemini pro Response:
+Score: 9
+
+The "Candidate description" mentions a cozy living room with a wooden coffee table with a vase of flowers, a television, a remote control, books, a chair, a dining table, and a potted plant.
+
+- Mistake1: The candidate description incorrectly describes the wooden table as a coffee table, which is not consistent with the reference captions and bounding boxes. The bounding boxes indicate a rectangular shape, which is more likely a dining table or a rectangular table.
+
+- Mistake2: The candidate description also mentions a potted plant, which is not present in the image according to the reference captions and bounding boxes.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The candidate description hallucinates the following:
+1. The chair mentioned is not present in the image.
+2. The dining table is not in the background but is rather placed in the foreground.
+3. There is no potted plant present in the image.

@@ -1,0 +1,18 @@
+Gemini pro Response:
+**Score**: 6
+
+**Mistakes**:
+
+1. The candidate description mentions a "catcher" and an "umpire" in the scene, but there are no such objects in the "Reference captions" or the "Bounding boxes (bbox)".
+2. The description mentions that the batter is "holding the baseball bat with determination", but the image doesn't show the expression or emotions of the batter.
+3. The description also mentions that there are "teammates and opponents" in the scene, but the "Reference captions" and the "Bounding boxes (bbox)" only mention "people".
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The description hallucinates the following:
+- "The batter is in the middle of the scene, holding the baseball bat with determination." -> The batter is not in the middle of the image.
+- "There are several other people in the scene, including teammates and opponents, all focused on the ongoing action." -> There are no teammates and opponents mentioned in the reference captions.
+- "Some of them are standing closer to the batter, while others are positioned further away." -> This is not mentioned in the reference captions.
+- "The atmosphere is filled with excitement and anticipation as the game unfolds." -> This is not mentioned in the reference captions.
