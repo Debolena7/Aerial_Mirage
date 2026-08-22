@@ -1,0 +1,15 @@
+GPT-3.5_Turbo Response:
+Score: 8
+
+Mistakes:
+1. The description mentions lemons instead of oranges.
+2. It describes the oranges as arranged in an appealing manner with some overlapping, which is not shown in the image.
+3. It mentions the oranges are of various sizes and distributed evenly, which is not clearly visible in the image.
+4. It mentions the bowls are positioned next to each other, but they are actually placed on a bar and metal counter.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 2
+
+The candidate description mostly suits the ground truth. Two glass bowls with oranges correspond with reference captions and bounding boxes, as well as their placement on the table (or a counterpartlike a counter or a bar). However, the candidate description refers to "oranges of various sizes," which is a minor hallucination because no such information is provided in the reference captions or bounding boxes. Additionally, the statement that oranges are arranged in an appealing manner could be considered as minor subjective hallucination, as there is no objective or factual evidence of this in the ground truth annotations.

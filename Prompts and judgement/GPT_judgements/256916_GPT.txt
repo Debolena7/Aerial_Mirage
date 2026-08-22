@@ -1,0 +1,19 @@
+GPT-3.5_Turbo Response:
+I would give the Candidate description a score of 6 for hallucination. 
+
+Mistakes:
+1. The description mentions three pans filled with square pizzas, but the reference captions only mention one pan or pizza trays.
+2. The description includes details about sauce and cheese on the pizzas which are not mentioned in the reference captions.
+3. Mentioning a fork and a knife on the table is incorrect as the bounding boxes do not contain objects labelled as fork or knife.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7
+
+Mistakes: 
+
+1. The candidate description mentions that pizzas are square, but there's no evidence in the bounding boxes or the reference captions to support this.
+2. The description states that the pizzas appear to be covered in sauce and cheese, which isn't supported by the tuples given.
+3. The candidate has also mentioned that the table is set with a fork and a knife. However, only knives are present according to the bbox data, and no forks were detected.
+4. There's no indication in the provided data suggesting that the pizzas are placed on top of the pans.

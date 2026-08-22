@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+Score: 9
+
+Mistakes:
+1. The candidate description mentions objects like a pile of tarp, a blue tarp, and a pile of hay which are not present in the reference captions or bounding box.
+2. The candidate description suggests the horse is walking towards the camera, which is not explicitly stated in the reference captions or evident from the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes: 
+The hallucinations in the candidate description include the mention of a fenced-in area or corral which isn't confirmed by the reference captions or bounding boxes. The detail of the horse walking towards the camera cannot be confirmed. Furthermore, the mention of a variety of objects including a pile of tarp, a blue tarp, and a pile of hay, is also hallucinated as it wasn't confirmed by the reference description or the bounding boxes. The only confirmed object in the image is the horse.

@@ -1,0 +1,20 @@
+GPT-3.5_Turbo Response:
+Score for Candidate Description: 7
+
+Mistakes:
+1. The candidate description mentions a man wearing a red shirt, but there is no indication of his clothing color in the image.
+2. The candidate description mentions cups in the scene, but there are no cups identified in the bounding boxes provided.
+3. The candidate description implies the man is near a microwave on the left side of the scene, but the microwave bounding box is actually located at the top left corner of the image. 
+
+Overall, the candidate description contains some hallucinations related to details not present in the image or incorrectly described based on the bounding boxes.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7
+
+Mistakes:
+1. The color of the man's shirt is not mentioned in the reference captions or bounding boxes, thus the statement about the man wearing a red shirt is hallucinated.
+2. There is no information suggesting that the man is enjoying his time in the kitchen or preparing a meal/taking a break.
+3. Though there are bowls mentioned in the bounding boxes, it is hallucinated that one is on the countertop to the right of the man, another one on the left side and a third one further back. Bounding boxes don't provide information about their relative positioning.
+4. There are no cups present according to bounding boxes, it's untrue about two cups being in the scene, one near the center and the other on the right side of the kitchen.

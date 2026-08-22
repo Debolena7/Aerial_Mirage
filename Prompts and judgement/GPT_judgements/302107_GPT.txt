@@ -1,0 +1,18 @@
+GPT-3_Turbo Response:
+I would rate the "Candidate description" with a score of 2 for hallucination.
+
+Mistakes:
+1. The candidate description mentioned that the batter is wearing a black shirt and white pants, however, the ground truth annotations did not specify any clothing colors for the player. This is a hallucination as it adds details not present in the image.
+2. The candidate description mentioned a player standing behind the batter, but there is no bounding box for this specific player in the image. This could be considered as an imagined detail not supported by the ground truth annotations.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 3
+
+Mistakes:
+1. The candidate description mentions that the baseball player is wearing a black shirt and white pants, but there is no such information given in the bounding boxes or reference captions.
+2. It mentions about a player standing behind the batter, this detail is not confirmed by the bounding boxes or reference captions.
+3. The description states that a baseball glove can be seen on the ground. There's no ground-level indication from the bounding box information.
+4. There is a mention of several people present in the scene while only three person bounding boxes are given. More so, no information about these additional people is provided in the reference captions.
+5. Candidate description says the scene is filled with action and lively, which is a subject interpretation and can be interpreted differently.

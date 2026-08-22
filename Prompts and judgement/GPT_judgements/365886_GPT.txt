@@ -1,0 +1,15 @@
+GPT-3.5_Turbo Response:
+Score: 7
+
+Mistakes:
+1. The description mentions a woman with a unique appearance possibly due to face paint or makeup, which is not mentioned in the reference captions.
+2. The description states the woman is smiling and enjoying the moment, but the reference captions do not provide this information.
+3. The description states the cell phone is positioned towards the left side of the image, which is inaccurate based on the provided bounding box coordinates.
+4. The description emphasizes the woman as the main focus of the scene, but the reference captions focus more on the actions involving the cell phone.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 2
+
+The Candidate description is slightly hallucinating the following: The description mentions the woman smiling, which is not stated in the reference captions. It also specifies that makeup or face paint is involved, but the reference captions only suggest her face is "weird" or "unique," without specifying why. It also emphasizes that the cell phone is on the left side of the image, which is not confirmed by the bounding box data or reference annotations. However, the core elements about the image are correctly described. The woman, her unique appearance, the cell phone, and its position relative to the woman are mostly accurately portrayed.

@@ -1,0 +1,19 @@
+GPT-3.5_Turbo Response:
+I would rate the candidate description a 7 in terms of hallucination. 
+
+Mistakes:
+1. The candidate description mentions the woman wearing glasses, which is not present in the reference captions.
+2. The candidate description includes a toilet and a bottle in the bathroom, but these objects are not mentioned in the reference captions. 
+3. The candidate description suggests the woman is capturing a moment "possibly to share with friends or on social media", which is an assumption and not explicitly stated in the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7.5
+
+Mistakes: 
+1. There is no mention of glasses in the reference captions. 
+2. The candidate mentions a toilet, however, there are no bounding boxes or references regarding a toilet.
+3. There is also a claim about a bottle, which neither has bounding boxes nor reference in the captions.
+4. The color or pattern of the woman's dress (flowered or pink top) is not mentioned in the candidate description.
+5. The candidate makes an assumption on the woman's intent (to share with friends or on social media) which is not supported by the image or the reference captions.

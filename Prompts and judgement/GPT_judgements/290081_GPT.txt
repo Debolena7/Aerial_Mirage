@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+Score: 4
+
+Mistakes:
+1. The description mentions a glass bowl, while the ground truth annotations specify a clear fruit bowl.
+2. The description mentions some oranges placed on top of each other, which is not evident in the image or the bounding boxes provided.
+3. The description refers to the oranges being arranged in a visually appealing manner and creating a vibrant and colorful display, which is subjective and not directly observable from the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 1
+
+The candidate description is largely accurate and doesn't exhibit significant hallucination. It properly identifies the main elements of the image: a glass bowl filled with oranges placed on a dining table. The description of oranges being arranged in a visually appealing manner is subjective but not out of line. The one minor hallucination is the description of a "variety of oranges". The bounding boxes only identify the presence of oranges, they don't provide information about variety.

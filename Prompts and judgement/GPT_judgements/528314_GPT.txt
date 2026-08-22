@@ -1,0 +1,18 @@
+GPT-3.5_Turbo Response:
+Score for Candidate description: 8
+
+Mistakes:
+1. The candidate description mentions a skiing competition, which is not present in the reference captions.
+2. It mentions other people in the scene, such as spectators or competitors, which are not mentioned in the reference captions.
+3. It describes the skier holding ski poles in the air, which is not visible in the image or mentioned in the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 9
+
+Mistakes:
+1. Hallucination of "ski poles in the air" - There is no bounding box denoting ski poles or an action of holding ski poles in the air.
+2. False implication of "celebrating or expressing excitement" - This is subjective, as the reference captions do not infer any emotional state of the skier.
+3. Misrepresentation of spectators - The bounding boxes denote the presence of other people who could also be skiing, not necessarily watching or being spectators.
+4. Untraceable "skiing competition" and "energy of a skiing event" - Neither the bounding boxes nor the reference captions suggest a competition. It could as well be ordinary skiing on a slope. These are purely inferential and thus partially hallucinated.

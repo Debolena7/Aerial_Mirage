@@ -1,0 +1,15 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description a score of 7 for hallucination. 
+
+Mistakes:
+1. The description mentions several birds flying around the bridge, but the bounding boxes only indicate the presence of birds perched on various locations, not flying.
+2. The description states there are at least nine birds visible, but the bounding boxes only show a total of twelve bird instances, which doesn't necessarily mean all of them are visible or present in the same scene.
+3. The mention of boats on the water, one near the left side and the other towards the right side, is correct based on the bounding boxes. However, the description lacks precision in specifying the relative positions of the boats in relation to the bridge.
+4. The description emphasizes movement and activity around the bridge and river, but there is no indication of such actions or interactions in the bounding boxes provided.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 1
+
+Mistake: Despite having a very detailed and reasonable description of the scene, the error lies in the amount of boats present. The candidate description mentions two boats are present, while there are actually four boats according to the given bounding boxes. Therefore, the hallucination is relatively low.

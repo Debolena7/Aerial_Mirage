@@ -1,0 +1,20 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description as a 9 in terms of hallucination.
+
+Mistakes:
+1. The description includes details such as a hat, a can of soda, a backpack, a standing person, and a potted plant which are not present in the image according to the ground truth annotations. This introduces hallucination as these elements are not depicted in the image.
+2. The mention of a person standing near the bench and another person further away contradicts the ground truth annotations which only identify one person sitting on the bench.
+
+Overall, the Candidate description contains a high degree of hallucination by introducing additional elements and details not present in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 9
+
+Mistakes: 
+1. There's mention of a hat, which is not indicated in the reference captions or bounding boxes. 
+2. Mention of two other people in the scene neither is indicated in the reference captions or bounding boxes. 
+3. A can of soda is mentioned, which is not indicated in the reference captions or bounding boxes. 
+4. A backpack is mentioned, it's not indicated in the reference captions or bounding boxes.
+5. The setting of the park is enhanced by a potted plant, neither is indicated in the reference or bounding boxes.

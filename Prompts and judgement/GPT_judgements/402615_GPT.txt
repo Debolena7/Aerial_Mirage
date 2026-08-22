@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+Score: 8
+
+Mistakes:
+1. The description mentions a clay court, but the ground truth annotations specify an orange tennis court.
+2. The description states that there are two tennis players on the court, but only one person is holding a tennis racket according to the bounding boxes.
+3. The description mentions spectators standing close to the players and others further away, but the bounding boxes do not provide specific information about the positions of the spectators relative to the players.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 2
+
+The candidate description generally describes the picture well and accurately identifies that a tennis match is taking place with a crowd of spectators watching. However, the description contains a minor hallucination about the precise positioning of the players ("one on the left side and the other on the right side") and exactly where some spectators are ("some standing near the net and others near the edges of the court"). Another hallucination is about the atmosphere - the description supposes that it appears to be lively and engaging, but the image data doesn't provide information about the atmosphere. These mistakes do not drastically misrepresent the content of the image but provide details that do not appear in the bounding box data and hence can be considered as mild hallucinations.

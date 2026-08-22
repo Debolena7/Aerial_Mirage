@@ -1,0 +1,18 @@
+GPT-3.5_Turbo Response:
+Score: 9
+
+Mistakes: 
+1. The candidate description incorrectly mentions that the horses are walking across a bridge, while the ground truth annotations clearly state that the horses are walking next to a river, not on a bridge.
+2. The candidate description mentions at least 11 horses visible in the scene, but there are only 10 horses mentioned in the bounding boxes provided. This inconsistency indicates an exaggeration in the number of horses perceived in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 9
+
+Mistakes: 
+1. The candidate description mentions a bridge which is not in the reference captions or bounding boxes data. 
+2. All horses are mentioned to be white while there's no such indicator in the bounding boxes data nor the reference captions.
+3. The candidate description indicates varying distances between horses ("some of them closer to the front and others further back"), this spatial orientation is not present or alluded to from the given bounding boxes data. 
+4. The characterization of the scene as "serene" or "picturesque" is unnecessarily subjective and not referenced directly from the available data. This could lead to disagreement based on personal interpretation.
+5. The unity of the horses is also a personification, not present in the given data.

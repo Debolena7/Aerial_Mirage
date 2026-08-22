@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description a 8 out of 10 for hallucination.
+
+Mistakes:
+1. The description mentions a red stop sign prominently placed on the corner, but there is no mention of a person walking near the stop sign as indicated in the Reference captions.
+2. The presence of trucks in the scene is not mentioned in the Reference captions or reflected in the bounding boxes provided.
+3. The description describes the overall atmosphere as calm and peaceful, but there is no mention of a person carrying bags or buying groceries, which is an essential element in the Reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7
+
+Mistakes: The hallucinations in the candidate description include the mention of the "residential street", "grassy area", "several houses", "two trucks", and "parked car". There is no information in the bounding boxes about a residential street, a grassy area, any houses nor two trucks. There are two cars but the positions aren't specified, and there isn't data to support the claim of a car being parked near the stop sign or anywhere else.

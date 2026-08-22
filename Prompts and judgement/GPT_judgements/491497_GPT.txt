@@ -1,0 +1,19 @@
+GPT-3_Turbo Response:
+I would rate the Candidate description a 6 out of 10 in terms of hallucination. 
+
+Mistakes in hallucination:
+1. The description mentions a football game displayed on the television, which is not mentioned in the Reference captions.
+2. The presence of curtains in the room is not mentioned in the Reference captions.
+3. The description does not mention the specific colors or design of the chair, which is described as a fluffy white chair in the Reference captions.
+4. The description does not mention the specific positions of the books in the room, whereas the Reference captions mention books and shelves.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 4
+
+Mistakes: 
+1. The hallucination in the candidate description arises from the addition of elements that are not present in the bounding boxes or reference captions. For instance, there is no mention or indication of a "football game" on the television.
+2. The description also includes a window with curtains, which has not been mentioned in any of the reference captions or shown in the bounding boxes.
+3. Lastly, the position and arrangement of the books is inaccurately described as "scattered throughout the space" and "placed on the floor" or "stacked on various surfaces". The bounding boxes only suggest the presence of books, not their arrangement or position.
+4. There is no bounding box or reference to a "stand" for the television.

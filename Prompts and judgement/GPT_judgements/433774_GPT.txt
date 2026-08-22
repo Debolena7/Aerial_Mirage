@@ -1,0 +1,17 @@
+GPT-3.5_Turbo Response:
+Score: 8
+
+Mistakes:
+1. There is no mention of a dual parking meter in the scene as indicated in the ground truth annotations.
+2. The presence of cars, people, and specific details like cars parked on both sides of the street are not supported by the bounding boxes provided, indicating potential hallucination in the candidate description.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes: 
+1) The candidate description mentions two people in the scene, however, there are no people shown in the provided bounding boxes, indicating a hallucination. 
+2) The description also mentions several cars parked along the street, when the provided bounding boxes only indicate two cars.
+3) The information about one car being on the left side and two on the right side of the scene is not accurate according to the bounding boxes.
+4) The candidate description includes a detail about the parking meter being close to a tree providing shade and creating a pleasant atmosphere which cannot be verified from the bounding boxes and reference captions, hence, it can be considered as a hallucination. The reference does mention a tree, but there's no information about the atmosphere.

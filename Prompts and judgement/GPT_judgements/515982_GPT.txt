@@ -1,0 +1,21 @@
+GPT-3.5_Turbo Response:
+Score: 4
+
+Feedback: 
+1. The candidate description correctly identifies the scene as a baseball game with a player sliding into a base while another player tries to catch the ball. 
+2. The mention of the player's red shirt is not accurate as there is no specific color mentioned in the reference captions or bounding boxes. 
+3. The description of other people in the scene as teammates and opponents is an assumption, as the image only shows two players and a baseball glove. 
+4. There is no mention of the relative positions of the objects in the image, such as the player sliding and the player with the baseball glove. 
+5. Overall, the description lacks detail and precision in comparison to the reference captions and bounding boxes.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 4
+
+Mistakes:
+1. The bounding boxes only show two players and no information is available about other people/team mates in the field as mentioned in the candidate description. 
+2. There's no detail about the color of the shirt any player is wearing.
+3. The information about the positioning of the players (closer or further from the action) is not supported by the bounding box data.
+4. The description about players' turn to play or observing is not supported by any given data.
+5. There's no information to support the claim that the player is in the process of reaching the base.

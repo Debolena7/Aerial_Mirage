@@ -1,0 +1,19 @@
+GPT-3.5_Turbo Response:
+Score: 9
+
+Mistakes:
+1. The woman is described as wearing a blue dress and lace underwear, but the reference captions only mention lingerie.
+2. The woman is described as resting on her stomach with her hands placed on her head, but the reference captions suggest she is erotically bound or laying on her back.
+3. The presence of a cat in the image is a hallucination as no such object is mentioned in the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes: 
+1. The color of the dress the woman is wearing is not specified in any reference captions or bounding box data.
+2. The actions of the woman are misstated. She is not specified to be resting on her stomach with her hands on her head in any reference captions or bounding box data.
+3. The addition of the cat in the room is a hallucination as there's no bounding box data to support this information.
+4. The color and the existence of sheets and a pillow on the bed are not supported by the reference captions or bounding box data.
+5. There is neglecting to mention the clock that is detected in the bounding box data.

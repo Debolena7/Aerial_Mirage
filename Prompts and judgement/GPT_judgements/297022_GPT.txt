@@ -1,0 +1,18 @@
+GPT-3.5_Turbo Response:
+Score: 9
+
+Mistakes:
+1. The truck is not a fire truck, it is described as an older flatbed truck.
+2. There are three men in the image, not four.
+3. The men are not posing for a picture, they are resting against the truck.
+4. The hose mentioned in the candidate description is not present in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 5
+
+Mistakes:
+- The description mentions the truck as a "fire truck" and "equipped with a hose" which is not mentioned in the references nor confirmed by the bounding boxes. This is a clear hallucination.
+- The number of men counted in the description is four. However, the bounding boxes provided evidence for only three men. This presents another hallucination in the description.
+- The emotions and experiences suggested in the phrases "reminiscing about the past or sharing stories related to the fire truck and their experiences” are not confirmed by either the bounding boxes or the reference captions. This can be seen as a hallucination.

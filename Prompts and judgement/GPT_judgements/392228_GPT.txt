@@ -1,0 +1,20 @@
+GPT-3.5_Turbo Response:
+Score: 8 
+
+Mistakes:
+1. The candidate description mentions a weather vane on top of the tower, which is not present in the reference captions or bounding box information. This is a hallucination.
+2. The description states that the clock is positioned towards the center of the tower, which contradicts the bounding box information showing the clock at the top of the building.
+3. The description mentions a gold face on the clock, whereas the reference captions do not specify the clock's details. This is a minor hallucination.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes: 
+1. The "bbox" annotated only a clock, so there's no definitive proof of a clock tower. 
+2. The positioning of the clock in the middle of the tower is not mentioned in the reference captions or shown in the bounding boxes. 
+3. There's no evidence of a gold face on the clock.
+4. The existence of a weather vane is not indicated in the reference captions or the bounding boxes.
+5. The orientation of the weather vane is not described or shown in the reference captions or bounding boxes.
+6. The presence of a cloudy sky is also not described in the reference captions, so it's assumed.

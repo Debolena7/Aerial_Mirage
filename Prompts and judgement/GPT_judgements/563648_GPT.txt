@@ -1,0 +1,15 @@
+GPT-3.5_Turbo Response:
+Score: 8
+
+Mistakes: 
+1. The candidate description incorrectly states that there are "at least 14 people in the scene", whereas there are actually multiple instances of the same person due to misinterpretation of bounding boxes.
+2. The candidate description mentions "another one placed on the ground", but there is no clear indication of this in the bounding boxes provided.
+3. The description implies that the skate park is a lively place where people gather, which is a bit of an assumption as there is no direct evidence of this in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 3
+
+Mistakes:
+The candidate description mistakenly states that there are at least 14 people in the scene, however, according to the bounding box annotations, there are only 9 annotated 'person' objects. Also, the description claims that there are two skateboards visible in the scene while in reality there are seven 'skateboard' objects annotated. There was no evidence provided about one skateboard being on the ground and the place being lively or people gathering to enjoy activities. These assumptions might enhance the narrative, but they are not visually implied in the annotations.

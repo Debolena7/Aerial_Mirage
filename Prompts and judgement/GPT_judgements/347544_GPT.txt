@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+I would rate the candidate description a 4 out of 10 in terms of hallucination.
+
+Mistakes:
+1. The candidate description mentions a "tour bus", whereas the reference captions describe a Volvo bus and a multi-colored bus. This shows a hallucination in terms of object types.
+2. The candidate description mentions that the bus is "occupying a significant portion of the scene", but the bounding box for the bus does not cover a significant portion of the image. This shows a hallucination in terms of the object's size and position in the image.
+3. The candidate description states that "the street itself seems to be relatively empty, with no other vehicles or people visible in the image", while there is a mention of a truck in the bounding box information. This shows a hallucination in terms of the presence of other vehicles in the scene.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7
+
+Mistakes: The candidate description hallucinates several details about the image which are not indicated in the reference captions or the bounding box data. It assumes the bus to be a "tour" bus and also assumes that it's waiting for passengers or taking a break. It also mentions that the street is relatively empty. These are details that are not present in the provided information. However, the candidate description correctly identifies a bus and a hotel, which are present in the reference captions.

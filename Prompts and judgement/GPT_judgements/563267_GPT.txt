@@ -1,0 +1,17 @@
+GPT-3.5_Turbo Response:
+Score: 8
+
+Mistakes: 
+1. The description inaccurately describes the men as playing a video game on a Nintendo Wii console. This is a hallucination as there is no mention or presence of a Wii console or video game in the image or bounding boxes.
+2. Mentioning the Wii remotes being held by the men is also a hallucination as there is no depiction of Wii remotes or any gaming activity in the image.
+3. Describing a TV on the left side and implying it is displaying a game is a hallucination, as there is no TV in the image or bounding boxes.
+4. The mention of a chair positioned near the dining table is also a hallucination as there is no chair present in the image.
+5. The presence of a bottle on the dining table is accurate based on the bounding boxes, but the rest of the description is largely hallucinatory.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes: 
+The candidate description includes several objects and activities which aren't indicated in the reference captions or the bounding boxes. There is no evidence of a video game console like a Nintendo Wii or Wii remotes, nor is there mention or indication of a game being played. Additionally, no chair is mentioned or indicated in the information provided. Moreover, the actions described such as the men 'playing a video game' is not supported by the reference captions or the bounding boxes.

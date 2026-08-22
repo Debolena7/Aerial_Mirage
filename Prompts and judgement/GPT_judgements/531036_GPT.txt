@@ -1,0 +1,20 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description as a 7 in terms of hallucination.
+
+Mistakes:
+1. The description mentions two red double-decker buses parked next to each other, but there is only one double-decker bus in the image according to the ground truth annotations.
+2. The mention of a traffic light in the background is incorrect as there is no traffic light visible in the image.
+3. The description suggests that the scene could be a popular tourist destination or a bustling city street, but there is no indication of that in the image - this is an inference not supported by the visual data.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 9
+
+Mistakes in Candidate Description:
+1. The description mentions two red double-decker buses, while in reality there is only one double-decker bus and one normal size bus as per the reference and bounding boxes.
+2. The description specifies the bus colors as red, which is not mentioned in the reference captions or available from the bounding box information.
+3. It specifies one of them being a tour bus and other being regular city bus which can't be confirmed from the input information.
+4. There are no indications in the given references or bounding boxes of several people in the scene. Only a single person is visible according to the bounding boxes.
+5. The hallucination continues with an addition of a traffic light and busy urban area details which are not provided in the references or bounding boxes.
+6. Lastly, suggestion of it being a popular tourist destination or bustling city street is a speculation as there's no such information available in references or the bounding boxes.

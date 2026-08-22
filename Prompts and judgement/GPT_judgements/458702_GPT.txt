@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+Score: 9
+
+Mistakes:
+1. The candidate description mentions a parking lot, but the reference captions only refer to parking meters near a street.
+2. The candidate description includes multiple cars and a person, which are not present in the reference captions or bounding boxes.
+3. The mention of a tree adding a touch of nature to the scene is an embellishment as the trees are not explicitly mentioned in the reference captions or bounding boxes.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 9
+
+Mistakes: The description hallucinates "several cars parked in the lot" when the bounding box data confirms only two cars. The description also hallucinates a "person standing near the center of the parking lot", there is no mention or evidence of a person in either the reference captions or the bounding box data. Lastly, the bounding box data does not identify a tree, suggesting the phrase "situated in front of a tree" is also a hallucinated detail.

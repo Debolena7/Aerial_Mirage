@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+I would rate the "Candidate description" a score of 8 for hallucination.
+
+Mistakes:
+1. The candidate description mentions that the giraffe is drinking water from the pond, which is not explicitly stated in the reference captions or visible in the image. This is a hallucination.
+2. The candidate description mentions that the zebras are spread out in the scene, with some standing closer to the water and others further away. However, this level of detail is not specified in the reference captions or evident in the image. This is another hallucination.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 9.5
+
+Mistakes:
+The candidate description includes a lot of hallucinations. Firstly, there is no mention of a watering hole in the image according to bounding box information. The narrative of zebras being spread out and standing closer or farther from the water is also not supported by the bounding box data. It also hallucinates the giraffe drinking water from a non-existing pond. Lastly, candidate description says about the animals enjoying water and each other's company, however, this action is not specified or supported by the bounding box information or reference captions. Only the presence giraffes and zebras can be confirmed from the ground truth annotations.

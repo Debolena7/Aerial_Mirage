@@ -1,0 +1,26 @@
+GPT-3.5_Turbo Response:
+Score: 8
+
+Mistakes:
+1. The description mentions a woman, but there are no bounding boxes or annotations for a woman in the image.
+2. The description includes details about people sitting on chairs, but there is no mention of this in the reference captions or bounding boxes.
+3. The description suggests a conversation between the man and woman, which is not supported by the image annotations.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8.5
+
+Mistakes: The candidate description has generated various hallucinations that are not supported by ground truth annotations, including: 
+
+1. It is not specific about the count of people and converses about a man and a woman when there is no evidence of their gender. 
+
+2. It states that a man is wearing a tie, which can't be confirmed from the bounding box information.
+
+3. It emphasizes that the man and woman are engaged in a conversation, which is unsubstantiated.
+
+4. It describes several other people in the background sitting and standing, but the bounding box information doesn't provide evidence of people's positions. 
+
+5. The description also visualizes a gathering or event, which cannot be confirmed from the reference captions or the bounding box info.
+
+6. It mentions several items on the table aside from ties, but the bounding box info only confirms the presence of ties and a laptop on the table.

@@ -1,0 +1,15 @@
+GPT-3.5_Turbo Response:
+I would give the Candidate description a score of 8 for hallucination.
+
+Mistakes:
+1. The candidate description mentions that the image is black and white, which contradicts the ground truth that the image is in color ("vintage closeup").
+2. The candidate description refers to the children as siblings, but the ground truth does not mention their relationship.
+3. The candidate description does not mention the specific actions of the children (e.g. one holding a cell phone, the other holding a coin purse).
+4. The candidate description does not accurately describe the positions of the children and the objects in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 2
+
+There's some minor hallucination present. The hallucinations are mainly in details, such as the photograph being black and white, the kids being a boy and a girl, sitting on a bed, being siblings, and having a moment of happiness. While the children are indeed holding objects and sitting together, those additional details are not supported by the image or the reference captions.

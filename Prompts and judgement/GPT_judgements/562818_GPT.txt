@@ -1,0 +1,15 @@
+GPT-3.5_Turbo Response:
+Score: 5
+
+Mistakes:
+1. The candidate description mentions "snowboarders," but according to the bounding boxes provided, there are only skis present, no snowboards.
+2. The candidate description mentions "at least 13 people visible in the scene," but there are actually 24 people detected in the bounding boxes.
+3. The candidate description states that "some skiers and snowboarders are closer to the center of the scene," but the relative positions of the people in the bounding boxes do not support this statement.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 2
+
+Mistakes: 
+The candidate description mentions individuals closer to the foreground and others further away, but there's no data in the bounding boxes specifying depth or distance. The bounding boxes do not provide information about the position of the skis and snowboards (whether some are attached to the riders or others are lying on the snow). This information appears to be an extrapolation beyond what is provided in the bounding boxes.

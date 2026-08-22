@@ -1,0 +1,21 @@
+GPT-3.5_Turbo Response:
+Score: 7
+
+Mistakes:
+- The candidate description mentions a chair and a bottle which are not present in the reference captions or bounding boxes.
+- The candidate description describes a clock on the wall, which is not visible in the image or mentioned in the reference captions.
+- The candidate description describes the room as black and white, while the reference captions do not mention the room being black and white.
+- The candidate description does not mention the ice bucket, unused glass, or phone on the nightstand, which are present in the reference captions and bounding boxes.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes:
+- The description mentions the image being "black and white", which can't be confirmed from the bounding boxes or reference captions.
+- A "clock on the wall" is cited, while the ground truth reference captions do not mention a clock, nor is there a bounding box for one.
+- A "chair" in the room is also mentioned, which isn’t described in reference captions or outlined in a bounding box.
+- The description includes a "bottle on a surface", which isn't supported by the reference captions or bounding boxes. 
+- Specific details like a "white comforter" and a "warm and cozy atmosphere" are narrative embellishments not supported by the reference data.
+- The description of the room as a "hotel room" is inferred and not explicitly outlined in the bounding boxes or reference captions.

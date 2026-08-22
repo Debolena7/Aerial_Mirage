@@ -1,0 +1,16 @@
+GPT-3.5_Turbo Response:
+Score: 7
+
+Mistakes:
+1. There is no mention of a trash can in the image.
+2. The description mentions several bottles scattered around the bathroom, but the bounding box indicates only one bottle.
+3. The candidate description talks about a unique and colorful atmosphere, but the image only shows rainbow streaks around the room, not a full colorful atmosphere.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes: 
+1. The bounding boxes only show a toilet and a bottle. The hallucination includes the mention of a trash can and several bottles, as there is only information about one bottle.
+2. There is no mention or information about the position of the objects in the image ("next to"), which is a hallucination in the description.

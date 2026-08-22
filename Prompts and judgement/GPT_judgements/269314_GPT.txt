@@ -1,0 +1,20 @@
+GPT-3.5_Turbo Response:
+I would rate the "Candidate description" a 8 out of 10 in terms of hallucination.
+
+Mistakes in the Candidate description:
+1. The description mentions "surrounded by numerous green bananas", while in reality, there is only one banana tree with bananas scattered around it. This is a hallucination as it exaggerates the number of bananas present.
+2. The description states "The cat appears to be perched on a branch", which is incorrect as the cat is sitting on top of the tree not on a branch. This is a hallucination as it misrepresents the cat's position.
+3. The description includes details about the bananas hanging close to the cat and others further away, which is a hallucination as it exaggerates the spatial relation between the cat and bananas. 
+
+Overall, the Candidate description contains multiple hallucinations that deviate from the actual content of the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 9.5
+
+Mistakes:
+1. The description mentions numerous green bananas, but the bounding boxes only indicate one banana.
+2. The candidate description says the scene captures the cat's curiosity and playfulness while exploring the tree. However, we have no bounding box information that would corroborate the cat's state of curiosity or playfulness.
+3. There is no mention of bananas being scattered around, or there being a branch on which the cat could be perched.
+4. The mention of bananas hanging close to the cat or further away cannot be confirmed from the provided bounding boxes.

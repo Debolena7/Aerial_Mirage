@@ -1,0 +1,20 @@
+GPT-3.5_Turbo Response:
+Score for Candidate description: 7
+
+Mistakes:
+1. Mention of a sign on the table is not accurate as there is no sign mentioned in the reference captions.
+2. The description mentions a total of seven donuts, however, there are actually only four donuts mentioned in the reference captions.
+3. The mention of the donuts being easily accessible and visually appealing is a subjective interpretation and not directly supported by the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 9
+
+Mistakes: 
+
+1. The candidate description mentions seven donuts, but based on the bounding box information, there are only four donuts present.
+2. The candidate description mentions a sign on the table; however, there are no bounding box annotations present for a sign.
+3. The candidate discusses a tray and a plate which are not mentioned in the ground truth captions, nor are they present in the bounding box data.
+4. There's an inference about a cozy and inviting atmosphere which is a personal judgment, goes beyond factual discrepancies, and cannot be confirmed by the bounding box or the reference captions.
+5. The description also mentions a wooden dining table, while the references only address a counter or a general table. The specificity of 'dining' table can be considered a discrepancy.

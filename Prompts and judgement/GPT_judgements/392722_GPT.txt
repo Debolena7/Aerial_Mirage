@@ -1,0 +1,21 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description a 9 in terms of hallucination.
+
+Mistakes:
+1. The mention of a truck and bicycles in the scene is incorrect as there are no bounding boxes for them in the image.
+2. The description of a bench on the sidewalk is not accurate as there is no bounding box for a bench.
+3. Describing multiple cars parked or driving along the street is misleading as there are no bounding boxes for multiple cars, only a double-decker bus.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes: 
+
+1. There is no information in either the bounding boxes or reference captions about the bus color being green.
+2. The candidate description mentions several other people in the scene, some of them walking. According to the bounding boxes, there are people, but no action like walking is specified.
+3. There is no mention of a truck in both reference captions and bounding boxes.
+4. The bicycles mentioned in the candidate description are not present in the image.
+5. The bench on the sidewalk mentioned in the candidate description is also not present in the bounding boxes or the reference captions.
+6. The overall bustling activity is not represented in the given references or bounding boxes.

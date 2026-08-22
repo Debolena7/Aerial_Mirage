@@ -1,0 +1,19 @@
+GPT-3_Turbo Response:
+I would rate the Candidate description a 7 out of 10 for hallucination.
+
+Mistakes:
+1. The description mentions a yellow table and chairs, but the bounding boxes do not include a yellow table.
+2. The description includes a cup, spoon, and bottles, which are not present in the bounding boxes.
+3. The description does not mention the presence of a dining table, which is clearly visible in the bounding boxes.
+4. There is no mention of a baby blue cabinet in the description, which is included in the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 6
+
+Mistakes: 
+1. The picture does not depict any window providing natural light. 
+2. The presence of a spoon and bottles is not mentioned in the bbox dataset.
+3. There is no indication of any refrigerator in the bbox dataset.
+4. The color of the table and chairs (yellow) is also not mentioned in the reference captions.

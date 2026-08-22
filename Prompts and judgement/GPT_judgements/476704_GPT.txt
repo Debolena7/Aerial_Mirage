@@ -1,0 +1,22 @@
+GPT-3_Turbo Response:
+I would rate the Candidate description a 6 in terms of hallucination. 
+
+Mistakes:
+1. The description mentions a white bus with green and red accents, which does not match any of the colors stated in the Reference captions.
+2. The description includes details about people boarding the bus and their positions, which are not explicitly mentioned in the Reference captions. 
+3. The description talks about two bicycles, one parked near the right side and the other on the far right side, whereas the Reference captions mention only one bike next to a lamppost. 
+4. The mention of a car parked in the background is not explicitly stated in the Reference captions. 
+
+Overall, the Candidate description contains additional details and inaccuracies not present in the Reference captions, indicating some level of hallucination.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7.5
+
+Mistakes:
+1. The color and accents of the bus are not mentioned in the ground truth, hence stating the bus is "white with green and red accents" is a hallucination.
+2. There's no information given about an open bus door or people in the vicinity in the bounding box or reference captions.
+3. Only one bicycle is identified in the bounding box data, whereas the description mentions two.
+4. There's no mention of the bus being at a bus stop in the reference captions or the positioning information. 
+5. The position of the car as mentioned in the description doesn't align with the bounding box data.

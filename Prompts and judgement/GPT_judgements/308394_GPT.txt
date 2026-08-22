@@ -1,0 +1,20 @@
+GPT-3.5_Turbo Response:
+I would rate this "Candidate description" a 9 out of 10 in terms of hallucination. 
+
+Mistakes:
+1. The woman is described as sitting on a red bench, but according to the bounding boxes, there is no bench in the image.
+2. The woman is holding a hot dog in her hand, which is not mentioned in the reference captions or supported by the bounding boxes.
+3. The description mentions the train having large windows, which is not specified in the given information.
+4. The description talks about the bench being positioned next to a door, which is not mentioned in the reference captions or supported by the bounding boxes.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8.5
+
+Mistakes:
+1. The bounding boxes don't provide any information about the color of the bench, so the statement about it being red is a hallucination.
+2. There is no indication from the bounding boxes that there is a hot dog present in the image. The box labeled "handbag" could be mistaken for a hot dog, but the reference captions all describe it as a bag.
+3. The bounding boxes and reference captions indicate the presence of a window, but there's no information to support the claim that it is large or that the woman is enjoying the scenery outside. 
+4. There is also no information present indicating the bench is positioned next to a door. 
+5. The woman is not said to be enjoying a snack in any of the reference descriptions or suggested by the bounding boxes.

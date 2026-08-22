@@ -1,0 +1,19 @@
+GPT-3.5_Turbo Response:
+Score: 6
+
+Mistakes:
+1. The description mentions the cat as brown and white, while the ground truth specifies the cat as orange.
+2. The description states the cat is moving from left to right, whereas the ground truth mentions the cat's specific actions like sitting, playing, or leaning. 
+3. It mentions a striped comforter, which is not present in the ground truth description. 
+4. The description does not include the key detail of the cat leaning off of a bed looking at the floor, which is a significant aspect of the hallucination.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 6
+
+Mistakes:
+1. The candidate description erroneously interprets the color of the cat as brown and white while all the reference captions point to it being orange. This represents a hallucination of color.
+2. While all reference captions depict the cat at the edge of the bed or about to jump, the candidate description hallucinates the cat as being in the middle of the bed and walking.
+3. The candidate description hallucinates the bed as having a striped comforter, which isn't mentioned in the reference captions nor can it be derived from the bounding box information. 
+4. The direction the cat is moving (from left to right) is also a hallucination since it isn't mentioned in the reference nor supported by the bounding box depiction.

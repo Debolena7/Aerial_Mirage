@@ -1,0 +1,21 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description a 4 out of 10 for hallucination.
+
+Mistakes:
+1. The description mentions two cakes on the table, but according to the bounding boxes, there are multiple cakes scattered around the table, not just two.
+2. The description states that some people are holding plates ready to serve themselves, but there is no mention of plates in the bounding boxes.
+3. The description mentions cups on the table, but there are no bounding boxes for cups in the image.
+4. The description talks about a knife on the table, which is correct according to the bounding boxes, but it assumes it is used for cutting the cakes, which is an inference not supported by the image. 
+
+Overall, the Candidate description includes some hallucinations such as incorrect counts of cakes, plates, and cups, and assumptions about the knife's purpose.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 5
+
+Mistakes: 
+1. The candidate's description mentions that "people are standing around the table, with some of them holding plates", however, there is no bounding box information for plates, so it's not possible to confirm people are holding plates.
+2. In addition, the description talks about "a few cups placed on the table, likely containing beverages for the guests", but no bounding boxes indicate the presence of cups.
+3. The description also references two cakes on a table, one larger and placed towards the center and another smaller one towards the right side. While there are multiple bounding boxes for cakes, their relative size and position are not specified in the ground truth details. 
+4. The description presents an interpretation of the atmosphere as "lively and festive", which is subjective and not verifiable with the given information.

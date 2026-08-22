@@ -1,0 +1,18 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description a score of 8 for hallucination. 
+
+Mistakes:
+1. The candidate description mentions a "close-up view" of the pizza, which is not specified in the reference captions.
+2. The description includes details about the cheese on the pizza, which is not mentioned in the reference captions.
+3. The candidate description describes the pizza as the main focus of the scene, which is a subjective interpretation not present in the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 4
+
+Mistakes: 
+1) The candidate description hallucinates about "close-up view" as there is no valid source information to suggest that the image is a close-up.
+2) It mentions the setting as a "dining table" which is not provided in the reference captions or the bounding boxes. 
+3) The description mentions a "generous amount of cheese and olives", this is not mentioned in the reference captions. The references mention there are olives but they do not specify the quantity. The presence or absence of cheese is not mentioned at all in the references.
+4) No information is provided about the pizza being the "main focus of the scene".

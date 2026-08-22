@@ -1,0 +1,17 @@
+GPT-3.5_Turbo Response:
+Based on the provided information, I would rate the Candidate description a 6 in terms of hallucination.
+
+Mistakes:
+1. Refers to the game as tennis, when it is actually a badminton match.
+2. Mentions chairs around the court, which are not present in the image.
+3. Describes a man holding a tennis racket ready to hit a sports ball, which does not align with the actual image where the person is playing badminton.
+4. Mentions a sports ball in the air, which is not visible in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 3
+
+Mistakes:
+-The mention of "a sports ball that is in the air" is a hallucination because there is no indication in the bounding boxes of a ball being in the scene.
+-The chairs for spectators aren't at all represented in the bounding boxes, hence this is also a hallucination.

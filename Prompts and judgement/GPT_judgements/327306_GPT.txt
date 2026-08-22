@@ -1,0 +1,11 @@
+GPT-3.5_Turbo Response:
+Score: 2
+
+The candidate description accurately describes the image of a person riding a skateboard on a cement surface, positioned on a ledge, possibly performing a trick. The mention of the person's shadow and the visibility of the skateboard are also correct. However, there are some minor hallucinations present in the description such as the image being described as a black and white photo, when no mention of color is provided in the reference captions. Additionally, the statement about the skateboarder appearing focused and in control of their movements is subjective and not directly observable in the image. Overall, the description aligns well with the ground truth annotations with only minor discrepancies, thus a score of 2 is given.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 1
+
+The candidate description aligns well with the reference captions and bounding box information provided. However, there's slight hallucination in mentioning the black and white aspect of the photo which is not confirmed by the bounding boxes or reference captions.

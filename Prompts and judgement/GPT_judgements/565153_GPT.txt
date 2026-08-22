@@ -1,0 +1,17 @@
+GPT-3.5_Turbo Response:
+The Candidate description can be evaluated as follows:
+
+Score: 5
+
+Mistakes:
+1. The candidate description mentions fire hydrants, which are not present in the reference captions or bounding boxes.
+2. The candidate description does not mention the "Go" sign that is present in the image, as stated in the reference captions.
+3. The candidate description does not accurately describe the relative positions of the objects in the scene as compared to the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 10
+
+Mistakes: 
+The candidate description mentions multiple stop signs and their relative positions which are not present according to the bounding boxes information or the reference captions. There are also mentions of two fire hydrants, a pole, and a fence, none of which are present as per the bounding boxes information or referenced in the captions. The claim of graffiti on the stop sign also cannot be confirmed. The only accurate observation is the mix of a road and a grassy area.

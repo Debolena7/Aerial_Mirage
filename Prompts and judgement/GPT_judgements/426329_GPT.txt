@@ -1,0 +1,15 @@
+GPT-3.5_Turbo Response:
+Score for Candidate Description: 6
+
+Mistakes:
+1. The candidate description mentions "at least 13 different cakes", which is an exaggeration as there are actually only 1 TV and 1 cake visible in the image.
+2. The mention of unique designs and flavors for each cake is a hallucination as the image does not provide details on flavors and the cakes appear quite similar.
+3. The description talks about some cakes being placed closer to the front and others further back, which is not accurate as all the cakes are evenly spaced out in the display case.
+4. The presence of a television mounted on the wall in the background is mentioned, which is not visible in the image behind the glass case.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 1
+
+Mistakes: The hallucination in the candidate description is with respect to the flavors of the cakes. The bounding box information does not provide any details about different flavors of cakes. No other hallucinations are evident. The presence of different cake designs can be inferred from the multiple bounding boxes for the cakes and the television is also correctly described. Thus the hallucination is minimal, warranting a small score.

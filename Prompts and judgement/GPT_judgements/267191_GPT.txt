@@ -1,0 +1,20 @@
+GPT-3_Turbo Response:
+Score: 5
+
+Mistakes:
+1. The description mentions a chair, which is not present in the image. (Hallucination - 3)
+2. The description refers to multiple people standing close to the elephant, while the image only shows one person close to the elephant. (Hallucination - 2)
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 10
+
+Mistakes: 
+- There is hallucination about the man’s emotion (smiling). The bounding box data does not provide any emotional information about the people in the image.
+- There are no mentions of additional people standing close or far from the elephants in the reference. Only people riding the elephants are noted.
+- There is no mention or bounding box information about the presence of a chair.
+- The setting of the image, whether it's a wildlife reserve or safari park, is also a hallucination because this information is not provided.
+- The detail given about the position of the elements (the elephant and man positioned in the center) is not supported by the bounding box data.
+- The candidate description mentions an additional elephant that isn't present according to the bounding boxes. We have information about 2 people and 3 elephants (presumably being ridden by the two people), but no additional elephant is present.
+- The candidate also describes the elephant as "large", which is subjective and not supported by the provided data.

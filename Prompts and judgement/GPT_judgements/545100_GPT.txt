@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+Score: 8
+
+Mistakes:
+1. The candidate description mentions a truck in the background, which is not present in the bounding boxes provided.
+2. There is no mention of the man taking a photo of the city with his cell phone, which is a key action in the image.
+3. The description does not include the presence of multiple traffic lights, which are visible in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes: The candidate description hallucinates about several details not present or mentioned in the bounding boxes or reference captions. These include the man standing on a bridge, a truck in the background, several other people in the scene, the man focusing on his phone screen, and a handbag on the ground. Moreover, the description states that the man is wearing a suit and tie, but the reference captions only mention a suit, with no mention of a tie. Hence, this also leads to hallucination. The only consistent things are the man with a cell phone and the presence of cars.

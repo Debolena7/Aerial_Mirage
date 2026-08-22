@@ -1,0 +1,18 @@
+GPT-3.5_Turbo Response:
+Score: 8
+
+Mistakes:
+- The description mentions cupcakes surrounding the cake, but there are no bounding boxes for cupcakes in the image.
+- The description includes a wine glass on the table, but there is no bounding box for a wine glass in the image.
+- The description mentions a dining table, which is not present or annotated in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes:
+1. The bounding boxes do not indicate a table or dining setting, the candidate's description of the scene being set on a dining table is incorrect. 
+2. There's no indication of cupcakes in the bounding boxes, which the candidate mentioned.
+3. A wine glass ('wine glass') is not included among the objects in the bounding boxes, however, it is mentioned in the candidate description.
+4. The bounding boxes do not indicate that the man and woman are holding a knife.

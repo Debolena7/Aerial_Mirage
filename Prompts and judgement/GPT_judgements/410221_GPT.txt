@@ -1,0 +1,14 @@
+GPT-3_Turbo Response:
+Score: 3
+
+Mistakes:
+1. The description mentions the airplane's wings being spread wide, which is not visible in the image.
+2. There is no mention of power lines in the candidate description, which are present in the image according to the reference captions. 
+3. The assumption of the airplane ascending or taking off from a nearby runway is not supported by the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 5
+
+Explanation: The candidate description is partially hallucinated. The bounding boxes only provide evidence for an airplane and don't give any clear indication about its wings being spread wide or the airplane ascending into the air, or even about its proximity to a runway. These certain attributes in the description are not supported by the visual content, hence they can be considered as hallucinations. However, the candidate description correctly identifies the presence of an airplane in the sky, which is supported by both the reference captions and the bounding box data.

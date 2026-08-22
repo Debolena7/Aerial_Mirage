@@ -1,0 +1,18 @@
+GPT-3.5_Turbo Response:
+Score: 6
+
+Mistakes:
+1. The candidate description incorrectly mentions a blue classic car instead of a grey sports car.
+2. The candidate description mentions two people in the image, but the bounding boxes only indicate the presence of one person.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7.5
+
+Mistakes:
+1) There is no mention of the color of the car or the motorcycle in the annotated image (neither in reference captions nor in bounding boxes data).
+2) There is no second car mentioned in the reference captions or the bounding boxes data.
+3) The description talks about few other cars in the background which aren't visible in the bounding boxes information.
+4) The description talks about two people, but the bounding boxes data shows only one person.
+5) No mention of a traffic light in the candidate's description but it appears in the bounding boxes, showing discrepancy.

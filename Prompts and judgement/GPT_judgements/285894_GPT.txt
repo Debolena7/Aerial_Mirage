@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+Score: 4
+
+Mistakes:
+1. The candidate description mentions "a giraffe enclosure at a zoo, with two giraffes standing in the dirt", but the ground truth only mentions children looking at the giraffes, not the enclosures or the giraffes standing in the dirt.
+2. The candidate description talks about the positioning of the giraffes in the enclosure and the people standing at various distances, which is not mentioned in the ground truth annotations.
+3. The candidate description includes details about the excitement and curiosity of the visitors, which is not explicitly mentioned in the ground truth captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 1
+
+The candidate description largely matches the referene captions and the bounding box data. However, there could be minor hallucination present as the candidate description mentions details about the position of the giraffes and people that are not specified in the reference captions or bounding box data. It indicates "One giraffe is closer to the left side of the enclosure, while the other is positioned more towards the center." and "They are standing at various distances from the giraffes, with some closer to the fence and others further back.". These specific positions of the giraffes and the people are not mentioned in the ground truth annotations. That's why a minor score of 1 is provided for the hallucination.

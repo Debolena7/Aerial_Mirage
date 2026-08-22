@@ -1,0 +1,17 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description a 3 out of 10 for hallucination.
+
+Mistakes:
+1. The description mentions "at least 12 zebras visible in the scene", which is inaccurate as there are only 10 bounding boxes of zebras provided.
+2. The statement "The zebras are facing various directions, possibly keeping an eye out for potential threats or simply enjoying their surroundings" is an assumption not supported by the image.
+Overall, the description contains some inaccuracies and assumptions that are not present in the image, leading to a moderate level of hallucination.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 3
+
+Mistakes: 
+1. The claim of at least 12 zebras is inconsistent with the object information available; we only have bounding box data for 10 zebras. 
+2. The description discusses grass and bushes in the field, which are not mentioned in the reference captions and cannot be confirmed from the bounding box data. 
+3. It mentions zebras are enjoying their surroundings and keeping an eye out for potential threats, which is subjective and based on interpretation rather than factual given data.

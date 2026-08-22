@@ -1,0 +1,18 @@
+GPT-3.5_Turbo Response:
+Score: 7
+
+Mistakes: 
+1. The candidate description mentions two other people on the stage, but the bounding boxes only show one person on the right side and another person on the left side. 
+2. The description mentions a red light illuminating the area, which is not mentioned in the reference captions or seen in the bounding boxes. 
+3. There is no mention of the man wearing a white shirt and black tie playing the guitar, which is a key detail in the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes:
+1. The bounding boxes only suggest the presence of one individual on the stage, whereas the candidate description details two additional people.
+2. There is no information about the lighting or the color of the light on the stage in the bounding boxes or reference captions. The candidate description hallucinates a "red light" illuminating the stage.
+3. The candidate description adds emotion and a "dramatic atmosphere" to the scene, which can't be inferred from the given information. 
+4. The positioning of the guitar is not specified in the provided data, yet the candidate description specifies the guitar being "positioned close to his body".

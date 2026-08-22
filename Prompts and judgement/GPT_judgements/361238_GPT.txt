@@ -1,0 +1,15 @@
+GPT-3.5_Turbo Response:
+I would give the Candidate description a score of 8 for hallucination.
+
+Mistakes:
+1. The description mentions the woman sitting at a dining table, but the bounding boxes do not contain any specific annotations for a dining table or chairs.
+2. The description talks about the pizza being covered in various toppings like pepperoni and cheese, but there is no mention of these toppings in the reference captions.
+3. There is no mention of bottles placed on the table in the reference captions.
+4. The description talks about the woman smiling and enjoying her meal, but there is no mention of her actions in the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7
+
+Mistakes: The candidate description makes several errors. It mentions the woman smiling and seeming to enjoy her meal—details not specified in the reference captions or the bounding boxes. The presence of particular pizza toppings like pepperoni and cheese are also hallucinations, as the reference captions do not detail what's on the pizza. While the bounding boxes mention a potted plant, there's no reference to multiple plants or their position at the left and right of the room. Lastly, two bottles are mentioned on the table, but they do not correspond with any objects in the bounding boxes or reference descriptions. The description of the dining area like chairs surrounding the table is also hallucinated as no such detail is present in the bounding boxes or reference captions.

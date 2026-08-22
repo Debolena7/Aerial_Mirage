@@ -1,0 +1,15 @@
+GPT-3.5_Turbo Response:
+Based on the given information, I would rate the "Candidate description" with a score of 2 for hallucination. 
+
+Mistake:
+The candidate description contains hallucination as it mentions the cat being surrounded by a lush green environment with a tree visible in the background, even though the bounding box information only specifies the cat itself without any surrounding details.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 9
+
+Mistakes: 
+1. The bounding box data suggests the image only includes a cat, so mentions of any other elements such as a "lush green environment" and "a tree visible in the background" are hallucinated.
+2. The description of cat as an 'orange tabby' and having 'green eyes' is also hallucinated as these details are not mentioned in the reference captions or bounding box information.
+3. The claim of the cat's fur being 'fluffy' is also not supported by the reference captions or the bounding box.

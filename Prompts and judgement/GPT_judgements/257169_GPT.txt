@@ -1,0 +1,21 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description a score of 8 for hallucination.
+
+Mistakes:
+1. The description mentions the hair dryer is being used to dry the person's hair, which is not stated in the reference captions or supported by the bounding boxes.
+2. There is no mention of the person holding a hair dryer in the bathroom in the reference captions or bounding boxes.
+3. The description includes details about bottles, scissors, sink, and towel rack, which are not present in the reference captions or bounding boxes, indicating potentially invented details.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 9
+
+Mistakes:
+1. The action of the hair dryer being used to dry the person's hair is not referenced in the ground truth.
+2. There is no information about the hair dryer being positioned close to the person's head in the ground truth.
+3. The bathroom has a sink and a towel rack, with a towel hanging on it. These details are not present in the bounding boxes or reference captions.
+4. There are no objects described as bottles in the bounding boxes or reference captions.
+5. There are no objects described as scissors in the bounding boxes or reference captions. 
+6. The details about various positions of the bottles and scissors does not match with the bounding boxes information.
+7. No object of a handbag or toilet (from the bbox details) are mentioned in the candidate description.

@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description a 2 out of 10 in terms of hallucination.
+
+Mistakes:
+1. The candidate description mentions that there are at least five people visible in the scene, whereas the bounding boxes only account for four people.
+2. The description states that some surfboards are placed on the sand, which is not mentioned in the ground truth annotations.
+3. While the description accurately captures the overall theme of the image, there are specific details that do not align with the reference captions and bounding boxes provided.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes: In the candidate description, the annotation mentions that five people and four surfboards are present, but in reality, according to the bounding boxes, there are seven people and five surfboards. The candidate description also specifies that some surfboards are placed on the sand, which cannot be confirmed based on the bounding box information. The caption also suggests that both adults and children are present but the bounding box doesn't provide information on the age of the people. The mentioned atmosphere of enjoyment and leisure is also a hallucination because it cannot be confirmed from the provided information.

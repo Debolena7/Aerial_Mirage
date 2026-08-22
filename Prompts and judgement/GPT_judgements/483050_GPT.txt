@@ -1,0 +1,20 @@
+GPT-3.5_Turbo Response:
+Score: 7
+
+Mistakes:
+1. The candidate description mentions a red wall in the room, which is not present in the image or the reference captions.
+2. The candidate description describes a headboard above the bed, which is not mentioned in the reference captions or visible in the image.
+3. The candidate description includes details about the room being well-organized and comfortable, which goes beyond the information provided in the image and reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7.5
+
+Mistakes: 
+- The hallucination in the candidate description includes the mention of a "red pillow" on the bed when the bounding boxes do not confirm the presence of any pillows. 
+- There is no bounding box indicating a headboard, making its mention a hallucination. 
+- The candidate description suggests the existence of two white pillows which is not supported by the bounding boxes. 
+- The mention of a "red wall" is another hallucination since there is no bounding box information for wall colors.
+- The candidate description mentions a nightstand on the left side of the room, but the bounding box information only provides one for a cup, not a nightstand.
+- Finally, the candidate description exaggerates the presence and position of the clock by adding that this clock is on the wall above the supposed nightstand, when in reality, the bounding boxes cannot confirm the relative height or position of the clock.

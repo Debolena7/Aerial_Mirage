@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+Score: 7
+
+Mistakes in the Candidate description:
+- The description mentions the orange slices being cut into thin strips, which is not mentioned in the reference captions.
+- The description states that the slices cover most of the plate, while the reference captions specify the presence of orange wedges and peel pieces on the plate as well.
+- The reference captions mention specific counts of orange peel pieces which are not accurately reflected in the candidate description.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7.5
+
+The candidate description is largely hallucinated as the reference captions and bounding boxes only describe the presence of orange peel slices on a plate. However, the candidate mentions that the orange slices cover most of the plate and are arranged in a visually appealing presentation - details not mentioned or suggested in the given ground truth. Additionally mentions of the orange slices being thin strips or the scene being a showcase of a healthy snack are both subjective and not found in the given annotations, highlighting hallucination.

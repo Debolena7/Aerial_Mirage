@@ -1,0 +1,20 @@
+GPT-3.5_Turbo Response:
+Score: 8
+
+Mistakes:
+1. The candidate description mentions bowls on the table, but there are only references to plates of food in the bounding boxes.
+2. It mentions several bottles on the table, but there are only references to bottles in the bounding boxes.
+3. It describes people standing, but all the people in the bounding boxes are sitting.
+4. The candidate description includes a cell phone on the table, but there is no reference to a cell phone in the bounding boxes.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 6
+
+Mistakes:
+1) The candidate description mentions chairs, but there's no evidence of chairs in the bounding boxes information.
+2) There's no description of bowls in the bounding boxes, contrary to the candidate's description.
+3) The description mentioned that there are at least 12 people, while the bounding boxes list only 11 'person' entities.
+4) The atmosphere and people's status of engagement in conversation cannot be concluded from the given bounding boxes or the reference captions, so these comments are subjective or extrapolated.
+5) There is no mention of people standing; all reference captions indicate people are sitting.

@@ -1,0 +1,18 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description a score of 7 for hallucination.
+
+Mistakes:
+1. The description mentions the dog standing, but the ground truth annotations describe the dog sitting.
+2. The description states that the dog is looking at its reflection, which is not explicitly mentioned in the ground truth annotations.
+3. The background objects, such as the buckets, bottle, and toy, are not mentioned in the ground truth annotations. These additional details indicate the presence of hallucination.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 9
+
+Mistakes:
+1. The candidate description mentions the dog standing while the reference caption mentions it is sitting.
+2. Description of the dog's curiosity about its own image is a hallucination as it is not confirmed in the reference or visible from the bounding boxes data.
+3. Mention of two buckets, a bottle and a toy are hallucinations as these items are not referenced in the captions or the bounding box data.
+4. The notion of the scene taking place in a room with various objects is a hallucination as this is not verified by the bounding boxes or the reference captions. The references simply mention a mirror and don't specify objects or the environment.

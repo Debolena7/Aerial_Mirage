@@ -1,0 +1,19 @@
+GPT-3.5_Turbo Response:
+Score: 7
+
+Mistakes:
+1. The description mentions a barn, but there is no mention of a barn in the reference captions or bounding boxes.
+2. There is speculation about feeding time and the barn being a comfortable environment, which is not supported by the image information.
+3. The description mentions at least 12 cows, but the number of cows in the bounding boxes is not specified.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 6
+
+Mistakes: 
+- The candidate description mentions that there are 'at least 12 cows' when only 5 cow bounding boxes are provided.
+- The description adds the detail of cows wearing tags, which is not mentioned in any of the reference captions nor can it be inferred from the image bounds.
+- The orientation of the cows is not described in the reference captions.
+- The person is described as preparing to feed the cows. This is not confirmed by the reference captions.
+- The description of the barn being 'well-organized' and providing a 'comfortable environment' for the cows to rest and be fed is also not confirmed by the reference captions.

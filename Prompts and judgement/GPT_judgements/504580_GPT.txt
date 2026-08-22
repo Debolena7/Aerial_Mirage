@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+Score: 8
+
+Mistakes:
+1. The candidate description mentions the giraffes standing in a field of tall, dry grass, whereas the ground truth mentions the grass as being green.
+2. The description states that one giraffe is positioned towards the left side of the field and the other on the right side, which is not mentioned in the ground truth annotations.
+3. The actions of the giraffes mentioned in the candidate description (walking through the grassy area, possibly exploring their surroundings or searching for food) are not evident in the image or the ground truth annotations.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 5
+
+Mistake: While there are indeed two giraffes in the image, the candidate description exaggerates the action by suggesting that they are walking and possibly searching for food, which cannot be conclusively determined from the data provided. There is also an issue with the position of the giraffes. According to the bounding boxes, one is not strictly on the left and the other on the right. Additional hallucination is in providing the attribute of the grass being dry, which is not specified anywhere in the reference captions. Lastly, there is a third giraffe mentioned in the bounding boxes that has not been included in the candidate description.

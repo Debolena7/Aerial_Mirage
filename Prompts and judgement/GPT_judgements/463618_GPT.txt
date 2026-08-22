@@ -1,0 +1,20 @@
+GPT-3.5_Turbo Response:
+Score: 8
+
+Mistakes:
+1. The candidate description mentions the woman sitting on the floor, but the ground truth annotations indicate she is sitting next to a bird cage.
+2. The description mentions a TV mounted on the wall, but the ground truth annotations do not include a TV as part of the scene.
+3. The mention of a remote control on the floor is not supported by the ground truth annotations.
+4. The description does not accurately capture the interaction between the woman, baby, and bird cage as depicted in the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 6
+
+Mistakes:
+1. The bounding boxes do not provide information about the woman sitting on the floor, the color of the woman's shirt, the baby wearing a diaper, a cozy living room setting, a TV, or a remote control. These details are all hallucinated.
+2. The candidate description suggests that the woman is looking at the bird, but this is not confirmed in the bounding boxes or reference captions.
+3. There is no information about a couch being in the background. While there is a bounding box labeled 'couch', its position relative to the woman and baby is not specified.
+4. The bounding boxes do not provide information about the cage being in the room, only that a bird and a cage exist. The spatial relationship stated in the description is hallucinated. 
+5. There is no information about a baby in the arms of the woman.

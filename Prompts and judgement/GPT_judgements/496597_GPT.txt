@@ -1,0 +1,25 @@
+GPT-3.5_Turbo Response:
+I would give the Candidate description a score of 2 for hallucination.
+
+Mistakes:
+1. The candidate description mentions a man and a woman, but the ground truth annotations only mention "Two people", which does not specify their gender.
+2. The description states that the boat is a small motorboat, however, the ground truth annotations do not specify the type of boat.
+3. The description mentions the sky being filled with clouds, but the ground truth annotations only mention a partly cloudy day.
+4. The candidate description does not mention the mountains in the background, which are a significant part of the scene according to the ground truth annotations.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 2
+
+The candidate description generally aligns well with the given reference captions and bounding boxes. However, there are a few minor discrepancies leading to hallucination. First, the description tends to anthropomorphize the scene by stating it is a "man and a woman" on the boat while the bounding box data only confirms the presence of two people without any indication of their gender.
+
+Secondly, the boat being described as a "small motorboat" is an assumption. We do not have sufficient evidence to confirm the type of boat. Therefore, this part is also deemed as hallucinating. 
+
+Thirdly, the addition of atmospheric elements like "sky being filled with clouds" and "picturesque atmosphere" are not confirmed by any reference captions or bounding box data, which imposes some mild hallucination. 
+
+Apart from these, the couple "enjoying their time together" is anthropomorphizing and assuming their emotional state, which is unsupported by the given information. 
+
+Please remember that despite these small hallucinations, overall the description has done a decent job in describing the image following the references and bounding boxes. 
+
+Hence, the score is quite low representing minor hallucination elements.

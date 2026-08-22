@@ -1,0 +1,22 @@
+GPT-3.5_Turbo Response:
+Score: 8
+
+Mistakes:
+1. Incorrectly identified the keyboard as the main focus of the image instead of the laptop.
+2. Inaccurately described the action figures as sitting on the keys, when they are actually near and around the laptop.
+3. Missed mentioning the Lego desk and plastic blocks mentioned in the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 3
+
+Mistakes: 
+
+1. The candidate description mentions action figures when the reference captions only mentioned lego figures. Lego figures are a specific type of toy and are not the same as generic action figures.
+
+2. The candidate description detailed the position of the figures, noting some are standing and some sitting on the keys. This level of detail is not given in the reference captions or available from the bounding boxes provided. 
+
+3. The overall narrative provided by the candidate description, referring to a playful arrangement and the creation of a fun, creative display, is not directly supported by the reference captions and bounding box information. 
+
+The hallucinations are more nuanced in nature because they revolve around added details and a subjective narrative that weren't present in the reference captions or bounding box data.

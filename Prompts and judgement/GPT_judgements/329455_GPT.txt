@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+Score: 8
+
+Mistakes:
+1. The description incorrectly mentions cups and a knife on the table, which are not present in the bounding boxes.
+2. The description mentions that the pizza is cut into slices, which is not visible in the image.
+3. The description speculates about more people joining the meal based on the presence of a chair, but the bounding boxes do not show any additional people.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 2
+
+The candidate description introduces some degree of hallucination. It specifically mentions a knife, slices of pizza, and the pizza being enjoyed by people which are not indicated in the bounding box data or reference captions. Additionally, the positioning of one person towards the left and one towards the right of the table can't be definitively concluded from the bbox data. However, the majority of the description is accurate to the provided data, including the large pizza, cups, people, and chairs present in the scene.

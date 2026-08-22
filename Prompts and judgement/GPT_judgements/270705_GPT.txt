@@ -1,0 +1,15 @@
+GPT-3.5_Turbo Response:
+Score: 4
+
+The candidate description has some hallucination present. The description mentions the bird's wings are spread out and it appears to be in a relaxed state, which is not true based on the image information provided. The candidate also mentions trees in the background, which is not present in the image. Additionally, the description includes details about the bird possibly being near a forest or park, which is not supported by the image. These details indicate a level of hallucination in the candidate description.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7
+
+Mistakes:
+1. The bounding box only supports the presence of a bird, but there is no evidence to confirm its being a hawk or falcon from the provided data. That is inferred by the candidate.
+2. The description that the bird is looking upwards, its wings are spread out, and it appears to be in a relaxed state is not supported by any evidence in the bounding boxes or reference captions.
+3. The background descriptions of trees, the outdoor environment, and it being near a forest or a park are completely hallucinated as there's no object or additional bounding box data to support this.
+4. There is no information supporting the bird perched on a metal railing. In fact, the bird is perched on a stick according to the reference captions. So, this is an incorrect detail in the candidate's description.

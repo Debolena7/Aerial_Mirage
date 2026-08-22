@@ -1,0 +1,15 @@
+GPT-3.5_Turbo Response:
+I would give the Candidate description a score of 7 for hallucination.
+
+Mistakes:
+1. The candidate description mentions a bus on the road, but there is no bounding box for a bus in the image provided.
+2. The candidate description states that there is a car positioned behind the horse-drawn carriage and another car driving in the opposite direction, which is not indicated in the image.
+3. While the candidate description accurately describes the presence of people on the street, it mentions specific activities they are engaged in which are not visible in the image.
+4. The mention of trees lining the street in the candidate description is also a form of hallucination as there are no trees visible in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+6.5
+
+The hallucination errors in the candidate description include: (1) There is no information suggesting that the horse-drawn carriage is driving, it could be stationary as suggested by one of the reference captions. (2) There is no information indicating the direction of the cars - the statement about a car behind the horse-drawn carriage and another driving in the opposite direction is unsupported. (3) The description of various activities by the people is not substantiated by the reference captions or bounding box information. (4) The addition of trees lining the street is pure hallucination as no such information is provided in the references or bounding boxes.

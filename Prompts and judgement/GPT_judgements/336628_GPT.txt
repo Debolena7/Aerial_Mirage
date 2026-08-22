@@ -1,0 +1,19 @@
+GPT-3.5_Turbo Response:
+I would rate the "Candidate description" a 7 in terms of hallucination.
+
+Mistakes:
+1. The man is described as wearing a suit with a tie and a hat, which is not accurate as he is actually wearing a clown suit covered with dinosaurs.
+2. The description mentions other people standing on the trolley car, which is not present in the image.
+3. The trolley car is described as extending from the left side to the right side of the frame, which is not accurate as only a part of the trolley is visible in the image.
+4. The description does not mention the clown-like appearance of the man in the image, which is a significant detail.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes:
+1. The description of the man's outfit as being adorned with various pictures is a hallucination as it's described in the ground truth as a dinosaur-covered clown suit.
+2. There's no mention of a hat in the ground truth.
+3. The ground truth does not confirm the presence of several people standing on the trolley car.
+4. The trolley car does not extend from the left side to the right side of the frame according to the given bounding boxes.

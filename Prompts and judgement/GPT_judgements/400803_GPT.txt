@@ -1,0 +1,20 @@
+GPT-3.5_Turbo Response:
+Score: 9
+
+Mistakes:
+1. The description mentions the presence of two dogs on the boat, but there are no bounding boxes or indications of dogs in the image's bounding box information.
+2. The description introduces the boat as a rescue boat, possibly a lifeboat, and mentions the presence of a ladder, which is not observed in the image or mentioned in the reference captions.
+3. There is no indication of the boat being in a rescue operation or the dogs assisting in any rescue operation in the provided image and reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8.5
+
+Mistakes: 
+1. There is no information about the number of people in the image. The candidate description mentions several people, while the original captions mention only one man.
+2. The details about the location of people on the boat as being near the front or the back are invented. 
+3. The boat is mentioned as possibly being a rescue or lifeboat and is described to have a ladder but there is no such information in the reference captions.
+4. The candidate description erroneously adds two dogs on the boat, which are not present or mentioned in the bounding boxes or the reference captions. 
+5. The assumption that the dogs might be assisting in a rescue operation or accompanying people is purely speculative and not grounded on the image or reference captions. 
+6. There is no evidence in the reference captions or bounding boxes to support the assertion that the boat is floating on an ocean.

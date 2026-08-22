@@ -1,0 +1,20 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description a 3 out of 10 for hallucination. 
+
+Mistakes in the Candidate description:
+
+1. The description mentions a wooden structure, but there is no mention of any wooden structure in the image or the ground truth annotations.
+2. There is no mention of the roman numerals on the clock's face, which is a key detail present in the reference captions.
+3. The description includes details about the background setting, such as windows on the left and right side, which are not visible in the provided image.
+4. The description uses subjective terms like "intricate" and "elegant" which are not explicitly represented in the image or the ground truth annotations.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7.5
+
+Mistakes: 
+1. The bounding box only contains one object, the clock. Hence, there is no wooden structure, two windows, or a building/public area in the image that is mentioned in the candidate description.
+2. No information about the clock being prominently displayed, or taking up a significant part of the scene is provided.
+3. There is no information regarding an intricate clock design or a gold border surrounding it.
+4. The hallucination is major as the given candidate description includes a lot of information that could not be derived from the bounding box or the reference captions.

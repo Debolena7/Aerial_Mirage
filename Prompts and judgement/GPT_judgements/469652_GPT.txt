@@ -1,0 +1,20 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description a 2 out of 10 for hallucination. 
+
+Mistakes:
+1. The Candidate description mentions the giraffe appearing to eat something off the ground, which is not mentioned or visible in the Reference captions.
+2. The Candidate description does not mention the wooden wall or bamboo building in the background, which are present in the Reference captions.
+3. The Candidate description focuses more on the giraffe's unique features and less on the specific details provided in the Reference captions, such as the giraffe looking down or standing next to a wooden fence.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 2
+
+The candidate description generally matches the reference captions and the bounding box details, as it correctly identifies the giraffe and its proximity to the camera, as well as its position in relation to a wooden fence.
+
+However, there are two main hallucinations in the description:
+- The giraffe is described as appearing to be eating something off the ground, which is not supported by the reference captions or the bounding box information.
+- There is also a misinterpretation in the description of the giraffe's posture. The candidate description suggests that the giraffe's "long neck is prominently visible as it reaches down to the ground," while the reference captions instead describe the giraffe as looking down, not necessarily reaching to the ground.
+
+Apart from these two points, the overall description accurately depicts the image. The hallucinations are relatively minor and most likely don't affect the overall understanding of the image. Thus, the hallucination score is relatively low.

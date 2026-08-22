@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+Score: 7
+
+Mistakes:
+1. The candidate description mentions sausage as one of the toppings, however, there is no mention of sausage in the reference captions.
+2. The candidate description states that the pizza is cut into slices, with one missing, while the reference captions mention two slices missing.
+3. The candidate description does not mention the pizza being on a pizza pan, which is mentioned in the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 2
+
+The candidate description largely aligns with the reference captions and the bounding box provided. However, the hallucination takes place when it mentions specific toppings such as "mushrooms, sausage, and cheese." While mushrooms might be inferred from one of the reference captions, sausage and cheese are not mentioned in any of the references. Also, the image details from the bounding box do not allow for such specificity in pizza toppings. Other than this, all other details including the large pizza, partially eaten with one slice missing, and being on a pan align well with the provided ground truth annotations.

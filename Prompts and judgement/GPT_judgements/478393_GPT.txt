@@ -1,0 +1,15 @@
+GPT-3.5_Turbo Response:
+I would rate the candidate description a score of 2.
+
+Mistakes:
+1. The candidate description mentions a white sheet and a pink blanket on the bed, which is not present in the reference captions.
+2. The candidate description states that one cat is resting on the left side of the bed, while the other cat is sleeping on the right side. However, the reference captions do not specify the sleeping positions of the animals.
+3. The candidate description talks about creating a warm and inviting atmosphere, which is subjective and not verifiable based on the image alone.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 3
+
+Mistakes: 
+The hallucination portion includes the description of a "cozy bed with a white sheet and a pink blanket". The bounding boxes don't provide any information about the color or the fabric of the bed items, therefore there's no way to confirm this part of the candidate description. In addition, there is no mention of the relative positions of the cats (i.e., one on the left and the other on the right), or the position of the teddy bear (in the middle), which also seems to be a hallucination.
