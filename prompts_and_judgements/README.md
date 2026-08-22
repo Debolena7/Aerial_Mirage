@@ -1,4 +1,4 @@
-# prompts_and_judgements: LLMs as Hallucination Evaluators
+# Prompts and Judgements: LLMs as Hallucination Evaluators
 
 Materials for the study in **[Aerial Mirage: Unmasking Hallucinations in Large Vision Language Models](https://openaccess.thecvf.com/content/WACV2025/papers/Basak_Aerial_Mirage_Unmasking_Hallucinations_in_Large_Vision_Language_Models_WACV_2025_paper.pdf)** (WACV 2025) that asks how reliably advanced LLMs such as GPT-4 can rate the degree of hallucination in captions produced by another LVLM.
 
