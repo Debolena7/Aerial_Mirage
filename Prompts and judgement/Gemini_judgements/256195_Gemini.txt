@@ -1,0 +1,17 @@
+Gemini pro Response:
+Score: 8
+
+The candidate description hallucinates the following:
+- two people in the image
+- motion of the train
+- the train appears to be in motion
+- the train continuing on its journey
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 7
+There are several hallucinations in the "Candidate description". 
+1. The "Candidate description" hallucinates that there are two people in the image. However, there are no people in the image. 
+2. The "Candidate description" hallucinates that the train is traveling down the tracks. However, the train is actually parked at the station. 
+3. The "Candidate description" hallucinates that there is a bridge in the background. However, there is no bridge in the background.

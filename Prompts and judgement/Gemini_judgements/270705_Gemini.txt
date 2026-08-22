@@ -1,0 +1,21 @@
+Gemini pro Response:
+Score: 2/10
+
+The candidate description contains a few mistakes:
+- The bird is not necessarily a hawk or a falcon.
+- The bird is not sitting on a railing, but on a stick.
+- The bird is not looking upwards, but straight ahead.
+- The bird's wings are not spread out.
+- The background does not include trees, but a window.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The hallucination is minor. The "Candidate description" hallucinates the following:
+1. The bird is possibly a hawk or a falcon.
+2. The bird is sitting on a metal railing or a pole.
+3. The bird is looking upwards and possibly observing its surroundings.
+4. The bird's wings are spread out.
+5. There are trees visible in the background.
+6. The scene captures the bird's presence in an outdoor environment, possibly near a forest or a park.

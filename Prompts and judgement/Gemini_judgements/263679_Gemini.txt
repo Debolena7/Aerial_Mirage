@@ -1,0 +1,18 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate and does not contain any major hallucinations. However, there are a few minor mistakes:
+
+- The candidate description mentions that the woman is holding the kite, but in the image, the man is holding the kite.
+- The candidate description also mentions that there are other people scattered around the beach, but there are only two people in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+
+The description hallucinates the following:
+- There are two people on the image, but the "Candidate description" hallucinates that there are several people.
+- The "Candidate description" hallucinates that a woman is holding the kite, while in the image, two people are holding the kite.
+- The "Candidate description" hallucinates that the man is flying the kite, while in the image, the kite is not flying.
+- The "Candidate description" hallucinates that the beach scene is lively and full of activity, with people engaging in various beach-related activities, while in the image, there are only two people and they are not doing any beach-related activities.

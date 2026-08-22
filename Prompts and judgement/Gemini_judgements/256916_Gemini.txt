@@ -1,0 +1,14 @@
+Gemini pro Response:
+Score: 1
+
+The hallucination in the "Candidate Description" is subtle, but it can be detected upon close examination. The mistake is in the description of the pizza. The "Candidate description" states that "The pizzas are placed on top of the pans". However, this is not evident from the image, as the pizzas appear to be placed directly on the table. This mistake could have been made due to the fact that the image is taken from a slightly elevated angle, making it difficult to determine the exact placement of the pizzas.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+There are several hallucinations in the "Candidate description". 
+1. The "Candidate description" states that "The image features a dining table with three pans filled with square pizzas". However, there are four pans of pizza in the image. 
+2. The "Candidate description" states that "The pizzas are placed on top of the pans, and they appear to be covered in sauce and cheese". However, there are no pans in the image. The pizzas are placed directly on the table. 
+3. The "Candidate description" states that "The table is set with a fork and a knife, ready for someone to enjoy the delicious pizzas". However, there is no fork on the table. There are two knives. 
+4. The "Candidate description" states that "There are also two chairs visible in the scene, one on the left side and the other on the right side of the table". However, there are no chairs in the image.

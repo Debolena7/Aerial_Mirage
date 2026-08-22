@@ -1,0 +1,18 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate, but it contains a few minor hallucinations:
+
+1. The candidate description mentions "at least 12 cows" but there are only 5 cows in the image.
+2. The candidate description mentions "some of them wearing tags" but none of the cows in the image are wearing tags.
+3. The candidate description mentions "the barn appears to be a well-organized space for the cows" but there is no evidence of this in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 3
+The candidate description hallucinates the following:
+1. There are at least 12 cows in the scene -> There are 8 cows in the image.
+2. Some of the cows are wearing tags -> None of the cows wear tags.
+3. A person can be seen in the background, possibly attending to the cows or preparing to feed them -> Two persons can be seen in the foreground.
+4. The barn appears to be a well-organized space for the cows, providing them with a comfortable environment to rest and be fed -> The barn is not well-organized.

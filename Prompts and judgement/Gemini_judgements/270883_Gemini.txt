@@ -1,0 +1,23 @@
+Gemini pro Response:
+Score: 6
+
+**Mistakes:**
+
+1. The candidate description mentions a "blue dress" and "lace underwear", but the reference captions do not mention any clothing. The image does not show any blue dress or lace underwear.
+
+2. The candidate description says "She is resting on her stomach, with her hands placed on her head." However, the person in the image is not resting on their stomach, but rather lying on their back.
+
+3. The candidate description mentions "a cat sitting on a surface close to the bed". However, the bounding boxes do not include a "cat" object, and the image does not show a cat.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 8
+The candidate description hallucinates the following:
+- The woman is wearing a blue dress.
+- The woman is wearing lace underwear.
+- The woman is resting on her stomach.
+- The woman has her hands placed on her head.
+- The bed is covered with white sheets.
+- There is a pillow nearby.
+- There is a cat sitting on a surface close to the bed.

@@ -1,0 +1,15 @@
+Gemini pro Response:
+Score: 7
+
+Mistakes: 
+- The candidate description mentions a snow-covered train station, but there is no train station in the image. 
+- The candidate description mentions that the train station appears to be empty, but there is a traffic light in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 8
+The "Candidate description" is mostly accurate, but there are some hallucinations.
+1. The "Candidate description" mentions a "train station", but there is no train station in the image.
+2. The "Candidate description" mentions that the "traffic light is situated near the center of the scene", but the traffic light is actually on the right side of the image.
+3. The "Candidate description" mentions that the "train station appears to be empty, with no people visible in the image", but there is actually a person walking up the stairs on the right side of the image.

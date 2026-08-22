@@ -1,0 +1,10 @@
+Gemini pro Response:
+Score: 4
+
+The candidate description introduces "green bananas", which are not mentioned in the reference captions and not present in the image. It also mentions that the cat is "enjoying its time in the tree" and "exploring the tree", which are not actions captured in the image. The reference captions describe the cat as "resting" and "sitting", which are more passive actions. Additionally, the candidate description mentions that the bananas are "scattered around the tree", but the image shows that most of the bananas are clustered together.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+The candidate description is mostly accurate, but there are a few minor hallucinations. First, the description mentions that the cat is surrounded by numerous green bananas. While there are some bananas in the image, there are not as many as the description suggests. Second, the description mentions that the cat is perched on a branch. While the cat is on a branch, it is not perched in the traditional sense. Finally, the description mentions that the cat is enjoying its time in the tree. While the cat may be enjoying itself, it is impossible to know this from the image.

@@ -1,0 +1,18 @@
+Gemini pro Response:
+Score: 2
+
+The candidate description is mostly accurate and consistent with the reference captions and bounding boxes. However, there are a few minor errors and omissions:
+
+- The candidate description mentions that "there are a few other people in the scene", however, the reference captions only mention two people and the bounding boxes only contain two person bounding boxes.
+- The candidate description mentions that there is a "chair" in the image, however, there is no chair visible in the reference captions or the bounding boxes.
+- The candidate description mentions that the scene is taking place in a "natural environment", however, the reference captions do not specify the location and the image does not provide enough context to determine the location.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 2
+
+The candidate description hallucinates the following:
+- There are two other people in the scene.
+- There is a chair near the edge of the image.
+- The scene seems to be taking place in a natural environment, possibly in a wildlife reserve or a safari park.

@@ -1,0 +1,14 @@
+Gemini pro Response:
+Score: 10
+
+The candidate description contains no hallucination since the horse is the only object and everything else is accurate.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 5
+The hallucination is mainly due to the following mistakes:
+1. There are not 11 horses but 10 horses.
+2. The horses are not crossing a bridge.
+3. The setting is not serene.
+4. There are tall grass and yellow flowers in the front.

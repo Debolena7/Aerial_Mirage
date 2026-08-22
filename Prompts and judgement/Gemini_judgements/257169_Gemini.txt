@@ -1,0 +1,17 @@
+Gemini pro Response:
+Score: 4.5
+
+The candidate description mentions several objects, including "bottles" and "scissors," that are not visible in the image. Bottles are hallucinated as they don't appear in the provided information. Scissors are hallucinated in the image and inaccurately placed in different locations.
+
+--------------------------------------------------------------------------------------------------------
+
+Gemini pro-vision Response:
+ Score: 6
+
+The candidate description hallucinates the following:
+- There are no bottles in the image.
+- There are no scissors in the image.
+- The person is not drying their hair with the hair dryer.
+- There is no sink in the image.
+- There is no towel rack in the image.
+- There is no towel hanging on a rack in the image.
