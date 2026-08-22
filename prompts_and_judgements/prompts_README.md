@@ -8,7 +8,7 @@ Because this evaluation needs dense ground truth (reference captions and object 
 
 ```
 Prompts and judgement/
-├── PROMPTS_hal_eval/     # 202 evaluation prompts, one per image  ({image_id}.txt)
+├── PROMPTS_hal_eval/     # 200 evaluation prompts, one per image  ({image_id}.txt)
 ├── GPT_judgements/       # GPT-3.5-Turbo and GPT-4 responses      ({image_id}_GPT.txt)
 ├── Gemini_judgements/    # Gemini-Pro and Gemini-Pro-Vision responses ({image_id}_Gemini.txt)
 ├── gpt_judge.py          # queries the OpenAI models
@@ -53,7 +53,7 @@ python gemini_judge.py
 
 The scripts append to their output files, so clear or rename previous runs before re-running.
 
-**Note:** input/output paths inside the scripts are hard-coded to the original machine and use an earlier folder name for the prompts. Update them to `PROMPTS_hal_eval/` and your own image directory before use.
+Note: Update input/output paths inside the scripts to `PROMPTS_hal_eval/` and your own image directory before use.
 
 ## Citation
 
