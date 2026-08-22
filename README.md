@@ -1,6 +1,8 @@
 # Aerial Mirage: Unmasking Hallucinations in Large Vision Language Models
 
-This repository hosts two datasets:
+This repository hosts the two datasets introduced in the paper, along with the caption-generation code and the prompts used for our LLM-as-evaluator study.
+
+### Datasets
 
 (1) **AeroCaps**: the first **Aer**ial-view Image **Cap**tioning dataset. This contains atleast four captions per image (manually annotated).
 
@@ -17,8 +19,24 @@ The LVLM-generated image captions, along with our hallucination-labelled annotat
 
 ### **[AeroCaps](https://huggingface.co/datasets/NLIP-lab/AeroCaps) and [LID](https://huggingface.co/datasets/NLIP-lab/LID) are also released on HuggingFace!**
 
+## Repository structure
+├── AeroCaps.json # AeroCaps reference captions
+├── LID/ # Labelled Illusion Dataset (train.jsonl, test.jsonl)
+├── code/ # caption generation with LLaVA-1.5 and InstructBLIP
+├── prompts_and_judgements/ # LLM-as-evaluator study (prompts + GPT / Gemini outputs)
+└── wacv25-poster.pdf # WACV 2025 poster
 
-If you use any of these datasets in your research, please cite:
+
+### [`code/`](code)
+
+Scripts that generate the LVLM captions annotated in LID, using **LLaVA-1.5-13B** and **InstructBLIP-Vicuna-7B** on AeroCaps and VisDrone. Includes the object-conditioned prompting setup that tests whether supplying ground-truth object names reduces hallucination. See the [folder README](code/README.md) for prompts, decoding settings, and usage.
+
+### [`prompts_and_judgements/`](prompts_and_judgements)
+
+Materials for our study of how reliably advanced LLMs can rate hallucination in another model's captions. Contains 200 evaluation prompts and the corresponding judgements from **GPT-3.5-Turbo**, **GPT-4**, **Gemini-Pro**, and **Gemini-Pro-Vision**. See the [folder README](prompts_and_judgements/README.md) for prompt design and setup.
+
+
+If you use any of these materials in your research, please cite:
 
 ```bibtex
 @InProceedings{Debolena_WACV25,
