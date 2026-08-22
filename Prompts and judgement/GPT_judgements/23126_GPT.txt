@@ -1,0 +1,13 @@
+GPT-3.5_Turbo Response:
+I would give the Candidate description a score of 7 for hallucination.
+
+Mistakes:
+1. The candidate description mentions that the scene appears to be a black and white photo, which is not stated in the reference captions or visible in the image. This is an instance of hallucination as there is no indication of the image being black and white.
+2. The description states that the man is riding the horse, but according to the reference captions and bounding boxes, the man is standing on top of the horses, not riding them. This misinterpretation of the action in the image is another form of hallucination.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes: The candidate description states that the man is sitting and riding a horse, whereas all the reference captions indicate the man is standing on top of two horses. Noticeably, there is also no evidence provided of the horse's head and neck, or the reins in the bounding boxes. Also, it is not clear whether this is a black and white photo as we don't have color information from the bounding boxes or reference captions.

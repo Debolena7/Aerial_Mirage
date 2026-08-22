@@ -1,0 +1,19 @@
+GPT-3_Turbo Response:
+Score for Candidate Description: 6
+
+Mistakes:
+- The Candidate Description mentions five horses, but there are only three horses in the bounding boxes provided.
+- The description talks about the horses galloping through the water, but there is no mention of water in the reference captions or bounding boxes.
+- The description exaggerates the spread of riders along the beach, when in reality they are fairly close together.
+- The mention of the scene being dynamic and energetic is not explicitly supported by the reference captions or bounding boxes.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7.5
+
+Mistakes: 
+1. The candidate's description mentions "five horses", which is incorrect. According to the bounding box data, there are only three horses.
+2. The description also says "each carrying a rider". However, the bounding boxes suggest that there are only three people, not five.
+3. There is no information available that indicates the horses are "galloping through the water". This appears to be a hallucination from the annotator.
+4. There is also no explicit information to suggest that some riders are "closer to the water's edge and others further back" or that the scene is "dynamic and energetic". These are interpretations made by the annotator.

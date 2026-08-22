@@ -1,0 +1,19 @@
+GPT-3.5_Turbo Response:
+Score: 9
+
+Mistakes in the candidate description:
+1. Mention of a snowboard, which is not present in the image according to the bounding boxes.
+2. Misinterpretation of the objects present - there are no cars visible in the image, only skiers, a sled, skis, a cooler, and backpacks.
+3. The description suggests that there is a man wearing a hat, but there is no mention of a hat in the bounding boxes or reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes:
+1. There is no evidence or mention in the reference captions to suggest that one of the men is wearing a hat.
+2. The mention of a snowboard is a hallucination. The bounding boxes only show skis.
+3. While the bounding boxes confirm the presence of two cars, the reference captions do not mention this. As such, this is a hallucination or inference made by the candidate. 
+4. The candidate suggests that the men drove to the location, but this is another hallucination, as there is no evidence or mention of the men driving.
+5. No bounding boxes or reference captions mention the 'preparation' for the skiing adventure stated in the candidate description. This seems like another hallucination.

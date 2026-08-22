@@ -1,0 +1,21 @@
+GPT-3.5_Turbo Response:
+Score: 10
+
+Mistakes:
+1. The candidate description mentions cups instead of wine glasses.
+2. Mentions carrots instead of pizza.
+3. Mentions a bowl of sauce instead of plates of food.
+4. Mentions a window view in the background which is not present in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8.5
+
+Mistakes:
+
+1. The candidate description mentions two cups, but there's no indication in the bounding box descriptions of any cups present in the image.
+2. Similarly, there's no indication of carrots present either. The reference captions specify food items, such as pizza, but never mention carrots.
+3. No bounding box relates to a "window view", meaning the 'restaurant with a window view' is also hallucinated.
+4. There is no indication of a "bowl of sauce". The bounding boxes describe three bowls but the type of food is unspecified.
+5. The specific positions of the items (center, right side) are also hallucinations as the bounding boxes don't provide this information.

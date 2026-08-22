@@ -1,0 +1,22 @@
+GPT-3.5_Turbo Response:
+Score: 9
+
+Mistakes:
+1. Hallucination of objects: The candidate description mentions items such as carrots, broccoli, and oranges, which are not present in the bounding boxes provided.
+2. Hallucination of actions: The description mentions people shopping for fresh produce, but there is no direct indication of shopping behavior in the bounding boxes.
+3. Hallucination of counts: The description talks about numerous people throughout the market, but the bounding boxes do not capture a high number of people.
+4. Hallucination of positions: The description mentions people browsing and carrying handbags, but these actions are not clearly visible in the provided bounding boxes.
+5. Hallucination of relations: The description emphasizes the freshness and variety of produce, but the bounding boxes do not provide direct evidence of this.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes: 
+1. The candidate description incorrectly states that the image contains various vegetables such as carrots, broccoli, and oranges; none of these are mentioned in the reference description or in the bounding boxes.
+2. There is also no mention of people carrying handbags in the provided descriptions or evidence in the bounding boxes.
+3. The mention of "numerous people" and describing the market as "bustling" could be misleading as the total number of people is not mentioned in the descriptions and could not be determined from the provided bounding boxes. 
+4. The mention of "fresh produce" is an assumption and not directly depicted or mentioned in the reference descriptions or the bounding boxes. 
+5. The claim of produce being "prominently displayed" is also not depicted or mentioned directly in the provided reference descriptions or the bounding boxes.
+6. Similarly, the representation of the market being "colorful" is an assumption and not directly stated or depicted in the reference descriptions or the bounding boxes.

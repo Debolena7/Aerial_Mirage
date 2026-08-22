@@ -1,0 +1,15 @@
+GPT-3.5_Turbo Response:
+Score: 7
+
+Mistakes:
+1. The description mentions a bakery, however, the reference captions clearly indicate that the scene is set in a grocery store or food market, not a bakery.
+2. The candidate description mentions oranges, breads, and cakes, which are not present in the bounding boxes provided, leading to hallucinations.
+3. The description exaggerates the number of people in the scene, as the bounding boxes indicate only a few people, not at least five as stated.
+4. The mention of bottles possibly containing beverages or condiments is inaccurate as the bounding boxes only show bottles, but not what they contain.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7
+
+Mistakes: The main hallucination in the candidate description is the misidentification of the location and the items for sale. The setting is actually a grocery store or small food market, not a bakery. There are no mentions of pastries, breads, cakes, or oranges in the image data or reference descriptions. All descriptions indicate the presence of people, apples, bananas and bottles only. Also, the image data does not provide any information about the mood or the level of busyness in the store, which was described in the candidate description.

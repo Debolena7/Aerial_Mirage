@@ -1,0 +1,17 @@
+GPT-3.5_Turbo Response:
+I would rate the candidate description a 7 in terms of hallucination.
+
+Mistakes:
+1. The candidate description mentions "a man walking by on the street," however, there is no bounding box annotation for a person in the image. This creates a hallucination as there is no actual person present in the image. 
+2. The description talks about "several cars parked or driving along the street," but there is no indication of cars driving in the image. The bounding boxes only show parked cars. This creates a hallucination as there is no evidence of cars driving in the image. 
+3. The candidate description mentions "two traffic lights visible in the scene, one near the top left corner and another near the top right corner," but the bounding box annotations show three traffic lights instead of two. This discrepancy could lead to confusion about the actual number of traffic lights.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 2
+
+Mistakes:
+- The hallucination lies in the description about the position of the traffic lights. From the bounding boxes, we can't definitively infer if one traffic light is near the top left corner and another near the top right corner.
+- The candidate description mentions that there are several cars parked or driving along the street. However, based on the bounding box information, we can't determine if the cars are parked or driving. 
+- The mention of a "busy urban area" is a bit of hallucination as it is an assumption and not verifiable from the given image information.

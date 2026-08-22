@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description a score of 3 out of 10.
+
+Mistakes:
+1. The Candidate description mentions bottles placed on the sink's edge, which is not present in the Bounding boxes (bbox) provided. This is an example of hallucination.
+2. The description talks about the positioning of the utensils and dishes in detail, but it fails to mention the presence of a double sink.
+3. The cleanliness of the sink is not accurately represented, as the Candidate description states that the sink is in need of cleaning, while the Reference captions mention dirty dishes in the sink.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 0
+
+The candidate description accurately describes the contents of the image, as per the reference captions and the bounding box descriptions. The different objects, such as the kitchen sink, dishes, utensils, cups, bowls, spoon, and bottles were all mentioned. Correct relative positions - cups being scattered, bowl being near the center of the sink, spoon being towards the right, two bottles on the sink's edges - are also stated. As such, there is no evidence of hallucination.

@@ -1,0 +1,18 @@
+GPT-3.5_Turbo Response:
+Score for Candidate Description: 8
+
+Mistakes: 
+1. The candidate description mentions two other people in the scene, but the bounding boxes only indicate the presence of one person on a skateboard and one person standing near the skateboarder. This introduces hallucination as there is no evidence of another person in the image.
+2. The candidate description mentions two skateboards visible in the scene, with one being ridden by the skateboarder and the other placed near the second person. However, the bounding boxes only indicate one skateboard being ridden by the skateboarder and none near the second person. This introduces hallucination as there is only one skateboard present in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 9
+
+Mistakes in Candidate Description:
+1. The statement claims there are three people in the scene, however, the bounding box data only highlights the presence of one person riding a skateboard.
+2. It mentions that the skateboarder is riding on a sidewalk, however, the reference captions specifically mention a ramp or skate park which does not necessarily equate to a sidewalk.
+3. The description of the skateboarder wearing white shoes does not match with the reference captions.
+4. Furthermore, there are not two skateboards in the scene as the bounding box information only includes one skateboard. 
+5. The details about the casual, outdoor environment are not supported by the existing information.

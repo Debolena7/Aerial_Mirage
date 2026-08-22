@@ -1,0 +1,19 @@
+GPT-3.5_Turbo Response:
+I would give the Candidate description a score of 7 for hallucination. 
+
+Mistakes:
+1. The description mentions that the cat is wearing a purple collar, which is not mentioned in the Reference captions or visible in the image. This fabricates an extra detail about the cat.
+2. The description includes a cell phone on the desk, which is not mentioned in the Reference captions or visible in the image. This adds an object that does not exist in the reference annotations, thus hallucinating an additional item.
+3. The description states that the cat is the main focus of the scene, while in fact, the main focus should be the computer monitor based on the reference captions. This misinterpretation can lead to a misconstrued understanding of the image. 
+
+Overall, the Candidate description contains details that were not present in the ground truth annotations, leading to a higher hallucination score.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes: 
+1. There is no computer monitor identified in the bounding boxes; there's a TV but it's a different object.
+2. No mouse, cell phone, or other objects that add to the clutter are mentioned in the bounding boxes.
+3. Lastly, the cat's purple collar isn't mentioned in any of the reference captions or bounding boxes. These objects appear to be hallucinated.

@@ -1,0 +1,18 @@
+GPT-3.5_Turbo Response:
+Score: 9
+
+Mistakes:
+1. The candidate description includes a hippo grazing with the zebras, while the ground truth annotations only mention feral hogs or warthogs, not hippos.
+2. There is no mention of a hippo in the bounding boxes provided, indicating that this object is not present in the image. This is a significant hallucination.
+3. The description mentions three zebras, but only two zebras are actually present in the bounding box annotations. The mention of three zebras is also a hallucination.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 9
+
+Mistakes: 
+1. The bounding boxes only mention zebras, there is no evidence of a hippo in the image based on given annotations.
+2. The number of zebras was incorrectly stated as three in the candidate description, whereas there are five bounding boxes indicating five zebras.
+3. The placements (left, middle, right) of the zebras and the hippo are impossible to confirm as specific position data is not provided in the bounding box information. 
+4. The peaceful coexistence and the activity of eating/ grazing are also not verifiable through the bounding box data as it doesn't contain such information.

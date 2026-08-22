@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+Score: 6
+
+Mistakes:
+1. The description mentions that the zebras are grazing on hay in a zoo enclosure, which is inaccurate as the reference captions mention that they are munching on grass in their natural habitat or surrounded by trees in the wild.
+2. The positioning of the zebras described (one on the left, center, and right) does not match with the actual bounding box locations provided.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 4
+
+Mistakes: 
+The actual location of the zebras cannot be confirmed as a zoo enclosure based on the reference captions or bounding box info. The candidate description assumes a "zoo enclosure" setting, which could be a case of hallucination. The positions of the zebras (left, center, right) are not provided in the given bounding boxes. Therefore, specifying their positions might be a hallucination as well. Finally, the description of the "lush green environment" and the "comfortable and natural-looking setting" is not supported by the reference captions and bounding box descriptions, indicating a possible hallucination.

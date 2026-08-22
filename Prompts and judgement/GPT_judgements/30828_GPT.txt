@@ -1,0 +1,20 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description as a 3 out of 10 in terms of hallucination.
+
+Mistakes:
+1. Refers to a "handbag" which is not present in the image or the ground truth annotations.
+2. Mentions a "wooden bench" instead of a "park bench".
+3. States that there are two parking meters in the background, but there is only one parking meter in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 2.5
+
+Mistakes:
+1. The candidate description mentions a handbag which isn't present in the bounding boxes (bbox), so it's a hallucination. 
+2. There's only a single parking meter in the bbox but the description mentions two parking meters. 
+3. The blanket the person is covered with is actually a sleeping bag which is not mentioned correctly in the candidate description.
+4. The description says the person's belongings are placed beside them on the bench whereas the backpack (only belonging mentioned in bbox) is more likely positioned beneath the person.
+
+Other than these points, the overall description corresponds well with the reference descriptions and the objects present in the bounding boxes. Hence, it's not a perfect annotation, but it's not a severe hallucination either.

@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+Score: 8
+
+Mistakes:
+1. The candidate description mentions two people in the scene, which contradicts the reference captions stating that the bus is empty.
+2. The candidate description includes details about the overall atmosphere being calm and quiet, which were not mentioned in the reference captions.
+3. The candidate description talks about the bus providing entertainment through a television, but the reference captions do not mention any television screen.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes: The description inaccurately mentions two visible people in the scene. There is no description in the reference captions or bounding boxes about any people inside the bus. It hallucinates about the atmosphere of the bus as 'calm and quiet' which cannot be determined from the image, reference captions, or bounding boxes.

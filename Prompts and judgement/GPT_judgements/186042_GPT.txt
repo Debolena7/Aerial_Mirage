@@ -1,0 +1,16 @@
+GPT-3_Turbo Response:
+Score: 2
+
+The candidate description is fairly accurate and does not exhibit significant hallucination. However, there are a couple of minor discrepancies compared to the reference captions and bounding boxes. 
+
+1. The candidate description mentions that the man is skiing down a slope, while the reference captions indicate that the person is actually skiing toward a sunset or traveling up a slope.
+2. The candidate description does not explicitly mention the presence of skis, which are highlighted in the bounding boxes.
+
+Overall, the candidate description stays largely true to the image and does not introduce major hallucinations.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7.5
+
+Mistakes: The hallucinations in the image description include the speculations about the man's emotional state ("enjoying his time") as there's no information provided that can confirm his emotional state. Also, the bounding boxes provided don't indicate any specifics about the skier's attire, so mentioning a "black jacket" is a hallucination. Furthermore, the description details about the "snowy path lined with trees"; however, we are not given specific bounding boxes concerning multiple trees or a snowy path. Finally, there's no given information about the overall atmosphere of adventure and outdoor recreation.

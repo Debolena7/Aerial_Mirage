@@ -1,0 +1,17 @@
+GPT-3.5_Turbo Response:
+Score: 8
+
+Mistakes: 
+1. The candidate description mentions two people inside the carriage, but the bounding boxes only show one person near the horse and another person near the carriage. This discrepancy indicates hallucination in the description.
+2. The mention of a handbag on the ground near the right side of the carriage is not supported by the bounding boxes, indicating a fabricated detail.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes: 
+
+- The candidate description refers to multiple people in the image besides the horse and carriage, while there are actually only two people according to the bounding boxes. 
+- Description of positions of people which are not supported from the bounding box data.
+- Mention of a handbag, which doesn't exist in the bounding boxes data or the reference captions.

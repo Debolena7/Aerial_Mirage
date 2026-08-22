@@ -1,0 +1,15 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description a 7 out of 10 for hallucination.
+
+Mistakes:
+1. The Candidate description mentions a potted plant, which is not present in the Reference captions or bounding boxes.
+2. It mentions several books scattered around the room, while the only reference to books is on the coffee table.
+3. It describes a dining table in the background, which is not mentioned in the reference captions or bounding boxes.
+4. The description indicates a warm and inviting atmosphere, which is a subjective interpretation not supported by the factual information provided.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 9
+
+Mistakes: The candidate description mentions a potted plant which is not present according to the bounding box coordinates. There is also no mention of several books. Only two books are mentioned in the bounding boxes. The placement of the TV is also questionable as the bounding box does not suggest that it is on the left side of the room. The description of the room being cozy is speculative and not based on any observable details in the image. The remote control is not 'nearby' the television, it's quite far according to bounding box coordinates. There's no evidence in the bounding box coordinates to suggest the chair is close to the table or that the room has a warm and inviting atmosphere, these are speculative and subjective statements. The candidate description does not match image annotations and hallucinates several details.

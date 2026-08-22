@@ -1,0 +1,17 @@
+GPT-3.5_Turbo Response:
+Score: 8
+
+Mistakes:
+1. The candidate description mentions two other people in the scene, but there is only one person (the skateboarder) in the bounding box annotations.
+2. The description includes details about potted plants, which are not present in the bounding box annotations. These details are hallucinated. 
+3. The statement about a white fence in the background is not supported by the bounding box annotations. This detail is also hallucinated.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes: 
+- The candidate description mentions a residential area with a white fence in the background. There is no information provided about the background in the reference captions or bounding box information.
+- The candidate description includes two additional people in the scene that are not identified in the bounding boxes or mentioned in the reference captions.
+- There is no mention of potted plants in the reference captions or bounding boxes, but they are included in the candidate description.

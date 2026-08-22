@@ -1,0 +1,16 @@
+GPT-3.5_Turbo Response:
+I would rate the "Candidate description" a 4 in terms of hallucination.
+
+Mistakes:
+1. The candidate description mentions the man as "intently reading a book" while the reference captions state that he is flipping through the pages of the book, not necessarily reading it.
+2. The description mentions that the man is "focusing on the content" of the book, which is not explicitly clear from the image.
+3. There is no mention of the man holding the book open with both hands in the image, which could be considered slightly hallucinatory. 
+
+Overall, the candidate description contains some inaccuracies when compared to the ground truth annotations, but they are not substantially misleading.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 1
+
+The candidate description is almost perfect compared to the given references and the bounding boxes. However, it hallucinates a bit about the following: 'He is holding the book open with both hands', 'The man appears to be in a dimly lit room', and 'which adds to the cozy atmosphere of the scene' because there's no such information provided in the references or bounding boxes. These prevent the description to score a complete 0.

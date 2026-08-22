@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+Score: 7
+
+Mistakes:
+1. Incorrectly mentioning two people in the scene when there are none in the bounding boxes provided.
+2. Mentioning two potted plants in the scene which are not present in the given information.
+3. Not specifying the colors of the sign, grass, and building as mentioned in the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 9
+
+Mistakes: The hallucinations in the candidate description are the presence of two individuals and two potted plants. There is no information about these objects in the bounding boxes. Additionally, the bounding box information refers to cars, but the candidate description does not mention them.

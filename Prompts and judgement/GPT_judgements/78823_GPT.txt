@@ -1,0 +1,19 @@
+GPT-3.5_Turbo Response:
+Score: 9
+
+Mistakes:
+1. The dog is described as sitting on the back of a car, but in reality, it is standing on the back of a car according to the reference captions.
+2. The car is described as a possible Alfa Romeo, which is not mentioned in the image or the reference captions.
+3. The description includes details about potted plants, bicycles, and a person in the background, which do not appear in the image or the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7
+
+Mistakes: 
+1. The candidate description mentions a brown dog, but the image data does not specify the color of the dog.
+2. The claim about the car being an Alfa Romeo is a hallucination as no such detail is present in the bounding boxes or reference captions.
+3. The candidate description mentions a parking lot and other vehicles, again this can not be confirmed from the bounding boxes or reference captions.
+4. The presence of two potted plants is a hallucination, there is only one potted plant according to the bounding boxes.
+5. The mention of two bicycles and a person in the background is also a hallucination, there are no bounding boxes or reference captions confirming these presences.

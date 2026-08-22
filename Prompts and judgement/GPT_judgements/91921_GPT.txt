@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+Score: 8
+
+Mistakes:
+1. The candidate description mentions birds in the scene, which are not present in the image or the ground truth annotations.
+2. The candidate description describes the zebras as standing in the dirt, while one zebra is actually laying on the ground in the image.
+3. The description refers to the zebras being positioned towards the left and right sides of the field, but the actual positions of the zebras differ in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+The candidate description has significant hallucination. While it correctly identifies two zebras in a field, the hallucinations include the erroneous details of the zebras' positions ("One zebra is positioned towards the left side of the field, while the other is located towards the right side") and the actions (grazing or resting). The description also hallucinates about the presence of several birds scattered throughout the scene, some of which are perched on the ground, while others are flying in the sky which is not present or mentioned in the reference captions or bounding boxes.

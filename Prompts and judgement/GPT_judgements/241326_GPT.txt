@@ -1,0 +1,13 @@
+GPT-3.5_Turbo Response:
+Score: 7
+
+Mistakes:
+1. The description mentions a plaid blanket on the couch, which is not present in the image according to the bounding boxes provided.
+2. The description exaggerates the level of interaction between the dog and cat by stating they are looking at each other, when their positions in the image do not suggest that.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 3
+
+The hallucinations in the candidate description include the presence of a "plaid blanket" on the couch, the indication that the dog is looking at the cat and vice versa, and the ascribed sentiments of "curiosity and interest" between the two animals. These details are not present or identifiable from the given bounding boxes or reference captions. However, the basic objects and their positions (a dog on the floor, a cat on the couch) are described accurately.

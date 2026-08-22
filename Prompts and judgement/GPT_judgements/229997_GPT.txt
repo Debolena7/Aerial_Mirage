@@ -1,0 +1,11 @@
+GPT-3.5_Turbo Response:
+Score: 2
+
+The candidate description has some inaccuracies and lacks some details present in the reference captions. The description correctly mentions the presence of a black bear sitting on the grass and being surrounded by birds. However, it does not specify that there are vultures in the image, and it does not mention the fallen trees present in the scene. Additionally, the description does not provide specific details about the number of birds surrounding the bear, their positions, or their actions. Therefore, the level of hallucination in this description is relatively low.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 0
+
+The "Candidate description" perfectly matches the "Reference captions" and the "Bounding boxes (bbox)" details given. It correctly describes that there is a bear sitting in the grass with birds around it. The positioning details of the bear and the birds match with the bounding boxes provided. Therefore, there is no hallucination present.

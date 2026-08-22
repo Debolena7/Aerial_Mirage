@@ -1,0 +1,13 @@
+GPT-3.5_Turbo Response:
+Score: 4
+
+Mistakes:
+1. The candidate description includes details not present in the image, such as "A couple of beach chairs are also visible," which is incorrect as only one chair is visible in the bounding boxes.
+2. The mention of "A handbag is placed on the sand" is not entirely accurate as there are multiple bags present in the image according to the bounding boxes.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 0
+
+The candidate description does not seem to exhibit any hallucination. It correctly identifies all the major elements present in the image like the umbrella, beachgoers, beach chairs, handbag etc. It adequately matches the reference captions and the bounding boxes details.

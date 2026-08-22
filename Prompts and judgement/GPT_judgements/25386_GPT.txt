@@ -1,0 +1,20 @@
+GPT-3.5_Turbo Response:
+Score: 8
+
+Mistakes:
+1. The candidate description mentions sushi, but there is no mention of sushi in the reference captions or in the bounding boxes provided.
+2. The candidate description includes items like a bowl, a cup, a spoon, and sandwiches, which are not mentioned in the reference captions or captured in the bounding boxes.
+3. The use of a fork by the woman is not mentioned in the reference captions.
+4. The scene is described as taking place in a restaurant, which is not evident from the provided information.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7
+
+Mistakes:
+1. The candidate description mentions that they are eating sushi, but there are no bounding boxes for sushi - instead, there's information about sandwiches and a hot dog.
+2. It mentions that the woman is holding a fork, but there's no bounding box for a fork.
+3. The description notes a dining table setting with a bowl, cup, spoon but there are no corresponding bounding boxes for these objects.
+4. The mention of a restaurant or similar dining setting is a hallucination, as the reference clearly states they are on a train. 
+5. There's no bounding box information for a second sandwich placed closer to the woman as described, only one sandwich is described.

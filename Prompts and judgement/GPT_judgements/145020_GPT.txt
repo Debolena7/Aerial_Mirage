@@ -1,0 +1,18 @@
+GPT-3.5_Turbo Response:
+Based on the given information, I would rate the "Candidate description" a 9 out of 10 for hallucination.
+
+Mistakes in the candidate description:
+1. The description mentions a well-dressed Mickey Mouse character, but the ground truth annotations state that the character is actually Donald Duck.
+2. The description mentions a chair in the scene, which is not present in the bounding boxes provided.
+3. The description does not mention Minnie Mouse, who is interacting with Donald Duck in the image according to the ground truth annotations.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7.5
+
+Mistakes:
+1. The bounding boxes do not present any box for the character Mickey Mouse dressed in a vest, they only present boxes for people and teddy bears. This is an extensive hallucination.
+2. The description talks about a chair, which is not mentioned in the reference captions or seen in the bounding boxes.
+3. The bounding boxes do not confirm the presence of a large Christmas tree, nor does it confirm the crowd of people taking pictures as described in the candidate's description. 
+4. No bounding box corresponds to the people standing much closer to the tree.

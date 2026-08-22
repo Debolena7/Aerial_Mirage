@@ -1,0 +1,19 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description a 7 in terms of hallucination.
+
+Mistakes:
+1. The woman's hair color is described as purple instead of blue.
+2. The shirt is described as gray, when it is not mentioned in the reference captions.
+3. The sink in the background is not mentioned in the reference captions, indicating possible hallucination about the background details.
+4. It is mentioned that the woman is holding the phone up to a mirror, which is not present in the provided image information.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 9
+
+Mistakes: 
+1. The color of the woman's hair is referred to as purple, which contradicts the earlier references stating it to be blue.
+2. The inclusion of a gray shirt is hallucinated, as there is no confirmation about the color or existence of a shirt in the reference captions or bounding boxes.
+3. The mention of a mirror, a sink, and the background is hallucinated since no such details were provided in the reference captions or bounding boxes.
+4. The claim about the woman holding the phone up to the mirror to capture a picture is also hallucinated for the same reasons. The reference captions only mention a woman taking a selfie, not specifically using a mirror.

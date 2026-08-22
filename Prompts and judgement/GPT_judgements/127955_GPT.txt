@@ -1,0 +1,14 @@
+GPT-3_Turbo Response:
+Score: 3
+
+Mistakes:
+1. The candidate description mentions one bear yawning or growling, which is not present in the image. 
+2. The description suggests possible playful or territorial behavior, but the bears are not clearly shown engaging in any specific actions. 
+3. The description states that the bears are the main focus of the scene, but it does not mention that they are playing together or fighting as indicated in the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 3
+
+Mistakes: The hallucination in this caption is minimal. The reference doesn't specify any characteristics of the bears' behaviors such as "one bear appearing to be yawning or growling" and "the other bear has its mouth open." Furthermore, the description of the water being "calm" is also not mentioned in the reference captions or visible in the bounding box detail.

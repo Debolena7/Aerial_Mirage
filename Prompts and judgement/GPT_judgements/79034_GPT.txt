@@ -1,0 +1,13 @@
+GPT-3.5_Turbo Response:
+Score: 8
+
+Mistakes:
+1. The mention of cars parked in the background is incorrect as there are no cars present in the image according to the bounding boxes provided.
+2. The description of a dirt field surrounding the grassy area where the fire hydrant is located is not accurate as there is no indication of a dirt field in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 0
+
+Explanation: The candidate description does not appear to have any hallucinations and is coherent with both the reference captions and the bounding box descriptions. The description rightly points out the presence of a blue fire hydrant, a tree, several cars, and the setting as being a grassy park or public place.

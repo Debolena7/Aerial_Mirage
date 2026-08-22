@@ -1,0 +1,21 @@
+GPT-3.5_Turbo Response:
+Based on the provided information, I would rate the "Candidate description" a 8 out of 10 in terms of hallucination. 
+
+Mistakes in the candidate description:
+1. The candidate description mentions a sink, which is not present in the image according to the bounding boxes provided.
+2. The description indicates that the man is pouring wine into a glass for a customer, however, there is no indication of a customer in the image.
+3. The description mentions cups and a bowl on the counter, but only wine bottles are detected in the bounding boxes.
+4. The candidate description suggests that the man is ensuring the wine is poured correctly, which cannot be determined from the image directly.
+
+Overall, the candidate description contains a significant amount of hallucination by adding details not present in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 2
+
+Mistakes:
+1. The bounding boxes do not mention the presence of a sink.
+2. There are no bounding boxes indicating the presence of cups.
+3. There is no indication that there are any customers present in the image or that the man is serving wine to a customer.
+4. The statement about the man's focus is a subjective observation and does not have supporting evidence in the image data.

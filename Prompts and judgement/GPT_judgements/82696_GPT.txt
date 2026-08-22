@@ -1,0 +1,15 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description a 7 in terms of hallucination. 
+
+Mistakes:
+1. The candidate description mentions the bird possibly being a cockatoo, which is not present in the image annotations. This is a hallucination as the type of bird is not specified.
+2. The candidate description mentions the room having multiple chairs of varying sizes, but the exact number and types of chairs are not specified accurately. This is also a hallucination as it goes beyond the information provided in the image annotations.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 1
+
+The candidate description correctly mentions a bird, walking on a floor surrounded by multiple chairs in what appears to be a dining area, as seen in the bounding box descriptions and reference captions. However, the hallucination arises from the bird being called a "cockatoo", when the reference captions only mention a general "bird" or "goose". The use of "cockatoo" is an assumption that isn't validated by the provided data. This is a minor hallucination as it only concerns the specific type of bird and doesn't affect the overall description. 
+
+The description of the bird being in the middle of the scene and the relative positions of the chairs cannot be confirmed or denied without the actual image or more specific bounding box data. However, it doesn't contradict the existing bounding boxes or reference captions, so it isn't considered a hallucination here.

@@ -1,0 +1,15 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description a 3 out of 10 for hallucination. 
+
+Mistakes:
+- The candidate description mentions a towel, which is not present in the reference captions or bounding boxes.
+- The candidate description refers to a "spoon," however, only a knife is mentioned in the reference captions and bounding boxes.
+- The candidate description suggests the presence of a wooden spoon, which is not mentioned in the reference captions or bounding boxes.
+- The candidate description mentions a visually appealing and inviting scene, which is subjective and not directly observable from the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+The candidate description hallucinates quite a lot. The hallucinations include: the presence of a towel, there being two jars (the bounding boxes only confirm the presence of cups, not jars), a yellow substance in any jars (no such colour information is given in the ground truth), a spoon and a wooden spoon (no spoons mentioned or showed in the bounding boxes). On this basis, I would rate the hallucination level high as these are multiple, major hallucinations. The accurate part of the description concerns the oranges and the wooden table.

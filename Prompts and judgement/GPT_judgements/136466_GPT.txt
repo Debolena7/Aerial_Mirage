@@ -1,0 +1,18 @@
+GPT-3.5_Turbo Response:
+I would give the Candidate description a score of 2 for hallucination.
+
+Mistakes:
+1. The oven is described as white, but the color is not mentioned in the reference captions.
+2. The candidate description mentions the oven being open and the interior empty, which is not evident from the image or reference captions. 
+3. The candidate description states that the pots are on the stove, but the reference captions specify that the pots are on top of the oven.
+4. The candidate description mentions a tile backsplash, which is not visible in the image or reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7
+
+Mistakes: 
+1. The candidate description talks about two pots on the stove, but ground truth reference captions indicate one pot and one kettle on the stove.
+2. The description mentions a tile backsplash behind the oven, however, there is no evidence or information in the ground truth annotations suggesting the presence of a tile backsplash.
+3. The candidate description talks about an open oven revealing an empty interior. In gross contrast to that, there is one reference caption highlighting light inside the oven (which indirectly suggests that the oven is not open) and none of them indicating an open oven or an empty interior of the oven.

@@ -1,0 +1,18 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate Description a 3 out of 10 for hallucination. 
+
+Mistakes:
+1. The description mentions the skateboarder wearing an orange shirt, which is not indicated in the image.
+2. The description mentions the skateboarder being in mid-air, but the image shows him riding down a handrail, not in mid-air.
+3. The description talks about the skateboarder grinding along the railing, but this action is not clearly depicted in the image.
+4. The scene is described as capturing the excitement and thrill of the skateboarder's performance, but the image doesn't fully convey this emotion.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7
+
+Mistakes: 
+1. The candidate description specifies that the man is "wearing an orange shirt". The bounding box information does not provide any details about the man's clothing or its color, thus this is an inferred information.
+2. The candidate caption also suggests that the man appears to be "in mid-air" while this action cannot be confirmed from the bounding box details or the reference captions.
+3. In addition, the candidate description characterizes the scene as capturing "the excitement and thrill of the skateboarder's performance" which is an inferred assumption, as the bounding boxes nor the reference captions give details about the skateboarder's emotions or the atmosphere of the scene.

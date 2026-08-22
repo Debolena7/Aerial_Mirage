@@ -1,0 +1,18 @@
+GPT-3.5_Turbo Response:
+Score for Candidate description: 7
+
+Mistakes:
+1. The candidate description mentions three airplanes, while the ground truth indicates there are only two airplanes present in the image.
+2. The description mentions the airplanes being positioned in a straight line with one plane slightly ahead of the other two, which does not match the actual positions of the airplanes in the image as per the bounding boxes provided.
+3. The candidate description refers to the planes flying at different altitudes, which is not explicitly shown in the image or mentioned in the ground truth annotations.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 9
+
+Mistakes: 
+1) The candidate description mentions three airplanes, while there are only two airplanes according to the bounding boxes.
+2) The positioning of the airplanes in the image is not mentioned in the bounding boxes or reference captions, specifically the claim that they are positioned in a straight line.
+3) The candidate description includes the claim that the airplanes are flying at different altitudes, creating depth and movement. This cannot be confirmed or denied as there's no information about this in the bounding boxes or reference captions.
+4) There is no available information to support the description of the sky as overcast and moody.

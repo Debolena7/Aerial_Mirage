@@ -1,0 +1,16 @@
+GPT-3_Turbo Response:
+Score for Candidate Description: 6
+
+Mistakes:
+1. The description mentions the wings of the airplane being spread wide, which is not visible in the image provided.
+2. The description talks about the scene being set under a clear blue sky, while the actual reference captions mention a bright cloudless sky and a light blue sky, which are slightly different.
+3. The description emphasizes the size and structure of the aircraft, which is not explicitly mentioned in the reference captions or visible in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 1
+
+Mistakes: 
+
+The candidate description does mention the presence of an airplane in a clear blue sky, which matches with the reference captions and the object identified in the bounding box. However, the hallucination arises from the extended description about the plane's wings being spread wide and being prominently visible. This detailed description is not substantiated by the bounding box information or the reference captions. It does not drastically deviate from the context but introduces unwarranted specificities which can't be directly inferred from the given data.

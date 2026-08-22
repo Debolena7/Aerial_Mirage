@@ -1,0 +1,20 @@
+GPT-3.5_Turbo Response:
+Score: 8
+
+Mistakes:
+1. The description mentions a group of people looking at their cell phones, but the bounding boxes only show one person holding a cell phone.
+2. The description includes a potted plant in the background, which is not present in the bounding boxes. 
+3. The description mentions handbags in different locations, but the bounding boxes do not capture all of them. 
+
+Overall, the candidate description includes details that are not supported by the image annotations, leading to a higher degree of hallucination.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 6
+
+Mistakes:
+1. There is no information or bounding box suggesting that the people are standing outside of a building. 
+2. While there are several people and two cellphones visible, it is not possible to infer that they are looking at their cellphones.
+3. The description of the position of the handbags is a bit vague, and it does not accurately reflect the details in the bounding boxes. 
+4. There is also no bounding box or reference to a potted plant, implying that this detail is hallucinated.

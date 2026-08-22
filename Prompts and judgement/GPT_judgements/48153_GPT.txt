@@ -1,0 +1,14 @@
+GPT-3_Turbo Response:
+Score: 7
+
+Mistakes:
+1. The candidate description mentions a wooden surface, possibly a bench or wooden floor, which is not accurate according to the ground truth since the image only shows a bench, not a wooden floor.
+2. The description does not mention the bright pink color of the shoe as highlighted in the reference captions.
+3. The candidate description does not specify that the person is showing off the pink shoe, which is mentioned in the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 1
+
+Mistakes: The hallucination lies in the description of the scene itself as the candidate captions mention a wooden surface which is not mentioned or implied by the bounding boxes or any reference captions. All else descriptions about the person wearing blue jeans and a pink shoe and the shoe being prominently displayed are correct as per the provided data.

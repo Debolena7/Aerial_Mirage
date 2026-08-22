@@ -1,0 +1,13 @@
+GPT-3.5_Turbo Response:
+Score: 7
+
+Mistakes:
+1. The candidate description mentions a catcher and an umpire, but there is no bounding box labeled as such in the image.
+2. The description includes details about teammates and opponents standing at different distances from the batter, which is not supported by the bounding box information provided.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 1
+
+The candidate description seems to align mostly with the reference descriptions and bounding box information. It correctly identifies the baseball game and the player swinging the bat. However, the descriptions of the catcher and umpire closely watching aren't directly supported by the reference or bounding box data, hence the slight hallucination score.

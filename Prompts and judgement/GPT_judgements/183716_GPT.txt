@@ -1,0 +1,14 @@
+GPT-3_Turbo Response:
+I would rate the Candidate description a 4 out of 10 in terms of hallucination. 
+
+Mistakes:
+1. The description mentions the girls are "standing close to each other", which is inaccurate as the Reference captions clearly state that the girls are sitting closely together.
+2. The description says "The girls are standing close to each other, with one girl on the left side and the other on the right side of the image", however, the Bounding boxes (bbox) indicate that both girls are sitting next to each other.
+3. The description mentions "posing together for a picture" but the Bounding boxes do not contain any indication of a camera or photo-taking action.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 3
+
+Mistakes: The description mentions the girls are wearing blue jackets, where the bounding boxes data doesn't specify the color of their clothing. Also, the description mentions that the girls are standing where indeed in the reference captions, it has been mentioned they're either preparing or sitting. Additionally, the claim that both girls are smiling and seem to be enjoying themselves also introduces hallucinations as these features are not captured in the data.

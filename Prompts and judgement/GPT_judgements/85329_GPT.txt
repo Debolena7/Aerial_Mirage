@@ -1,0 +1,20 @@
+GPT-3.5_Turbo Response:
+I would rate the "Candidate description" a 8/10 in terms of hallucination. 
+
+Mistakes:
+1. The candidate description mentions a black necklace, which is not present in the image according to the bounding boxes.
+2. The candidate description talks about a tattoo on the woman's face, which is not mentioned in the ground truth annotations.
+3. The description mentions the woman's hair styled in a ponytail, but the hair style is not visible in the image or bounding boxes provided.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes: 
+
+1. The details of the woman's white shirt and black necklace are not depicted in the bounding boxes, hence these could be hallucinated.
+2. There's no mention of a tattoo on the face in the reference captions, which could be a hallucination.
+3. The detail about her hair styled in a ponytail is not mentioned in the reference captions.
+4. The detail of her looking downward is also not mentioned in the reference captions.
+5. The bounding boxes also don't show any evidence of these details.

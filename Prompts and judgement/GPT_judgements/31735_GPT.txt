@@ -1,0 +1,21 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description a 7 out of 10 for hallucination. 
+
+Mistakes:
+1. The description mentions a blue couch, while the reference captions all describe a red living room with dark furniture.
+2. The description includes details about multiple potted plants and vases, which were not mentioned in the reference captions.
+3. The presence of a chair near the right side of the couch is not mentioned in the references.
+4. The warm and inviting atmosphere described in the candidate description is subjective and not explicitly stated in the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes: 
+1. The candidate description mentions a blue couch covered with a blanket and two pillows which isn't mentioned in the reference captions or bounding boxes. 
+2. The description also hallucinates about two vases, but there is no such object present in the bounding boxes or reference captions. 
+3. There is also no chair mentioned in either the reference captions or the bounding boxes, in contrast to the candidate description.
+4. The color and style of the couch (blue and covered with a blue blanket) are incorrectly described in the candidate, as this information is absent from both the reference captions and bounding boxes.
+5. The number of potted plants is correct but the positions mentioned in the description do not align with reference captions or bounding boxes. 
+6. The description of the room's atmosphere is subjective and not grounded in the image data.

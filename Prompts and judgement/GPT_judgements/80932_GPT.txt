@@ -1,0 +1,19 @@
+GPT-3.5_Turbo Response:
+Score: 2
+
+Mistakes:
+1. The description mentions bottles which are not present in the bounding boxes provided.
+2. It is assumed that the boy is surrounded by chairs, but there is only one chair present in the image according to the bounding boxes.
+3. The scene is described as possibly being in a restaurant, but there is no explicit indication of a restaurant setting in the image data.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 2
+
+Mistakes: 
+1. The bounding boxes do not specify any object as a bottle, only cups are mentioned, so the presence of bottles in the candidate description is incorrect and a hallucination.
+2. The number of chairs in the image is not specified, hence stating that there is one chair on the left and another on the right might be a hallucination.
+3. The positioning of the pizza 'placed on a plate in front of him' may not be accurate as we are not given enough information to precisely determine its position relative to the boy. This might be a minior hallucination.
+4. The setting being a restaurant is a speculation, as the image data does not provide this information. This might also be a minor hallucination.
+5. Mention of the boy possibly having a drink is a hallucination, as no specific action with a drink or cup is pointed out in the bounding boxes or reference captions. There are cups present, but no activity or relative position to the boy is mentioned.

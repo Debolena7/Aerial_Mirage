@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+Score: 2
+
+Mistakes:
+1. The candidate description mentions the teddy bear being positioned in a relaxed manner with its legs crossed and arms resting on its lap, which is not visible in the image.
+2. The candidate description suggests the surface could be a table, when the reference captions clearly state it is a white floor.
+3. The candidate description does not accurately describe the main focus of the image as the teddy bear, instead mentioning the simplicity and lack of clutter in the scene.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7.5
+
+The candidate description is hallucinating quite a few details, such as the color of the teddy bear being white (the color is not specified in the reference captions or bounding box data), the teddy bear's legs being crossed, its arms resting on its lap, and the surface being a table. These details are not mentioned in the reference captions or suggested by the bounding box data.

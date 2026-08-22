@@ -1,0 +1,18 @@
+GPT-3.5_Turbo Response:
+I would give the "Candidate description" a score of 7 for hallucination.
+
+Mistakes:
+1. The description mentions a red parking meter, but the actual colors of the parking meters in the image are black and red. This inconsistency indicates some level of hallucination.
+2. The description mentions a 10-year sign on the building, which is not present in the image. This is a clear hallucination as there is no such sign visible.
+3. The description talks about a fire hydrant near the parking meters, but there is no fire hydrant visible in the image. This is another hallucination present in the description.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7
+
+Mistakes: 
+1. The candidate description implies that both parking meters are attached to the same pole, which is not confirmed in the reference captions.
+2. There's no mention or indication of a '10-year sign' on the building in the reference captions. 
+3. The scene does not include a fire hydrant according to the reference description. 
+4. The color of the parking meters isn't specified in the reference captions, therefore stating that the parking meter is red could be considered a hallucination.

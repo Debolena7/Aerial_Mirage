@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+Score: 3
+
+Mistakes:
+1. The candidate description mentions a large piece of meat, possibly a steak, but there is no mention of pork chop which is a crucial detail.
+2. The candidate description does not mention the presence of an egg on the plate, which is present in the reference captions.
+3. The candidate description mentions a sprig of parsley but fails to mention the string beans that are present on the plate.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 5
+
+Mistakes: The hallucinations in the "Candidate description" include the mention of a sprig of parsley and possibly referring to the meat as a steak. The bounding box only identified a fork, there are no indications of a cup, or parsley present in the image. The image does not provide specific identification of the meat, therefore, referring the meat as possibly steak could be a minor hallucination.

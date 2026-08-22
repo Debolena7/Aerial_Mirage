@@ -1,0 +1,18 @@
+GPT-3.5_Turbo Response:
+Score: 5
+
+Mistakes:
+1. The candidate description mentions a cart attached to the bike, but the bounding boxes only include a bicycle and suitcases/backpacks, not a separate cart.
+2. The candidate description implies that the man is carrying luggage for a trip or group of people, which is an assumption not directly supported by the image.
+3. It states that some people are carrying backpacks, however, the bounding boxes only include suitcases and a handbag, not backpacks.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 2
+
+Mistakes: 
+1) The candidate description mentions a cart attached to the bike, but there is not enough evidence from the bounding boxes or the reference captions to support this.
+2) The candidate description suggestion that the other people in the scene are travelers or commuters carrying backpacks is also hallucinated. The bounding boxes show various 'person' entities and different 'suitcase' entities, but the presence of backpacks isn't specified. 
+3) The mention of the scene taking place on a "street" might be inferred but is not clearly indicated from the bounding boxes or the reference captions.
+4) The description that the man on the bike is the main focus of the image is subjective and not fact-based, hence can be considered a minor hallucination.

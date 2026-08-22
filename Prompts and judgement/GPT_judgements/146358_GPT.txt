@@ -1,0 +1,20 @@
+GPT-3.5_Turbo Response:
+Score for Candidate Description: 8
+
+Mistakes:
+1. The description mentions "newly married couple" which is not specified in the reference captions, as they could be a married couple or a couple getting married.
+2. The mention of "potted plants" is not present in the reference captions or bounding boxes.
+3. There is no mention of other people in the background, so the presence of guests is an assumption. 
+4. The description adds details about chairs surrounding the dining table, which is not explicitly mentioned in the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 4
+
+Mistakes:
+- There are no "potted plants" identified through bounding boxes.
+- It is not directly implied that there are guests in the background, as the bounding boxes denote three individual "person" objects, but do not specify their relation to the couple or the event.
+- The phrase, "surrounded by several chairs", indirectly implies there may be more than two chairs, but the bounding boxes only identify two chairs.
+- The image data does not specify that they are a "newly married" couple. It's understood, but not explicit. 
+- The image data does not confirm they are holding the knife "together". It's understood, but not explicit.

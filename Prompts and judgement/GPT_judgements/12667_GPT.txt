@@ -1,0 +1,18 @@
+GPT-3.5_Turbo Response:
+Score for Candidate description: 
+
+7 
+
+Mistakes: 
+1. The candidate description misses the key hallucination detail - that the banana is replacing the receiver of the telephone. 
+2. The candidate description does not mention the answering machine or specify that the banana is specifically placed where the receiver should be, which is a major hallucination aspect in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7.5
+
+Mistakes: 
+1. The candidate description mentions a black telephone which is not mentioned in the reference captions.
+2. The candidate description mentions a desk, a notebook, and a pen which are not found in the bounding boxes or reference captions, indicating that these are likely hallucinations. 
+3. The description of the banana being placed on the phone is accurate.

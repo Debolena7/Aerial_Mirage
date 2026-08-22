@@ -1,0 +1,20 @@
+GPT-3.5_Turbo Response:
+I would assign a score of 3 to the Candidate description.
+
+Mistakes:
+1. The description mentions "teammates and possibly coaches" which are not present in the reference captions or bounding boxes. This adds unnecessary information and deviates from the actual scene - mild hallucination.
+2. It mentions a baseball glove visible on the field, although there is no reference to a baseball glove in the bounding boxes or captions - mild hallucination.
+3. Referring to the chairs and a bench in the background as being potentially used by players when not participating is an assumption not supported by the reference captions or bounding boxes - mild hallucination.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8.5
+
+Mistakes:
+1. The 'Hallucination' has taken place when it's mentioned that "There are several other people in the scene, including teammates and possibly coaches." as there is no bounding box information for several other people, teammates or coaches.
+2. The mention of chairs and a bench is another instance of hallucination as the bounding boxes do not contain information about chairs or a bench.
+3. The claim of other players being positioned around the field is also false as there is no such information in the bounding boxes.
+4. The description talks about the players not actively participating in the game which is speculative and not supported by the bounding box or reference captions.
+
+Points 1, 2, 3, and 4 add up to the score of 8.5 indicating a high level of hallucination.

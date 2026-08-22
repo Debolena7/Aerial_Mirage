@@ -1,0 +1,20 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description a 8/10 in terms of hallucination.
+
+Mistakes:
+1. Inaccurate color description (pink and white color scheme) - hallucination as the actual train is not described accurately.
+2. Mention of no passengers visible inside the train - hallucination as the image does not provide visibility of the interior.
+3. Assumption of the train being empty - hallucination as the image does not show the interior or passengers.
+4. Assumption of the train parked at a station - hallucination as the image does not provide context of the surroundings.
+5. Speculation about the train waiting for its next journey - hallucination as the image does not provide evidence of the train's current activity.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 9.5
+
+Mistakes: 
+- The candidate description hallucinates a lot of details that aren't referenced in the ground truth annotations or the bounding boxes. The candidate description mentions that the image shows the interior of the train which is not confirmed by the references. It also hallucinates a pink and white color scheme which is a detail not present in the reference captions. 
+- The candidate description incorrectly states that the train appears to be empty, with no passengers visible inside. None of the reference descriptions confirm this assertion.
+- Also, the statement "The doors are open, inviting passengers to board or disembark." is a hallucination since it assigns an action or intention to the image, which is not confirmed in the ground truth.
+- It also hallucinates that the train is parked at a station, waiting for its next journey. While the train might be at a station according to some references, there is no information available that suggests it is waiting for its next journey.

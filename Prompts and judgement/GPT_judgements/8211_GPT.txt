@@ -1,0 +1,22 @@
+GPT-3.5_Turbo Response:
+I would rate the "Candidate description" with a score of 8 out of 10 for hallucination.
+
+Mistakes:
+1. There is a discrepancy in the number of people mentioned in the description. The candidate description mentions two people, but the bounding boxes indicate three people in the image.
+2. The mention of a handbag and a backpack in the description does not match any of the objects in the bounding boxes provided.
+3. The presence of the motorcycles is accurately identified, but their positioning in relation to the bench is incorrect in the description. 
+4. The mention of a chair near the bench is inaccurate as there is no chair object detected in the bounding boxes. 
+
+Overall, the candidate description contains significant hallucinations in terms of object count, positioning, and relations with other objects in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8.5
+
+Mistakes: 
+
+1. According to the bounding boxes (bbox), there are no objects identified as a "bench", the two people are seated on chairs not a bench. 
+2. The bbox information provided mentions one motorcycle, not two as stated in the candidate description.
+3. There's no mention or bounding box information provided on any "handbag" or "backpack" that can be seen in the image.
+4. The positioning of the motorcycle and the chairs are not provided in the bounding boxes information to verify the claims made in the candidate description about their relative locations.

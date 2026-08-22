@@ -1,0 +1,16 @@
+GPT-3.5_Turbo Response:
+I would score the Candidate description as 2 out of 10 for hallucination.
+
+Mistakes:
+1. The color of the feeder is incorrectly mentioned as green, whereas it was not specified in the reference captions.
+2. The description mentions that the feeder is placed on a pole, which is not accurate as it was hooked to a fence in the reference captions.
+3. The mention of the giraffe being surrounded by a fence to keep it contained is not explicitly stated in the reference captions.
+4. The description does not specify that the giraffe is eating hay, which is an assumption not mentioned in the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 4
+
+Mistakes: 
+The hallucination lies in the details that are not confirmable by the given bounding boxes and reference captions such as the color of the feeder being green, the giraffes eating hay, the feeder being placed on a pole, the setting being an outdoor area, potentially in a zoo or a wildlife sanctuary and the presence of a fence around the giraffe that helps keep it contained. These details cannot be confirmed via the provided image annotations.

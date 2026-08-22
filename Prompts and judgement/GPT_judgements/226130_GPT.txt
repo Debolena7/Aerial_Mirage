@@ -1,0 +1,16 @@
+GPT-3.5_Turbo Response:
+Based on the reference captions and bounding boxes provided, the candidate description has a score of 8 for hallucination.
+
+Mistakes:
+1. The candidate description mentions sauerkraut and mustard on the hot dog, which is not present in the reference captions or bounding boxes.
+2. The description includes a cup nearby, possibly containing a beverage, which is not mentioned in the image information provided.
+3. The description refers to a dining table, while the only object labeled in the bounding boxes is a white plate.
+
+Overall, the candidate description includes details and elements not present in the image, indicating a high degree of hallucination.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 9
+
+The hallucination in the "Candidate description" is high. The image, according to the bounding boxes only contains two hot dogs on a dining table, and does not specify any toppings for the hot dogs. The candidate describes the hot dog to be topped with sauerkraut and mustard, which is not supported by the reference captions nor the bounding boxes. Furthermore, the candidate mentions a cup nearby, and there is no bounding box provided for a cup. The only accurate information in the candidate description is the mention of a hot dog on a plate and the dining table.

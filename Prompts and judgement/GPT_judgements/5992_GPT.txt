@@ -1,0 +1,25 @@
+GPT-3.5_Turbo Response:
+I would give the Candidate description a score of 5 for hallucination. 
+
+Mistakes:
+1. The Candidate description mentions a grassy field, but the reference captions mention a building and a brick wall, which is missing in the Candidate description. 
+2. The description says there are three sheep, while the reference captions indicate a larger number of sheep standing together. 
+3. The specific positions of the sheep described in the Candidate description do not match the actual positions of the sheep in the image. 
+4. The description suggests the sheep are grazing or resting, but the image does not clearly show this action. 
+
+Overall, the Candidate description lacks accuracy in terms of object types, their relations, counts, and actions in the image, leading to a moderate hallucination score.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 2
+
+Mistakes: 
+
+1. The candidate description suggests that the sheep are either grazing or resting in the grass, which is not mentioned in the reference captions or indicated by the bounding boxes.
+
+2. The narrative presents the sheep being in different locations (one on the left, the middle, the right), but the bounding boxes and reference captions do not provide this specific information.
+
+3. The description mentions a sense of unity and camaraderie among the animals, which cannot be derived from the given bounding boxes and captions. Although these details add depth to the description, they also introduce a degree of speculation and assumptions. 
+
+The candidate description is largely correct in depicting that there are multiple sheep near a building, but some specific details are hallucinated.

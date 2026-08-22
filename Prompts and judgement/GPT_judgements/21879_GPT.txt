@@ -1,0 +1,20 @@
+GPT-3.5_Turbo Response:
+Score: 7
+
+Mistakes:
+1. The candidate description incorrectly mentions a young woman instead of a young girl.
+2. The description refers to only one surfboard near the woman, whereas there are multiple surfboards in the image.
+3. The candidate description does not mention the young boys nearby looking on, which are present in the reference captions.
+4. The description lacks detail on the number of people in the water and their various positions relative to each other.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 4
+
+Mistakes: 
+1. The colour of the surfboard is not provided in the image data, so describing the surfboard as blue is a hallucination.
+2. The assertion that the woman is the "main focus" of the scene is a hallucination, as there are no indicators in the provided data that suggest which elements of the scene are in focus.
+3. The candidate description attributes distance to the various figures (some closer to shore, others further away) which is also a hallucination, as the bounding boxes do not provide this depth information.
+4. Also, there is no data to support the claim about the "excitement and energy of a day at the beach" which is also a hallucination.
+5. There is no image data supporting the claim that people are "enjoying the ocean and the waves". This is a subjective interpretation, not directly evident from the image data.

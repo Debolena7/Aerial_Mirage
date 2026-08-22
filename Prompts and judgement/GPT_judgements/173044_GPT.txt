@@ -1,0 +1,17 @@
+GPT-3.5_Turbo Response:
+Score: 3
+
+Mistakes:
+1. The candidate description incorrectly states that the clock tower is on the left side of the scene, while the glass building is on the right. 
+2. There is no mention of the clock tower being in front of the skyscraper as indicated in the reference captions.
+3. The candidate description does not mention the historical aspect of the clock tower, which is a key detail in the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 3
+
+Mistakes: 
+1) There's only one object detected by bounding box in the image, which is the "clock".
+2) There's no bounding box info suggesting the existence of a "large glass building" or its location placement. The claims made regarding this are hallucinations.
+3) The hallucination extends to the interpretation of the scene, like the presence of "old and new architectural styles in cityscape".

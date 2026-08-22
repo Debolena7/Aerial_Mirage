@@ -1,0 +1,17 @@
+GPT-3.5_Turbo Response:
+Score: 5
+
+The candidate description mentions additional people in the background, which do not appear in the reference captions or bounding boxes. This indicates some level of hallucination in the description. However, the overall description still captures the main scene of a man playing with a dog in a grassy field with a frisbee. The hallucination is minor in this case, hence the score of 5.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes:
+1. The hallucination annotator describes as if the man is holding the frisbee, whereas according to bounding box information, the frisbee is in the air. 
+2. There is no information in the bounding boxes or reference captions that support the details about other people being present in the background.
+3. There is no mention or evidence about any fence surrounding the field in the image. 
+4. There's no indication that the field is grassy from the provided annotations or bounding box information. 
+5. No evidence supports the assumption that the man is teaching the dog to fetch.
+6. The bounding box data doesn't indicate that the man and the dog are the main focus of the scene. The hallucination annotator falsely describes this.

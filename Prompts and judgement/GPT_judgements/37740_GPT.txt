@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+Score: 8
+
+Mistakes:
+1. The candidate description mentions a television, but there is no bounding box annotation for a TV in the image. 
+2. The candidate description does not mention the presence of multiple books on the desk, which are clearly visible in the image bounding box annotations. 
+3. The candidate description inaccurately describes the position of the mouse as being on the desk, when the bounding box annotation shows it near the keyboard.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 1
+
+The candidate description generally aligns well with the ground truth annotations. However, the candidate description mentions a television to the right of the desk which is not indicated by the annotations. Instead, there's the presence of a 'tv' object, but the bounding box doesn't provide clear information to position it in relation to the desk. Further, there's no clear indication of the couch's location being in the "background." These minor hallucinations give the score of 1.

@@ -1,0 +1,17 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description as a 7 out of 10 in terms of hallucination. 
+
+Mistakes in the Candidate description:
+1. The description mentions only two spoons attached to the toaster, while the ground truth annotations refer to multiple spoons surrounding the toaster and some even protruding from the inside.
+2. The description does not mention the presence of spoon feet, spoon ears, or a mixing beater tail on the toaster, which are key elements in the reference captions that contribute to the hallucinatory nature of the image. 
+3. The description does not highlight the toaster's sad expression as mentioned in one of the reference captions, which adds to the surreal aspect of the image.
+4. The description lacks details about the specific positioning and relations of the objects in the image, such as the arrangement of the spoons and the toaster's placement in front of a tile backsplash. 
+
+Overall, while the Candidate description captures some hallucinatory elements present in the image, it misses out on key details and relationships that contribute to the overall hallucinatory nature of the scene.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 1
+
+The candidate description largely matches with the reference captions and the bounding box descriptions. It captures the key details of the toaster having a face and being adorned with spoons. However, it does not mention other detailed features such as the spoon feet, spoon ears and mixing beater tail which are present in the reference captions. Moreover, the mention of the toaster being in front of a tile backsplash is not supported by the bounding boxes, showing minor hallucination.

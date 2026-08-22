@@ -1,0 +1,16 @@
+GPT-3.5_Turbo Response:
+Score: 2
+
+The candidate description is quite accurate and detailed, capturing the essence of the image well. However, there are a few minor mistakes that lead to a slight score deduction:
+
+1. The description mentions the surfer wearing black shorts, which is not visible in the image. This is a slight hallucination as there is no mention of the surfer's attire in the reference captions or bounding boxes.
+2. The description states that the wave is quite large, but the size of the wave is not explicitly mentioned in the reference captions or bounding boxes. This is a slight assumption. 
+
+Overall, the candidate description is mostly accurate with a couple of minor hallucinations.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes: The candidate description introduces a few details that aren't mentioned in the reference captions or bounding boxes (bbox). There's no confirmation of the surfer wearing black shorts. The candidate description also describes the surfer's emotions and implies that he is enjoying the thrill of surfing which is an unverifiable detail based on the given information. The description of the wave being large and providing an exciting ride is also an added detail not mentioned in the reference or supported by the bounding boxes.

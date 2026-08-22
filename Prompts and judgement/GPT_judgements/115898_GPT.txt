@@ -1,0 +1,13 @@
+GPT-3.5_Turbo Response:
+I would rate the candidate description a 2 out of 10 in terms of hallucination. 
+
+Mistakes: 
+1. The candidate description mentions the surfer skillfully navigating the wave and displaying his surfing abilities, which is not explicitly mentioned in the reference captions or visible in the image.
+2. The candidate description describes the wave as quite large, which is not specified in the reference captions or visible in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 4
+
+The hallucination in the candidate description includes details about the wave size and that it provides an "exciting and challenging experience for the surfer". It also mentions the surfboard being positioned in the center of the scene, the man's skillful navigation, and display of surfing abilities, which are not verifiable from the bounding box information or reference captions.

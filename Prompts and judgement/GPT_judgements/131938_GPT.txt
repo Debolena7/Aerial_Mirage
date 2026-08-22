@@ -1,0 +1,22 @@
+GPT-3.5_Turbo Response:
+Score: 6
+
+Mistakes:
+1. The candidate description mentions a blue tie with a picture of a cat on it, while the ground truth only specifies a fake tie around the cat's neck.
+2. The candidate description mentions the cat wearing a collar, which is not present in the ground truth.
+3. The candidate description describes the cat as sitting on the bed, while the ground truth mentions the cat standing on the bed.
+4. The description states that the cat's body is facing the viewer, which is not specified in the ground truth annotations.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7
+
+Mistakes:
+1. The color of the cat and the tie are not mentioned in the reference captions, suggesting they might be a hallucination.
+2. The description that the tie has a picture of a cat on it is not confirmed by the reference captions or "Bounding box" data.
+3. The cat being described as wearing a collar is not mentioned in any of the reference captions, 
+4. The reference captions do not confirm the bed taking up the entire background of the image. 
+5. The reference captions and bounding boxes do not give information about the cat being positioned in the center of the scene or its body facing the viewer.
+6. The reference captions don’t state that the cat is gray and is sitting on a bed. The cat could be sitting on a clothes pile as per references, not a bed. 
+7. The detail about the bed emphasizing the cat's presence in the scene corresponds to an interpretation, it is not an objective description of the image.

@@ -1,0 +1,18 @@
+GPT-3.5_Turbo Response:
+I would give the Candidate description a score of 3 out of 10 for hallucination. 
+
+Mistakes in the Candidate description:
+1. The woman and child are not standing next to a fence, they are depicted as holding the child in their arms.
+2. The description implies that the woman is ensuring the safety of the child, however, this is not explicitly mentioned in the reference captions or depicted in the image.
+3. The positioning of the giraffes is inaccurate - they are not on opposite sides of the fence but rather both inside an enclosed area.
+4. The description mentions one giraffe closer to the left side and the other near the right side of the enclosure, which is not true as per the bounding boxes provided.
+5. The focus of the woman and child is mentioned as being on the giraffes, which is correct, but the language used could be more specific and detailed. 
+
+Therefore, the Candidate description contains several inaccuracies and embellishments, leading to a moderate degree of hallucination.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 1 
+
+The description overall matches well with the reference captions and the bounding box information. Since the bounding box data does not provide information about a fence or where the woman and the giraffes are standing, there is a very slight degree of hallucination regarding these points. The description providing details of positions (in relation to a fence) and specific locations (closer to the left or the right side of the enclosure) are inferred and cannot be confirmed by the given data. The attention to safety, providing a close-up view, and enjoying time at the zoo are also inferred interpretations, but they fit within a reasonable inference space from the action of a woman holding a young child while looking at giraffes.

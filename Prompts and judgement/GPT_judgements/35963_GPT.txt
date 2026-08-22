@@ -1,0 +1,19 @@
+GPT-3_Turbo Response:
+Score: 8
+
+Mistakes:
+1. The candidate description incorrectly mentions the statue as a person holding a baby, when in reality it is an angel statue.
+2. The description mentions the teddy bears as being scattered all over the statue, but in fact, they are specifically placed on top of the statue.
+3. The candidate description does not mention the presence of a cross in the scene, which is an important element according to the reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7.5
+
+Mistakes:
+1. The candidate description mentions a statue of a person holding a baby which is not supported by the reference captions.
+2. The description of the teddy bears being scattered all over the statue is not accurate. According to the bounding boxes and reference captions, there are only two teddy bears and they are on top of the statue, not scattered all over it.
+3. The description mentions that the statue is placed on a patch of grass, while the reference captions indicate that it's placed on a patch of dirt.
+4. The candidate description talks about several teddy bears of various sizes surrounding the statue, while the bounding boxes show only two teddy bears.
+5. The candidate description states that there is a cross nearby, which is correct, but it suggests that the cross is separate from the statue, when the reference captions suggest that the cross and statue might be one piece (a cross with teddy bears tied to it).

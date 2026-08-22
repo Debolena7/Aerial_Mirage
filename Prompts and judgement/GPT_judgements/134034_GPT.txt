@@ -1,0 +1,17 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description a 3 out of 10 for hallucination.
+
+Mistakes: 
+1. The Candidate description mentions a house in the background, which is not present in the Reference captions.
+2. The description states that the horses are positioned in the middle of the enclosed space, while in reality, one horse is slightly to the left and the other to the right.
+3. There is no mention of a donkey in the description, which is present in one of the Reference captions.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 2
+
+Mistakes: 
+1) The description of the fence as being made from 'wood and wire' is a hallucination since there is no information about the material of the fence in the provided ground truth.
+2) The presence of a 'house' in the background is a hallucination as it is not indicated in the ground truth. 
+3) The 'trees' in the background are also hallucinations as there is no information in the ground truth confirming their presence.

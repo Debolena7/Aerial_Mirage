@@ -1,0 +1,24 @@
+GPT-3_Turbo Response:
+Based on the given reference captions and bounding boxes, the candidate description contains some hallucinations. 
+
+Score: 8
+
+Mistakes:
+1. The candidate description mentions the word "SOS" written on the stop sign, which is not present in any of the reference captions or bounding boxes.
+2. The candidate description describes trees and bushes surrounding the stop sign, but there is no mention of them in the reference captions or bounding boxes.
+3. The candidate description talks about cars and trucks in the background, but according to the bounding boxes provided, only one car and one truck are visible. This exaggeration contributes to the hallucination score.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 9
+
+Mistakes: 
+1. The candidate description refers to the stop sign as having "SOS" written on it, this detail is not mentioned in the reference captions nor can it be confirmed from the bounding boxes.
+2. The description elaborates with details of the stop sign being surrounded by trees and bushes, which is not referenced in the captions.
+3. It also inaccurately describes the atmosphere as being busy and lively with moving cars and trucks but the image data does not confirm this. Only single instances of a truck and a car are given in the bounding boxes data and no movement is inferred.
+4. It talks about an intersection which is not mentioned in the reference captions. 
+5. The stop sign being mounted upside down is not mentioned in the candidate description. 
+6. The number of vehicles is given as 'several' while bounding boxes only indicate a single car and a single truck.
+   
+Only the color of the stop sign and the existence of a car and a truck can be confirmed from the data provided.

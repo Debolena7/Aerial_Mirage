@@ -1,0 +1,14 @@
+GPT-3_Turbo Response:
+I would rate the candidate description a 7 in terms of hallucination. 
+
+Mistakes:
+1. The candidate description mentions "several other people in the scene, some standing and others sitting", however, the bounding boxes only depict one person sitting and three person standing, which is a discrepancy.
+2. The description talks about bottles scattered around the area, but the bounding boxes indicate only two bottles present.
+3. The candidate description mentions a chair located near the bench, but there is no chair bounding box in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 2
+
+The candidate description is mostly accurate according to the bounding boxes and reference captions. However, it mentions "There are several other people in the scene, some standing and others sitting, possibly watching the tennis match or waiting for their turn to play," which may be considered hallucination as the bounding boxes do not provide information about people standing or watching the game. Furthermore, there's no clear indication about the function of the bottles i.e. "possibly containing water or sports drinks for the players" and of the purpose of the people, whether they are "watching the tennis match or waiting for their turn to play".

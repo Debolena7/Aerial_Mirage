@@ -1,0 +1,18 @@
+GPT-3_Turbo Response:
+Score: 8
+
+Mistakes:
+1. The candidate description incorrectly states that the boy is wearing a black shirt with video game controllers on it, while the reference captions do not mention anything about the boy's clothing.
+2. The candidate description mentions a spider web design on the cake, whereas the reference captions describe the cake as simply "decorated" or "red". This detail is not present in the ground truth annotations.
+3. The candidate description mentions the cake being placed on the ground, while the bounding box indicates that the cake is on wooden decking.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 6
+
+Mistakes: 
+1. The information about the boy's attire including him wearing a black shirt with video game controllers is a hallucination as such details are not present in the ground reality. 
+2. The description of the boy smiling is also a hallucination, as no such detail is present in the ground truth. 
+3. The location of the cake is hallucinated; it is mentioned in the description as being on the ground, while it should be on a wooden decking or a porch according to reference captions. 
+4. The spider web design on the cake is a hallucination as the ground truth only mentions that it is a red cake.

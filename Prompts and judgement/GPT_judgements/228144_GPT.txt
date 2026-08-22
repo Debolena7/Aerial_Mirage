@@ -1,0 +1,24 @@
+GPT-3.5_Turbo Response:
+I would give the Candidate description a score of 9 for hallucination.
+
+Mistakes:
+1. The candidate description mentions a couch in the room, while the ground truth annotations only mention chairs.
+2. The candidate description talks about the reflection in the mirror showing a couch, which is not present in the actual image.
+3. The candidate description describes the positions of the furniture differently from the actual bounding box locations.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes:
+
+1. The bounding boxes do not indicate the presence of a mirror, which contradicts the candidate description's claim of a mirror on the wall. 
+
+2. There is no information or bounding boxes to suggest or confirm that there is a couch in the room as described in the candidate description.
+
+3. The candidate description also mentions the arrangement of furniture creating a cozy and inviting atmosphere. There is no concrete data in the bounding box or reference captions validating this claim. 
+
+4. The candidate description talks about the chair and couch being placed on right and left sides of the room, however, the information about their exact location is not explicitly available from the bounding boxes or reference captions. 
+
+5. The bounding boxes suggest the presence of a dining table, which is not mentioned in the candidate description.

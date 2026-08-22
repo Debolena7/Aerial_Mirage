@@ -1,0 +1,17 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description a 2 out of 10 for hallucination.
+
+Mistakes:
+1. The candidate description mentions the surfer is in the middle of a turn, which is not verifiable from the image as there is no clear indication of a turn.
+2. The candidate description talks about the surfer wearing a wetsuit, which is not visible in the image.
+3. The candidate description mentions the surfboard being positioned underneath the surfer, which is not accurate based on the bounding box information provided. The surfboard is actually next to the surfer.
+4. There is no mention of the ocean or water in the candidate description, which is a key element in the image.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes: 
+- The description includes detailed actions (the surfer is in the middle of a turn, gliding through the water) and clothing (wearing a wetsuit), which are not evident from the given annotations.
+- The description also includes information about a beautiful ocean backdrop, which cannot be confirmed from the bounding boxes or references.

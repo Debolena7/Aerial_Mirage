@@ -1,0 +1,15 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description a score of 7 for hallucination.
+
+Mistakes:
+1. Inaccuracy in color description: The Candidate description mentions a blue and white train, while the ground truth annotations specifically stated a blue and silver train.
+2. Incorrect mention of the train station being empty: The reference captions mention a passenger train pulling into a train station, implying the presence of passengers and staff.
+3. Overlooked mention of lights in the scene: The reference captions stated "A train traveling down tracks next to lights", but the Candidate description does not mention any lights present in the scene.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7
+
+Mistakes:
+The bounding boxes only mention the presence of a train, but the candidate dreamt up several other elements such as the color of the train (blue and white), the position of the train in the middle of the scene, absence of passengers, presence of several benches close to the train tracks with varying distances. Therefore, the candidate description contains a high degree of hallucination.

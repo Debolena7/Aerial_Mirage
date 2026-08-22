@@ -1,0 +1,22 @@
+GPT-3.5_Turbo Response:
+Score for Candidate Description: 7
+
+Mistakes:
+1. The candidate description mentions a chair, but there is no chair detected in the bounding boxes.
+2. The candidate description does not mention the presence of a rack or a window as seen in the reference captions.
+3. The candidate description includes a dining table close to the couch, but the dining table is not mentioned in the reference captions.
+4. The candidate description mentions a vase with flowers on the glass coffee table, but the detected objects are a vase and a remote, not a vase with flowers.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 4
+
+Mistakes: 
+1. The description mentions a chair which cannot be confirmed from the bounding boxes.
+2. There is no confirmation of a fireplace from the bounding boxes.
+3. There is no item that confirms the presence of a bookshelf.
+4. There is no evidence of flowers in the vase, which is mentioned in the candidate description. 
+5. The position of items is not clearly represented in the bounding boxes such as the television being on the right side of the room, or the dining table being close to the couch. 
+
+The candidate description includes the presence and position of objects that do not appear in the bounding boxes information. Therefore, there is a moderate level of hallucination.

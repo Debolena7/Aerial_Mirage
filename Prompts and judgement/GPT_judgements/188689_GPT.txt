@@ -1,0 +1,18 @@
+GPT-3.5_Turbo Response:
+Based on the given information:
+
+1. The candidate description mentions the presence of two people in the background, which is not supported by the reference captions or bounding boxes. This introduces hallucination into the description.
+2. The candidate description also includes details about the boat's bow being partially submerged in the sand, which is not explicitly mentioned in the reference captions or bounding boxes. This could be considered a minor hallucination.
+
+Overall, considering the hallucinations present in the candidate description, I would rate it a 7 on the hallucination scale. The inclusion of details not present in the reference annotations contributes to the hallucinatory nature of the description.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7.5
+
+The mistake made in the "Candidate description" include:
+1. The assertion that the boat's bow is partially submerged in the sand, which can't be confirmed from the available bounding box information.
+2. The mention of the image being black and white, while this cannot be ascertained from the bounding boxes.
+3. The statement that there are two people visible in the background is a hallucination, as there's no bounding box information provided for people.
+4. The added interpretations of leisure, relaxation, and timely and nostalgic feel, which cannot be confirmed from the given information.

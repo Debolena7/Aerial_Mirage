@@ -1,0 +1,28 @@
+GPT-3_Turbo Response:
+Score: 8
+
+Mistakes:
+1. Inaccurate object count: The candidate description mentions two chairs, but there is only one chair bounding box provided.
+2. Incorrect spatial relationships: The candidate description states that the bed is in the center of the room, while the bounding box suggests it is more towards the left side of the image.
+3. Missing objects: The clock is mentioned as being above the bed, but the bounding box shows it on a different wall. 
+4. Implied details not present in the image: The description mentions the color of the blanket on the bed, the source of light in the room, and the atmosphere created by the fireplace, however, these details cannot be determined from the image alone.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes:
+The hallucinations in the candidate description are as follows:
+
+1. The mention of "brown blanket" is a hallucination as there is no information about the color or presence of a blanket.
+
+2. The mention of the clock being on the wall above the bed is incorrect. The bounding box data does not provide any relative position of the clock and the bed.
+
+3. The mention of two chairs being near the left and right side of the bed is incorrect because the bounding boxes don't give this information about their positions relative to the bed. 
+
+4. The television is not mentioned to be above a chair but over the fireplace in the reference captions.
+
+5. The mention of the "room is well-lit, with natural light coming in through the windows" is hallucinated. The presence of windows or the lighting of the room is not given in either the reference captions or the bounding box data.
+
+6. The claim of "creating a comfortable and inviting atmosphere" is a hallucination as there's no mention of the atmosphere or ambiance in the provided ground truth annotations.

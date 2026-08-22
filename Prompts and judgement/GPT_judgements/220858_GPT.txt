@@ -1,0 +1,15 @@
+GPT-3.5_Turbo Response:
+Score: 7
+
+Mistakes:
+1. The boat is described as a lifeguard boat, which is not mentioned in the reference captions.
+2. The candidate description includes details about people scattered around the beach area, but the reference captions only mention two men digging in the sand in the distance.
+3. The description of a bird flying in the sky is accurate but lacks specificity in terms of the bird's relation to the boat and people.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 1
+
+Mistake: 
+The candidate description's statement that the boat appears to be a lifeguard boat could be considered a slight hallucination. The type of the boat is not clear from the original captions or bounding box data.

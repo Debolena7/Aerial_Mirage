@@ -1,0 +1,16 @@
+GPT-3.5_Turbo Response:
+I would give the Candidate description a score of 3 for hallucination. 
+
+Mistakes:
+1. The description mentions "a baseball bat can be seen lying on the ground nearby", but there is no mention of any baseball bat in the provided bounding boxes.
+2. The description states "a sports ball is also present in the scene", which is correct based on the bounding boxes, but it does not specify that the boy is holding the baseball, making it seem like there are multiple sports balls present. 
+3. The description talks about "a few chairs placed around the area for people to sit and enjoy the game", but there are no bounding boxes for chairs provided. 
+
+Overall, the description contains some inaccuracies and missing details which contribute to the hallucination score of 3.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+4.5
+
+There are several hallucinations in the candidate description. Firstly, there was no indication that the boy was holding a baseball. Secondly, the description states that there are people who are sitting likely watching the boy or waiting for their turn to play which is not taking from the bounding box data. There is no information in the bounding box data or in the reference captions about a fence surrounding the field, chairs placed around the area, or anyone enjoying the game. These are all assumptions of the annotator that have led to a significant amount of hallucination in the description.

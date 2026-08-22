@@ -1,0 +1,19 @@
+GPT-3.5_Turbo Response:
+Score: 8
+
+Mistakes:
+1. The man is described as standing on the sidewalk near a traffic light, but he is actually crossing the street.
+2. The man is holding a baby in his arms, which is a hallucination as there is no mention of a baby in the reference captions or bounding boxes.
+3. The presence of two cars parked or driving on the street and a fire hydrant nearby is a hallucination as there are no cars or fire hydrants mentioned in the reference captions or bounding boxes.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 7
+
+Mistakes: 
+1. The description mentions a man holding a baby in his arms, but there is no bounding box that points out the presence of a baby. 
+2. The mention of two cars in the background is incorrect as there is only one car mentioned in the bounding boxes.
+3. The model hallucinated the presence of a fire hydrant given that there are no bounding boxes relating to a fire hydrant. 
+4. The mention of people going about their daily activities is incorrect as the reference and bounding boxes specify people crossing and walking on the street, not doing various activities. 
+5. The mention of a man standing near a traffic light is incorrect; while there is a bounding box for a traffic light and people, there is no specification of their relative positions in the data.

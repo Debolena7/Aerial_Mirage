@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+I would give the Candidate description a score of 4 out of 10 for hallucination.
+
+Mistakes:
+1. The Candidate description incorrectly states that the toilet is situated on the left side of the room, while the ground truth annotation places the sink on the left side and the toilet is not mentioned in the candidate description.
+2. The Candidate description does not mention the presence of a glass shower as stated in one of the Reference captions.
+3. The description does not mention the tiled sink, which is included in the ground truth annotations.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 1
+
+The candidate description also mostly matches the reference captions and bounding box information. The only minor hallucination is the assignment of the color "white" to the bathroom and toilet, as color is not provided in the bounding box or reference captions.

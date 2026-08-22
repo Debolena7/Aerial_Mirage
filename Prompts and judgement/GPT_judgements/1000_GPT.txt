@@ -1,0 +1,20 @@
+GPT-3.5_Turbo Response:
+I would rate the "Candidate description" a 4 for hallucination. 
+
+Mistakes:
+1. The candidate description mentions "boys and girls" without specific evidence of gender in the image.
+2. It states "at least six tennis rackets visible in the scene", whereas there are only two tennis rackets mentioned in the bounding boxes.
+3. The mention of "a few backpacks scattered around the court" is incorrect as only two backpacks are mentioned in the bounding boxes.
+
+Overall, the candidate description includes some incorrect details that do not align with the ground truth annotations, indicating a moderate level of hallucination.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 8
+
+Mistakes:
+- The candidate description mentions "both boys and girls", but the bounding box data do not specify sexes.
+- Although the group is on a tennis court, there's only one tennis racket visible in the bounding box data, whereas the description mentions at least six tennis rackets.
+- The candidate description implies that the players are enjoying their time together, which cannot be fact-checked using bounding box data, or the reference captions. 
+- The conclusion of the group possibly participating in a tennis event or practice session is a speculation based on the hallucinated information about multiple rackets.

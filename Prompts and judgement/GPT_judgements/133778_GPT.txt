@@ -1,0 +1,14 @@
+GPT-3.5_Turbo Response:
+Score: 2
+
+Mistakes:
+1. The candidate description mentions the baby cow standing close to the mother cow, but the bounding boxes show that they are not physically close to each other.
+2. The candidate description states that the mother cow is positioned on the left side of the image, while the baby cow is on the right side, which is not true according to the bounding boxes provided.
+3. The description mentions the field being filled with grass, which is not accurate as it does not specify that the cows are in a grassy area.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 3
+
+The candidate description generally aligns with the reference captions and bounding boxes. However, there is mild hallucination in the information about the positioning of the cows in the image (on the left and the right sides). The bounding boxes don't have any information about the left and right positions of the cows. Additionally, there's no specification in the reference captions or bounding boxes about the mother cow being brown or the field being filled with grass, so the colors and environment mentioned might be slightly speculative based on common settings.

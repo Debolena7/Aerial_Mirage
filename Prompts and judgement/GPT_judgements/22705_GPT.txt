@@ -1,0 +1,21 @@
+GPT-3.5_Turbo Response:
+I would score the Candidate description a 7 in terms of hallucination.
+
+Mistakes:
+1. The woman is holding a glass of orange juice instead of a wine glass or champagne flute as mentioned in the reference captions.
+2. The description mentions a bottle on the table, but the bounding boxes do not include a bottle on the table, only one near the woman. 
+
+Overall, the Candidate description includes inaccuracies in object types and their actions, which contribute to the hallucination score of 7.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 6 
+
+Mistakes: 
+1. The description mentions the woman is 'leaning' against the refrigerator but there isn't any details provided about it in the bounding boxes.
+2. In the description, it is said that she is holding a glass of 'orange juice'. This is a hallucination as the reference only mentions a drink or a wine glass, not specifically orange juice.
+3. The description mentions a 'dining table' with a 'bowl placed on it' and a 'bottle on the table'. The bounding boxes show a 'bottle' and a 'bowl', but there isn't any dining table mentioned, this information is a hallucination. 
+4. It's mentioned that 'woman is dressed for a special occasion or social gathering', information not provided in the reference captions.
+5. Also, there is no mention about 'stainless steel' refrigerator in the bounding boxes.
+6. The kitchen setting is also a hallucination, no such information is provided in the bounding boxes or reference captions.

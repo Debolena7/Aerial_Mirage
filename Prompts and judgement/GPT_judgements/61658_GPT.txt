@@ -1,0 +1,16 @@
+GPT-3.5_Turbo Response:
+I would rate the Candidate description a 3/10 in terms of hallucination. 
+
+Mistakes:
+1. The candidate description mentions a metal tray, but the ground truth mentions a white platter/plate.
+2. The candidate description focuses on a dining table, which is not mentioned in the ground truth annotations.
+3. The candidate description describes the vegetables as covering most of the tray's surface, but the ground truth annotations do not specify this level of detail regarding coverage.
+4. The description mentions the vegetables being easy to eat, which is not described in the ground truth annotations.
+5. The candidate description adds subjective opinions such as "visually appealing and healthy display," which are not supported by the ground truth.
+
+--------------------------------------------------------------------------------------------------------
+
+GPT-4 Response:
+Score: 1
+
+The candidate description does not perfectly align with the reference captions and bounding box data, indicating minimal hallucination. The most obvious discrepancy is the mention of a metal tray and a dining table, which weren't referenced in the bounding box data or the reference captions. The majority of the description, however, accurately describes the scene of broccoli and cauliflower on a plate. Therefore, a score of 1 is given.
