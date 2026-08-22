@@ -89,7 +89,7 @@ def GetJudgement_Gemini_pro_vision(prompt, img):
 
 img_folder = "D:\COCO/val2017/"
 for i in range(len(list_ids)):
-    prompt_file = "D:/LLaVA__/prompts/PROMPTS_COCO_val/"+str(list_ids[i])+".txt"
+    prompt_file = "D:/PROMPTS_hal_eval/"+str(list_ids[i])+".txt"
 
     prompt = ReadFile(prompt_file)
     response_pro = GetJudgement_Gemini_pro(prompt)
