@@ -2,7 +2,7 @@
 
 Materials for the study in **[Aerial Mirage: Unmasking Hallucinations in Large Vision Language Models](https://openaccess.thecvf.com/content/WACV2025/papers/Basak_Aerial_Mirage_Unmasking_Hallucinations_in_Large_Vision_Language_Models_WACV_2025_paper.pdf)** (WACV 2025) that asks how reliably advanced LLMs such as GPT-4 can rate the degree of hallucination in captions produced by another LVLM.
 
-Because this evaluation needs dense ground truth (reference captions **and** object bounding boxes), it is run on **202 images from COCO val2017**, where such annotations exist. LLaVA generates the candidate description; the LLM is asked to score it.
+Because this evaluation needs dense ground truth (reference captions and object bounding boxes), it is run on **200 images from COCO val2017**, where such annotations exist. LLaVA generates the candidate description; the LLM is asked to score it.
 
 ## Contents
 
