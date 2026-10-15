@@ -17,7 +17,7 @@ The LVLM-generated image captions, along with our hallucination-labelled annotat
 
 
 
-### **[AeroCaps](https://huggingface.co/datasets/NLIP-lab/AeroCaps) and [LID](https://huggingface.co/datasets/NLIP-lab/LID) are also released on HuggingFace!**
+# **[AeroCaps](https://huggingface.co/datasets/NLIP-lab/AeroCaps) and [LID](https://huggingface.co/datasets/NLIP-lab/LID) are also released on HuggingFace!**
 
 ## Repository structure
 ```
